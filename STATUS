@@ -1,0 +1,49 @@
+This document describes the project status: what is happening right now and
+what might happen in the future.
+
+A note about version numbers
+============================
+
+Timeline uses a three-component version numbering system (X.Y.Z).
+
+Z is only incremented when bugs are corrected or translations are updated. The
+functionality of the program is the same for all X.Y versions.
+
+Y is incremented every time a new feature is added.
+
+X is incremented when the new version is no longer compatible with previous
+versions or when the program undergoes some big change or significant
+milestone.
+
+Release cycle
+=============
+
+Roughly every third month there is a new feature release of Timeline (if new
+features have been developed). That means that Y will increase by one. At the
+moment X is 0. That does not mean that Timeline is unstable, but rather that we
+develop it incrementally in small steps, releasing new versions often.
+
+If critical bugs are found in a X.Y release, we try to fix them as fast as
+possible and make the fix available in a bugfix release (X.Y is the same but Z
+is incremented by one).
+
+Future plans
+============
+
+1.0.0
+-----
+
+For the first incompatible version we would like to clean up some parts:
+
+- Get rid of printing
+    Printing does not work very well. A better way to print is to generate an
+    image and then print the image from another program.
+
+- Get rid of old file formats
+    It was a long time since the old file format was used. It would be nice to
+    get rid of that code.
+
+- Get rid of extended date ranges / Think of a better solution
+    Extended date ranges does not work very well and it added lots of
+    complexity to the code. It would be nice to get rid of it all together.
+    Perhaps we can come up with a better way to handle extended dates?

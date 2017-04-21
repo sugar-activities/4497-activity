@@ -1,0 +1,9 @@
+#select menu(Timeline, "Create Event")
+#click button(OK)
+#click button(OK)
+#click button(Avbryt)
+
+#include(explore_help_pages.txt)
+
+include(release_validation.txt)
+exit application

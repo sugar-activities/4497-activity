@@ -1,0 +1,4662 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-28 00:31-0400\n"
+"PO-Revision-Date: 2013-06-19 17:54+0200\n"
+"Last-Translator: lite <litekok@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Time Line"
+msgstr "时间轴"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Allows create interactive time lines"
+msgstr "允许创建交互式的时间轴"
+
+#: specs/EventEditor.py:370 timelinelib/editors/event.py:156
+msgid "You can't change time when the Event is locked"
+msgstr "事件锁定时不能改变时间"
+
+#: specs/MonthNames.py:33 timelinelib/calendar/monthnames.py:37
+msgid "Jan"
+msgstr "一月"
+
+#: specs/MonthNames.py:48 timelinelib/calendar/monthnames.py:48
+msgid "Dec"
+msgstr "十二月"
+
+#: specs/PyTimeType.py:56 specs/WxTimeType.py:82
+#: timelinelib/calendar/monthnames.py:44
+msgid "Aug"
+msgstr "八月"
+
+#: specs/PyTimeType.py:110 specs/PyTimeType.py:130 specs/PyTimeType.py:146
+#: specs/PyTimeType.py:150 specs/WxTimeType.py:150 specs/WxTimeType.py:166
+#: specs/WxTimeType.py:170 timelinelib/time/pytime.py:123
+#: timelinelib/time/wxtime.py:121
+msgid "day"
+msgstr "天"
+
+#: specs/PyTimeType.py:114 specs/PyTimeType.py:138 specs/PyTimeType.py:158
+#: specs/WxTimeType.py:134 specs/WxTimeType.py:158 specs/WxTimeType.py:178
+#: timelinelib/time/pytime.py:131 timelinelib/time/wxtime.py:129
+msgid "minute"
+msgstr "分钟"
+
+#: specs/PyTimeType.py:118 specs/PyTimeType.py:142 specs/PyTimeType.py:162
+#: specs/WxTimeType.py:138 specs/WxTimeType.py:162 specs/WxTimeType.py:182
+#: timelinelib/time/pytime.py:133 timelinelib/time/wxtime.py:131
+msgid "minutes"
+msgstr "分钟"
+
+#: specs/PyTimeType.py:122 specs/PyTimeType.py:138 specs/PyTimeType.py:142
+#: specs/PyTimeType.py:146 specs/WxTimeType.py:142 specs/WxTimeType.py:158
+#: specs/WxTimeType.py:162 specs/WxTimeType.py:166
+#: timelinelib/time/pytime.py:127 timelinelib/time/wxtime.py:125
+msgid "hour"
+msgstr "小时"
+
+#: specs/PyTimeType.py:126 specs/PyTimeType.py:150 specs/PyTimeType.py:154
+#: specs/PyTimeType.py:158 specs/PyTimeType.py:162 specs/WxTimeType.py:146
+#: specs/WxTimeType.py:170 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186
+#: timelinelib/time/pytime.py:129 timelinelib/time/wxtime.py:127
+msgid "hours"
+msgstr "小时"
+
+#: specs/PyTimeType.py:134 specs/PyTimeType.py:154 specs/PyTimeType.py:158
+#: specs/PyTimeType.py:162 specs/PyTimeType.py:166 specs/PyTimeType.py:172
+#: specs/WxTimeType.py:154 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186 specs/WxTimeType.py:192
+#: timelinelib/time/pytime.py:125 timelinelib/time/wxtime.py:123
+msgid "days"
+msgstr "天"
+
+#: specs/TimelineView.py:66 timelinelib/view/zoom.py:28
+msgid "Select region to zoom into"
+msgstr "选择要放大的区域"
+
+#: specs/TimelineView.py:74 timelinelib/view/zoom.py:38
+msgid "Region too short"
+msgstr "区域太短"
+
+#: specs/TimelineView.py:90 timelinelib/view/zoom.py:35
+msgid "Region too long"
+msgstr "区域太长"
+
+#: specs/TimelineView.py:191 timelinelib/view/drawingarea.py:172
+msgid "Can't scroll more to the left"
+msgstr "不能再向左滚动"
+
+#: specs/TimelineView.py:198 timelinelib/view/drawingarea.py:174
+msgid "Can't scroll more to the right"
+msgstr "不能再向右滚动"
+
+#: specs/WeekdayNames.py:28 timelinelib/calendar/weekdaynames.py:21
+msgid "Mon"
+msgstr "星期一"
+
+#: specs/WeekdayNames.py:33 timelinelib/calendar/weekdaynames.py:27
+msgid "Sun"
+msgstr "星期天"
+
+#: timelinelib/application.py:89
+msgid ""
+"Someone else has changed the Timeline.\n"
+"You have two choices!\n"
+"  1. Set Timeline in Read-Only mode.\n"
+"  2. Synchronize Timeline.\n"
+"\n"
+"Do you want to Synchronize?"
+msgstr ""
+"其他人已经改变了该时间轴。\n"
+"你有两个选择！\n"
+"1. 设置时间轴为只读模式。\n"
+"2. 同步时间轴。\n"
+"\n"
+"你要同步吗？"
+
+#: timelinelib/calendar/monthnames.py:38
+msgid "Feb"
+msgstr "二月"
+
+#: timelinelib/calendar/monthnames.py:39
+msgid "Mar"
+msgstr "三月"
+
+#: timelinelib/calendar/monthnames.py:40
+msgid "Apr"
+msgstr "四月"
+
+#: timelinelib/calendar/monthnames.py:41
+msgid "May"
+msgstr "五月"
+
+#: timelinelib/calendar/monthnames.py:42
+msgid "Jun"
+msgstr "六月"
+
+#: timelinelib/calendar/monthnames.py:43
+msgid "Jul"
+msgstr "七月"
+
+#: timelinelib/calendar/monthnames.py:45
+msgid "Sep"
+msgstr "九月"
+
+#: timelinelib/calendar/monthnames.py:46
+msgid "Oct"
+msgstr "十月"
+
+#: timelinelib/calendar/monthnames.py:47
+msgid "Nov"
+msgstr "十一月"
+
+#: timelinelib/calendar/weekdaynames.py:22
+msgid "Tue"
+msgstr "星期二"
+
+#: timelinelib/calendar/weekdaynames.py:23
+msgid "Wed"
+msgstr "星期三"
+
+#: timelinelib/calendar/weekdaynames.py:24
+msgid "Thu"
+msgstr "星期四"
+
+#: timelinelib/calendar/weekdaynames.py:25
+msgid "Fri"
+msgstr "星期五"
+
+#: timelinelib/calendar/weekdaynames.py:26
+msgid "Sat"
+msgstr "星期六"
+
+#: timelinelib/db/__init__.py:67
+msgid ""
+"Could not find iCalendar Python package. It is required for working with ICS "
+"files. See the Timeline website or the INSTALL file for instructions how to "
+"install it."
+msgstr "找不到iCalendar Python包。ICS文件依赖该包。请看Timeline网站或INSTALL文件中如何安装的说明。"
+
+#: timelinelib/db/__init__.py:72
+#, python-format
+msgid "Unable to open timeline '%s'."
+msgstr "无法打开时间轴 '%s'。"
+
+#: timelinelib/db/__init__.py:73
+msgid "Unknown format."
+msgstr "未知格式。"
+
+#: timelinelib/db/backends/dir.py:105 timelinelib/db/backends/file.py:114
+#: timelinelib/db/backends/ics.py:137
+#, python-format
+msgid "Unable to read from file '%s'."
+msgstr "无法读取文件 '%s'。"
+
+#: timelinelib/db/backends/file.py:107 timelinelib/db/backends/ics.py:131
+#: timelinelib/db/backends/xmlfile.py:142
+#, python-format
+msgid "Unable to read timeline data from '%s'."
+msgstr "无法读取从'%s'读取时间轴数据。"
+
+#: timelinelib/db/backends/memory.py:227
+msgid "Displayed period must be > 0."
+msgstr "显示周期必须>0。"
+
+#: timelinelib/db/backends/tutorial.py:30
+msgid "Welcome"
+msgstr "欢迎"
+
+#: timelinelib/db/backends/tutorial.py:32
+msgid "Welcome to Timeline"
+msgstr "欢迎来到时间轴"
+
+#: timelinelib/db/backends/tutorial.py:35
+msgid "Intro"
+msgstr "简介"
+
+#: timelinelib/db/backends/tutorial.py:37
+msgid "Hover me!"
+msgstr "我这里悬停！"
+
+#: timelinelib/db/backends/tutorial.py:38
+msgid "Hovering events with a triangle shows the event description."
+msgstr "有三角形的悬停事件会显示时间的描述。"
+
+#: timelinelib/db/backends/tutorial.py:40
+msgid "Features"
+msgstr "特点"
+
+#: timelinelib/db/backends/tutorial.py:42
+msgid "Scroll"
+msgstr "滚动"
+
+#: timelinelib/db/backends/tutorial.py:43
+msgid ""
+"Left click somewhere on the timeline and start dragging.\n"
+"\n"
+"You can also use the mouse wheel.\n"
+"\n"
+"You can also middle click with the mouse to center around that point."
+msgstr ""
+"左键单击时间轴上的某处，并开始拖动。\n"
+"\n"
+"您也可以使用鼠标滚轮。\n"
+"\n"
+"你还可以用鼠标中键单击让该点成为中心。"
+
+#: timelinelib/db/backends/tutorial.py:51
+msgid "Zoom"
+msgstr "缩放"
+
+#: timelinelib/db/backends/tutorial.py:52
+msgid ""
+"Hold down Ctrl while scrolling the mouse wheel.\n"
+"\n"
+"Hold down Shift while dragging with the mouse."
+msgstr ""
+"按住Ctrl键同时滚动鼠标滚轮。\n"
+"\n"
+"按住Shift键的同时拖动鼠标。"
+
+#: timelinelib/db/backends/tutorial.py:58 timelinelib/help/pages.py:148
+msgid "Create event"
+msgstr "创建事件"
+
+#: timelinelib/db/backends/tutorial.py:59
+msgid ""
+"Double click somewhere on the timeline.\n"
+"\n"
+"Hold down Ctrl while dragging the mouse to select a period."
+msgstr ""
+"双击时间轴上的某处。\n"
+"\n"
+"按住Ctrl键的同时拖动鼠标选择时间段。"
+
+#: timelinelib/db/backends/tutorial.py:65 timelinelib/help/pages.py:165
+msgid "Edit event"
+msgstr "编辑事件"
+
+#: timelinelib/db/backends/tutorial.py:66
+msgid "Double click on an event."
+msgstr "双击一个事件。"
+
+#: timelinelib/db/backends/tutorial.py:70
+msgid "Select event"
+msgstr "选择事件"
+
+#: timelinelib/db/backends/tutorial.py:71
+msgid ""
+"Click on it.\n"
+"\n"
+"Hold down Ctrl while clicking events to select multiple."
+msgstr ""
+"请单击。\n"
+"\n"
+"按住Ctrl的同时单击要选择的多个事件。"
+
+#: timelinelib/db/backends/tutorial.py:77 timelinelib/help/pages.py:203
+msgid "Delete event"
+msgstr "删除事件"
+
+#: timelinelib/db/backends/tutorial.py:78
+msgid "Select events to be deleted and press the Del key."
+msgstr "选择要删除的事件，然后按Del键。"
+
+#: timelinelib/db/backends/tutorial.py:82
+msgid "Resize and move me!"
+msgstr "调整和移动我！"
+
+#: timelinelib/db/backends/tutorial.py:83
+msgid "First select me and then drag the handles."
+msgstr "先选中我，然后拖动手柄。"
+
+#: timelinelib/db/backends/tutorial.py:86
+#: timelinelib/db/backends/tutorial.py:88
+msgid "Saving"
+msgstr "正在保存"
+
+#: timelinelib/db/backends/tutorial.py:89
+msgid ""
+"This timeline is stored in memory and modifications to it will not be "
+"persisted between sessions.\n"
+"\n"
+"Choose File/New/File Timeline to create a timeline that is saved on disk."
+msgstr ""
+"该时间轴在内存中，修改将不会在会话间持续。\n"
+"\n"
+"选择“文件/新建/时间轴文件，以创建一个保存在磁盘上的时间轴。"
+
+#: timelinelib/db/objects/timeperiod.py:72
+msgid "Start time "
+msgstr "开始时间 "
+
+#: timelinelib/db/objects/timeperiod.py:74
+msgid "End time "
+msgstr "结束时间 "
+
+#: timelinelib/db/objects/timeperiod.py:84
+msgid "Start time can't be after end time"
+msgstr "开始时间不能在结束时间之后"
+
+#: timelinelib/db/utils.py:45
+#, python-format
+msgid "Unable to save timeline data to '%s'. File left unmodified."
+msgstr "无法保存时间轴数据到'%s'。文件保持未修改状态。"
+
+#: timelinelib/db/utils.py:60
+msgid "Unable to write timeline data."
+msgstr "无法写入时间轴数据。"
+
+#: timelinelib/db/utils.py:64
+#, python-format
+msgid "Unable to write to temporary file '%s'."
+msgstr "无法写入临时文件 '%s'。"
+
+#: timelinelib/db/utils.py:70
+#, python-format
+msgid "Unable to take backup to '%s'."
+msgstr "无法备份到 '%s'。"
+
+#: timelinelib/db/utils.py:75
+#, python-format
+msgid "Unable to rename temporary file '%s' to original."
+msgstr "无法重命名临时文件'%s'到原名称。"
+
+#: timelinelib/db/utils.py:81
+#, python-format
+msgid "Unable to delete backup file '%s'."
+msgstr "无法删除备份文件'%s'。"
+
+#: timelinelib/editors/container.py:81 timelinelib/editors/event.py:250
+#, python-format
+msgid "Field '%s' can't be empty."
+msgstr "字段'%s'不能为空。"
+
+#: timelinelib/editors/container.py:81
+msgid "Name"
+msgstr "名称"
+
+#: timelinelib/editors/event.py:237
+msgid "End must be > Start"
+msgstr "结束必须大于开始"
+
+#: timelinelib/editors/event.py:245
+msgid "Entered period is too long."
+msgstr "输入的时间段太长。"
+
+#: timelinelib/editors/event.py:250
+msgid "Text"
+msgstr "文本"
+
+#: timelinelib/export/bitmap.py:29
+msgid "Image files"
+msgstr "图像文件"
+
+#: timelinelib/export/bitmap.py:31
+msgid "Export to Image"
+msgstr "导出到图像"
+
+#: timelinelib/export/bitmap.py:35 timelinelib/wxgui/dialogs/mainframe.py:325
+#, python-format
+msgid "File '%s' exists. Overwrite?"
+msgstr "文件'%s'已经存在。确定要覆盖吗？"
+
+#: timelinelib/help/pages.py:36
+msgid "Help contents"
+msgstr "帮助内容"
+
+#: timelinelib/help/pages.py:56
+msgid "Questions and answers"
+msgstr "问答"
+
+#: timelinelib/help/pages.py:56
+msgid "Concepts"
+msgstr "概念"
+
+#: timelinelib/help/pages.py:56
+msgid "Tasks"
+msgstr "任务"
+
+#: timelinelib/help/pages.py:61
+msgid "Where is the save button?"
+msgstr "保存按钮在哪里？"
+
+#: timelinelib/help/pages.py:67
+msgid ""
+"\n"
+"There is no save button. Timeline will automatically save your data whenever "
+"needed.\n"
+msgstr ""
+"\n"
+"这里没有保存“按钮。时间轴会自动在需要时保存你的数据。\n"
+
+#: timelinelib/help/pages.py:74
+msgid "Where do the week numbers go if I start my weeks on Sunday?"
+msgstr "如果我周日开始我的星期， 星期数在哪里？"
+
+#: timelinelib/help/pages.py:80
+msgid ""
+"\n"
+"The date data object used does not support week numbers for weeks that start "
+"on Sunday at present.  We plan on using a different date object that will "
+"support this in future versions.\n"
+msgstr ""
+"\n"
+"目前使用的日期对象不支持哪些从周日开始的星期数。 我们计划使用在未来的版本中支持的不同日期对象。\n"
+
+#: timelinelib/help/pages.py:86
+msgid "Can multiple users work with the same timeline?"
+msgstr "多个用户能否使用同一个时间轴？"
+
+#: timelinelib/help/pages.py:92
+msgid ""
+"\n"
+"There are some support for multiple users to work on the same timeline "
+"file.\n"
+"\n"
+"When you try to make a change and someone else has made a change you will be "
+"asked to make one of two choices:\n"
+"\n"
+"- Set timeline in read-only mode.\n"
+"- Synchronize the timeline.\n"
+" \n"
+"During the your edit action the timeline is locked for changes by others. If "
+"you try to edit a timeline when it is locked by someone else you will be "
+"notified about this situation.\n"
+msgstr ""
+"\n"
+"针对多个用户使用同一个时间轴有一些支持。\n"
+"\n"
+"当您和其他人同时对时间轴做出修改，你将被要求做出两个选择之一：\n"
+"\n"
+"- 设置时间轴为只读模式。\n"
+"- 同步时间轴。\n"
+"\n"
+"在你编辑时，时间轴被锁定，其余人不能修改。如果尝试编辑别人锁定的时间轴时，你也会被通知。\n"
+
+#: timelinelib/help/pages.py:105
+msgid "Timeline"
+msgstr "时间轴"
+
+#: timelinelib/help/pages.py:112
+msgid ""
+"\n"
+"The timeline shows dates according to the Gregorian calendar on the x-axis. "
+"Currently the dates are limited to dates between year 10 and year 9989.\n"
+"\n"
+"Future versions might support various kinds of timelines so that you for "
+"example can specify a time in terms of number of minutes since a start time. "
+"If you are interested in such a feature, please get in touch.\n"
+"\n"
+"The timeline is divided in two areas with a horizontal adjustable divider "
+"line. Period events are displayed below the line and point events are "
+"displayed above the line.\n"
+msgstr ""
+"\n"
+"时间轴在x轴上显示公历的日期。当前日期范围是10年到9989年之间。\n"
+"\n"
+"以后的版本可能会支持各种时间轴，例如让你可以指定一个某个时间开始的分钟数。如果你对这样的功能有兴趣，请联系。\n"
+"\n"
+"时间轴与水平可调整的分隔线划分为两个区域。时间段事件显示在线下，时间点事件显示线上。\n"
+
+#: timelinelib/help/pages.py:122
+msgid "Events"
+msgstr "事件"
+
+#: timelinelib/help/pages.py:129
+msgid ""
+"\n"
+"An event is the basic data type for representing information on the "
+"timeline.  It must specify where on the timeline is should be placed (when "
+"that event happened). This can be either a specific point in time or a "
+"period.\n"
+msgstr ""
+"\n"
+"事件是代表在时间轴上信息的基本数据类型。它必须指定应放在时间轴上的位置（该事件发生时）。这可以是一个特定的时间点或时间段。\n"
+
+#: timelinelib/help/pages.py:135
+msgid "Categories"
+msgstr "分类"
+
+#: timelinelib/help/pages.py:142
+msgid ""
+"\n"
+"Categories are used to group events. An event can only belong to one "
+"category. All events that belong to the same category are displayed with the "
+"same background color.\n"
+msgstr ""
+"\n"
+"分类被用于为事件分组。事件只能属于某一类。属于同一类的所有事件用相同背景色显示。\n"
+
+#: timelinelib/help/pages.py:155
+msgid ""
+"\n"
+"The *Create Event* dialog can be opened in the following ways:\n"
+"\n"
+"- Select *Timeline* - *Create Event* from the menu.\n"
+"- Double click with the *left* mouse button on the timeline.\n"
+"- Press the *Ctrl* key, thereafter hold *left* mouse button down on the "
+"timeline, drag the mouse and release it.\n"
+msgstr ""
+"\n"
+"可以通过以下方式打开*创建事件*对话框：\n"
+"\n"
+"- 选择*时间轴* - 从菜单中选择*创建事件*。\n"
+"- 在时间轴上的双击鼠标*左*键。\n"
+"- 按*CTRL*键，然后在时间轴上按住鼠标*左*键，拖动鼠标然后松开。\n"
+
+#: timelinelib/help/pages.py:172
+msgid ""
+"\n"
+"The *Edit Event* dialog can be opened by double clicking on an event.\n"
+msgstr ""
+"\n"
+"双击该事件打开*编辑事件*对话框。\n"
+
+#: timelinelib/help/pages.py:178
+msgid "Move event vertically"
+msgstr "垂直移动事件"
+
+#: timelinelib/help/pages.py:185
+msgid ""
+"\n"
+"An event can be moved vertically. This is done by first selecting the event "
+"and therefter using the Alt+Up or Alt+Down keys.\n"
+msgstr ""
+"\n"
+"可以垂直移动一个事件。通过先选中事件，然后使用Alt +Up 或Alt +Down 键。\n"
+
+#: timelinelib/help/pages.py:191
+msgid "Selecting events"
+msgstr "选择事件"
+
+#: timelinelib/help/pages.py:197
+msgid ""
+"\n"
+"To select an event, click on it. To select multiple events, hold down the "
+"*Ctrl* key while clicking events.\n"
+msgstr ""
+"\n"
+"要选择事件，单击该事件。要选择多个事件，单击事件同时按住* CTRL键。\n"
+
+#: timelinelib/help/pages.py:210
+msgid ""
+"\n"
+"To delete an event, select it and press the *Del* key. Multiple events can "
+"be deleted at the same time.\n"
+msgstr ""
+"\n"
+"要删除事件，请选中后按*Del*键。可以同时删除多个事件。\n"
+
+#: timelinelib/help/pages.py:216
+msgid "Will associated events be deleted when I delete a category?"
+msgstr "删除分类将删除与之关联的事件吗？"
+
+#: timelinelib/help/pages.py:222
+msgid ""
+"\n"
+"No. The events will still be there but they will not belong to a category.\n"
+msgstr ""
+"\n"
+"不会。事件依然存在，但他们不会属于分类。\n"
+
+#: timelinelib/help/pages.py:228
+#: timelinelib/wxgui/components/categorychoice.py:53
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit categories"
+msgstr "编辑分类"
+
+#: timelinelib/help/pages.py:235
+msgid ""
+"\n"
+"Categories can be managed in the *Edit Categories* dialog (*Timeline* > "
+"*Edit Categories*). To edit an existing category, double click on it.\n"
+"\n"
+"The visibility of categories can also be edited in the sidebar (*View* > "
+"*Sidebar*).\n"
+msgstr ""
+"\n"
+"在*编辑分类*对话框（*时间轴*>*编辑分类*）中管理分类。编辑现有的分类，双击该分类。\n"
+"\n"
+"也可以在侧边栏（*查看*>*侧边栏*）编辑分类的可视性。\n"
+
+#: timelinelib/help/pages.py:243 timelinelib/wxgui/dialogs/mainframe.py:653
+#: timelinelib/wxgui/dialogs/mainframe.py:1139
+msgid "Contact"
+msgstr "联系"
+
+#: timelinelib/help/pages.py:249
+msgid ""
+"\n"
+"If you have more questions about Timeline, or if you want to get in contact "
+"with users and developers of Timeline, send an email to the user mailing "
+"list: <thetimelineproj-user@lists.sourceforge.net>. (Please use English.)\n"
+msgstr ""
+"\n"
+"如果您有更多关于时间轴的问题，或者想联系与时间轴的用户和开发，发送电子邮件到用户邮件列表：<thetimelineproj-"
+"user@lists.sourceforge.net>。 （请使用英语。）\n"
+
+#: timelinelib/help/pages.py:255
+msgid "Why is Timeline not available in my language?"
+msgstr "为什么时间轴在我的语言中不可用？"
+
+#: timelinelib/help/pages.py:262
+msgid ""
+"\n"
+"Timeline is developed and translated by volunteers. If you would like to "
+"contribute translations you are very much welcome to contact us.\n"
+msgstr ""
+"\n"
+"时间轴是由志愿者开发和翻译。如果你想参与翻译，非常欢迎与我们联系。\n"
+
+#: timelinelib/help/system.py:64
+#, python-format
+msgid "Search results for '%s'"
+msgstr "'%s'的搜索结果"
+
+#: timelinelib/help/system.py:122
+msgid "Related pages"
+msgstr "相关页面"
+
+#: timelinelib/printing.py:100
+msgid ""
+"There was a problem printing.\n"
+"Perhaps your current printer is not set correctly?"
+msgstr ""
+"打印出现问题。\n"
+"也许当前打印机设置不正确？"
+
+#: timelinelib/printing.py:100
+msgid "Printing"
+msgstr "正在打印"
+
+#: timelinelib/printing.py:114
+msgid "Print preview"
+msgstr "打印预览"
+
+#: timelinelib/time/numtime.py:46
+msgid "Go to &Zero\tCtrl+Z"
+msgstr "转到零(&Z)\tCtrl+Z"
+
+#: timelinelib/time/numtime.py:47
+msgid "Go to &Time\tCtrl+T"
+msgstr "转到时间(&T)\tCtrl+T"
+
+#: timelinelib/time/numtime.py:49 timelinelib/time/pytime.py:74
+#: timelinelib/time/wxtime.py:69
+msgid "Backward\tPgUp"
+msgstr "向后\t上一页"
+
+#: timelinelib/time/numtime.py:50 timelinelib/time/pytime.py:75
+#: timelinelib/time/wxtime.py:70
+msgid "Forward\tPgDn"
+msgstr "向前\t下一页"
+
+#: timelinelib/time/numtime.py:113
+msgid "Can't zoom deeper than 5"
+msgstr "缩放深度不超过5"
+
+#: timelinelib/time/numtime.py:126
+msgid "1-period"
+msgstr "1-时段"
+
+#: timelinelib/time/numtime.py:127
+msgid "10-period"
+msgstr "10-时段"
+
+#: timelinelib/time/numtime.py:128
+msgid "100-period"
+msgstr "100-时段"
+
+#: timelinelib/time/numtime.py:129
+msgid "1000-period"
+msgstr "1000-时段"
+
+#: timelinelib/time/numtime.py:174
+msgid "Go to Time"
+msgstr "转到时间"
+
+#: timelinelib/time/pytime.py:71 timelinelib/time/wxtime.py:66
+msgid "Go to &Today\tCtrl+T"
+msgstr "转到今天(&T)\tCtrl+T"
+
+#: timelinelib/time/pytime.py:72 timelinelib/time/wxtime.py:67
+msgid "Go to D&ate...\tCtrl+G"
+msgstr "转到日期(&a)...\tCtrl+G"
+
+#: timelinelib/time/pytime.py:76 timelinelib/time/wxtime.py:71
+msgid "Forward One Wee&k\tCtrl+K"
+msgstr "向前一周(&k)\tCtrl+K"
+
+#: timelinelib/time/pytime.py:77 timelinelib/time/wxtime.py:72
+msgid "Back One &Week\tCtrl+W"
+msgstr "向后一周(&W)\tCtrl+W"
+
+#: timelinelib/time/pytime.py:78 timelinelib/time/wxtime.py:73
+msgid "Forward One Mont&h\tCtrl+h"
+msgstr "向前一月(&h)\tCtrl+h"
+
+#: timelinelib/time/pytime.py:79 timelinelib/time/wxtime.py:74
+msgid "Back One &Month\tCtrl+M"
+msgstr "向后一月(&M)\tCtrl+M"
+
+#: timelinelib/time/pytime.py:80 timelinelib/time/wxtime.py:75
+msgid "Forward One Yea&r\tCtrl+R"
+msgstr "向前一年(&r)\tCtrl+R"
+
+#: timelinelib/time/pytime.py:81 timelinelib/time/wxtime.py:76
+msgid "Back One &Year\tCtrl+Y"
+msgstr "向后一年(&Y)\tCtrl+Y"
+
+#: timelinelib/time/pytime.py:83 timelinelib/time/wxtime.py:78
+msgid "Fit Millennium"
+msgstr "适应千年"
+
+#: timelinelib/time/pytime.py:84 timelinelib/time/wxtime.py:79
+msgid "Fit Century"
+msgstr "适应百年"
+
+#: timelinelib/time/pytime.py:85 timelinelib/time/wxtime.py:80
+msgid "Fit Decade"
+msgstr "适应十年"
+
+#: timelinelib/time/pytime.py:86 timelinelib/time/wxtime.py:81
+msgid "Fit Year"
+msgstr "适应一年"
+
+#: timelinelib/time/pytime.py:87 timelinelib/time/wxtime.py:82
+msgid "Fit Month"
+msgstr "适应一月"
+
+#: timelinelib/time/pytime.py:88 timelinelib/time/wxtime.py:83
+msgid "Fit Week"
+msgstr "适应一周"
+
+#: timelinelib/time/pytime.py:89 timelinelib/time/wxtime.py:84
+msgid "Fit Day"
+msgstr "适应一天"
+
+#: timelinelib/time/pytime.py:141
+msgid "can't be before year 10"
+msgstr "不能在10年之前"
+
+#: timelinelib/time/pytime.py:145
+msgid "can't be after year 9989"
+msgstr "不能在9989年之后"
+
+#: timelinelib/time/pytime.py:202 timelinelib/time/wxtime.py:199
+msgid "Can't zoom wider than 1200 years"
+msgstr "缩放不能比1200年还宽"
+
+#: timelinelib/time/pytime.py:205 timelinelib/time/wxtime.py:202
+msgid "Can't zoom deeper than 1 hour"
+msgstr "缩放不能比1小时还窄"
+
+#: timelinelib/time/pytime.py:220 timelinelib/time/wxtime.py:217
+msgid "Day"
+msgstr "天"
+
+#: timelinelib/time/pytime.py:221 timelinelib/time/pytime.py:583
+#: timelinelib/time/wxtime.py:218 timelinelib/time/wxtime.py:561
+msgid "Week"
+msgstr "周"
+
+#: timelinelib/time/pytime.py:222 timelinelib/time/wxtime.py:219
+msgid "Month"
+msgstr "月"
+
+#: timelinelib/time/pytime.py:223 timelinelib/time/wxtime.py:220
+msgid "Year"
+msgstr "年"
+
+#: timelinelib/time/pytime.py:259 timelinelib/time/wxtime.py:262
+msgid "Go to Date"
+msgstr "转到日期"
+
+#: timelinelib/time/wxtime.py:139
+#, python-format
+msgid "can't be before year %d"
+msgstr "不能在%d年之前"
+
+#: timelinelib/time/wxtime.py:143
+#, python-format
+msgid "can't be after year %d"
+msgstr "不能在%d年之后"
+
+#: timelinelib/view/drawingarea.py:148 timelinelib/view/drawingarea.py:166
+msgid "No timeline set"
+msgstr "没有设置时间轴"
+
+#: timelinelib/view/drawingarea.py:201
+msgid "Edit"
+msgstr "编辑"
+
+#: timelinelib/view/drawingarea.py:202
+msgid "Duplicate..."
+msgstr "重复..."
+
+#: timelinelib/view/drawingarea.py:203
+#: timelinelib/wxgui/components/cattree.py:82
+#: wx/tools/Editra/src/prefdlg.py:1706
+msgid "Delete"
+msgstr "删除"
+
+#: timelinelib/view/drawingarea.py:206
+msgid "Sticky Balloon"
+msgstr "粘粘气球"
+
+#: timelinelib/view/drawingarea.py:209
+msgid "Goto URL"
+msgstr "转到网址"
+
+#: timelinelib/view/drawingarea.py:372
+msgid "Center"
+msgstr "中心"
+
+#: timelinelib/view/drawingarea.py:420
+#, python-format
+msgid "%s events hidden"
+msgstr "隐藏%s事件"
+
+#: timelinelib/view/drawingarea.py:489
+#, python-format
+msgid "Are you sure you want to delete %d events?"
+msgstr "确定要删除%d个事件吗？"
+
+#: timelinelib/view/drawingarea.py:492
+msgid "Are you sure you want to delete this event?"
+msgstr "确定要删除该事件吗？"
+
+#: timelinelib/view/move.py:66
+msgid "Can't move locked event"
+msgstr "不能移动锁定的事件"
+
+#: timelinelib/view/resize.py:67
+msgid "Period is too long"
+msgstr "时段太长"
+
+#: timelinelib/wxgui/components/categorychoice.py:52
+#: timelinelib/wxgui/dialogs/eventeditor.py:308
+msgid "Add new"
+msgstr "新增"
+
+#: timelinelib/wxgui/components/categorychoice.py:76
+#: timelinelib/wxgui/components/cattree.py:228
+msgid "Add Category"
+msgstr "添加分类"
+
+#: timelinelib/wxgui/components/cattree.py:76
+msgid "Edit..."
+msgstr "编辑..."
+
+#: timelinelib/wxgui/components/cattree.py:79
+msgid "Add..."
+msgstr "添加..."
+
+#: timelinelib/wxgui/components/cattree.py:222
+msgid "Edit Category"
+msgstr "编辑分类"
+
+#: timelinelib/wxgui/components/cattree.py:233
+#, python-format
+msgid "Are you sure you want to delete category '%s'?"
+msgstr "确定要删除分类'%s'？"
+
+#: timelinelib/wxgui/components/cattree.py:236
+#, python-format
+#, python-format,
+msgid "Events belonging to '%s' will no longer belong to a category."
+msgstr "属于 '%s' 的事件将不再属于一个分类。"
+
+#: timelinelib/wxgui/components/cattree.py:239
+#, python-format
+#, python-format,
+msgid "Events belonging to '%(name)s' will now belong to '%(parent)s'."
+msgstr "属于 '%(name)s' 的事件现在将属于 '%(parent)s'。"
+
+#: timelinelib/wxgui/components/pydatetimepicker.py:84
+#: timelinelib/wxgui/components/wxdatetimepicker.py:79
+msgid "Invalid date"
+msgstr "无效的日期"
+
+#: timelinelib/wxgui/components/search.py:70
+msgid "No match"
+msgstr "不匹配"
+
+#: timelinelib/wxgui/components/search.py:74
+msgid "Only one match"
+msgstr "只有一个匹配"
+
+#: timelinelib/wxgui/dialogs/categorieseditor.py:38
+msgid "Edit Categories"
+msgstr "编辑分类"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:87
+#, python-format
+msgid "Category name '%s' not valid. Must be non-empty."
+msgstr "无效的分类名称'%s'。必须非空。"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:92
+#, python-format
+msgid "Category name '%s' already in use."
+msgstr "分类名称'%s'已在使用中。"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:116
+#: timelinelib/wxgui/dialogs/containereditor.py:59
+msgid "Name:"
+msgstr "名称："
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:117
+msgid "Color:"
+msgstr "颜色："
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:118
+msgid "Font Color:"
+msgstr "字体颜色："
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:119
+msgid "Parent:"
+msgstr "父系："
+
+#: timelinelib/wxgui/dialogs/containereditor.py:45
+msgid "Container Properties"
+msgstr "容器属性"
+
+#: timelinelib/wxgui/dialogs/containereditor.py:65
+#: timelinelib/wxgui/dialogs/eventeditor.py:219
+msgid "Category:"
+msgstr "分类："
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:32
+msgid "Duplicate Event"
+msgstr "重复事件"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:69
+#, python-format
+msgid "%d Events not duplicated due to missing dates."
+msgstr "因为缺少日期，%d个事件不会被重复。"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:89
+msgid "Number of duplicates:"
+msgstr "重复数："
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:99
+#: timelinelib/wxgui/dialogs/eventeditor.py:176
+msgid "Period"
+msgstr "时段"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:109
+msgid "Frequency:"
+msgstr "频率："
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Forward"
+msgstr "向前"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Backward"
+msgstr "向后"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Both"
+msgstr "两者"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:120
+#: wx/tools/Editra/src/eclib/finddlg.py:802
+msgid "Direction"
+msgstr "方向"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:64
+msgid "Event Properties"
+msgstr "事件属性"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:87
+#: timelinelib/wxgui/dialogs/eventeditor.py:578
+msgid "When:"
+msgstr "时间："
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:90
+msgid "to"
+msgstr "到"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:125
+msgid "Container:"
+msgstr "容器："
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:163
+msgid "Add Container"
+msgstr "新增容器"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:183
+#: timelinelib/wxgui/dialogs/timeeditor.py:47
+msgid "Show time"
+msgstr "显示时间"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:191
+msgid "Fuzzy"
+msgstr "模糊"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:195
+msgid "Locked"
+msgstr "锁定的"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:202
+msgid "Ends today"
+msgstr "今天结束"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:213
+#: timelinelib/wxgui/dialogs/eventeditor.py:579
+msgid "Text:"
+msgstr "文本："
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:244
+msgid "Description"
+msgstr "描述"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:245
+msgid "Alert"
+msgstr "警报"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:246
+msgid "Icon"
+msgstr "图标"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:247
+msgid "Hyperlink"
+msgstr "超文本链接"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:264
+msgid "Add more events after this one"
+msgstr "在这之后添加更多的事件"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:456
+msgid "Images will be scaled to fit inside a 128x128 box."
+msgstr "图像将被缩放到适合放入128x128大小的盒子中。"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:493
+msgid "Select Icon"
+msgstr "选择图标"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:668
+msgid "Test"
+msgstr "测试"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:678
+msgid "URL:"
+msgstr "网址："
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:722
+msgid "Edit Container"
+msgstr "编辑容器"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:726
+msgid "Edit Event"
+msgstr "编辑事件"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:734
+msgid "Create Event"
+msgstr "创建事件"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:36
+#: wx/lib/agw/genericmessagedialog.py:837
+msgid "Help"
+msgstr "帮助"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:65
+msgid ""
+"Could not find markdown Python package.  It is needed by the help system. "
+"See the Timeline website or the INSTALL file for instructions how to install "
+"it."
+msgstr "找不到帮助系统依赖的markdown Python包。请看Timeline网站或INSTALL文件中如何安装该包的说明。"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:103
+msgid "Go to home page"
+msgstr "转到主页"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:110
+msgid "Go back one page"
+msgstr "后退一页"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:116
+msgid "Go forward one page"
+msgstr "前进一页"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:201
+msgid "Page not found"
+msgstr "页面未找到"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:202
+#, python-format
+msgid "Could not find page '%s'."
+msgstr "无法找到页面'%s'。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:105
+#: timelinelib/wxgui/dialogs/mainframe.py:225
+msgid "Timeline files"
+msgstr "时间轴文件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:107
+msgid "SVG files"
+msgstr "SVG文件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:157 wx/lib/pydocview.py:109
+#: wx/lib/pydocview.py:2561 wx/tools/Editra/src/ed_menu.py:569
+msgid "&File"
+msgstr "文件(&F)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163 wx/lib/pydocview.py:176
+#: wx/tools/Editra/src/ed_toolbar.py:77 wx/tools/Editra/src/prefdlg.py:1705
+#: wx/tools/Editra/src/style_editor.py:200
+msgid "New"
+msgstr "新建"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163
+msgid "Create a new timeline"
+msgstr "创建新的时间轴"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:169
+msgid "File Timeline..."
+msgstr "时间轴文件..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:177
+#: timelinelib/wxgui/dialogs/mainframe.py:200
+msgid "Create Timeline"
+msgstr "创建时间轴"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:183
+msgid "The specified timeline already exists."
+msgstr "指定的时间轴已经存在。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:184
+msgid "Opening timeline instead of creating new."
+msgstr "打开时间轴，而不是创建新的。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:186
+msgid "Information"
+msgstr "信息"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:193
+msgid "Directory Timeline..."
+msgstr "时间轴目录..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:209
+msgid "Open an existing timeline"
+msgstr "打开现有的时间轴"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:228
+msgid "Save Timeline As"
+msgstr "时间轴另存为"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:253
+msgid "Open Timeline"
+msgstr "打开时间轴"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:263
+#: wx/tools/Editra/src/ed_menu.py:520
+msgid "Open &Recent"
+msgstr "打开最近使用的文件(&R)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:267
+msgid "Save As..."
+msgstr "另存为..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Page Set&up..."
+msgstr "页面设置(&u)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Setup page for printing"
+msgstr "打印设置页面"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:281 wx/lib/docview.py:1571
+#: wx/lib/pydocview.py:182 wx/tools/Editra/src/ed_print.py:108
+msgid "Print Preview"
+msgstr "打印预览"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:290 wx/lib/pydocview.py:181
+#: wx/tools/Editra/src/ed_toolbar.py:80
+msgid "Print"
+msgstr "打印"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "&Export to Image..."
+msgstr "导出到图像(&E)..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "Export the current view to a PNG image"
+msgstr "导出当前视图到PNG图像"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "&Export to SVG..."
+msgstr "导出到SVG(&E)..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "Export the current view to a SVG image"
+msgstr "导出当前视图到SVG图像"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:317
+msgid ""
+"Could not find pysvg Python package. It is needed to export to SVG. See the "
+"Timeline website or the INSTALL file for instructions how to install it."
+msgstr "找不到导出到SVG所依赖的pysvg Python包。请看Timeline网站或INSTALL文件中如何安装的说明。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:321
+msgid "Export to SVG"
+msgstr "导出到SVG"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline"
+msgstr "播放时间轴"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline as movie"
+msgstr "把时间轴作为电影播放"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:351
+msgid "Exit the program"
+msgstr "退出程序"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:362 wx/lib/pydocview.py:134
+#: wx/lib/pydocview.py:1925 wx/tools/Editra/src/ed_menu.py:647
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:389 wx/lib/pydocview.py:146
+#: wx/tools/Editra/src/ed_menu.py:712
+msgid "&View"
+msgstr "查看(&V)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:393
+msgid "&Sidebar\tCtrl+I"
+msgstr "侧边工具栏(&S)\tCtrl+I"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:407
+msgid "&Legend"
+msgstr "传说(&L)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:418
+msgid "&Balloons on hover"
+msgstr "气球状提示(&B)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:433
+msgid "&Timeline"
+msgstr "时间轴(&T)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create &Event..."
+msgstr "创建事件(&E)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create a new event"
+msgstr "创建新的事件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "&Duplicate Selected Event..."
+msgstr "重复选定的事件...(&D)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "Duplicate the Selected Event"
+msgstr "重复选定的事件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:468
+msgid "&Measure Distance between two Events..."
+msgstr "测量两个事件之间的距离...(&M)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:469
+msgid "Measure the Distance between two Events"
+msgstr "测量两个事件之间的距离"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:500
+msgid "Distance between selected events"
+msgstr "选定的事件之间的距离"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:503
+msgid "Events are overlapping or distance is 0"
+msgstr "事件重叠或距离为0"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit &Categories"
+msgstr "编辑分类(&C)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:526
+#: wx/tools/Editra/src/ed_stc.py:1722
+msgid "Read Only"
+msgstr "只读"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:534
+#: timelinelib/wxgui/dialogs/mainframe.py:723
+msgid "read-only"
+msgstr "只读"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:551
+msgid "&Navigate"
+msgstr "导航(&N)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:555
+msgid "Find First Event"
+msgstr "查找第一个事件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:569
+msgid "Find Last Event"
+msgstr "查找最后事件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:583
+msgid "Fit All Events"
+msgstr "适应所有事件"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:636 wx/lib/pydocview.py:150
+#: wx/lib/pydocview.py:2914 wx/tools/Editra/src/ed_main.py:152
+#: wx/tools/Editra/src/ed_menu.py:845
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:639
+msgid "&Contents\tF1"
+msgstr "内容(&C)\tF1"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:646
+#: timelinelib/wxgui/dialogs/mainframe.py:1034
+msgid "Getting started tutorial"
+msgstr "入门教程"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:682
+msgid "Unable to write configuration file."
+msgstr "无法写入配置文件。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:784
+#, python-format
+msgid "File '%s' does not exist."
+msgstr "文件'%s'不存在。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1026
+msgid "No timeline opened."
+msgstr "没有打开时间轴。"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1031
+msgid "First time using Timeline?"
+msgstr "第一次使用时间轴吗？"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1136
+msgid "Relevant help topics:"
+msgstr "相关的帮助主题："
+
+#: timelinelib/wxgui/dialogs/playframe.py:31 wx/lib/pydocview.py:905
+msgid "Close"
+msgstr "关闭"
+
+#: timelinelib/wxgui/dialogs/preferences.py:28
+msgid "Preferences"
+msgstr "参数设置"
+
+#: timelinelib/wxgui/dialogs/preferences.py:72 wx/lib/pydocview.py:1635
+#: wx/lib/pydocview.py:2722 wx/tools/Editra/src/prefdlg.py:191
+#: wx/tools/Editra/src/prefdlg.py:677 wx/tools/Editra/src/prefdlg.py:964
+msgid "General"
+msgstr "通用"
+
+#: timelinelib/wxgui/dialogs/preferences.py:82
+msgid "Date && Time"
+msgstr "日期和时间"
+
+#: timelinelib/wxgui/dialogs/preferences.py:90
+msgid "Week start on:"
+msgstr "周开始："
+
+#: timelinelib/wxgui/dialogs/preferences.py:93
+msgid ""
+"This feature is experimental. If events are\n"
+"created in the extended range, you can not\n"
+"disable this option and successfully load\n"
+"the timeline again. A reload of the timeline\n"
+"is also needed for this to take effect."
+msgstr ""
+"此功能是实验性的。如果事件在扩展的范围内\n"
+"创建，你不能禁用此选项，也不能再次成功载\n"
+"入时间轴。需要生效请重新载入时间轴。"
+
+#: timelinelib/wxgui/dialogs/preferences.py:110
+msgid "Open most recent timeline on startup"
+msgstr "启动时打开最近使用的时间轴"
+
+#: timelinelib/wxgui/dialogs/preferences.py:116
+msgid "Use inertial scrolling"
+msgstr "使用惯性滚动"
+
+#: timelinelib/wxgui/dialogs/preferences.py:122
+msgid "Use extended date range (before 1 AD)"
+msgstr "使用扩展的日期范围（公元1年之前）"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Monday"
+msgstr "星期一"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Sunday"
+msgstr "星期天"
+
+#: timelinelib/wxgui/dialogs/textdisplay.py:90
+msgid "Unable to copy to clipboard."
+msgstr "无法复制到剪贴板。"
+
+#: timelinelib/wxgui/utils.py:134 wx/tools/Editra/src/ed_editv.py:191
+#: wx/tools/Editra/src/plugdlg.py:840
+msgid "Error"
+msgstr "错误"
+
+#: timelinelib/wxgui/utils.py:139 wx/lib/docview.py:635 wx/lib/docview.py:652
+#: wx/lib/docview.py:1895
+msgid "Warning"
+msgstr "警告"
+
+#: timelinelib/wxgui/utils.py:144 timelinelib/wxgui/utils.py:150
+msgid "Question"
+msgstr "问题"
+
+#: wx/lib/agw/artmanager.py:620 wx/lib/agw/artmanager.py:1943
+#: wx/lib/agw/fmcustomizedlg.py:506
+msgid "Default"
+msgstr "缺省"
+
+#: wx/lib/agw/artmanager.py:1944
+msgid "Dark"
+msgstr "黑"
+
+#: wx/lib/agw/artmanager.py:1945
+msgid "Dark Olive Green"
+msgstr "深橄榄绿"
+
+#: wx/lib/agw/artmanager.py:1946
+msgid "Generic"
+msgstr "通用"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1054
+msgid "Pane Switcher"
+msgstr "窗格切换"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "<body bgcolor=\"#"
+msgstr "<body bgcolor=\"#"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "\"><b>"
+msgstr "\"><b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "</b>"
+msgstr "</b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1182
+msgid "<p>"
+msgstr "<p>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1185
+msgid "</body>"
+msgstr "</body>"
+
+#: wx/lib/agw/aui/framemanager.py:10214
+msgid "Pane Preview"
+msgstr "窗格预览"
+
+#: wx/lib/agw/aui/tabmdi.py:34
+msgid "Cl&ose"
+msgstr "关闭(&o)"
+
+#: wx/lib/agw/aui/tabmdi.py:35 wx/tools/Editra/src/ed_editv.py:234
+msgid "Close All"
+msgstr "关闭全部"
+
+#: wx/lib/agw/aui/tabmdi.py:37
+msgid "&Next"
+msgstr "下一个(&N)"
+
+#: wx/lib/agw/aui/tabmdi.py:38
+msgid "&Previous"
+msgstr "上一个(&P)"
+
+#: wx/lib/agw/aui/tabmdi.py:205 wx/lib/agw/aui/tabmdi.py:216
+#: wx/lib/agw/aui/tabmdi.py:218 wx/lib/pydocview.py:2915
+#: wx/lib/pydocview.py:3017
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#: wx/lib/agw/cubecolourdialog.py:2806
+msgid "CubeColorDialog: Choose Color"
+msgstr "立方体颜色对话框：选择颜色"
+
+#: wx/lib/agw/fmcustomizedlg.py:171 wx/tools/Editra/src/ed_cmdbar.py:119
+msgid "Customize"
+msgstr "定制"
+
+#: wx/lib/agw/fmcustomizedlg.py:206 wx/lib/pydocview.py:89
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: wx/lib/agw/fmcustomizedlg.py:215
+msgid "Menus"
+msgstr "菜单"
+
+#: wx/lib/agw/fmcustomizedlg.py:216 wx/lib/pydocview.py:1491
+msgid "Options"
+msgstr "选项"
+
+#: wx/lib/agw/fmcustomizedlg.py:284
+msgid "Select Menu To Add/Remove:"
+msgstr "选择要添加/删除的菜单："
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Default Style"
+msgstr "默认风格"
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Metallic"
+msgstr "金属风格"
+
+#: wx/lib/agw/fmcustomizedlg.py:324
+msgid "Menu bar style"
+msgstr "菜单栏风格"
+
+#: wx/lib/agw/fmcustomizedlg.py:340
+msgid "Default style settings"
+msgstr "默认风格设置"
+
+#: wx/lib/agw/fmcustomizedlg.py:342
+msgid "Draw vertical gradient"
+msgstr "绘制垂直梯度"
+
+#: wx/lib/agw/fmcustomizedlg.py:348
+msgid "Draw border around menu bar"
+msgstr "绘制菜单栏的边框"
+
+#: wx/lib/agw/fmcustomizedlg.py:354
+msgid "Toolbar float over menu bar"
+msgstr "工具栏浮在菜单栏上"
+
+#: wx/lib/agw/fmcustomizedlg.py:362 wx/tools/Editra/src/prefdlg.py:1095
+msgid "Color Scheme"
+msgstr "颜色方案"
+
+#: wx/lib/agw/genericmessagedialog.py:471 wx/lib/pydocview.py:178
+#: wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save"
+msgstr "保存"
+
+#: wx/lib/agw/genericmessagedialog.py:473
+msgid "Don't Save"
+msgstr "不保存"
+
+#: wx/lib/agw/genericmessagedialog.py:821 wx/lib/agw/multidirdialog.py:474
+#: wx/tools/Editra/src/style_editor.py:139
+msgid "OK"
+msgstr "确定"
+
+#: wx/lib/agw/genericmessagedialog.py:825 wx/lib/agw/multidirdialog.py:476
+#: wx/tools/Editra/src/ed_search.py:1244
+#: wx/tools/Editra/src/style_editor.py:141 wx/tools/Editra/src/updater.py:570
+msgid "Cancel"
+msgstr "取消"
+
+#: wx/lib/agw/genericmessagedialog.py:829
+msgid "Yes"
+msgstr "是"
+
+#: wx/lib/agw/genericmessagedialog.py:833
+msgid "No"
+msgstr "否"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Choose a directory"
+msgstr "选择一个目录"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Browse For Folders"
+msgstr "浏览文件夹"
+
+#: wx/lib/agw/multidirdialog.py:390
+msgid "Choose one or more folders:"
+msgstr "选择一个或多个文件夹："
+
+#: wx/lib/agw/multidirdialog.py:399
+msgid "Folder:"
+msgstr "文件夹"
+
+#: wx/lib/agw/multidirdialog.py:472
+msgid "Make New Folder"
+msgstr "新建文件夹"
+
+#: wx/lib/agw/pybusyinfo.py:211
+msgid "Busy"
+msgstr "繁忙"
+
+#: wx/lib/colourchooser/pycolourchooser.py:120
+msgid "Basic Colors:"
+msgstr "基本颜色："
+
+#: wx/lib/colourchooser/pycolourchooser.py:121
+msgid "Custom Colors:"
+msgstr "自定义颜色："
+
+#: wx/lib/colourchooser/pycolourchooser.py:122
+msgid "Add to Custom Colors"
+msgstr "添加到自定义颜色"
+
+#: wx/lib/colourchooser/pycolourchooser.py:188
+msgid "Solid Color"
+msgstr "纯色"
+
+#: wx/lib/colourchooser/pycolourchooser.py:194
+msgid "H:"
+msgstr "H:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:197
+msgid "S:"
+msgstr "S："
+
+#: wx/lib/colourchooser/pycolourchooser.py:200
+msgid "V:"
+msgstr "V:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:210
+msgid "R:"
+msgstr "R:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:213
+msgid "G:"
+msgstr "G:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:216
+msgid "B:"
+msgstr "B:"
+
+#: wx/lib/docview.py:385
+msgid "Application"
+msgstr "应用程序"
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637 wx/lib/docview.py:1897
+msgid " has been modified outside of "
+msgstr " 已被外部程序修改 "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid ". Overwrite "
+msgstr "。覆盖 "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid " with current changes?"
+msgstr " 保持当前更改？"
+
+#: wx/lib/docview.py:412 wx/tools/Editra/src/eclib/filemgrdlg.py:123
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save As"
+msgstr "另存为"
+
+#: wx/lib/docview.py:453 wx/lib/docview.py:526 wx/lib/docview.py:2449
+#: wx/lib/docview.py:2705 wx/lib/pydocview.py:1076 wx/lib/pydocview.py:2215
+#: wx/lib/pydocview.py:2391
+msgid "File Error"
+msgstr "文件错误"
+
+#: wx/lib/docview.py:597
+msgid "Untitled"
+msgstr "无标题"
+
+#: wx/lib/docview.py:654
+#, python-format
+msgid "Save changes to '%s'?"
+msgstr "将更改保存到'%s'吗？"
+
+#: wx/lib/docview.py:1567
+msgid "Unable to display print preview."
+msgstr "无法显示打印预览。"
+
+#: wx/lib/docview.py:1573 wx/tools/Editra/src/style_editor.py:132
+msgid "Preview"
+msgstr "预览"
+
+#: wx/lib/docview.py:1660 wx/lib/pydocview.py:112
+msgid "&Undo\tCtrl+Z"
+msgstr "撤销(&U)\tCtrl+Z"
+
+#: wx/lib/docview.py:1672 wx/lib/pydocview.py:113
+msgid "&Redo\tCtrl+Y"
+msgstr "重做(&R)\tCtrl+Y"
+
+#: wx/lib/docview.py:1897
+msgid "Reload "
+msgstr "重新加载 "
+
+#: wx/lib/docview.py:1897
+msgid " from file system?"
+msgstr " 从文件系统？"
+
+#: wx/lib/docview.py:1903
+msgid "Couldn't reload "
+msgstr "无法重新加载 "
+
+#: wx/lib/docview.py:1903
+msgid "Unable to close current "
+msgstr "无法关闭当前的 "
+
+#: wx/lib/docview.py:2006
+#, python-format
+#, python-format,
+msgid "Untitled %d"
+msgstr "无标题 %d"
+
+#: wx/lib/docview.py:2175
+#, python-format
+msgid "All|*.*|%s"
+msgstr "所有文件|*.*|%s"
+
+#: wx/lib/docview.py:2180
+msgid "Select a File"
+msgstr "选择文件"
+
+#: wx/lib/docview.py:2243
+msgid "Select a document type:"
+msgstr "选择文件类型："
+
+#: wx/lib/docview.py:2244
+msgid "Documents"
+msgstr "文档"
+
+#: wx/lib/docview.py:2274
+msgid "Select a document view:"
+msgstr "选择文档视图："
+
+#: wx/lib/docview.py:2275
+msgid "Views"
+msgstr "视图"
+
+#: wx/lib/docview.py:3049
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: wx/lib/docview.py:3050
+msgid "Ctrl+Y"
+msgstr "Ctrl+Y"
+
+#: wx/lib/docview.py:3157 wx/lib/docview.py:3161
+#: wx/tools/Editra/src/ed_menu.py:578
+msgid "&Undo"
+msgstr "撤销(&U)"
+
+#: wx/lib/docview.py:3163 wx/lib/docview.py:3165
+msgid "&Redo"
+msgstr "重做(&R)"
+
+#: wx/lib/pydocview.py:87
+msgid "&New...\tCtrl+N"
+msgstr "新建...(&N)\tCtrl+N"
+
+#: wx/lib/pydocview.py:87 wx/lib/pydocview.py:176
+msgid "Creates a new document"
+msgstr "创建一个新文档"
+
+#: wx/lib/pydocview.py:88
+msgid "&Open...\tCtrl+O"
+msgstr "打开...(&O)\tCtrl+O"
+
+#: wx/lib/pydocview.py:88 wx/lib/pydocview.py:177
+msgid "Opens an existing document"
+msgstr "打开现有文档"
+
+#: wx/lib/pydocview.py:89
+msgid "Closes the active document"
+msgstr "关闭活动文档"
+
+#: wx/lib/pydocview.py:91
+msgid "Close A&ll"
+msgstr "关闭全部(&l)"
+
+#: wx/lib/pydocview.py:91
+msgid "Closes all open documents"
+msgstr "关闭全部打开的文档"
+
+#: wx/lib/pydocview.py:93
+msgid "&Save\tCtrl+S"
+msgstr "保存(&S)\tCtrl+S"
+
+#: wx/lib/pydocview.py:93 wx/lib/pydocview.py:178
+msgid "Saves the active document"
+msgstr "保存活动文档"
+
+#: wx/lib/pydocview.py:94
+msgid "Save &As..."
+msgstr "另存为(&A)"
+
+#: wx/lib/pydocview.py:94
+msgid "Saves the active document with a new name"
+msgstr "用新文件名保存活动文档"
+
+#: wx/lib/pydocview.py:95
+msgid "Save All\tCtrl+Shift+A"
+msgstr "保存全部\tCtrl+Shift+A"
+
+#: wx/lib/pydocview.py:95
+msgid "Saves the all active documents"
+msgstr "保存全部的活动文档"
+
+#: wx/lib/pydocview.py:99
+msgid "&Print\tCtrl+P"
+msgstr "打印(&P)\tCtrl+P"
+
+#: wx/lib/pydocview.py:99 wx/lib/pydocview.py:182
+msgid "Prints the active document"
+msgstr "打印活动文档"
+
+#: wx/lib/pydocview.py:100 wx/tools/Editra/src/ed_menu.py:562
+msgid "Print Pre&view"
+msgstr "打印预览(&v)"
+
+#: wx/lib/pydocview.py:100 wx/lib/pydocview.py:181
+msgid "Displays full pages"
+msgstr "显示整个页面"
+
+#: wx/lib/pydocview.py:101 wx/tools/Editra/src/ed_menu.py:560
+msgid "Page Set&up"
+msgstr "页面设置(&u)"
+
+#: wx/lib/pydocview.py:101
+msgid "Changes page layout settings"
+msgstr "改变页面布局设置"
+
+#: wx/lib/pydocview.py:104
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: wx/lib/pydocview.py:104 wx/lib/pydocview.py:106
+msgid "Closes this program"
+msgstr "关闭程序"
+
+#: wx/lib/pydocview.py:106 wx/tools/Editra/src/ed_menu.py:566
+msgid "E&xit"
+msgstr "退出(&x)"
+
+#: wx/lib/pydocview.py:112 wx/lib/pydocview.py:187
+msgid "Reverses the last action"
+msgstr "撤消上次操作"
+
+#: wx/lib/pydocview.py:113 wx/lib/pydocview.py:188
+msgid "Reverses the last undo"
+msgstr "重做上次撤消"
+
+#: wx/lib/pydocview.py:118
+msgid "Cu&t\tCtrl+X"
+msgstr "剪切(&t)\tCtrl+X"
+
+#: wx/lib/pydocview.py:118 wx/lib/pydocview.py:184
+msgid "Cuts the selection and puts it on the Clipboard"
+msgstr "剪切选中内容并放入剪贴板"
+
+#: wx/lib/pydocview.py:121
+msgid "&Copy\tCtrl+C"
+msgstr "拷贝(&C)\tCtrl+C"
+
+#: wx/lib/pydocview.py:121 wx/lib/pydocview.py:185
+msgid "Copies the selection and puts it on the Clipboard"
+msgstr "拷贝选中内容并放入剪贴板"
+
+#: wx/lib/pydocview.py:124
+msgid "&Paste\tCtrl+V"
+msgstr "粘贴(&P)\tCtrl+V"
+
+#: wx/lib/pydocview.py:124 wx/lib/pydocview.py:186
+msgid "Inserts Clipboard contents"
+msgstr "插入剪贴板内容"
+
+#: wx/lib/pydocview.py:127
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: wx/lib/pydocview.py:127
+msgid "Erases the selection"
+msgstr "删除选中"
+
+#: wx/lib/pydocview.py:131
+msgid "Select A&ll\tCtrl+A"
+msgstr "选择全部(&l)\tCtrl+A"
+
+#: wx/lib/pydocview.py:131
+msgid "Selects all available data"
+msgstr "选择所有可用数据"
+
+#: wx/lib/pydocview.py:140 wx/tools/Editra/src/ed_menu.py:708
+msgid "&Toolbar"
+msgstr "工具栏(&T)"
+
+#: wx/lib/pydocview.py:140
+msgid "Shows or hides the toolbar"
+msgstr "显示或隐藏工具栏"
+
+#: wx/lib/pydocview.py:143
+msgid "&Status Bar"
+msgstr "状态栏(&S)"
+
+#: wx/lib/pydocview.py:143
+msgid "Shows or hides the status bar"
+msgstr "显示或隐藏状态栏"
+
+#: wx/lib/pydocview.py:149
+msgid "&About"
+msgstr "关于(&A)"
+
+#: wx/lib/pydocview.py:149
+msgid "Displays program information, version number, and copyright"
+msgstr "显示程序信息，版本号和版权"
+
+#: wx/lib/pydocview.py:177 wx/tools/Editra/src/ed_menu.py:518
+#: wx/tools/Editra/src/ed_toolbar.py:78
+msgid "Open"
+msgstr "打开"
+
+#: wx/lib/pydocview.py:179 wx/tools/Editra/src/ed_menu.py:532
+msgid "Save All"
+msgstr "保存全部"
+
+#: wx/lib/pydocview.py:179
+msgid "Saves all the active documents"
+msgstr "保存所有活动文档"
+
+#: wx/lib/pydocview.py:184 wx/tools/Editra/src/ed_editv.py:364
+#: wx/tools/Editra/src/ed_toolbar.py:86
+msgid "Cut"
+msgstr "剪切"
+
+#: wx/lib/pydocview.py:185 wx/tools/Editra/src/ed_editv.py:365
+#: wx/tools/Editra/src/ed_toolbar.py:88
+msgid "Copy"
+msgstr "复制"
+
+#: wx/lib/pydocview.py:186 wx/tools/Editra/src/ed_editv.py:366
+#: wx/tools/Editra/src/ed_toolbar.py:90
+msgid "Paste"
+msgstr "粘贴"
+
+#: wx/lib/pydocview.py:187 wx/tools/Editra/src/ed_editv.py:361
+#: wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo"
+msgstr "撤销"
+
+#: wx/lib/pydocview.py:188 wx/tools/Editra/src/ed_editv.py:362
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo"
+msgstr "重做"
+
+#: wx/lib/pydocview.py:251
+msgid "Ready"
+msgstr "准备"
+
+#: wx/lib/pydocview.py:911
+#, python-format
+msgid "Close All but \"%s\""
+msgstr "关闭除“%s”其余的"
+
+#: wx/lib/pydocview.py:921
+msgid "Select Tab"
+msgstr "选择标签"
+
+#: wx/lib/pydocview.py:1408 wx/lib/pydocview.py:1415
+#: wx/tools/Editra/src/ed_menu.py:822
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: wx/lib/pydocview.py:1414
+msgid "&Format"
+msgstr "格式(&F)"
+
+#: wx/lib/pydocview.py:1419
+msgid "&Options..."
+msgstr "选项(&O)..."
+
+#: wx/lib/pydocview.py:1419
+msgid "Sets options"
+msgstr "设置选项"
+
+#: wx/lib/pydocview.py:1592
+msgid "Show tips at start up"
+msgstr "在启动时显示小技巧"
+
+#: wx/lib/pydocview.py:1597
+msgid "Show each document in its own window"
+msgstr "在各自的窗口中显示每个文档"
+
+#: wx/lib/pydocview.py:1598
+msgid "Show all documents in a single window with tabs"
+msgstr "在单个窗口的标签页中显示所有文档"
+
+#: wx/lib/pydocview.py:1599
+msgid "Show all documents in a single window with child windows"
+msgstr "在单个窗口的子窗口中显示所有文档"
+
+#: wx/lib/pydocview.py:1605
+msgid "Document Display Style"
+msgstr "文档显示样式"
+
+#: wx/lib/pydocview.py:1619
+msgid "Document Options"
+msgstr "文档选项"
+
+#: wx/lib/pydocview.py:1620
+msgid ""
+"Document interface changes will not appear until the application is "
+"restarted."
+msgstr "文档界面现在不会变化，重新启动应用程序后生效。"
+
+#: wx/lib/pydocview.py:2525
+msgid "About "
+msgstr "关于 "
+
+#: wx/lib/pydocview.py:2564
+msgid "&Properties"
+msgstr "属性(&P)"
+
+#: wx/lib/pydocview.py:2564
+msgid "Show file properties"
+msgstr "显示文件属性"
+
+#: wx/lib/pydocview.py:2678
+msgid "File Properties"
+msgstr "文件属性"
+
+#: wx/lib/pydocview.py:2692
+msgid "Filename:"
+msgstr "文件名"
+
+#: wx/lib/pydocview.py:2695
+msgid "Location:"
+msgstr "位置："
+
+#: wx/lib/pydocview.py:2698
+msgid "Size:"
+msgstr "大小"
+
+#: wx/lib/pydocview.py:2700
+msgid "bytes"
+msgstr "字节"
+
+#: wx/lib/pydocview.py:2706
+msgid "Created:"
+msgstr "创建："
+
+#: wx/lib/pydocview.py:2710
+msgid "Modified:"
+msgstr "修改："
+
+#: wx/lib/pydocview.py:2714
+msgid "Accessed:"
+msgstr "访问："
+
+#: wx/lib/pydocview.py:2890
+msgid "&Arrange All"
+msgstr "排列全部"
+
+#: wx/lib/pydocview.py:2890
+msgid "Arrange the open windows"
+msgstr "排列打开窗口"
+
+#: wx/lib/pydocview.py:2899 wx/tools/Editra/src/ed_cmdbar.py:274
+msgid "Previous"
+msgstr "上一个"
+
+#: wx/lib/pydocview.py:2899
+msgid "Previous Tab"
+msgstr "上一个标签"
+
+#: wx/lib/pydocview.py:2902 wx/tools/Editra/src/ed_cmdbar.py:266
+msgid "Next"
+msgstr "下一个"
+
+#: wx/lib/pydocview.py:2902
+msgid "Next Tab"
+msgstr "下一个标签"
+
+#: wx/lib/pydocview.py:2905
+msgid "Close Current\tCtrl+F4"
+msgstr "关闭当前\tCtrl+F4"
+
+#: wx/lib/pydocview.py:2905 wx/tools/Editra/src/ed_menu.py:524
+msgid "Close Current Tab"
+msgstr "关闭当前标签"
+
+#: wx/lib/pydocview.py:3037
+msgid "&More Windows..."
+msgstr "更多窗口(&M)"
+
+#: wx/lib/pydocview.py:3163
+msgid "Select a window to show:"
+msgstr "选择显示的窗口"
+
+#: wx/lib/pydocview.py:3164
+msgid "Select Window"
+msgstr "选择窗口"
+
+#: wx/tools/Editra/src/Editra.py:590
+#, python-format
+msgid ""
+"An updated version of Editra is available\n"
+"Would you like to download Editra %s now?"
+msgstr ""
+"有新版本Editra可用\n"
+"现在就要下载Editra %s吗？"
+
+#: wx/tools/Editra/src/Editra.py:592
+msgid "Update Available"
+msgstr "更新可用"
+
+#: wx/tools/Editra/src/Editra.py:596 wx/tools/Editra/src/prefdlg.py:1565
+msgid "Downloading Update"
+msgstr "正在下载更新"
+
+#: wx/tools/Editra/src/Editra.py:889 wx/tools/Editra/src/Editra.py:1097
+msgid "Your profile has been updated to the latest version"
+msgstr "您的个人资料已经更新到最新版本"
+
+#: wx/tools/Editra/src/Editra.py:891 wx/tools/Editra/src/Editra.py:1099
+msgid "Please check the preferences dialog to check your preferences"
+msgstr "请在偏好设定对话框中检查您的偏好设定"
+
+#: wx/tools/Editra/src/Editra.py:892 wx/tools/Editra/src/Editra.py:1100
+msgid "Profile Updated"
+msgstr "个人资料已更新"
+
+#: wx/tools/Editra/src/dev_tool.py:242
+msgid ""
+"Error: Something unexpected happend\n"
+"Help improve Editra by clicking on Report Error\n"
+"to send the Error Traceback shown below."
+msgstr ""
+"错误：发生意外情况\n"
+"帮助改善Editra请点击“报告错误”\n"
+"发送如下所示的“错误栈跟踪”。"
+
+#: wx/tools/Editra/src/eclib/colorsetter.py:85
+msgid "Enter a hex color value"
+msgstr "输入十六进制颜色值"
+
+#: wx/tools/Editra/src/eclib/ecpickers.py:83
+msgid "Set Font"
+msgstr "设置字体"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:319
+msgid "Error Traceback:"
+msgstr "错误堆栈跟踪："
+
+#: wx/tools/Editra/src/eclib/errdlg.py:323
+msgid "Abort"
+msgstr "中止"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:324
+msgid "Exit the application"
+msgstr "退出应用程序"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:325
+msgid "Report Error"
+msgstr "报告错误"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:169
+#, python-format
+msgid "Are you sure want to delete %s?"
+msgstr "确定要删除%s吗？"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:170
+msgid "Delete File?"
+msgstr "删除文件？"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:176
+#, python-format
+msgid "Unable to delete %s"
+msgstr "无法删除%s"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:177
+msgid "Delete Error"
+msgstr "删除错误"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:220
+#: wx/tools/Editra/src/prefdlg.py:307
+msgid "Files"
+msgstr "文件"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:77
+msgid "Add >>"
+msgstr "添加 >>"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:78
+msgid "<< Remove"
+msgstr "<< 删除"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:632
+#: wx/tools/Editra/src/eclib/finddlg.py:767
+#: wx/tools/Editra/src/eclib/finddlg.py:843
+#: wx/tools/Editra/src/ed_cmdbar.py:264 wx/tools/Editra/src/ed_search.py:149
+#: wx/tools/Editra/src/ed_search.py:153 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find"
+msgstr "查找"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:635
+#: wx/tools/Editra/src/eclib/finddlg.py:844
+msgid "Replace"
+msgstr "替换"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Current Document"
+msgstr "当前文档"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Selected Text"
+msgstr "选中的文本"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:713
+msgid "Open Documents"
+msgstr "打开文档"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:716
+msgid "File Filters:"
+msgstr "文件过滤器："
+
+#: wx/tools/Editra/src/eclib/finddlg.py:765
+msgid "Find what"
+msgstr "查找目标"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:778
+msgid "Replace with"
+msgstr "替换为"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:790
+msgid "Choose Folder"
+msgstr "选择文件夹"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:793
+msgid "Look in"
+msgstr "查找范围"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:804
+msgid "Up"
+msgstr "上"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:806
+msgid "Down"
+msgstr "下"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:812
+msgid "Find Options"
+msgstr "查找选项"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:814
+msgid "Match case"
+msgstr "匹配大小写"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:815
+msgid "Whole word"
+msgstr "整个单词"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:816
+msgid "Regular expression"
+msgstr "正则表达式"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:817
+msgid "Search Recursively"
+msgstr "递归搜索"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:823
+msgid "Enter wildcard shell patterns for matching files (*.txt)."
+msgstr "输入通配符终端模式来匹配文件（*.txt）。"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:845
+msgid "Count"
+msgstr "计数"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:846
+#: wx/tools/Editra/src/ed_cmdbar.py:280
+msgid "Find All"
+msgstr "查找全部"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:847
+msgid "Replace All"
+msgstr "替换全部"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:1118
+msgid "Choose Search Folder"
+msgstr "选择搜索文件夹"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:60
+msgid "Info"
+msgstr "信息"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:117
+msgid "File Stat Failed"
+msgstr "无法获取文件信息"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:165
+#: wx/tools/Editra/src/eclib/infodlg.py:197
+msgid "Modified"
+msgstr "修改"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:184
+msgid "Kind"
+msgstr "种类"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:191
+#: wx/tools/Editra/src/style_editor.py:704
+msgid "Size"
+msgstr "大小"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:193
+msgid "Where"
+msgstr "位置"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:195
+msgid "Created"
+msgstr "创建"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:199
+msgid "Permissions"
+msgstr "权限"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:294 wx/tools/Editra/src/util.py:357
+msgid "Folder"
+msgstr "文件夹"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:300 wx/tools/Editra/src/plugdlg.py:368
+#: wx/tools/Editra/src/plugdlg.py:374 wx/tools/Editra/src/plugdlg.py:421
+#: wx/tools/Editra/src/plugdlg.py:425 wx/tools/Editra/src/plugin.py:724
+#: wx/tools/Editra/src/util.py:367
+msgid "Unknown"
+msgstr "未知"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:286
+msgid "Match Case"
+msgstr "匹配大小写"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:293
+msgid "Whole Word"
+msgstr "整个单词"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:297
+msgid "Regular Expression"
+msgstr "正在表达式"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:410
+msgid "Command"
+msgstr "命令"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:440
+msgid "Goto Line"
+msgstr "转到行"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:562
+#, python-format
+msgid "Can't change directory to: %s"
+msgstr "不能更改目录为：%s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:764
+#, python-format
+msgid "Access Denied: %s"
+msgstr "访问被拒绝：%s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:779
+msgid "Invalid Path"
+msgstr "无效的路径"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:874
+msgid "cwd: "
+msgstr "当前工作路径："
+
+#: wx/tools/Editra/src/ed_editv.py:189
+#, python-format
+#, python-format,
+msgid ""
+"Failed to reload %(filename)s:\n"
+"Error: %(errmsg)s"
+msgstr ""
+"无法重新加载文件：%(filename)s\n"
+"\n"
+"错误：\n"
+"%(errmsg)s"
+
+#: wx/tools/Editra/src/ed_editv.py:228
+msgid "New Tab"
+msgstr "新标签"
+
+#: wx/tools/Editra/src/ed_editv.py:229
+msgid "Move Tab to New Window"
+msgstr "移动标签页到新的窗口"
+
+#: wx/tools/Editra/src/ed_editv.py:231
+#, python-format
+msgid "Save \"%s\""
+msgstr "保存“%s”"
+
+#: wx/tools/Editra/src/ed_editv.py:232
+#, python-format
+msgid "Close \"%s\""
+msgstr "关闭“%s”"
+
+#: wx/tools/Editra/src/ed_editv.py:233
+msgid "Close Other Tabs"
+msgstr "关闭其他标签页"
+
+#: wx/tools/Editra/src/ed_editv.py:236
+msgid "Copy Full Path"
+msgstr "复制全路径"
+
+#: wx/tools/Editra/src/ed_editv.py:368
+msgid "To Uppercase"
+msgstr "转为大写"
+
+#: wx/tools/Editra/src/ed_editv.py:369
+msgid "To Lowercase"
+msgstr "转为小写"
+
+#: wx/tools/Editra/src/ed_editv.py:371
+msgid "Select All"
+msgstr "选择全部"
+
+#: wx/tools/Editra/src/ed_editv.py:394
+msgid "No Suggestions"
+msgstr "没有建议"
+
+#: wx/tools/Editra/src/ed_editv.py:444
+#, python-format
+msgid ""
+"%s has been deleted since its last save point.\n"
+"\n"
+"Would you like to save it again?"
+msgstr ""
+"%s自上次保存点后已被删除。\n"
+"\n"
+"想再次保存吗？"
+
+#: wx/tools/Editra/src/ed_editv.py:447
+msgid "Resave File?"
+msgstr "重新保存文件吗？"
+
+#: wx/tools/Editra/src/ed_editv.py:464
+#, python-format
+msgid ""
+"%s has been modified by another application.\n"
+"\n"
+"Would you like to reload it?"
+msgstr ""
+"%s被另一个应用程序修改。\n"
+"\n"
+"想重新加载吗？"
+
+#: wx/tools/Editra/src/ed_editv.py:467
+msgid "Reload File?"
+msgstr "重新加载文件？"
+
+#: wx/tools/Editra/src/ed_editv.py:500
+#, python-format
+msgid ""
+"The file: \"%s\" has been modified since the last save point.\n"
+"\n"
+"Would you like to save the changes?"
+msgstr ""
+"文件：“%s”自上次保存点后已被修改。\n"
+"\n"
+"想保存更改吗？"
+
+#: wx/tools/Editra/src/ed_editv.py:503
+msgid "Save Changes?"
+msgstr "保存更改吗？"
+
+#: wx/tools/Editra/src/ed_glob.py:384
+msgid "Old Macintosh (\\n)"
+msgstr ""
+"老式苹果机(\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:385 wx/tools/Editra/src/ed_menu.py:761
+#: wx/tools/Editra/src/ed_menu.py:763 wx/tools/Editra/src/prefdlg.py:755
+msgid "Unix (\\n)"
+msgstr ""
+"Unix (\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:386
+msgid "Windows (\\n)"
+msgstr ""
+"Windows (\n"
+")"
+
+#: wx/tools/Editra/src/ed_log.py:81
+msgid "Editra Log"
+msgstr "Editra 日志"
+
+#: wx/tools/Editra/src/ed_log.py:82
+msgid "View Editra's console log"
+msgstr "查看Editra的控制台日志"
+
+#: wx/tools/Editra/src/ed_log.py:134
+msgid "Show output from"
+msgstr "显示输出"
+
+#: wx/tools/Editra/src/ed_log.py:142 wx/tools/Editra/src/ed_search.py:1253
+msgid "Clear"
+msgstr "清除"
+
+#: wx/tools/Editra/src/ed_log.py:172 wx/tools/Editra/src/ed_log.py:247
+msgid "All"
+msgstr "全部"
+
+#: wx/tools/Editra/src/ed_main.py:143
+msgid "Perspectives"
+msgstr "视图"
+
+#: wx/tools/Editra/src/ed_main.py:464
+msgid "Editra: Open"
+msgstr "Editra: 打开"
+
+#: wx/tools/Editra/src/ed_main.py:602
+#, python-format
+msgid ""
+"%s could not be found.\n"
+"Perhaps it's been moved or deleted."
+msgstr ""
+"无法找到 %s。\n"
+"可能已经被移动或删除。"
+
+#: wx/tools/Editra/src/ed_main.py:604
+msgid "File Not Found"
+msgstr "文件没找到"
+
+#: wx/tools/Editra/src/ed_main.py:664
+#, python-format
+msgid "Saved File: %s"
+msgstr "保存的文件：%s"
+
+#: wx/tools/Editra/src/ed_main.py:667
+#, python-format
+msgid "ERROR: %s"
+msgstr "错误：%s"
+
+#: wx/tools/Editra/src/ed_main.py:691
+msgid "Choose a Save Location"
+msgstr "选择保存位置"
+
+#: wx/tools/Editra/src/ed_main.py:707
+#, python-format
+msgid "ERROR: Failed to save %s"
+msgstr "错误：保存 %s 失败"
+
+#: wx/tools/Editra/src/ed_main.py:710
+#, python-format
+msgid "Saved File As: %s"
+msgstr "文件另存为: %s"
+
+#: wx/tools/Editra/src/ed_main.py:726
+msgid "Where to Save Profile?"
+msgstr "配置保存位置？"
+
+#: wx/tools/Editra/src/ed_main.py:728 wx/tools/Editra/src/ed_main.py:749
+#: wx/tools/Editra/src/ed_menu.py:547
+msgid "Profile"
+msgstr "个人资料"
+
+#: wx/tools/Editra/src/ed_main.py:733
+#, python-format
+msgid "Profile Saved as: %s"
+msgstr "个人资料另存为: %s"
+
+#: wx/tools/Editra/src/ed_main.py:747 wx/tools/Editra/src/ed_menu.py:546
+msgid "Load a Custom Profile"
+msgstr "加载自定义的个人资料"
+
+#: wx/tools/Editra/src/ed_main.py:754
+#, python-format
+msgid "Loaded Profile: %s"
+msgstr "已加载个人资料: %s"
+
+#: wx/tools/Editra/src/ed_main.py:771
+msgid "Where to Save Session?"
+msgstr "保存会话位置？"
+
+#: wx/tools/Editra/src/ed_main.py:773 wx/tools/Editra/src/ed_main.py:800
+msgid "Session"
+msgstr "会话"
+
+#: wx/tools/Editra/src/ed_main.py:788
+#, python-format
+msgid "Session Saved as: %s"
+msgstr "会话另存为：%s"
+
+#: wx/tools/Editra/src/ed_main.py:798
+msgid "Load a Session file"
+msgstr "加载会话文件"
+
+#: wx/tools/Editra/src/ed_main.py:812
+#, python-format
+msgid "Loaded Session: %s"
+msgstr "加载的会话：%s"
+
+#: wx/tools/Editra/src/ed_main.py:1072 wx/tools/Editra/src/ed_menu.py:808
+msgid "Plugin Manager"
+msgstr "插件管理器"
+
+#: wx/tools/Editra/src/ed_main.py:1208
+msgid "Select an encoding to reload the file with"
+msgstr "选择重新加载文件的编码"
+
+#: wx/tools/Editra/src/ed_main.py:1209
+msgid "Reload with Encoding"
+msgstr "使用编码重新加载"
+
+#: wx/tools/Editra/src/ed_main.py:1221
+#, python-format
+msgid "Failed to reload the file with: %(encoding)s"
+msgstr "无法重新加载文件的编码：%(encoding)s"
+
+#: wx/tools/Editra/src/ed_main.py:1240
+msgid "Aui Pane Navigator"
+msgstr "窗格导航"
+
+#: wx/tools/Editra/src/ed_main.py:1414 wx/tools/Editra/src/ed_menu.py:688
+msgid "Maximize Editor"
+msgstr "编辑器窗口最大化"
+
+#: wx/tools/Editra/src/ed_main.py:1416
+msgid "Restore Editor"
+msgstr "恢复编辑器"
+
+#: wx/tools/Editra/src/ed_main.py:1436
+msgid "Customize Menu"
+msgstr "定制菜单"
+
+#: wx/tools/Editra/src/ed_main.py:1485
+#, python-format
+msgid "Opening %s"
+msgstr "正在打开 %s"
+
+#: wx/tools/Editra/src/ed_main.py:1488
+#, python-format
+msgid "Error: Unable to open %s"
+msgstr "错误：不能打开 %s"
+
+#: wx/tools/Editra/src/ed_main.py:1538
+msgid "Editra is a programmer's text editor."
+msgstr "Editra是面向程序员的文本编辑器。"
+
+#: wx/tools/Editra/src/ed_main.py:1539
+#, python-format
+msgid "Written in 100%% Python."
+msgstr "100%% 使用Python编写。"
+
+#: wx/tools/Editra/src/ed_main.py:1540
+msgid "Homepage"
+msgstr "主页"
+
+#: wx/tools/Editra/src/ed_main.py:1541
+msgid "Platform Info"
+msgstr "平台信息"
+
+#: wx/tools/Editra/src/ed_main.py:1542
+msgid "License: wxWindows (see COPYING.txt for full license)"
+msgstr "许可：wxWindows(许可全文见 COPYING.txt)"
+
+#: wx/tools/Editra/src/ed_main.py:1548
+msgid "Copyright"
+msgstr "版权"
+
+#: wx/tools/Editra/src/ed_mdlg.py:86
+#, python-format
+msgid ""
+"Editra could not open %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"Editra无法打开 %(filename)s\n"
+"\n"
+"错误：\n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:88
+msgid "Error Opening File"
+msgstr "打开文件出错"
+
+#: wx/tools/Editra/src/ed_mdlg.py:105
+#, python-format
+msgid ""
+"Failed to save file: %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"无法保存文件：%(filename)s\n"
+"\n"
+"错误：\n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:107
+msgid "Save Error"
+msgstr "保存错误"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Old Macintosh (\n"
+")"
+msgstr ""
+"老式苹果机(\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Unix (\n"
+")"
+msgstr ""
+"Unix (\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:139
+msgid ""
+"Windows (\n"
+")"
+msgstr ""
+"Windows (\r\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:472
+msgid "Customize..."
+msgstr "自定义..."
+
+#: wx/tools/Editra/src/ed_menu.py:473
+msgid "Customize the items shown in this menu."
+msgstr "在菜单中自定义要显示的项目。"
+
+#: wx/tools/Editra/src/ed_menu.py:479 wx/tools/Editra/src/syntax/syntax.py:318
+#, python-format
+msgid "Switch Lexer to %s"
+msgstr "词法分析器切换到%s"
+
+#: wx/tools/Editra/src/ed_menu.py:481
+msgid "Lexers"
+msgstr "词法分析器"
+
+#: wx/tools/Editra/src/ed_menu.py:483
+msgid "Manually Set a Lexer/Syntax"
+msgstr "手动设置词法/语法"
+
+#: wx/tools/Editra/src/ed_menu.py:513
+msgid "&New Tab"
+msgstr "新标签(&N)"
+
+#: wx/tools/Editra/src/ed_menu.py:514
+msgid "Start a new file in a new tab"
+msgstr "在新标签中打开新文件"
+
+#: wx/tools/Editra/src/ed_menu.py:515
+msgid "New &Window"
+msgstr "新窗口(&W)"
+
+#: wx/tools/Editra/src/ed_menu.py:516
+msgid "Start a new file in a new window"
+msgstr "在新窗口中打开新文件"
+
+#: wx/tools/Editra/src/ed_menu.py:518
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: wx/tools/Editra/src/ed_menu.py:521
+msgid "Recently Opened Files"
+msgstr "最近打开的文件"
+
+#: wx/tools/Editra/src/ed_menu.py:523
+msgid "&Close Tab"
+msgstr "关闭标签(&C)"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close Window"
+msgstr "关闭窗口"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close the current window"
+msgstr "关闭当前窗口"
+
+#: wx/tools/Editra/src/ed_menu.py:527
+msgid "Close All Tabs"
+msgstr "关闭所有标签"
+
+#: wx/tools/Editra/src/ed_menu.py:528
+msgid "Close all open tabs"
+msgstr "关闭所有打开的标签"
+
+#: wx/tools/Editra/src/ed_menu.py:530
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: wx/tools/Editra/src/ed_menu.py:530 wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save Current File"
+msgstr "保存当前文件"
+
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save &As"
+msgstr "另存为(&A)"
+
+#: wx/tools/Editra/src/ed_menu.py:533
+msgid "Save all open pages"
+msgstr "保存所有打开的网页"
+
+#: wx/tools/Editra/src/ed_menu.py:535
+msgid "Revert to Saved"
+msgstr "恢复到上次保存"
+
+#: wx/tools/Editra/src/ed_menu.py:536
+msgid "Revert file to last save point"
+msgstr "恢复文件到上次保存点"
+
+#: wx/tools/Editra/src/ed_menu.py:537
+msgid "Reload with Encoding..."
+msgstr "使用编码重新加载..."
+
+#: wx/tools/Editra/src/ed_menu.py:538
+msgid "Reload the file with a specified encoding"
+msgstr "使用指定编码重新加载文件"
+
+#: wx/tools/Editra/src/ed_menu.py:543
+msgid "Save Profile"
+msgstr "保存个人资料"
+
+#: wx/tools/Editra/src/ed_menu.py:544
+msgid "Save Current Settings to a New Profile"
+msgstr "保存当前设置到新的个人资料"
+
+#: wx/tools/Editra/src/ed_menu.py:545
+msgid "Load Profile"
+msgstr "加载个人资料"
+
+#: wx/tools/Editra/src/ed_menu.py:548
+msgid "Load and save custom Profiles"
+msgstr "加载和保存自定义个人资料"
+
+#: wx/tools/Editra/src/ed_menu.py:552
+msgid "Save Session"
+msgstr "保存会话"
+
+#: wx/tools/Editra/src/ed_menu.py:553
+msgid "Save the current session."
+msgstr "保存当前会话。"
+
+#: wx/tools/Editra/src/ed_menu.py:554
+msgid "Load Session"
+msgstr "加载会话"
+
+#: wx/tools/Editra/src/ed_menu.py:555
+msgid "Load a saved session."
+msgstr "加载保存的会话。"
+
+#: wx/tools/Editra/src/ed_menu.py:556
+msgid "Sessions"
+msgstr "会话"
+
+#: wx/tools/Editra/src/ed_menu.py:557
+msgid "Load and save custom sessions."
+msgstr "加载和保存自定义会话。"
+
+#: wx/tools/Editra/src/ed_menu.py:561
+msgid "Configure Printer"
+msgstr "配置打印机"
+
+#: wx/tools/Editra/src/ed_menu.py:563
+msgid "Preview Printout"
+msgstr "预览打印输出"
+
+#: wx/tools/Editra/src/ed_menu.py:564
+msgid "&Print"
+msgstr "打印(&P)"
+
+#: wx/tools/Editra/src/ed_menu.py:564 wx/tools/Editra/src/ed_toolbar.py:81
+msgid "Print Current File"
+msgstr "打印当前文件"
+
+#: wx/tools/Editra/src/ed_menu.py:566
+msgid "Exit the Program"
+msgstr "退出程序"
+
+#: wx/tools/Editra/src/ed_menu.py:578 wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo Last Action"
+msgstr "撤销上次操作"
+
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo Last Undo"
+msgstr "重做上次撤销"
+
+#: wx/tools/Editra/src/ed_menu.py:581
+msgid "Cu&t"
+msgstr "剪切(&t)"
+
+#: wx/tools/Editra/src/ed_menu.py:582 wx/tools/Editra/src/ed_toolbar.py:87
+msgid "Cut Selected Text from File"
+msgstr "从文件中剪切选定的文本"
+
+#: wx/tools/Editra/src/ed_menu.py:583
+msgid "&Copy"
+msgstr "复制(&C)"
+
+#: wx/tools/Editra/src/ed_menu.py:584 wx/tools/Editra/src/ed_toolbar.py:89
+msgid "Copy Selected Text to Clipboard"
+msgstr "复制选定的文本到剪贴板"
+
+#: wx/tools/Editra/src/ed_menu.py:585
+msgid "&Paste"
+msgstr "粘贴(&P)"
+
+#: wx/tools/Editra/src/ed_menu.py:586 wx/tools/Editra/src/ed_toolbar.py:91
+msgid "Paste Text from Clipboard to File"
+msgstr "从剪贴板粘贴文本到文件"
+
+#: wx/tools/Editra/src/ed_menu.py:587
+msgid "P&aste After"
+msgstr "粘贴于选定内容之后(&a)"
+
+#: wx/tools/Editra/src/ed_menu.py:588
+msgid "Paste Text from Clipboard to File after the cursor"
+msgstr "从剪贴板粘贴文本到文件中光标的位置"
+
+#: wx/tools/Editra/src/ed_menu.py:589
+msgid "Cycle Clipboard"
+msgstr "循环剪贴板"
+
+#: wx/tools/Editra/src/ed_menu.py:590
+msgid "Cycle through recent clipboard text"
+msgstr "循环遍历最新的剪贴板内容"
+
+#: wx/tools/Editra/src/ed_menu.py:592
+msgid "Select &All"
+msgstr "全选(&A)"
+
+#: wx/tools/Editra/src/ed_menu.py:593
+msgid "Select All Text in Document"
+msgstr "选择文档中的所有文本"
+
+#: wx/tools/Editra/src/ed_menu.py:594
+msgid "Column Mode"
+msgstr "列模式"
+
+#: wx/tools/Editra/src/ed_menu.py:595
+msgid "Enable column edit mode."
+msgstr "启用列编辑模式。"
+
+#: wx/tools/Editra/src/ed_menu.py:598
+msgid "New Line After"
+msgstr "在后面添加行"
+
+#: wx/tools/Editra/src/ed_menu.py:599
+msgid "Add a new line after the current line"
+msgstr "在当前行后添加新行"
+
+#: wx/tools/Editra/src/ed_menu.py:600
+msgid "New Line Before"
+msgstr "在前面添加行"
+
+#: wx/tools/Editra/src/ed_menu.py:601
+msgid "Add a new line before the current line"
+msgstr "在当前行前添加新行"
+
+#: wx/tools/Editra/src/ed_menu.py:603
+msgid "Cut Line"
+msgstr "剪切行"
+
+#: wx/tools/Editra/src/ed_menu.py:604
+msgid "Cut Current Line"
+msgstr "剪切当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:605
+msgid "Delete Line"
+msgstr "删除行"
+
+#: wx/tools/Editra/src/ed_menu.py:606
+msgid "Delete the selected line(s)"
+msgstr "删除选定的行"
+
+#: wx/tools/Editra/src/ed_menu.py:607
+msgid "Copy Line"
+msgstr "复制行"
+
+#: wx/tools/Editra/src/ed_menu.py:608
+msgid "Copy Current Line"
+msgstr "复制当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:609
+msgid "Duplicate Line"
+msgstr "重复行"
+
+#: wx/tools/Editra/src/ed_menu.py:610
+msgid "Duplicate the current line"
+msgstr "重复当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:612
+msgid "Join Lines"
+msgstr "合并行"
+
+#: wx/tools/Editra/src/ed_menu.py:613
+msgid "Join the Selected Lines"
+msgstr "合并选定行"
+
+#: wx/tools/Editra/src/ed_menu.py:614
+msgid "Transpose Line"
+msgstr "交換行"
+
+#: wx/tools/Editra/src/ed_menu.py:615
+msgid "Transpose the current line with the previous one"
+msgstr "交换当前行与前一行的位置"
+
+#: wx/tools/Editra/src/ed_menu.py:616
+msgid "Move Current Line Up"
+msgstr "上移当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:617
+msgid "Move the current line up"
+msgstr "上移当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:619
+msgid "Move Current Line Down"
+msgstr "下移当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:620
+msgid "Move the current line down"
+msgstr "下移当前行"
+
+#: wx/tools/Editra/src/ed_menu.py:621
+msgid "Line Edit"
+msgstr "行编辑"
+
+#: wx/tools/Editra/src/ed_menu.py:622
+msgid "Commands that influence an entire line"
+msgstr "作用于整行的命令"
+
+#: wx/tools/Editra/src/ed_menu.py:624
+msgid "Toggle Bookmark"
+msgstr "切换书签"
+
+#: wx/tools/Editra/src/ed_menu.py:625
+msgid "Toggle bookmark of the current line"
+msgstr "切换当前行的书签"
+
+#: wx/tools/Editra/src/ed_menu.py:626
+msgid "Remove All Bookmarks"
+msgstr "删除所有书签"
+
+#: wx/tools/Editra/src/ed_menu.py:627
+msgid "Remove all bookmarks from the current document"
+msgstr "从当前文档中删除所有书签"
+
+#: wx/tools/Editra/src/ed_menu.py:628
+msgid "Bookmarks"
+msgstr "书签"
+
+#: wx/tools/Editra/src/ed_menu.py:629
+msgid "Add and remove bookmarks"
+msgstr "添加和删除书签"
+
+#: wx/tools/Editra/src/ed_menu.py:631
+msgid "&Find"
+msgstr "查找(&F)"
+
+#: wx/tools/Editra/src/ed_menu.py:631 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find Text"
+msgstr "查找文本"
+
+#: wx/tools/Editra/src/ed_menu.py:632
+msgid "Find/R&eplace"
+msgstr "查找/替换(&e)"
+
+#: wx/tools/Editra/src/ed_menu.py:633 wx/tools/Editra/src/ed_toolbar.py:95
+msgid "Find and Replace Text"
+msgstr "查找和替换文本"
+
+#: wx/tools/Editra/src/ed_menu.py:634
+msgid "&Quick Find"
+msgstr "快速查找(&Q)"
+
+#: wx/tools/Editra/src/ed_menu.py:635
+msgid "Open the Quick Find Bar"
+msgstr "打开快速查找栏"
+
+#: wx/tools/Editra/src/ed_menu.py:636
+msgid "Find Previous"
+msgstr "查找上一个"
+
+#: wx/tools/Editra/src/ed_menu.py:637
+msgid "Goto previous match"
+msgstr "转到前一个匹配"
+
+#: wx/tools/Editra/src/ed_menu.py:638
+msgid "Find Next"
+msgstr "查找下一个"
+
+#: wx/tools/Editra/src/ed_menu.py:639
+msgid "Goto the next match"
+msgstr "转到下一个匹配"
+
+#: wx/tools/Editra/src/ed_menu.py:640
+msgid "Find Selected"
+msgstr "查找选定"
+
+#: wx/tools/Editra/src/ed_menu.py:641
+msgid "Search for the currently selected phrase"
+msgstr "搜索当前选定的短语"
+
+#: wx/tools/Editra/src/ed_menu.py:643
+msgid "Pr&eferences"
+msgstr "参数设置(&e)"
+
+#: wx/tools/Editra/src/ed_menu.py:644
+msgid "Edit Preferences / Settings"
+msgstr "编辑参数/设置"
+
+#: wx/tools/Editra/src/ed_menu.py:656
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: wx/tools/Editra/src/ed_menu.py:657
+msgid "Zoom In"
+msgstr "放大"
+
+#: wx/tools/Editra/src/ed_menu.py:658 wx/tools/Editra/src/ed_menu.py:659
+msgid "Zoom Default"
+msgstr "默认缩放"
+
+#: wx/tools/Editra/src/ed_menu.py:662 wx/tools/Editra/src/prefdlg.py:933
+msgid "Highlight Caret Line"
+msgstr "高亮光标所在行"
+
+#: wx/tools/Editra/src/ed_menu.py:663
+msgid "Highlight the background of the current line"
+msgstr "高亮当前行的背景"
+
+#: wx/tools/Editra/src/ed_menu.py:665 wx/tools/Editra/src/prefdlg.py:936
+msgid "Indentation Guides"
+msgstr "缩进指示"
+
+#: wx/tools/Editra/src/ed_menu.py:666
+msgid "Show Indentation Guides"
+msgstr "显示缩进指示"
+
+#: wx/tools/Editra/src/ed_menu.py:667
+msgid "Show Edge Guide"
+msgstr "显示边界线"
+
+#: wx/tools/Editra/src/ed_menu.py:668
+msgid "Show the edge column guide"
+msgstr "显示边界线"
+
+#: wx/tools/Editra/src/ed_menu.py:669 wx/tools/Editra/src/ed_menu.py:670
+#: wx/tools/Editra/src/prefdlg.py:767
+msgid "Show EOL Markers"
+msgstr "显示行尾特殊字符"
+
+#: wx/tools/Editra/src/ed_menu.py:671 wx/tools/Editra/src/prefdlg.py:769
+msgid "Show Line Numbers"
+msgstr "显示行号"
+
+#: wx/tools/Editra/src/ed_menu.py:672
+msgid "Show Line Number Margin"
+msgstr "显示行号边"
+
+#: wx/tools/Editra/src/ed_menu.py:673 wx/tools/Editra/src/prefdlg.py:771
+msgid "Show Whitespace"
+msgstr "显示空格"
+
+#: wx/tools/Editra/src/ed_menu.py:674
+msgid "Show Whitespace Markers"
+msgstr "显示空格标记"
+
+#: wx/tools/Editra/src/ed_menu.py:675
+msgid "Editor"
+msgstr "编辑器"
+
+#: wx/tools/Editra/src/ed_menu.py:676
+msgid "Toggle Editor View Options"
+msgstr "切换编辑器查看选项"
+
+#: wx/tools/Editra/src/ed_menu.py:678
+msgid "Toggle fold"
+msgstr "折叠开关"
+
+#: wx/tools/Editra/src/ed_menu.py:679
+msgid "Toggle current fold"
+msgstr "当前折叠开关"
+
+#: wx/tools/Editra/src/ed_menu.py:680 wx/tools/Editra/src/ed_menu.py:681
+msgid "Toggle all folds"
+msgstr "全部折叠开关"
+
+#: wx/tools/Editra/src/ed_menu.py:682 wx/tools/Editra/src/ed_menu.py:787
+#: wx/tools/Editra/src/prefdlg.py:922
+msgid "Code Folding"
+msgstr "代码折叠"
+
+#: wx/tools/Editra/src/ed_menu.py:683
+msgid "Code folding toggle actions"
+msgstr "代码折叠开关操作"
+
+#: wx/tools/Editra/src/ed_menu.py:686
+msgid "Pane Navigator"
+msgstr "面板导航"
+
+#: wx/tools/Editra/src/ed_menu.py:687
+msgid "View pane selection list"
+msgstr "查看面板选择列表"
+
+#: wx/tools/Editra/src/ed_menu.py:689
+msgid "Toggle Editor Maximization"
+msgstr "编辑器最大化开关"
+
+#: wx/tools/Editra/src/ed_menu.py:691
+msgid "&Goto Line"
+msgstr "转到行(&G)"
+
+#: wx/tools/Editra/src/ed_menu.py:692
+msgid "Goto Line Number"
+msgstr "转到行号"
+
+#: wx/tools/Editra/src/ed_menu.py:693
+msgid "Goto Matching Brace"
+msgstr "转到匹配的括号"
+
+#: wx/tools/Editra/src/ed_menu.py:694
+msgid "Move caret matching brace"
+msgstr "移动光标到匹配的括号"
+
+#: wx/tools/Editra/src/ed_menu.py:696
+msgid "Next Position"
+msgstr "下一个位置"
+
+#: wx/tools/Editra/src/ed_menu.py:697
+msgid "Goto next position in history."
+msgstr "转到历史中的下一个位置。"
+
+#: wx/tools/Editra/src/ed_menu.py:698
+msgid "Previous Position"
+msgstr "上一个位置"
+
+#: wx/tools/Editra/src/ed_menu.py:699
+msgid "Goto previous position in history."
+msgstr "转到历史中的上一个位置。"
+
+#: wx/tools/Editra/src/ed_menu.py:701
+msgid "Next Bookmark"
+msgstr "下一个书签"
+
+#: wx/tools/Editra/src/ed_menu.py:702
+msgid "View Line of Next Bookmark"
+msgstr "查看下一个书签行"
+
+#: wx/tools/Editra/src/ed_menu.py:703
+msgid "Previous Bookmark"
+msgstr "上一个书签"
+
+#: wx/tools/Editra/src/ed_menu.py:704
+msgid "View Line of Previous Bookmark"
+msgstr "查看上一个书签行"
+
+#: wx/tools/Editra/src/ed_menu.py:707 wx/tools/Editra/src/prefdlg.py:1207
+msgid "Show Status Bar"
+msgstr "显示状态栏"
+
+#: wx/tools/Editra/src/ed_menu.py:709 wx/tools/Editra/src/prefdlg.py:1209
+msgid "Show Toolbar"
+msgstr "显示工具栏"
+
+#: wx/tools/Editra/src/ed_menu.py:721
+msgid "&Font"
+msgstr "字体(&F)"
+
+#: wx/tools/Editra/src/ed_menu.py:722
+msgid "Change Font Settings"
+msgstr "改变字体设置"
+
+#: wx/tools/Editra/src/ed_menu.py:724
+msgid "Toggle Comment"
+msgstr "注释开关"
+
+#: wx/tools/Editra/src/ed_menu.py:725
+msgid "Toggle comment on the selected line(s)"
+msgstr "选中行的注释开关"
+
+#: wx/tools/Editra/src/ed_menu.py:728
+msgid "Indent Lines"
+msgstr "缩进"
+
+#: wx/tools/Editra/src/ed_menu.py:729
+msgid "Indent the selected lines"
+msgstr "选定行缩进"
+
+#: wx/tools/Editra/src/ed_menu.py:730
+msgid "Unindent Lines"
+msgstr "取消缩进"
+
+#: wx/tools/Editra/src/ed_menu.py:731
+msgid "Unindent the selected lines"
+msgstr "选定行取消缩进"
+
+#: wx/tools/Editra/src/ed_menu.py:733
+msgid "Uppercase"
+msgstr "大写"
+
+#: wx/tools/Editra/src/ed_menu.py:734
+msgid "Convert selected text to all uppercase letters"
+msgstr "转换选定文本为大写"
+
+#: wx/tools/Editra/src/ed_menu.py:735
+msgid "Lowercase"
+msgstr "小写"
+
+#: wx/tools/Editra/src/ed_menu.py:736
+msgid "Convert selected text to all lowercase letters"
+msgstr "转换选定文本为小写"
+
+#: wx/tools/Editra/src/ed_menu.py:738
+msgid "Use Soft Tabs"
+msgstr "使用软Tab"
+
+#: wx/tools/Editra/src/ed_menu.py:739
+msgid "Insert spaces instead of tab characters with tab key"
+msgstr "空格代替Tab键"
+
+#: wx/tools/Editra/src/ed_menu.py:741 wx/tools/Editra/src/prefdlg.py:773
+msgid "Word Wrap"
+msgstr "自动换行"
+
+#: wx/tools/Editra/src/ed_menu.py:742
+msgid "Wrap Text Horizontally"
+msgstr "文本自动换行"
+
+#: wx/tools/Editra/src/ed_menu.py:747
+msgid "Spaces to Tabs"
+msgstr "空格转换为Tab"
+
+#: wx/tools/Editra/src/ed_menu.py:748
+msgid "Convert spaces to tabs in selected/all text"
+msgstr "选定文本中的空格转换为Tab键"
+
+#: wx/tools/Editra/src/ed_menu.py:749
+msgid "Tabs to Spaces"
+msgstr "Tab转换为空格"
+
+#: wx/tools/Editra/src/ed_menu.py:750
+msgid "Convert tabs to spaces in selected/all text"
+msgstr "选定文本中的Tab键转换为空格"
+
+#: wx/tools/Editra/src/ed_menu.py:751
+msgid "Trim Trailing Whitespace"
+msgstr "删去行尾空格"
+
+#: wx/tools/Editra/src/ed_menu.py:752
+msgid "Remove trailing whitespace"
+msgstr "删除行尾空格"
+
+#: wx/tools/Editra/src/ed_menu.py:753
+msgid "Whitespace"
+msgstr "空格"
+
+#: wx/tools/Editra/src/ed_menu.py:754
+msgid "Whitespace formating commands"
+msgstr "空格格式化命令"
+
+#: wx/tools/Editra/src/ed_menu.py:758 wx/tools/Editra/src/ed_menu.py:760
+#: wx/tools/Editra/src/prefdlg.py:755
+msgid "Old Macintosh (\\r)"
+msgstr "老式苹果机(\r)"
+
+#: wx/tools/Editra/src/ed_menu.py:759 wx/tools/Editra/src/ed_menu.py:762
+#: wx/tools/Editra/src/ed_menu.py:765
+#, python-format
+msgid "Format all EOL characters to %s Mode"
+msgstr "将所有行尾符转为 %s 模式"
+
+#: wx/tools/Editra/src/ed_menu.py:764 wx/tools/Editra/src/ed_menu.py:766
+#: wx/tools/Editra/src/prefdlg.py:756
+msgid "Windows (\\r\\n)"
+msgstr ""
+"Windows (\r\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:767
+msgid "EOL Mode"
+msgstr "行尾符模式"
+
+#: wx/tools/Editra/src/ed_menu.py:768
+msgid "End of line character formatting"
+msgstr "行尾字符格式"
+
+#: wx/tools/Editra/src/ed_menu.py:771
+msgid "F&ormat"
+msgstr "格式(&o)"
+
+#: wx/tools/Editra/src/ed_menu.py:780 wx/tools/Editra/src/prefdlg.py:940
+msgid "Auto-Completion"
+msgstr "自动补全"
+
+#: wx/tools/Editra/src/ed_menu.py:781
+msgid "Use Auto Completion when available"
+msgstr "使用自动补全"
+
+#: wx/tools/Editra/src/ed_menu.py:782 wx/tools/Editra/src/prefdlg.py:950
+msgid "Auto-Indent"
+msgstr "自动缩进"
+
+#: wx/tools/Editra/src/ed_menu.py:783
+msgid "Toggle Auto-Indentation functionality"
+msgstr "切换自动缩进功能"
+
+#: wx/tools/Editra/src/ed_menu.py:785 wx/tools/Editra/src/prefdlg.py:920
+msgid "Bracket Highlighting"
+msgstr "括号高亮"
+
+#: wx/tools/Editra/src/ed_menu.py:786
+msgid "Highlight Brackets/Braces"
+msgstr "高亮括号/大括号"
+
+#: wx/tools/Editra/src/ed_menu.py:788
+msgid "Toggle Code Folding"
+msgstr "切换代码折叠"
+
+#: wx/tools/Editra/src/ed_menu.py:789 wx/tools/Editra/src/prefdlg.py:679
+#: wx/tools/Editra/src/prefdlg.py:1080
+msgid "Syntax Highlighting"
+msgstr "语法高亮"
+
+#: wx/tools/Editra/src/ed_menu.py:790
+msgid "Color Highlight Code Syntax"
+msgstr "颜色高亮代码语法"
+
+#: wx/tools/Editra/src/ed_menu.py:795
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: wx/tools/Editra/src/ed_menu.py:806
+msgid "Editor Command"
+msgstr "编辑器命令"
+
+#: wx/tools/Editra/src/ed_menu.py:807
+msgid "Goto command buffer"
+msgstr "转到命令缓冲区"
+
+#: wx/tools/Editra/src/ed_menu.py:809
+msgid "Manage, Download, and Install plugins"
+msgstr "管理、下载和安装插件"
+
+#: wx/tools/Editra/src/ed_menu.py:810 wx/tools/Editra/src/style_editor.py:65
+msgid "Style Editor"
+msgstr "样式编辑器"
+
+#: wx/tools/Editra/src/ed_menu.py:811
+msgid "Edit the way syntax is highlighted"
+msgstr "编辑的语法高亮的方式"
+
+#: wx/tools/Editra/src/ed_menu.py:831
+msgid "&About..."
+msgstr "关于(&A)"
+
+#: wx/tools/Editra/src/ed_menu.py:832
+msgid "About"
+msgstr "关于"
+
+#: wx/tools/Editra/src/ed_menu.py:833
+msgid "Project Homepage..."
+msgstr "项目主页"
+
+#: wx/tools/Editra/src/ed_menu.py:834
+#, python-format
+msgid "Visit the project homepage %s"
+msgstr "访问项目主页 %s"
+
+#: wx/tools/Editra/src/ed_menu.py:836
+msgid "Online Documentation..."
+msgstr "在线文档..."
+
+#: wx/tools/Editra/src/ed_menu.py:837
+msgid "Online project documentation and help guides"
+msgstr "在线文档及帮助"
+
+#: wx/tools/Editra/src/ed_menu.py:838
+msgid "Translate Editra..."
+msgstr "翻译Editra..."
+
+#: wx/tools/Editra/src/ed_menu.py:839
+msgid "Editra translations project"
+msgstr "Editra 翻译项目"
+
+#: wx/tools/Editra/src/ed_menu.py:840
+msgid "Bug Tracker..."
+msgstr "缺陷跟踪..."
+
+#: wx/tools/Editra/src/ed_menu.py:841
+msgid "Feedback"
+msgstr "反馈"
+
+#: wx/tools/Editra/src/ed_menu.py:842
+msgid "Send bug reports and suggestions"
+msgstr "发送错误报告与建议"
+
+#: wx/tools/Editra/src/ed_pages.py:162
+#, python-format
+#, python-format,
+msgid ""
+"The correct encoding of '%s' could not be determined.\n"
+"\n"
+"Choose an encoding and select OK to open the file with the chosen encoding.\n"
+"Click Cancel to abort opening the file"
+msgstr ""
+"不能确定 '%s' 的正确编码。\n"
+"\n"
+"选择编码后按“确定”，将用所选择的编码打开文件。\n"
+"单击“取消”放弃打开文件"
+
+#: wx/tools/Editra/src/ed_pages.py:172
+msgid "Choose an Encoding"
+msgstr "选择编码"
+
+#: wx/tools/Editra/src/ed_pages.py:211
+msgid ""
+"File is already open in an existing page.\n"
+"Do you wish to open it again?"
+msgstr ""
+"文件已经打开在现有的页面。\n"
+"你确定要再次打开？"
+
+#: wx/tools/Editra/src/ed_pages.py:213
+msgid "Open File"
+msgstr "打开文件"
+
+#: wx/tools/Editra/src/ed_pages.py:232
+#, python-format
+msgid "untitled %d"
+msgstr "无标题 %d"
+
+#: wx/tools/Editra/src/ed_pages.py:234
+msgid "untitled"
+msgstr "无标题"
+
+#: wx/tools/Editra/src/ed_pages.py:324
+msgid "Error Saving Session File"
+msgstr "保存会话文件时出错"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Invalid File"
+msgstr "无效的文件"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Session file doesn't exist."
+msgstr "会话文件不存在。"
+
+#: wx/tools/Editra/src/ed_pages.py:367
+msgid "Invalid file"
+msgstr "无效的文件"
+
+#: wx/tools/Editra/src/ed_pages.py:368
+msgid "Selected file is not a valid session file"
+msgstr "选中的文件不是一个合法的会话文件"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Empty File"
+msgstr "空文件"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Session file is empty."
+msgstr "会话文件为空。"
+
+#: wx/tools/Editra/src/ed_pages.py:388
+msgid "Missing session files"
+msgstr "会话文件丢失"
+
+#: wx/tools/Editra/src/ed_pages.py:389
+msgid "Some files in saved session could not be found on disk:\n"
+msgstr "不能在磁盘上发现已保存会话中的一些文件：\n"
+
+#: wx/tools/Editra/src/ed_pages.py:965
+#, python-format
+msgid "Invalid file: %s"
+msgstr "无效的文件：%s"
+
+#: wx/tools/Editra/src/ed_pages.py:973
+#, python-format
+msgid "There are no files that Editra can open in %s"
+msgstr "没有Editra可以在%s打开的文件"
+
+#: wx/tools/Editra/src/ed_pages.py:975
+msgid "No Valid Files to Open"
+msgstr "没有可以打开的合法文件"
+
+#: wx/tools/Editra/src/ed_pages.py:981
+#, python-format
+#, python-format,
+msgid ""
+"Do you wish to open all %d files in this directory?\n"
+"\n"
+"Warning: opening many files at once may cause the editor to temporarily "
+"freeze."
+msgstr ""
+"是否希望打开目录中的所有%d个文件吗？\n"
+" \n"
+"警告：一次打开很多文件可能导致编辑器暂时停止响应。"
+
+#: wx/tools/Editra/src/ed_pages.py:986
+msgid "Open Directory?"
+msgstr "打开目录？"
+
+#: wx/tools/Editra/src/ed_pages.py:1006
+#, python-format
+msgid "Opened file: %s"
+msgstr "已打开文件：%s"
+
+#: wx/tools/Editra/src/ed_print.py:115
+msgid "Failed to create print preview"
+msgstr "创建打印预览失败"
+
+#: wx/tools/Editra/src/ed_print.py:116
+msgid "Print Error"
+msgstr "打印错误"
+
+#: wx/tools/Editra/src/ed_print.py:132
+msgid ""
+"There was an error when printing.\n"
+"Check that your printer is properly connected."
+msgstr ""
+"打印错误。\n"
+"请检查打印机是否已正确连接。"
+
+#: wx/tools/Editra/src/ed_print.py:134
+msgid "Printer Error"
+msgstr "打印机错误"
+
+#: wx/tools/Editra/src/ed_print.py:232
+#, python-format
+msgid "Page: %d"
+msgstr "页：%d"
+
+#: wx/tools/Editra/src/ed_script.py:203 wx/tools/Editra/src/ed_script.py:213
+msgid "Macro Manager"
+msgstr "宏管理器"
+
+#: wx/tools/Editra/src/ed_script.py:204
+msgid "View and Edit Macros"
+msgstr "查看和编辑宏"
+
+#: wx/tools/Editra/src/ed_search.py:64 wx/tools/Editra/src/ed_search.py:68
+msgid "DECODING ERROR"
+msgstr "解码错误"
+
+#: wx/tools/Editra/src/ed_search.py:149 wx/tools/Editra/src/ed_search.py:153
+#: wx/tools/Editra/src/ed_toolbar.py:94
+msgid "Find/Replace"
+msgstr "查找/替换"
+
+#: wx/tools/Editra/src/ed_search.py:310
+#, python-format
+msgid "The search term '%(term)s' was found %(count)d times."
+msgstr "共找到 %(count)d 个搜索词‘%(term)s’。"
+
+#: wx/tools/Editra/src/ed_search.py:311
+msgid "Find Count"
+msgstr "查找记数"
+
+#: wx/tools/Editra/src/ed_search.py:351
+#, python-format
+msgid "Invalid expression \"%s\""
+msgstr "无效的表达式“%s”"
+
+#: wx/tools/Editra/src/ed_search.py:352
+msgid "Regex Compile Error"
+msgstr "正则表达式编译错误"
+
+#: wx/tools/Editra/src/ed_search.py:405
+msgid "Search wrapped to top"
+msgstr "从顶部开始查找"
+
+#: wx/tools/Editra/src/ed_search.py:410
+msgid "Search wrapped to bottom"
+msgstr "从底部向上查找"
+
+#: wx/tools/Editra/src/ed_search.py:431
+#, python-format
+msgid "\"%s\" was not found"
+msgstr "没有找到“%s”"
+
+#: wx/tools/Editra/src/ed_search.py:539 wx/tools/Editra/src/ed_search.py:700
+#, python-format
+#, python-format,
+msgid ""
+"Error in regular expression expansion. The replace action cannot be "
+"completed.\n"
+"\n"
+"Error Message: %s"
+msgstr ""
+"正则表达式展开错误。无法完成替换操作。\n"
+"\n"
+"错误消息：%s"
+
+#: wx/tools/Editra/src/ed_search.py:542 wx/tools/Editra/src/ed_search.py:703
+msgid "Replace Error"
+msgstr "替换出错"
+
+#: wx/tools/Editra/src/ed_search.py:612
+msgid "Sorry will be ready for next version"
+msgstr "很抱歉下个版本会准备就绪"
+
+#: wx/tools/Editra/src/ed_search.py:613
+msgid "Not implemented"
+msgstr "未实现"
+
+#: wx/tools/Editra/src/ed_search.py:633
+#, python-format
+msgid "%d matches were replaced."
+msgstr "已替换%d个匹配项。"
+
+#: wx/tools/Editra/src/ed_search.py:796
+msgid "Recent Searches"
+msgstr "最近的搜索"
+
+#: wx/tools/Editra/src/ed_search.py:1271
+msgid "Search Started"
+msgstr "搜索开始"
+
+#: wx/tools/Editra/src/ed_search.py:1290
+msgid "Search complete"
+msgstr "搜索完成"
+
+#: wx/tools/Editra/src/ed_search.py:1297
+#, python-format
+msgid "Search Complete: %d matching lines where found."
+msgstr "搜索完成：找到%d个匹配行。"
+
+#: wx/tools/Editra/src/ed_search.py:1298
+#, python-format
+msgid "Files Searched: %d"
+msgstr "文件搜索：%d个"
+
+#: wx/tools/Editra/src/ed_search.py:1381
+#, python-format
+msgid "Searching in: %s"
+msgstr "正在搜索：%s"
+
+#: wx/tools/Editra/src/ed_shelf.py:117
+msgid "Shelf"
+msgstr "架子"
+
+#: wx/tools/Editra/src/ed_shelf.py:118
+msgid "Put an item on the Shelf"
+msgstr "把项目放到架子上"
+
+#: wx/tools/Editra/src/ed_shelf.py:351
+msgid "Show Shelf"
+msgstr "显示架子"
+
+#: wx/tools/Editra/src/ed_shelf.py:353
+msgid "Show the Shelf"
+msgstr "显示架子"
+
+#: wx/tools/Editra/src/ed_statbar.py:62 wx/tools/Editra/src/ed_statbar.py:64
+#: wx/tools/Editra/src/ed_statbar.py:66
+#, python-format
+msgid "Change line endings to %s"
+msgstr "行结尾更改为%s"
+
+#: wx/tools/Editra/src/ed_statbar.py:184
+msgid "Change the encoding of the current document."
+msgstr "改变当前文档的编码。"
+
+#: wx/tools/Editra/src/ed_statbar.py:185
+msgid "Change Encoding"
+msgstr "改变编码"
+
+#: wx/tools/Editra/src/ed_stc.py:563
+#, python-format
+msgid "File backup performed: %s"
+msgstr "文件备份完成: %s"
+
+#: wx/tools/Editra/src/ed_stc.py:697
+#, python-format
+msgid "Line: %(lnum)d  Column: %(cnum)d"
+msgstr "行: %(lnum)d  列: %(cnum)d"
+
+#: wx/tools/Editra/src/ed_stc.py:1097
+msgid ""
+"Mixed EOL characters detected.\n"
+"\n"
+"Would you like to format them to all be the same?"
+msgstr ""
+"检测到多种 EOL换行符 字符。\n"
+"\n"
+"需要转换成统一格式吗？"
+
+#: wx/tools/Editra/src/ed_stc.py:1100
+msgid "Format EOL?"
+msgstr "换行符转换？"
+
+#: wx/tools/Editra/src/ed_stc.py:1355
+msgid "Recording Macro"
+msgstr "录制宏"
+
+#: wx/tools/Editra/src/ed_stc.py:1368
+msgid "Recording Finished"
+msgstr "录制完成"
+
+#: wx/tools/Editra/src/ed_stc.py:1674
+#, python-format
+msgid "%s does not exist"
+msgstr "%s不存在"
+
+#: wx/tools/Editra/src/ed_stc.py:1721
+msgid "File is Read Only and cannot be saved"
+msgstr "文件是只读属性，不能保存"
+
+#: wx/tools/Editra/src/ed_toolbar.py:77
+msgid "Start a New File"
+msgstr "开始新文件"
+
+#: wx/tools/Editra/src/generator.py:117
+msgid "Generator"
+msgstr "生成器"
+
+#: wx/tools/Editra/src/generator.py:118
+msgid "Generate Code and Documents"
+msgstr "生成代码和文档"
+
+#: wx/tools/Editra/src/generator.py:291 wx/tools/Editra/src/generator.py:678
+#: wx/tools/Editra/src/generator.py:881
+#, python-format
+msgid "Generate %s"
+msgstr "生成 %s"
+
+#: wx/tools/Editra/src/generator.py:292 wx/tools/Editra/src/generator.py:882
+#, python-format
+msgid "Generate a %s version of the current document"
+msgstr "生成当前文档的的%s版本"
+
+#: wx/tools/Editra/src/generator.py:679
+#, python-format
+msgid "Generate an %s version of the current document"
+msgstr "生成当前文档的的%s版本"
+
+#: wx/tools/Editra/src/perspective.py:72
+msgid "Save Current View"
+msgstr "保存当前视图"
+
+#: wx/tools/Editra/src/perspective.py:73
+msgid "Save the current window layout"
+msgstr "保存当前的窗口布局"
+
+#: wx/tools/Editra/src/perspective.py:74
+msgid "Delete Saved View"
+msgstr "删除保存的视图"
+
+#: wx/tools/Editra/src/perspective.py:76
+msgid "Automatic"
+msgstr "自动化"
+
+#: wx/tools/Editra/src/perspective.py:77
+msgid "Automatically save/use window state from last session"
+msgstr "自动保存/使用上次会话的窗口状态"
+
+#: wx/tools/Editra/src/perspective.py:130
+#, python-format
+msgid "Change view to \"%s\""
+msgstr "改变视图为“%s”"
+
+#: wx/tools/Editra/src/perspective.py:252
+msgid "Perspective Name"
+msgstr "透视图名称"
+
+#: wx/tools/Editra/src/perspective.py:253
+msgid "Save Perspective"
+msgstr "保存透视图"
+
+#: wx/tools/Editra/src/perspective.py:269
+msgid "Perspective to Delete"
+msgstr "要删除的透视图"
+
+#: wx/tools/Editra/src/perspective.py:270
+msgid "Delete Perspective"
+msgstr "删除透视图"
+
+#: wx/tools/Editra/src/plugdlg.py:121 wx/tools/Editra/src/plugdlg.py:958
+msgid "Configure"
+msgstr "配置"
+
+#: wx/tools/Editra/src/plugdlg.py:122 wx/tools/Editra/src/plugdlg.py:462
+#: wx/tools/Editra/src/plugdlg.py:1110 wx/tools/Editra/src/prefdlg.py:1524
+msgid "Download"
+msgstr "下载"
+
+#: wx/tools/Editra/src/plugdlg.py:123 wx/tools/Editra/src/plugdlg.py:765
+msgid "Install"
+msgstr "安装"
+
+#: wx/tools/Editra/src/plugdlg.py:131
+msgid "Errors"
+msgstr "错误"
+
+#: wx/tools/Editra/src/plugdlg.py:180
+msgid "Downloads are incomplete"
+msgstr "下载未完成"
+
+#: wx/tools/Editra/src/plugdlg.py:181
+msgid "Do you wish to exit?"
+msgstr "你想退出吗？"
+
+#: wx/tools/Editra/src/plugdlg.py:192
+msgid "You must restart Editra before your changes will take full effect."
+msgstr "应用您的更改请重新启动Editra。"
+
+#: wx/tools/Editra/src/plugdlg.py:194
+msgid "Configuration Changes Made"
+msgstr "配置所做的更改"
+
+#: wx/tools/Editra/src/plugdlg.py:234
+msgid "Changes will take effect once the program has been restarted"
+msgstr "程序重新启动后，改变会生效"
+
+#: wx/tools/Editra/src/plugdlg.py:372 wx/tools/Editra/src/plugin.py:723
+msgid "No Description Available"
+msgstr "没有可用的描述"
+
+#: wx/tools/Editra/src/plugdlg.py:410
+msgid "This plugin requires a newer version of Editra."
+msgstr "该插件需要较新版本的Editra。"
+
+#: wx/tools/Editra/src/plugdlg.py:485
+msgid "Downloaded"
+msgstr "已下载"
+
+#: wx/tools/Editra/src/plugdlg.py:488
+msgid "Finished downloading plugins"
+msgstr "完成插件下载。"
+
+#: wx/tools/Editra/src/plugdlg.py:503
+msgid "Select plugins to download"
+msgstr "选择要下载的插件"
+
+#: wx/tools/Editra/src/plugdlg.py:508
+msgid "Unable to retrieve plugin list"
+msgstr "无法获取插件列表"
+
+#: wx/tools/Editra/src/plugdlg.py:597 wx/tools/Editra/src/updater.py:606
+msgid "Downloading"
+msgstr "正在下载"
+
+#: wx/tools/Editra/src/plugdlg.py:675
+msgid "Retrieving Plugin List"
+msgstr "正在获取插件列表"
+
+#: wx/tools/Editra/src/plugdlg.py:754
+msgid ""
+"To add a new item drag and drop the plugin file into the list.\n"
+"\n"
+"To remove an item select it and hit Delete or Backspace."
+msgstr ""
+"添加新项目请拖放插件文件到列表中。\n"
+"\n"
+"删除项目请选择它并点击删除或退格键。"
+
+#: wx/tools/Editra/src/plugdlg.py:767
+msgid "User Directory"
+msgstr "用户目录"
+
+#: wx/tools/Editra/src/plugdlg.py:769
+msgid "Install the plugins only for the current user"
+msgstr "只为当前用户安装插件"
+
+#: wx/tools/Editra/src/plugdlg.py:771
+msgid "System Directory"
+msgstr "系统目录"
+
+#: wx/tools/Editra/src/plugdlg.py:772
+msgid ""
+"Install the plugins for all users\n"
+" **requires administrative privileges**"
+msgstr ""
+"为所有用户安装插件\n"
+"**需要管理员权限**"
+
+#: wx/tools/Editra/src/plugdlg.py:833
+msgid "Successfully Installed Plugins"
+msgstr "已成功安装的插件"
+
+#: wx/tools/Editra/src/plugdlg.py:842
+#, python-format
+msgid "Failed to install %d plugins"
+msgstr "%d个插件无法安装"
+
+#: wx/tools/Editra/src/plugdlg.py:844
+msgid "Installation Error"
+msgstr "安装错误"
+
+#: wx/tools/Editra/src/plugdlg.py:950 wx/tools/Editra/src/plugdlg.py:1131
+#, python-format
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: wx/tools/Editra/src/plugdlg.py:951
+msgid "Enable"
+msgstr "启用"
+
+#: wx/tools/Editra/src/plugdlg.py:954
+msgid "Uninstall"
+msgstr "卸载"
+
+#: wx/tools/Editra/src/plugdlg.py:1062
+#, python-format
+msgid ""
+"Are you sure you want to uninstall %s?\n"
+"This cannot be undone."
+msgstr ""
+"确定要卸载%s吗？\n"
+"该操作不能撤消。"
+
+#: wx/tools/Editra/src/plugdlg.py:1064
+msgid "Uninstall Plugin"
+msgstr "卸载插件"
+
+#: wx/tools/Editra/src/plugdlg.py:1068
+msgid "This plugin will be uninstalled on next program launch."
+msgstr "程序下次运行时，该插件将被卸载。"
+
+#: wx/tools/Editra/src/prefdlg.py:109
+msgid "Preferences - Editra"
+msgstr "首选项 - Editra"
+
+#: wx/tools/Editra/src/prefdlg.py:193
+msgid "Appearance"
+msgstr "外观"
+
+#: wx/tools/Editra/src/prefdlg.py:195
+msgid "Document"
+msgstr "文档"
+
+#: wx/tools/Editra/src/prefdlg.py:197
+msgid "Network"
+msgstr "网络"
+
+#: wx/tools/Editra/src/prefdlg.py:199
+msgid "Advanced"
+msgstr "高级"
+
+#: wx/tools/Editra/src/prefdlg.py:284
+msgid ""
+"Changes made in this dialog are saved in your current profile. Some Items "
+"such as Language require the program to be restarted before taking effect."
+msgstr "对话框中所做的更改保存在当前的个人资料。一些条目（如语言）生效前需要重新启动程序。"
+
+#: wx/tools/Editra/src/prefdlg.py:306
+msgid "Startup"
+msgstr "启动"
+
+#: wx/tools/Editra/src/prefdlg.py:385
+msgid "Editor Mode"
+msgstr "编辑模式"
+
+#: wx/tools/Editra/src/prefdlg.py:393
+msgid "Printer Mode"
+msgstr "打印模式"
+
+#: wx/tools/Editra/src/prefdlg.py:401
+msgid "Disable Error Reporter"
+msgstr "禁用错误报告"
+
+#: wx/tools/Editra/src/prefdlg.py:403
+msgid "Load Last Session"
+msgstr "加载上次会话"
+
+#: wx/tools/Editra/src/prefdlg.py:405
+msgid "Load files from last session on startup"
+msgstr "启动时加载上次会话文件"
+
+#: wx/tools/Editra/src/prefdlg.py:407
+msgid "Show Splash Screen"
+msgstr "显示启动画面"
+
+#: wx/tools/Editra/src/prefdlg.py:414
+msgid "Check for updates on startup"
+msgstr "启动检查更新"
+
+#: wx/tools/Editra/src/prefdlg.py:419
+msgid "Language"
+msgstr "语言"
+
+#: wx/tools/Editra/src/prefdlg.py:429
+msgid "Startup Settings"
+msgstr "启动设置"
+
+#: wx/tools/Editra/src/prefdlg.py:440
+msgid "Locale Settings"
+msgstr "本地化设置"
+
+#: wx/tools/Editra/src/prefdlg.py:477
+msgid "File History Length"
+msgstr "文件历史"
+
+#: wx/tools/Editra/src/prefdlg.py:496
+msgid "Encoding to try when auto detection fails"
+msgstr "自动编码检测失败后尝试的编码"
+
+#: wx/tools/Editra/src/prefdlg.py:498
+msgid "Prefered Encoding"
+msgstr "首选编码"
+
+#: wx/tools/Editra/src/prefdlg.py:502
+msgid "Automatically Backup Files"
+msgstr "自动备份文件"
+
+#: wx/tools/Editra/src/prefdlg.py:505
+msgid "Backup buffer to file periodically"
+msgstr "周期性保存缓冲区内容到文件"
+
+#: wx/tools/Editra/src/prefdlg.py:508
+msgid "Backup Path:"
+msgstr "备份路径："
+
+#: wx/tools/Editra/src/prefdlg.py:513
+msgid ""
+"Used to set a custom backup path. If not specified the backup will be put in "
+"the same directory as the file."
+msgstr "用于设置一个特定的备份路径。如果不指定，备份文件会在该文件相同的目录下。"
+
+#: wx/tools/Editra/src/prefdlg.py:523
+msgid "Open files in new windows by default"
+msgstr "默认在新窗口中打开文件"
+
+#: wx/tools/Editra/src/prefdlg.py:526
+msgid "Remember File Position"
+msgstr "记住文件位置"
+
+#: wx/tools/Editra/src/prefdlg.py:529
+msgid "Check if on disk file has been modified by others"
+msgstr "检查文件是否被其它程序更改过"
+
+#: wx/tools/Editra/src/prefdlg.py:534
+msgid "Automatically reload files when changes are detected on disk"
+msgstr "检测到硬盘的文件被更改后自动重新加载文件"
+
+#: wx/tools/Editra/src/prefdlg.py:539
+msgid "Warn when mixed eol characters are detected"
+msgstr "检测到混合行结尾符后发出警告"
+
+#: wx/tools/Editra/src/prefdlg.py:545
+msgid "File Settings"
+msgstr "文件设置"
+
+#: wx/tools/Editra/src/prefdlg.py:559
+msgid "Spell Checking"
+msgstr "拼写检查"
+
+#: wx/tools/Editra/src/prefdlg.py:563
+msgid "Check spelling while typing"
+msgstr "输入时检查拼写"
+
+#: wx/tools/Editra/src/prefdlg.py:570
+msgid "Dictionary"
+msgstr "词典"
+
+#: wx/tools/Editra/src/prefdlg.py:580
+msgid "Enchant Path"
+msgstr "Enchant 的路径"
+
+#: wx/tools/Editra/src/prefdlg.py:585 wx/tools/Editra/src/prefdlg.py:586
+msgid "Path to libenchant"
+msgstr "libenchant 的路径"
+
+#: wx/tools/Editra/src/prefdlg.py:649
+msgid "Failed to load Enchant"
+msgstr "无法加载 Enchant"
+
+#: wx/tools/Editra/src/prefdlg.py:650
+msgid "Library Error"
+msgstr "库文件错误"
+
+#: wx/tools/Editra/src/prefdlg.py:678
+msgid "Code"
+msgstr "代码"
+
+#: wx/tools/Editra/src/prefdlg.py:726
+msgid "Tab Width"
+msgstr "Tab宽度"
+
+#: wx/tools/Editra/src/prefdlg.py:734
+msgid "Indent Width"
+msgstr "缩进宽度"
+
+#: wx/tools/Editra/src/prefdlg.py:742
+msgid "Automatically trim whitespace on save"
+msgstr "保存时自动去掉空格"
+
+#: wx/tools/Editra/src/prefdlg.py:745
+msgid "Use Tabs Instead of Spaces"
+msgstr "Tab代替空格"
+
+#: wx/tools/Editra/src/prefdlg.py:748
+msgid "Backspace Unindents"
+msgstr "退格取消缩进"
+
+#: wx/tools/Editra/src/prefdlg.py:760
+msgid "Default EOL Mode"
+msgstr "默认行尾模式"
+
+#: wx/tools/Editra/src/prefdlg.py:765
+msgid "AntiAliasing"
+msgstr "抗锯齿"
+
+#: wx/tools/Editra/src/prefdlg.py:775
+msgid "Turn off for better performance"
+msgstr "关闭以获得更好性能"
+
+#: wx/tools/Editra/src/prefdlg.py:782
+msgid "Sets the main/default font of the document"
+msgstr "设置文档的主要/默认字体"
+
+#: wx/tools/Editra/src/prefdlg.py:787
+msgid ""
+"Sets a secondary font used for special regions when syntax highlighting is "
+"in use"
+msgstr "设置用于语法高亮时特殊区域的次要字体"
+
+#: wx/tools/Editra/src/prefdlg.py:794
+msgid "Format"
+msgstr "格式"
+
+#: wx/tools/Editra/src/prefdlg.py:802
+msgid "View Options"
+msgstr "查看选项"
+
+#: wx/tools/Editra/src/prefdlg.py:809
+msgid "Primary Font"
+msgstr "主要字体"
+
+#: wx/tools/Editra/src/prefdlg.py:812
+msgid "Secondary Font"
+msgstr "次要字体"
+
+#: wx/tools/Editra/src/prefdlg.py:911
+msgid "Default highlighing for new documents"
+msgstr "新文档默认高亮"
+
+#: wx/tools/Editra/src/prefdlg.py:913
+msgid "Default Lexer"
+msgstr "默认分析器"
+
+#: wx/tools/Editra/src/prefdlg.py:918
+msgid "Visual Helpers"
+msgstr "可视助手"
+
+#: wx/tools/Editra/src/prefdlg.py:924
+msgid "Edge Guide"
+msgstr "边界线"
+
+#: wx/tools/Editra/src/prefdlg.py:928
+msgid "Guide Column"
+msgstr "指示列"
+
+#: wx/tools/Editra/src/prefdlg.py:943
+msgid "Extended Auto-Comp"
+msgstr "扩展的自动完成"
+
+#: wx/tools/Editra/src/prefdlg.py:946
+msgid "Warning suggestions will include context insensitive results"
+msgstr "警告建议将会包含在上下文无关的结果中"
+
+#: wx/tools/Editra/src/prefdlg.py:952
+msgid "Enable Vi Emulation"
+msgstr "启用 Vi 仿真"
+
+#: wx/tools/Editra/src/prefdlg.py:955
+msgid "Start in Normal Mode"
+msgstr "以正常模式开始"
+
+#: wx/tools/Editra/src/prefdlg.py:973
+msgid "Input Helpers"
+msgstr "输入助手"
+
+#: wx/tools/Editra/src/prefdlg.py:1089
+msgid "Filetype Associations"
+msgstr "文件类型关联"
+
+#: wx/tools/Editra/src/prefdlg.py:1106 wx/tools/Editra/src/prefdlg.py:1761
+msgid "Revert to Default"
+msgstr "恢复默认"
+
+#: wx/tools/Editra/src/prefdlg.py:1175
+msgid "Icon Theme"
+msgstr "图标主题"
+
+#: wx/tools/Editra/src/prefdlg.py:1180
+msgid "Toolbar Icon Size"
+msgstr "工具栏图标大小"
+
+#: wx/tools/Editra/src/prefdlg.py:1186
+msgid "Show Icons on Tabs"
+msgstr "在标签页上显示图标"
+
+#: wx/tools/Editra/src/prefdlg.py:1197
+msgid "Default Perspective"
+msgstr "默认透视"
+
+#: wx/tools/Editra/src/prefdlg.py:1202
+msgid "Remember Window Size on Exit"
+msgstr "退出时记住窗口大小"
+
+#: wx/tools/Editra/src/prefdlg.py:1205
+msgid "Remember Window Position on Exit"
+msgstr "退出时记住窗口位置"
+
+#: wx/tools/Editra/src/prefdlg.py:1215
+msgid "Main display font for various UI components"
+msgstr "各种用户界面组件的主显示字体"
+
+#: wx/tools/Editra/src/prefdlg.py:1220
+msgid "Icons"
+msgstr "图标"
+
+#: wx/tools/Editra/src/prefdlg.py:1225
+msgid "Layout"
+msgstr "布局"
+
+#: wx/tools/Editra/src/prefdlg.py:1233
+msgid "Transparency"
+msgstr "透明"
+
+#: wx/tools/Editra/src/prefdlg.py:1239
+msgid "Display Font"
+msgstr "显示字体"
+
+#: wx/tools/Editra/src/prefdlg.py:1339
+msgid "Configuration"
+msgstr "配置"
+
+#: wx/tools/Editra/src/prefdlg.py:1343
+msgid "Update"
+msgstr "更新"
+
+#: wx/tools/Editra/src/prefdlg.py:1376
+msgid "Proxy Settings"
+msgstr "代理设置"
+
+#: wx/tools/Editra/src/prefdlg.py:1381
+msgid "Use Proxy"
+msgstr "使用代理"
+
+#: wx/tools/Editra/src/prefdlg.py:1386
+msgid "Proxy URL"
+msgstr "代理网址"
+
+#: wx/tools/Editra/src/prefdlg.py:1390
+msgid "Port Number"
+msgstr "端口号"
+
+#: wx/tools/Editra/src/prefdlg.py:1398
+msgid "Username"
+msgstr "用户名"
+
+#: wx/tools/Editra/src/prefdlg.py:1405
+msgid "Password"
+msgstr "密码"
+
+#: wx/tools/Editra/src/prefdlg.py:1505
+msgid "Installed Version"
+msgstr "已安装版本"
+
+#: wx/tools/Editra/src/prefdlg.py:1511
+msgid "Latest Version"
+msgstr "最新版本"
+
+#: wx/tools/Editra/src/prefdlg.py:1529
+msgid "Check"
+msgstr "检查"
+
+#: wx/tools/Editra/src/prefdlg.py:1617
+msgid "Keybindings"
+msgstr "键绑定"
+
+#: wx/tools/Editra/src/prefdlg.py:1702
+msgid "Key Profile"
+msgstr "键配置"
+
+#: wx/tools/Editra/src/prefdlg.py:1715
+msgid "Menu"
+msgstr "菜单"
+
+#: wx/tools/Editra/src/prefdlg.py:1725
+msgid "Modifier 1"
+msgstr "修饰器1"
+
+#: wx/tools/Editra/src/prefdlg.py:1729
+msgid "Modifier 2"
+msgstr "修饰器2"
+
+#: wx/tools/Editra/src/prefdlg.py:1733
+msgid "Key"
+msgstr "键"
+
+#: wx/tools/Editra/src/prefdlg.py:1737
+msgid "Binding"
+msgstr "绑定"
+
+#: wx/tools/Editra/src/prefdlg.py:1763
+msgid "Apply"
+msgstr "应用"
+
+#: wx/tools/Editra/src/prefdlg.py:1799
+msgid "None"
+msgstr "无"
+
+#: wx/tools/Editra/src/prefdlg.py:1900
+msgid "New Profile"
+msgstr "新建配置"
+
+#: wx/tools/Editra/src/prefdlg.py:1901
+msgid "Enter the name of the new key profile"
+msgstr "输入新的键配置名称"
+
+#: wx/tools/Editra/src/prefdlg.py:2038
+msgid "Lexer"
+msgstr "解析器"
+
+#: wx/tools/Editra/src/prefdlg.py:2040
+msgid "Extensions (space separated, no dots)"
+msgstr "扩展名（空格分隔，无点）"
+
+#: wx/tools/Editra/src/prefdlg.py:2151
+msgid "Black/White"
+msgstr "黑/白"
+
+#: wx/tools/Editra/src/prefdlg.py:2152
+msgid "Color/White"
+msgstr "彩色/白"
+
+#: wx/tools/Editra/src/prefdlg.py:2153
+msgid "Color/Default"
+msgstr "彩色/默认"
+
+#: wx/tools/Editra/src/prefdlg.py:2154
+msgid "Inverse"
+msgstr "反向"
+
+#: wx/tools/Editra/src/prefdlg.py:2155
+msgid "Normal"
+msgstr "标准"
+
+#: wx/tools/Editra/src/style_editor.py:143
+msgid "Export"
+msgstr "导出"
+
+#: wx/tools/Editra/src/style_editor.py:176
+msgid "Syntax Files"
+msgstr "语法文件"
+
+#: wx/tools/Editra/src/style_editor.py:179
+msgid "Set the preview file type"
+msgstr "设置预览文件类型"
+
+#: wx/tools/Editra/src/style_editor.py:194
+msgid "Style Theme"
+msgstr "主题样式"
+
+#: wx/tools/Editra/src/style_editor.py:198
+msgid "Base new theme on existing one"
+msgstr "新的基于现有的主题"
+
+#: wx/tools/Editra/src/style_editor.py:201
+msgid "Start a blank new style"
+msgstr "开始一个空白的新样式"
+
+#: wx/tools/Editra/src/style_editor.py:218
+msgid "Style Tags"
+msgstr "样式标签"
+
+#: wx/tools/Editra/src/style_editor.py:252
+msgid "Some styles have been changed would you like to save before exiting?"
+msgstr "样式已经改变，退出前要保存修改吗？"
+
+#: wx/tools/Editra/src/style_editor.py:254
+msgid "Save Styles"
+msgstr "保存样式"
+
+#: wx/tools/Editra/src/style_editor.py:294
+msgid "Enter style sheet name"
+msgstr "输入样式表的名称"
+
+#: wx/tools/Editra/src/style_editor.py:295
+msgid "Export Style Sheet"
+msgstr "导出样式表"
+
+#: wx/tools/Editra/src/style_editor.py:640
+msgid "Color"
+msgstr "颜色"
+
+#: wx/tools/Editra/src/style_editor.py:644
+msgid "Foreground"
+msgstr "前景"
+
+#: wx/tools/Editra/src/style_editor.py:656
+msgid "Background"
+msgstr "背景"
+
+#: wx/tools/Editra/src/style_editor.py:667
+msgid "Attributes"
+msgstr "属性"
+
+#: wx/tools/Editra/src/style_editor.py:671
+msgid "bold"
+msgstr "粗体"
+
+#: wx/tools/Editra/src/style_editor.py:672
+msgid "eol"
+msgstr "行结束符"
+
+#: wx/tools/Editra/src/style_editor.py:673
+msgid "italic"
+msgstr "斜体"
+
+#: wx/tools/Editra/src/style_editor.py:674
+msgid "underline"
+msgstr "下划线"
+
+#: wx/tools/Editra/src/style_editor.py:683
+msgid "Font Settings"
+msgstr "字体设置"
+
+#: wx/tools/Editra/src/style_editor.py:688
+msgid "Font"
+msgstr "字体"
+
+#: wx/tools/Editra/src/updater.py:147
+msgid "Unable to retrieve version info"
+msgstr "无法获取版本信息"
+
+#: wx/tools/Editra/src/updater.py:292
+msgid "Status Unknown"
+msgstr "状态未知"
+
+#: wx/tools/Editra/src/updater.py:567
+#, python-format
+msgid "Downloading: %s"
+msgstr "下载中：%s"
+
+#: wx/tools/Editra/src/updater.py:569
+#, python-format
+msgid "Downloading To: %s"
+msgstr "下载到：%s"
+
+#: wx/tools/Editra/src/updater.py:647
+msgid "Canceled"
+msgstr "已取消"
+
+#: wx/tools/Editra/src/updater.py:675
+#, python-format
+msgid "Rate: %.2f Kb/s"
+msgstr "速率：%.2fKb/s"
+
+#: wx/tools/Editra/src/updater.py:682
+msgid "Finished"
+msgstr "已完成"
+
+#: wx/tools/Editra/src/updater.py:685
+msgid "Failed"
+msgstr "失败"
+
+#: wx/tools/Editra/src/util.py:184
+msgid "Unable to accept dropped file or text"
+msgstr "无法接受拖放的文件或文本"
+
+#: wx/tools/Editra/src/util.py:361
+msgid "Text Document"
+msgstr "文本文档"
+
+#: wx/tools/Editra/src/util.py:369
+#, python-format
+msgid "%s Source File"
+msgstr "%s源文件"
+
+#~ msgid ""
+#~ "\n"
+#~ "The timeline shows dates according to the Gregorian calendar on the x-axis. "
+#~ "Currently the dates are limited to dates between year 10 and year 9989.\n"
+#~ "\n"
+#~ "Future versions might support various kinds of timelines so that you for "
+#~ "example can specify a time in terms of number of minutes since a start time. "
+#~ "If you are interested in such a feature, please get in touch.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "时间轴根据x-轴上的公立日历显示日期。目前日期在10年和9989年之间。 \n"
+#~ "\n"
+#~ "未来版本可能支持各种时间轴，这样你可以指定从开始时间依赖的分钟数。如果你对该功能有兴趣，请与我们联系。\n"
+
+#, python-format
+#~ msgid "Events belonging to '%(name)s' will now belong "
+#~ msgstr "属于‘%(name)s’的事件现在属于 "
+
+#~ msgid "&Undo "
+#~ msgstr "撤销(&U) "
+
+#~ msgid "Events belonging to "
+#~ msgstr "事件属于 "
+
+#~ msgid " will now belong to "
+#~ msgstr " 现在属于 "
+
+#~ msgid "Please check the preferences dialog to verify your preferences"
+#~ msgstr "请在偏好设定对话框中验证您的偏好设定"
+
+#~ msgid "Ok"
+#~ msgstr "确定"
+
+#~ msgid "Old Machintosh (\\r)"
+#~ msgstr "老式苹果机(\r)"
+
+#, fuzzy
+#~ msgid "&Redo "
+#~ msgstr "重做"

@@ -1,0 +1,19 @@
+# Help menu
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(Help, Contents)
+Hide Frame(Help)
+
+Select Menu(Help, Contact )
+Hide Frame(Help)
+
+Select Menu(Help, Om )
+Click Button("License >>")
+Click Button("License >>")
+Click Button("Developers >>")
+Click Button("Developers >>")
+Click Button("Artists >>")
+Click Button("Artists >>")
+Click Button("Translators >>")
+Click Button("Translators >>")
+Click Button(OK)

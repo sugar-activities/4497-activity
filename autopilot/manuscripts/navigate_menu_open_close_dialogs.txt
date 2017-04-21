@@ -1,0 +1,46 @@
+# Navigate menu
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Go to Date...") 
+Click Button(Avbryt)
+
+Select Menu(Navigate, Backward) 
+Select Menu(Navigate, Forward) 
+
+Select Menu(Navigate, "Forward One Week") 
+Select Menu(Navigate, "Back One Week") 
+
+Select Menu(Navigate, "Forward One Month") 
+Select Menu(Navigate, "Back One Month") 
+
+Select Menu(Navigate, "Forward One Year") 
+Select Menu(Navigate, "Back One Year") 
+
+Select Menu(Navigate, "Fit Millenium") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Century") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Decade") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Year") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Month") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Week") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Fit Day") 
+Select Menu(Navigate, "Go to Today") 
+
+Select Menu(Navigate, "Find First Event") 
+
+Select Menu(Navigate, "Find Last Event") 
+
+Select Menu(Navigate, "Fit All Events") 

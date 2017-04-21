@@ -1,0 +1,4726 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-28 00:31-0400\n"
+"PO-Revision-Date: 2013-06-17 18:08+0200\n"
+"Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Time Line"
+msgstr "Tidslinje"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Allows create interactive time lines"
+msgstr "Gør det muligt at oprette interaktive tidslinjer"
+
+#: specs/EventEditor.py:370 timelinelib/editors/event.py:156
+msgid "You can't change time when the Event is locked"
+msgstr "Den kan ikke ændre tid når Begivenhed er låst"
+
+#: specs/MonthNames.py:33 timelinelib/calendar/monthnames.py:37
+msgid "Jan"
+msgstr "Jan"
+
+#: specs/MonthNames.py:48 timelinelib/calendar/monthnames.py:48
+msgid "Dec"
+msgstr "Dec"
+
+#: specs/PyTimeType.py:56 specs/WxTimeType.py:82
+#: timelinelib/calendar/monthnames.py:44
+msgid "Aug"
+msgstr "Aug"
+
+#: specs/PyTimeType.py:110 specs/PyTimeType.py:130 specs/PyTimeType.py:146
+#: specs/PyTimeType.py:150 specs/WxTimeType.py:150 specs/WxTimeType.py:166
+#: specs/WxTimeType.py:170 timelinelib/time/pytime.py:123
+#: timelinelib/time/wxtime.py:121
+msgid "day"
+msgstr "dag"
+
+#: specs/PyTimeType.py:114 specs/PyTimeType.py:138 specs/PyTimeType.py:158
+#: specs/WxTimeType.py:134 specs/WxTimeType.py:158 specs/WxTimeType.py:178
+#: timelinelib/time/pytime.py:131 timelinelib/time/wxtime.py:129
+msgid "minute"
+msgstr "minut"
+
+#: specs/PyTimeType.py:118 specs/PyTimeType.py:142 specs/PyTimeType.py:162
+#: specs/WxTimeType.py:138 specs/WxTimeType.py:162 specs/WxTimeType.py:182
+#: timelinelib/time/pytime.py:133 timelinelib/time/wxtime.py:131
+msgid "minutes"
+msgstr "minutter"
+
+#: specs/PyTimeType.py:122 specs/PyTimeType.py:138 specs/PyTimeType.py:142
+#: specs/PyTimeType.py:146 specs/WxTimeType.py:142 specs/WxTimeType.py:158
+#: specs/WxTimeType.py:162 specs/WxTimeType.py:166
+#: timelinelib/time/pytime.py:127 timelinelib/time/wxtime.py:125
+msgid "hour"
+msgstr "time"
+
+#: specs/PyTimeType.py:126 specs/PyTimeType.py:150 specs/PyTimeType.py:154
+#: specs/PyTimeType.py:158 specs/PyTimeType.py:162 specs/WxTimeType.py:146
+#: specs/WxTimeType.py:170 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186
+#: timelinelib/time/pytime.py:129 timelinelib/time/wxtime.py:127
+msgid "hours"
+msgstr "timer"
+
+#: specs/PyTimeType.py:134 specs/PyTimeType.py:154 specs/PyTimeType.py:158
+#: specs/PyTimeType.py:162 specs/PyTimeType.py:166 specs/PyTimeType.py:172
+#: specs/WxTimeType.py:154 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186 specs/WxTimeType.py:192
+#: timelinelib/time/pytime.py:125 timelinelib/time/wxtime.py:123
+msgid "days"
+msgstr "dage"
+
+#: specs/TimelineView.py:66 timelinelib/view/zoom.py:28
+msgid "Select region to zoom into"
+msgstr "Vælg område som skal forstørres"
+
+#: specs/TimelineView.py:74 timelinelib/view/zoom.py:38
+msgid "Region too short"
+msgstr "Område for kort"
+
+#: specs/TimelineView.py:90 timelinelib/view/zoom.py:35
+msgid "Region too long"
+msgstr "Område for langt"
+
+#: specs/TimelineView.py:191 timelinelib/view/drawingarea.py:172
+msgid "Can't scroll more to the left"
+msgstr "Kan ikke rulle længere til venstre"
+
+#: specs/TimelineView.py:198 timelinelib/view/drawingarea.py:174
+msgid "Can't scroll more to the right"
+msgstr "Kan ikke rulle længere til højre"
+
+#: specs/WeekdayNames.py:28 timelinelib/calendar/weekdaynames.py:21
+msgid "Mon"
+msgstr "Man"
+
+#: specs/WeekdayNames.py:33 timelinelib/calendar/weekdaynames.py:27
+msgid "Sun"
+msgstr "Søn"
+
+#: timelinelib/application.py:89
+msgid ""
+"Someone else has changed the Timeline.\n"
+"You have two choices!\n"
+"  1. Set Timeline in Read-Only mode.\n"
+"  2. Synchronize Timeline.\n"
+"\n"
+"Do you want to Synchronize?"
+msgstr ""
+"En anden har ændret tidslinjen.\n"
+"Du har to valgmuligheder!\n"
+"1. Angiv tidslinjen i skrivebeskyttet tilstand.\n"
+"2. Synkronisér tidslinjen.\n"
+"\n"
+"Ønsker du at synkronisere?"
+
+#: timelinelib/calendar/monthnames.py:38
+msgid "Feb"
+msgstr "Feb"
+
+#: timelinelib/calendar/monthnames.py:39
+msgid "Mar"
+msgstr "Mar"
+
+#: timelinelib/calendar/monthnames.py:40
+msgid "Apr"
+msgstr "Apr"
+
+#: timelinelib/calendar/monthnames.py:41
+msgid "May"
+msgstr "Maj"
+
+#: timelinelib/calendar/monthnames.py:42
+msgid "Jun"
+msgstr "Jun"
+
+#: timelinelib/calendar/monthnames.py:43
+msgid "Jul"
+msgstr "Jul"
+
+#: timelinelib/calendar/monthnames.py:45
+msgid "Sep"
+msgstr "Sep"
+
+#: timelinelib/calendar/monthnames.py:46
+msgid "Oct"
+msgstr "Okt"
+
+#: timelinelib/calendar/monthnames.py:47
+msgid "Nov"
+msgstr "Nov"
+
+#: timelinelib/calendar/weekdaynames.py:22
+msgid "Tue"
+msgstr "Tir"
+
+#: timelinelib/calendar/weekdaynames.py:23
+msgid "Wed"
+msgstr "Ons"
+
+#: timelinelib/calendar/weekdaynames.py:24
+msgid "Thu"
+msgstr "Tor"
+
+#: timelinelib/calendar/weekdaynames.py:25
+msgid "Fri"
+msgstr "Fre"
+
+#: timelinelib/calendar/weekdaynames.py:26
+msgid "Sat"
+msgstr "Lør"
+
+#: timelinelib/db/__init__.py:67
+msgid ""
+"Could not find iCalendar Python package. It is required for working with ICS "
+"files. See the Timeline website or the INSTALL file for instructions how to "
+"install it."
+msgstr ""
+"Python-pakken iCalendar blev ikke fundet. Den er påkrævet for at bearbejde "
+"ICS-filer. Se hjemmesiden for Tidslinje eller filen INSTALL for "
+"instruktioner til at installere den."
+
+#: timelinelib/db/__init__.py:72
+#, python-format
+msgid "Unable to open timeline '%s'."
+msgstr "Kan ikke åbne tidslinje '%s'."
+
+#: timelinelib/db/__init__.py:73
+msgid "Unknown format."
+msgstr "Ukendt format."
+
+#: timelinelib/db/backends/dir.py:105 timelinelib/db/backends/file.py:114
+#: timelinelib/db/backends/ics.py:137
+#, python-format
+msgid "Unable to read from file '%s'."
+msgstr "Kan ikke læse fra filen '%s'."
+
+#: timelinelib/db/backends/file.py:107 timelinelib/db/backends/ics.py:131
+#: timelinelib/db/backends/xmlfile.py:142
+#, python-format
+msgid "Unable to read timeline data from '%s'."
+msgstr "Kan ikke læse data i tidslinje fra '%s'."
+
+#: timelinelib/db/backends/memory.py:227
+msgid "Displayed period must be > 0."
+msgstr "Vist periode skal være > 0."
+
+#: timelinelib/db/backends/tutorial.py:30
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: timelinelib/db/backends/tutorial.py:32
+msgid "Welcome to Timeline"
+msgstr "Velkommen til Tidslinje"
+
+#: timelinelib/db/backends/tutorial.py:35
+msgid "Intro"
+msgstr "Intro"
+
+#: timelinelib/db/backends/tutorial.py:37
+msgid "Hover me!"
+msgstr "Løft mig!"
+
+#: timelinelib/db/backends/tutorial.py:38
+msgid "Hovering events with a triangle shows the event description."
+msgstr ""
+"Begivenheder som er hævet med en trekant, viser beskrivelse af begivenhed."
+
+#: timelinelib/db/backends/tutorial.py:40
+msgid "Features"
+msgstr "Egenskaber"
+
+#: timelinelib/db/backends/tutorial.py:42
+msgid "Scroll"
+msgstr "Rul"
+
+#: timelinelib/db/backends/tutorial.py:43
+msgid ""
+"Left click somewhere on the timeline and start dragging.\n"
+"\n"
+"You can also use the mouse wheel.\n"
+"\n"
+"You can also middle click with the mouse to center around that point."
+msgstr ""
+"Venstreklik et sted på tidslinjen og begynd at trække.\n"
+"\n"
+"Du kan også bruge musens hjul.\n"
+"\n"
+"Du kan også klikke musens midterste knap for at centrere om punktet."
+
+#: timelinelib/db/backends/tutorial.py:51
+msgid "Zoom"
+msgstr "Zoom"
+
+#: timelinelib/db/backends/tutorial.py:52
+msgid ""
+"Hold down Ctrl while scrolling the mouse wheel.\n"
+"\n"
+"Hold down Shift while dragging with the mouse."
+msgstr ""
+"Hold Ctrl-knappen ned, mens musens hjul rulles.\n"
+"\n"
+"Hold Skift-knappen nede, mens der trækkes med musen."
+
+#: timelinelib/db/backends/tutorial.py:58 timelinelib/help/pages.py:148
+msgid "Create event"
+msgstr "Opret begivenhed"
+
+#: timelinelib/db/backends/tutorial.py:59
+msgid ""
+"Double click somewhere on the timeline.\n"
+"\n"
+"Hold down Ctrl while dragging the mouse to select a period."
+msgstr ""
+"Dobbeltklik et sted på tidslinjen.\n"
+"\n"
+"Hold Ctrl-knappen nede, mens musen bevæges til en valgt periode."
+
+#: timelinelib/db/backends/tutorial.py:65 timelinelib/help/pages.py:165
+msgid "Edit event"
+msgstr "Redigér begivenhed"
+
+#: timelinelib/db/backends/tutorial.py:66
+msgid "Double click on an event."
+msgstr "Dobbeltklik på en begivenhed."
+
+#: timelinelib/db/backends/tutorial.py:70
+msgid "Select event"
+msgstr "Vælg begivenhed"
+
+#: timelinelib/db/backends/tutorial.py:71
+msgid ""
+"Click on it.\n"
+"\n"
+"Hold down Ctrl while clicking events to select multiple."
+msgstr ""
+"Klik på den.\n"
+"\n"
+"Hold Ctrl-knappen nede, mens der klikkes for at vælge flere af dem."
+
+#: timelinelib/db/backends/tutorial.py:77 timelinelib/help/pages.py:203
+msgid "Delete event"
+msgstr "Slet begivenhed"
+
+#: timelinelib/db/backends/tutorial.py:78
+msgid "Select events to be deleted and press the Del key."
+msgstr "Vælg begivenheder som skal slettes og tryk Del-tasten."
+
+#: timelinelib/db/backends/tutorial.py:82
+msgid "Resize and move me!"
+msgstr "Tilpas størrelse og flyt mig!"
+
+#: timelinelib/db/backends/tutorial.py:83
+msgid "First select me and then drag the handles."
+msgstr "Vælg først mig og træk så i håndtagene."
+
+#: timelinelib/db/backends/tutorial.py:86
+#: timelinelib/db/backends/tutorial.py:88
+msgid "Saving"
+msgstr "Gemmer"
+
+#: timelinelib/db/backends/tutorial.py:89
+msgid ""
+"This timeline is stored in memory and modifications to it will not be "
+"persisted between sessions.\n"
+"\n"
+"Choose File/New/File Timeline to create a timeline that is saved on disk."
+msgstr ""
+"Denne tidslinje lagres i hukommelsen og ændringer i den vil ikke blive "
+"bevaret mellem sessioner.\n"
+"\n"
+"Vælg Fil/Ny/Arkivér tidslinje for at oprette en tidslinje, der gemmes på "
+"disken."
+
+#: timelinelib/db/objects/timeperiod.py:72
+msgid "Start time "
+msgstr "Starttidspunkt "
+
+#: timelinelib/db/objects/timeperiod.py:74
+msgid "End time "
+msgstr "Sluttidspunkt "
+
+#: timelinelib/db/objects/timeperiod.py:84
+msgid "Start time can't be after end time"
+msgstr "Starttidspunkt kan ikke være efter sluttidspunkt"
+
+#: timelinelib/db/utils.py:45
+#, python-format
+msgid "Unable to save timeline data to '%s'. File left unmodified."
+msgstr "Kan ikke gemme data for tidslinje til '%s'. Fil efterlades uændret."
+
+#: timelinelib/db/utils.py:60
+msgid "Unable to write timeline data."
+msgstr "Kan ikke skrive data for tidslinje."
+
+#: timelinelib/db/utils.py:64
+#, python-format
+msgid "Unable to write to temporary file '%s'."
+msgstr "Kan ikke skrive til midlertidig fil '%s'."
+
+#: timelinelib/db/utils.py:70
+#, python-format
+msgid "Unable to take backup to '%s'."
+msgstr "Kan ikke sikkerhedskopiere til '%s'."
+
+#: timelinelib/db/utils.py:75
+#, python-format
+msgid "Unable to rename temporary file '%s' to original."
+msgstr "Kan ikke omdøbe midlertidig fil '%s' til original."
+
+#: timelinelib/db/utils.py:81
+#, python-format
+msgid "Unable to delete backup file '%s'."
+msgstr "Kan ikke slette sikkerhedskopieret fil '%s'."
+
+#: timelinelib/editors/container.py:81 timelinelib/editors/event.py:250
+#, python-format
+msgid "Field '%s' can't be empty."
+msgstr "Feltet '%s' kan ikke være tomt."
+
+#: timelinelib/editors/container.py:81
+msgid "Name"
+msgstr "Navn"
+
+#: timelinelib/editors/event.py:237
+msgid "End must be > Start"
+msgstr "Slutning skal være > Start"
+
+#: timelinelib/editors/event.py:245
+msgid "Entered period is too long."
+msgstr "Indtastet periode er for lang."
+
+#: timelinelib/editors/event.py:250
+msgid "Text"
+msgstr "Tekst"
+
+#: timelinelib/export/bitmap.py:29
+msgid "Image files"
+msgstr "Billedfiler"
+
+#: timelinelib/export/bitmap.py:31
+msgid "Export to Image"
+msgstr "Eksportér til billede"
+
+#: timelinelib/export/bitmap.py:35 timelinelib/wxgui/dialogs/mainframe.py:325
+#, python-format
+msgid "File '%s' exists. Overwrite?"
+msgstr "Filen '%s' eksisterer. Overskriv?"
+
+#: timelinelib/help/pages.py:36
+msgid "Help contents"
+msgstr "Indhold i hjælp"
+
+#: timelinelib/help/pages.py:56
+msgid "Questions and answers"
+msgstr "Spørgsmål og svar"
+
+#: timelinelib/help/pages.py:56
+msgid "Concepts"
+msgstr "Begreber"
+
+#: timelinelib/help/pages.py:56
+msgid "Tasks"
+msgstr "Opgaver"
+
+#: timelinelib/help/pages.py:61
+msgid "Where is the save button?"
+msgstr "Hvor er gem-knappen?"
+
+#: timelinelib/help/pages.py:67
+msgid ""
+"\n"
+"There is no save button. Timeline will automatically save your data whenever "
+"needed.\n"
+msgstr ""
+"\n"
+"Der er ingen gem-knap. Tidslinjen vil automatisk gemme dine data når som "
+"helst det kræves.\n"
+
+#: timelinelib/help/pages.py:74
+msgid "Where do the week numbers go if I start my weeks on Sunday?"
+msgstr "Hvor ender ugenumrene når mine uger starter på søndage?"
+
+#: timelinelib/help/pages.py:80
+msgid ""
+"\n"
+"The date data object used does not support week numbers for weeks that start "
+"on Sunday at present.  We plan on using a different date object that will "
+"support this in future versions.\n"
+msgstr ""
+"\n"
+"Data-objektet for datoer som bruges, understøtter i øjeblikket ikke ugenumre "
+"som starter på søndage.  Vi har planer om at anvende et andet dato-objekt, "
+"der vil understøtte dette i fremtidige versioner.\n"
+
+#: timelinelib/help/pages.py:86
+msgid "Can multiple users work with the same timeline?"
+msgstr "Kan flere brugere arbejde med samme tidslinje?"
+
+#: timelinelib/help/pages.py:92
+msgid ""
+"\n"
+"There are some support for multiple users to work on the same timeline "
+"file.\n"
+"\n"
+"When you try to make a change and someone else has made a change you will be "
+"asked to make one of two choices:\n"
+"\n"
+"- Set timeline in read-only mode.\n"
+"- Synchronize the timeline.\n"
+" \n"
+"During the your edit action the timeline is locked for changes by others. If "
+"you try to edit a timeline when it is locked by someone else you will be "
+"notified about this situation.\n"
+msgstr ""
+"\n"
+"Der er delvis understøttelse, så flere brugere kan arbejde med samme fil for "
+"tidslinje.\n"
+"\n"
+"Når du forsøger at foretage ændringer, og en anden person har foretaget en "
+"ændring, så vil du blive spurgt om to valgmuligheder:\n"
+"\n"
+"- Angiv tidslinje til skrivebeskyttet tilstand.\n"
+"- Synkronisér tidslinjen.\n"
+"\n"
+"Der er låst for andre, mens du redigerer af tidslinjen. Hvis du forsøger at "
+"redigere en tidslinje, mens den er låst af en anden, så vil du få besked om "
+"situationen.\n"
+
+#: timelinelib/help/pages.py:105
+msgid "Timeline"
+msgstr "Tidslinje"
+
+#: timelinelib/help/pages.py:112
+msgid ""
+"\n"
+"The timeline shows dates according to the Gregorian calendar on the x-axis. "
+"Currently the dates are limited to dates between year 10 and year 9989.\n"
+"\n"
+"Future versions might support various kinds of timelines so that you for "
+"example can specify a time in terms of number of minutes since a start time. "
+"If you are interested in such a feature, please get in touch.\n"
+"\n"
+"The timeline is divided in two areas with a horizontal adjustable divider "
+"line. Period events are displayed below the line and point events are "
+"displayed above the line.\n"
+msgstr ""
+"\n"
+"Tidslinjen viser datoer i henhold til den gregorianske kalender på x-aksen. "
+"På nuværende tidspunkt er datoerne begrænset til år 10 og år 9989.\n"
+"\n"
+"Fremtidige versioner vil muligvis understøtte forskellige slags tidslinjer, "
+"så du eksempelvis kan angive tiden i form af antal minutter siden et "
+"starttidspunkt. Hvis du er interesseret i en lignende egenskab, så tag "
+"venligst kontakt.\n"
+"\n"
+"Tidslinjen er delt i to områder med en vandret, justerbar delelinje. "
+"Periodiske begivenheder vises nedenfor linjen og punktvise begivenheder "
+"vises ovenfor linjen.\n"
+
+#: timelinelib/help/pages.py:122
+msgid "Events"
+msgstr "Begivenheder"
+
+#: timelinelib/help/pages.py:129
+msgid ""
+"\n"
+"An event is the basic data type for representing information on the "
+"timeline.  It must specify where on the timeline is should be placed (when "
+"that event happened). This can be either a specific point in time or a "
+"period.\n"
+msgstr ""
+"\n"
+"En begivenhed er grundlæggende datatype til repræsentation af information på "
+"tidslinjen.  Den skal angive hvor på tidslinjen den skal placeres (hvornår "
+"begivenheden skete). Dette kan enten være et specifikt tidspunkt eller en "
+"periode.\n"
+
+#: timelinelib/help/pages.py:135
+msgid "Categories"
+msgstr "Kategorier"
+
+#: timelinelib/help/pages.py:142
+msgid ""
+"\n"
+"Categories are used to group events. An event can only belong to one "
+"category. All events that belong to the same category are displayed with the "
+"same background color.\n"
+msgstr ""
+"\n"
+"Kategorier bruges til at gruppere begivenheder. En begivenhed kan tilhøre "
+"til en kategori. Alle begivenheder som tilhører den samme kategori, vises "
+"med samme baggrundsfarve.\n"
+
+#: timelinelib/help/pages.py:155
+msgid ""
+"\n"
+"The *Create Event* dialog can be opened in the following ways:\n"
+"\n"
+"- Select *Timeline* - *Create Event* from the menu.\n"
+"- Double click with the *left* mouse button on the timeline.\n"
+"- Press the *Ctrl* key, thereafter hold *left* mouse button down on the "
+"timeline, drag the mouse and release it.\n"
+msgstr ""
+"\n"
+"Boksen *Opret begivenheden* kan åbnes på følgende måder:\n"
+"\n"
+"- Vælg *Tidslinje* - *Opret begivenhed* fra menuen.\n"
+"- Dobbelt-klik med *venstre* museknap på tidslinjen.\n"
+"- Hold knappen *Ctrl* nede, og hold dernæst *venstre* museknap nede på "
+"tidslinjen, træk musen og slip.\n"
+
+#: timelinelib/help/pages.py:172
+msgid ""
+"\n"
+"The *Edit Event* dialog can be opened by double clicking on an event.\n"
+msgstr ""
+"\n"
+"Boksen *Redigér begivenhed* kan åbnes ved at dobbeltklikke på en begivenhed.\n"
+
+#: timelinelib/help/pages.py:178
+msgid "Move event vertically"
+msgstr "Flyt begivenhed lodret"
+
+#: timelinelib/help/pages.py:185
+msgid ""
+"\n"
+"An event can be moved vertically. This is done by first selecting the event "
+"and therefter using the Alt+Up or Alt+Down keys.\n"
+msgstr ""
+"\n"
+"En begivenhed kan flyttes lodret. Dette gøres ved først at vælge "
+"begivenheden, og derefter bruge tasterne Alt+Op eller Alt+Ned.\n"
+
+#: timelinelib/help/pages.py:191
+msgid "Selecting events"
+msgstr "Valg af begivenheder"
+
+#: timelinelib/help/pages.py:197
+msgid ""
+"\n"
+"To select an event, click on it. To select multiple events, hold down the "
+"*Ctrl* key while clicking events.\n"
+msgstr ""
+"\n"
+"For at vælge en begivenhed, så klik på den. For at vælge flere begivenheder, "
+"så hold knappen *Ctrl* nede mens der klikkes på begivenheder.\n"
+
+#: timelinelib/help/pages.py:210
+msgid ""
+"\n"
+"To delete an event, select it and press the *Del* key. Multiple events can "
+"be deleted at the same time.\n"
+msgstr ""
+"\n"
+"For at slette en begivenhed, så vælg den og tryk knappen *Del*. Flere "
+"begivenheder kan slettes på samme tid.\n"
+
+#: timelinelib/help/pages.py:216
+msgid "Will associated events be deleted when I delete a category?"
+msgstr "Bliver tilknyttede begivenheder slettet når jeg sletter en kategori?"
+
+#: timelinelib/help/pages.py:222
+msgid ""
+"\n"
+"No. The events will still be there but they will not belong to a category.\n"
+msgstr ""
+"\n"
+"Nej. Begivenhederne vil forblive der, men de vil ikke længere tilhøre en "
+"kategori.\n"
+
+#: timelinelib/help/pages.py:228
+#: timelinelib/wxgui/components/categorychoice.py:53
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit categories"
+msgstr "Redigér kategorier"
+
+#: timelinelib/help/pages.py:235
+msgid ""
+"\n"
+"Categories can be managed in the *Edit Categories* dialog (*Timeline* > "
+"*Edit Categories*). To edit an existing category, double click on it.\n"
+"\n"
+"The visibility of categories can also be edited in the sidebar (*View* > "
+"*Sidebar*).\n"
+msgstr ""
+"\n"
+"Kategorierkan håndteres i boksen *Redigér kategorier* (*Tidslinje* > "
+"*Redigér kategorier*). For at redigere en eksisterende kategori, så dobbelt-"
+"klik den.\n"
+"\n"
+"Visningen af kategorier kan også tilpasses i sidebjælken (*Vis* > "
+"*Sidebjælke*).\n"
+
+#: timelinelib/help/pages.py:243 timelinelib/wxgui/dialogs/mainframe.py:653
+#: timelinelib/wxgui/dialogs/mainframe.py:1139
+msgid "Contact"
+msgstr "Kontakt"
+
+#: timelinelib/help/pages.py:249
+msgid ""
+"\n"
+"If you have more questions about Timeline, or if you want to get in contact "
+"with users and developers of Timeline, send an email to the user mailing "
+"list: <thetimelineproj-user@lists.sourceforge.net>. (Please use English.)\n"
+msgstr ""
+"\n"
+"Hvis du har flere spørgsmål om Tidslinje eller hvis du ønsker at skabe "
+"kontakt med brugere og udviklere af Tidslinje, så send e-post til "
+"brugergruppe-listen: <thetimelineproj-user@lists.sourceforge.net>. (Skriv "
+"venligst på engelsk.)\n"
+
+#: timelinelib/help/pages.py:255
+msgid "Why is Timeline not available in my language?"
+msgstr "Hvorfor er Tidslinje ikke tilgængelig på mit sprog?"
+
+#: timelinelib/help/pages.py:262
+msgid ""
+"\n"
+"Timeline is developed and translated by volunteers. If you would like to "
+"contribute translations you are very much welcome to contact us.\n"
+msgstr ""
+"\n"
+"Tidslinje udvikles og oversættes af frivillige. Hvis du ønsker at bidrage "
+"med oversættelser, så er du meget velkommen til at kontakte os.\n"
+
+#: timelinelib/help/system.py:64
+#, python-format
+msgid "Search results for '%s'"
+msgstr "Søgeresultater for '%s'"
+
+#: timelinelib/help/system.py:122
+msgid "Related pages"
+msgstr "Relaterede sider"
+
+#: timelinelib/printing.py:100
+msgid ""
+"There was a problem printing.\n"
+"Perhaps your current printer is not set correctly?"
+msgstr ""
+"Der opstod et problem under udskrift.\n"
+"Det kan være din printer ikke er angivet korrekt?"
+
+#: timelinelib/printing.py:100
+msgid "Printing"
+msgstr "Udskriver"
+
+#: timelinelib/printing.py:114
+msgid "Print preview"
+msgstr "Forhåndvis udskrift"
+
+#: timelinelib/time/numtime.py:46
+msgid "Go to &Zero\tCtrl+Z"
+msgstr "Gå til &nul\tCtrl+Z"
+
+#: timelinelib/time/numtime.py:47
+msgid "Go to &Time\tCtrl+T"
+msgstr "Gå til &Tidslinje\tCtrl+T"
+
+#: timelinelib/time/numtime.py:49 timelinelib/time/pytime.py:74
+#: timelinelib/time/wxtime.py:69
+msgid "Backward\tPgUp"
+msgstr "Tilbage\tPgUp"
+
+#: timelinelib/time/numtime.py:50 timelinelib/time/pytime.py:75
+#: timelinelib/time/wxtime.py:70
+msgid "Forward\tPgDn"
+msgstr "Fremad\tPgDn"
+
+#: timelinelib/time/numtime.py:113
+msgid "Can't zoom deeper than 5"
+msgstr "Kan ikke zoome tættere på end 5"
+
+#: timelinelib/time/numtime.py:126
+msgid "1-period"
+msgstr "1-periode"
+
+#: timelinelib/time/numtime.py:127
+msgid "10-period"
+msgstr "10-periode"
+
+#: timelinelib/time/numtime.py:128
+msgid "100-period"
+msgstr "100-periode"
+
+#: timelinelib/time/numtime.py:129
+msgid "1000-period"
+msgstr "1000-periode"
+
+#: timelinelib/time/numtime.py:174
+msgid "Go to Time"
+msgstr "Gå til Tidspunkt"
+
+#: timelinelib/time/pytime.py:71 timelinelib/time/wxtime.py:66
+msgid "Go to &Today\tCtrl+T"
+msgstr "Gå &til i dag\tCtrl+T"
+
+#: timelinelib/time/pytime.py:72 timelinelib/time/wxtime.py:67
+msgid "Go to D&ate...\tCtrl+G"
+msgstr "Gå til d&ato...\tCtrl+G"
+
+#: timelinelib/time/pytime.py:76 timelinelib/time/wxtime.py:71
+msgid "Forward One Wee&k\tCtrl+K"
+msgstr "Fremad én uge\tCtrl+&K"
+
+#: timelinelib/time/pytime.py:77 timelinelib/time/wxtime.py:72
+msgid "Back One &Week\tCtrl+W"
+msgstr "Tilbage én uge\tCtrl+&W"
+
+#: timelinelib/time/pytime.py:78 timelinelib/time/wxtime.py:73
+msgid "Forward One Mont&h\tCtrl+h"
+msgstr "Fremad én måned\tCtrl+&h"
+
+#: timelinelib/time/pytime.py:79 timelinelib/time/wxtime.py:74
+msgid "Back One &Month\tCtrl+M"
+msgstr "Tilbage én &måned\tCtrl+M"
+
+#: timelinelib/time/pytime.py:80 timelinelib/time/wxtime.py:75
+msgid "Forward One Yea&r\tCtrl+R"
+msgstr "Fremad ét å&r\tCtrl+R"
+
+#: timelinelib/time/pytime.py:81 timelinelib/time/wxtime.py:76
+msgid "Back One &Year\tCtrl+Y"
+msgstr "Tilbage ét år\tCtrl+&Y"
+
+#: timelinelib/time/pytime.py:83 timelinelib/time/wxtime.py:78
+msgid "Fit Millennium"
+msgstr "Tilpas til årtusinde"
+
+#: timelinelib/time/pytime.py:84 timelinelib/time/wxtime.py:79
+msgid "Fit Century"
+msgstr "Tilpas til århundrede"
+
+#: timelinelib/time/pytime.py:85 timelinelib/time/wxtime.py:80
+msgid "Fit Decade"
+msgstr "Tilpas til årti"
+
+#: timelinelib/time/pytime.py:86 timelinelib/time/wxtime.py:81
+msgid "Fit Year"
+msgstr "Tilpas til år"
+
+#: timelinelib/time/pytime.py:87 timelinelib/time/wxtime.py:82
+msgid "Fit Month"
+msgstr "Tilpas til måned"
+
+#: timelinelib/time/pytime.py:88 timelinelib/time/wxtime.py:83
+msgid "Fit Week"
+msgstr "Tilpas uge"
+
+#: timelinelib/time/pytime.py:89 timelinelib/time/wxtime.py:84
+msgid "Fit Day"
+msgstr "Tilpas til dag"
+
+#: timelinelib/time/pytime.py:141
+msgid "can't be before year 10"
+msgstr "kan ikke være før år 10"
+
+#: timelinelib/time/pytime.py:145
+msgid "can't be after year 9989"
+msgstr "kan ikke være efter år 9989"
+
+#: timelinelib/time/pytime.py:202 timelinelib/time/wxtime.py:199
+msgid "Can't zoom wider than 1200 years"
+msgstr "Kan ikke zoome længere ud end 1200 år"
+
+#: timelinelib/time/pytime.py:205 timelinelib/time/wxtime.py:202
+msgid "Can't zoom deeper than 1 hour"
+msgstr "Kan ikke zoome længere ind end 1 time"
+
+#: timelinelib/time/pytime.py:220 timelinelib/time/wxtime.py:217
+msgid "Day"
+msgstr "Dag"
+
+#: timelinelib/time/pytime.py:221 timelinelib/time/pytime.py:583
+#: timelinelib/time/wxtime.py:218 timelinelib/time/wxtime.py:561
+msgid "Week"
+msgstr "Uge"
+
+#: timelinelib/time/pytime.py:222 timelinelib/time/wxtime.py:219
+msgid "Month"
+msgstr "Måned"
+
+#: timelinelib/time/pytime.py:223 timelinelib/time/wxtime.py:220
+msgid "Year"
+msgstr "År"
+
+#: timelinelib/time/pytime.py:259 timelinelib/time/wxtime.py:262
+msgid "Go to Date"
+msgstr "Gå til dato"
+
+#: timelinelib/time/wxtime.py:139
+#, python-format
+msgid "can't be before year %d"
+msgstr "kan ikke være før år %d"
+
+#: timelinelib/time/wxtime.py:143
+#, python-format
+msgid "can't be after year %d"
+msgstr "kan ikke være efter år %d"
+
+#: timelinelib/view/drawingarea.py:148 timelinelib/view/drawingarea.py:166
+msgid "No timeline set"
+msgstr "Ingen tidslinje angivet"
+
+#: timelinelib/view/drawingarea.py:201
+msgid "Edit"
+msgstr "Redigér"
+
+#: timelinelib/view/drawingarea.py:202
+msgid "Duplicate..."
+msgstr "Duplikér..."
+
+#: timelinelib/view/drawingarea.py:203
+#: timelinelib/wxgui/components/cattree.py:82
+#: wx/tools/Editra/src/prefdlg.py:1706
+msgid "Delete"
+msgstr "Slet"
+
+#: timelinelib/view/drawingarea.py:206
+msgid "Sticky Balloon"
+msgstr "Klæbe-ballon"
+
+#: timelinelib/view/drawingarea.py:209
+msgid "Goto URL"
+msgstr "Gå til URL"
+
+#: timelinelib/view/drawingarea.py:372
+msgid "Center"
+msgstr "Midte"
+
+#: timelinelib/view/drawingarea.py:420
+#, python-format
+msgid "%s events hidden"
+msgstr "%s begivenheder er skjulte"
+
+#: timelinelib/view/drawingarea.py:489
+#, python-format
+msgid "Are you sure you want to delete %d events?"
+msgstr "Er du sikker på at du vil slette %d begivenheder?"
+
+#: timelinelib/view/drawingarea.py:492
+msgid "Are you sure you want to delete this event?"
+msgstr "Er du sikker på at du vil slette denne begivenhed?"
+
+#: timelinelib/view/move.py:66
+msgid "Can't move locked event"
+msgstr "Kan ikke flytte låst begivenhed"
+
+#: timelinelib/view/resize.py:67
+msgid "Period is too long"
+msgstr "Periode er for lang"
+
+#: timelinelib/wxgui/components/categorychoice.py:52
+#: timelinelib/wxgui/dialogs/eventeditor.py:308
+msgid "Add new"
+msgstr "Tilføj ny"
+
+#: timelinelib/wxgui/components/categorychoice.py:76
+#: timelinelib/wxgui/components/cattree.py:228
+msgid "Add Category"
+msgstr "Tilføj kategori"
+
+#: timelinelib/wxgui/components/cattree.py:76
+msgid "Edit..."
+msgstr "Redigér..."
+
+#: timelinelib/wxgui/components/cattree.py:79
+msgid "Add..."
+msgstr "Tilføj..."
+
+#: timelinelib/wxgui/components/cattree.py:222
+msgid "Edit Category"
+msgstr "Redigér kategori"
+
+#: timelinelib/wxgui/components/cattree.py:233
+#, python-format
+msgid "Are you sure you want to delete category '%s'?"
+msgstr "Er du sikker på at du vil slette kategorien '%s'?"
+
+#: timelinelib/wxgui/components/cattree.py:236
+#, python-format
+#, python-format,
+msgid "Events belonging to '%s' will no longer belong to a category."
+msgstr ""
+"Begivenheder som hører til '%s' vil ikke længere tilhøre nogen kategori."
+
+#: timelinelib/wxgui/components/cattree.py:239
+#, python-format
+#, python-format,
+msgid "Events belonging to '%(name)s' will now belong to '%(parent)s'."
+msgstr "Begivenheder som tilhører '%(name)s' vil nu tilhører '%(parent)s'."
+
+#: timelinelib/wxgui/components/pydatetimepicker.py:84
+#: timelinelib/wxgui/components/wxdatetimepicker.py:79
+msgid "Invalid date"
+msgstr "Ugyldig dato"
+
+#: timelinelib/wxgui/components/search.py:70
+msgid "No match"
+msgstr "Ingen forekomster"
+
+#: timelinelib/wxgui/components/search.py:74
+msgid "Only one match"
+msgstr "Kun én forekomst"
+
+#: timelinelib/wxgui/dialogs/categorieseditor.py:38
+msgid "Edit Categories"
+msgstr "Redigér kategorier"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:87
+#, python-format
+msgid "Category name '%s' not valid. Must be non-empty."
+msgstr "Kategori-navnet '%s' er ikke gyldigt. Må ikke være tomt."
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:92
+#, python-format
+msgid "Category name '%s' already in use."
+msgstr "Kategori-navnet '%s' er allerede i brug."
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:116
+#: timelinelib/wxgui/dialogs/containereditor.py:59
+msgid "Name:"
+msgstr "Navn:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:117
+msgid "Color:"
+msgstr "Farve:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:118
+msgid "Font Color:"
+msgstr "Skriftfarve:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:119
+msgid "Parent:"
+msgstr "Overordnet:"
+
+#: timelinelib/wxgui/dialogs/containereditor.py:45
+msgid "Container Properties"
+msgstr "Egenskaber for beholder"
+
+#: timelinelib/wxgui/dialogs/containereditor.py:65
+#: timelinelib/wxgui/dialogs/eventeditor.py:219
+msgid "Category:"
+msgstr "Kategori:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:32
+msgid "Duplicate Event"
+msgstr "Duplikér begivenhed"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:69
+#, python-format
+msgid "%d Events not duplicated due to missing dates."
+msgstr "%d begivenheder er ikke duplikeret på grund af manglende datoer."
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:89
+msgid "Number of duplicates:"
+msgstr "Antallet af duplikationer:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:99
+#: timelinelib/wxgui/dialogs/eventeditor.py:176
+msgid "Period"
+msgstr "Periode"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:109
+msgid "Frequency:"
+msgstr "Frekvens:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Forward"
+msgstr "Fremad"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Backward"
+msgstr "Tilbage"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Both"
+msgstr "Begge"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:120
+#: wx/tools/Editra/src/eclib/finddlg.py:802
+msgid "Direction"
+msgstr "Retning"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:64
+msgid "Event Properties"
+msgstr "Egenskaber for begivenhed"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:87
+#: timelinelib/wxgui/dialogs/eventeditor.py:578
+msgid "When:"
+msgstr "Fra hvornår:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:90
+msgid "to"
+msgstr "til"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:125
+msgid "Container:"
+msgstr "Beholder:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:163
+msgid "Add Container"
+msgstr "Tilføj beholder"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:183
+#: timelinelib/wxgui/dialogs/timeeditor.py:47
+msgid "Show time"
+msgstr "Vis tidspunkt"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:191
+msgid "Fuzzy"
+msgstr "Uklar"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:195
+msgid "Locked"
+msgstr "Låst"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:202
+msgid "Ends today"
+msgstr "Slutter i dag"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:213
+#: timelinelib/wxgui/dialogs/eventeditor.py:579
+msgid "Text:"
+msgstr "Tekst:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:244
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:245
+msgid "Alert"
+msgstr "Alarm"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:246
+msgid "Icon"
+msgstr "Ikon"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:247
+msgid "Hyperlink"
+msgstr "Hyperlink"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:264
+msgid "Add more events after this one"
+msgstr "Tilføj flere begivenheder efter denne"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:456
+msgid "Images will be scaled to fit inside a 128x128 box."
+msgstr "Billeder vil blive skaleret til at passe inde i en boks på 128x128."
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:493
+msgid "Select Icon"
+msgstr "Vælg ikon"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:668
+msgid "Test"
+msgstr "Test"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:678
+msgid "URL:"
+msgstr "URL:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:722
+msgid "Edit Container"
+msgstr "Redigér beholder"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:726
+msgid "Edit Event"
+msgstr "Redigér begivenhed"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:734
+msgid "Create Event"
+msgstr "Opret begivenhed"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:36
+#: wx/lib/agw/genericmessagedialog.py:837
+msgid "Help"
+msgstr "Hjælp"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:65
+msgid ""
+"Could not find markdown Python package.  It is needed by the help system. "
+"See the Timeline website or the INSTALL file for instructions how to install "
+"it."
+msgstr ""
+"Kunne ikke finde Python-pakken markdown.  Den kræves af systemet til hjælp. "
+"Se hjemmesiden for Tidslinje eller filen INSTALL for vejledning til "
+"installation af den."
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:103
+msgid "Go to home page"
+msgstr "Gå til hjemmeside"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:110
+msgid "Go back one page"
+msgstr "Gå én side tilbage"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:116
+msgid "Go forward one page"
+msgstr "Gå én side frem"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:201
+msgid "Page not found"
+msgstr "Side ikke fundet"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:202
+#, python-format
+msgid "Could not find page '%s'."
+msgstr "Kunne ikke finde siden '%s'."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:105
+#: timelinelib/wxgui/dialogs/mainframe.py:225
+msgid "Timeline files"
+msgstr "Tidslinje-filer"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:107
+msgid "SVG files"
+msgstr "SVG-filer"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:157 wx/lib/pydocview.py:109
+#: wx/lib/pydocview.py:2561 wx/tools/Editra/src/ed_menu.py:569
+msgid "&File"
+msgstr "&Fil"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163 wx/lib/pydocview.py:176
+#: wx/tools/Editra/src/ed_toolbar.py:77 wx/tools/Editra/src/prefdlg.py:1705
+#: wx/tools/Editra/src/style_editor.py:200
+msgid "New"
+msgstr "Ny"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163
+msgid "Create a new timeline"
+msgstr "Opret en ny tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:169
+msgid "File Timeline..."
+msgstr "Arkivér tidslinje..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:177
+#: timelinelib/wxgui/dialogs/mainframe.py:200
+msgid "Create Timeline"
+msgstr "Opret tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:183
+msgid "The specified timeline already exists."
+msgstr "Den angivne tidslinje findes allerede."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:184
+msgid "Opening timeline instead of creating new."
+msgstr "Åbner tidslinje i stedet for at oprette en ny."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:186
+msgid "Information"
+msgstr "Information"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:193
+msgid "Directory Timeline..."
+msgstr "Kataloget Tidslinje..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:209
+msgid "Open an existing timeline"
+msgstr "Åbner en eksisterende tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:228
+msgid "Save Timeline As"
+msgstr "Gem tidslinje som"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:253
+msgid "Open Timeline"
+msgstr "Åbn tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:263
+#: wx/tools/Editra/src/ed_menu.py:520
+msgid "Open &Recent"
+msgstr "Åbn seneste"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:267
+msgid "Save As..."
+msgstr "Gem som..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Page Set&up..."
+msgstr "Side&opsætning..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Setup page for printing"
+msgstr "Opsæt side til udskrift"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:281 wx/lib/docview.py:1571
+#: wx/lib/pydocview.py:182 wx/tools/Editra/src/ed_print.py:108
+msgid "Print Preview"
+msgstr "Forhåndvis udskrift"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:290 wx/lib/pydocview.py:181
+#: wx/tools/Editra/src/ed_toolbar.py:80
+msgid "Print"
+msgstr "Udskriv"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "&Export to Image..."
+msgstr "&Eksportér til billede..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "Export the current view to a PNG image"
+msgstr "Eksportér den nuværende visning til et PNG-billed"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "&Export to SVG..."
+msgstr "&Eksportér til SVG..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "Export the current view to a SVG image"
+msgstr "Eksportér den nuværende visning til et SVG-billede"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:317
+msgid ""
+"Could not find pysvg Python package. It is needed to export to SVG. See the "
+"Timeline website or the INSTALL file for instructions how to install it."
+msgstr ""
+"Kunne ikke finde Python-pakken pysvg. Den kræves for at eksportere til SVG. "
+"Se hjemmesiden for Tidslinje eller filen INSTALL for vejledning i at "
+"installere den."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:321
+msgid "Export to SVG"
+msgstr "Eksportér til SVG"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline"
+msgstr "Afspil tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline as movie"
+msgstr "Afspil tidslinje som film"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:351
+msgid "Exit the program"
+msgstr "Afslut programmet"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:362 wx/lib/pydocview.py:134
+#: wx/lib/pydocview.py:1925 wx/tools/Editra/src/ed_menu.py:647
+msgid "&Edit"
+msgstr "R&edigér"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:389 wx/lib/pydocview.py:146
+#: wx/tools/Editra/src/ed_menu.py:712
+msgid "&View"
+msgstr "&Vis"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:393
+msgid "&Sidebar\tCtrl+I"
+msgstr "&Sidebjælke\tCtrl+I"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:407
+msgid "&Legend"
+msgstr "Beskrive&lse"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:418
+msgid "&Balloons on hover"
+msgstr "Stiger som en &ballon når man holder over den"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:433
+msgid "&Timeline"
+msgstr "&Tidslinje"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create &Event..."
+msgstr "Opret b&egivenhed..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create a new event"
+msgstr "Opret en ny begivenhed"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "&Duplicate Selected Event..."
+msgstr "&Duplikér valgt begivenhed..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "Duplicate the Selected Event"
+msgstr "Duplikér den valgte begivenhed"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:468
+msgid "&Measure Distance between two Events..."
+msgstr "&Mål afstand mellem to begivenheder..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:469
+msgid "Measure the Distance between two Events"
+msgstr "Mål afstanden mellem to begivenheder"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:500
+msgid "Distance between selected events"
+msgstr "Afstand mellem valgte begivenheder"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:503
+msgid "Events are overlapping or distance is 0"
+msgstr "Begivenheder overlapper eller afstanden er 0"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit &Categories"
+msgstr "Redigér &kategorier"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:526
+#: wx/tools/Editra/src/ed_stc.py:1722
+msgid "Read Only"
+msgstr "Skrivebeskyttet"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:534
+#: timelinelib/wxgui/dialogs/mainframe.py:723
+msgid "read-only"
+msgstr "skrivebeskyttet"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:551
+msgid "&Navigate"
+msgstr "&Navigér"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:555
+msgid "Find First Event"
+msgstr "Find første begivenhed"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:569
+msgid "Find Last Event"
+msgstr "Find seneste begivenhed"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:583
+msgid "Fit All Events"
+msgstr "Indpas alle begivenheder"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:636 wx/lib/pydocview.py:150
+#: wx/lib/pydocview.py:2914 wx/tools/Editra/src/ed_main.py:152
+#: wx/tools/Editra/src/ed_menu.py:845
+msgid "&Help"
+msgstr "&Hjælp"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:639
+msgid "&Contents\tF1"
+msgstr "Ind&hold\tF1"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:646
+#: timelinelib/wxgui/dialogs/mainframe.py:1034
+msgid "Getting started tutorial"
+msgstr "Kom i gang-vejledning"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:682
+msgid "Unable to write configuration file."
+msgstr "Kan ikke skrive konfigurationsfil."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:784
+#, python-format
+msgid "File '%s' does not exist."
+msgstr "Filen '%s' eksisterer ikke."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1026
+msgid "No timeline opened."
+msgstr "Ingen tidslinje blev åbnet."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1031
+msgid "First time using Timeline?"
+msgstr "Første gang Tidslinje anvendes?"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1136
+msgid "Relevant help topics:"
+msgstr "Relevante emner i hjælp:"
+
+#: timelinelib/wxgui/dialogs/playframe.py:31 wx/lib/pydocview.py:905
+msgid "Close"
+msgstr "Luk"
+
+#: timelinelib/wxgui/dialogs/preferences.py:28
+msgid "Preferences"
+msgstr "Præferencer"
+
+#: timelinelib/wxgui/dialogs/preferences.py:72 wx/lib/pydocview.py:1635
+#: wx/lib/pydocview.py:2722 wx/tools/Editra/src/prefdlg.py:191
+#: wx/tools/Editra/src/prefdlg.py:677 wx/tools/Editra/src/prefdlg.py:964
+msgid "General"
+msgstr "Generelt"
+
+#: timelinelib/wxgui/dialogs/preferences.py:82
+msgid "Date && Time"
+msgstr "Dato && tid"
+
+#: timelinelib/wxgui/dialogs/preferences.py:90
+msgid "Week start on:"
+msgstr "Uge starter med:"
+
+#: timelinelib/wxgui/dialogs/preferences.py:93
+msgid ""
+"This feature is experimental. If events are\n"
+"created in the extended range, you can not\n"
+"disable this option and successfully load\n"
+"the timeline again. A reload of the timeline\n"
+"is also needed for this to take effect."
+msgstr ""
+"Denne egenskab er eksperimentel. Hvis\n"
+"begivenheder oprettes i det udvidet interval,\n"
+"så kan du ikke deaktivere denne valgmulighed\n"
+"og indlæse tidslinje igen. En genindlæsning af\n"
+"tidslinjen kræves også før egenskaben træder i kraft."
+
+#: timelinelib/wxgui/dialogs/preferences.py:110
+msgid "Open most recent timeline on startup"
+msgstr "Åben allerseneste tidslinje ved opstart"
+
+#: timelinelib/wxgui/dialogs/preferences.py:116
+msgid "Use inertial scrolling"
+msgstr "Brug rulning med inerti"
+
+#: timelinelib/wxgui/dialogs/preferences.py:122
+msgid "Use extended date range (before 1 AD)"
+msgstr "Anvend udvidet dato-interval (før år 1)"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Monday"
+msgstr "Mandag"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Sunday"
+msgstr "Søndag"
+
+#: timelinelib/wxgui/dialogs/textdisplay.py:90
+msgid "Unable to copy to clipboard."
+msgstr "Kan ikke kopiere til udklipsholder."
+
+#: timelinelib/wxgui/utils.py:134 wx/tools/Editra/src/ed_editv.py:191
+#: wx/tools/Editra/src/plugdlg.py:840
+msgid "Error"
+msgstr "Fejl"
+
+#: timelinelib/wxgui/utils.py:139 wx/lib/docview.py:635 wx/lib/docview.py:652
+#: wx/lib/docview.py:1895
+msgid "Warning"
+msgstr "Advarsel"
+
+#: timelinelib/wxgui/utils.py:144 timelinelib/wxgui/utils.py:150
+msgid "Question"
+msgstr "Spørgsmål"
+
+#: wx/lib/agw/artmanager.py:620 wx/lib/agw/artmanager.py:1943
+#: wx/lib/agw/fmcustomizedlg.py:506
+msgid "Default"
+msgstr "Standard"
+
+#: wx/lib/agw/artmanager.py:1944
+msgid "Dark"
+msgstr "Mørk"
+
+#: wx/lib/agw/artmanager.py:1945
+msgid "Dark Olive Green"
+msgstr "Mørk olivengrøn"
+
+#: wx/lib/agw/artmanager.py:1946
+msgid "Generic"
+msgstr "Generisk"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1054
+msgid "Pane Switcher"
+msgstr "Rude-skifter"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "<body bgcolor=\"#"
+msgstr "<body bgcolor=\"#"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "\"><b>"
+msgstr "\"><b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "</b>"
+msgstr "</b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1182
+msgid "<p>"
+msgstr "<p>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1185
+msgid "</body>"
+msgstr "</body>"
+
+#: wx/lib/agw/aui/framemanager.py:10214
+msgid "Pane Preview"
+msgstr "Forhåndvisning af rude"
+
+#: wx/lib/agw/aui/tabmdi.py:34
+msgid "Cl&ose"
+msgstr "&Luk"
+
+#: wx/lib/agw/aui/tabmdi.py:35 wx/tools/Editra/src/ed_editv.py:234
+msgid "Close All"
+msgstr "Luk alle"
+
+#: wx/lib/agw/aui/tabmdi.py:37
+msgid "&Next"
+msgstr "&Næste"
+
+#: wx/lib/agw/aui/tabmdi.py:38
+msgid "&Previous"
+msgstr "&Forrige"
+
+#: wx/lib/agw/aui/tabmdi.py:205 wx/lib/agw/aui/tabmdi.py:216
+#: wx/lib/agw/aui/tabmdi.py:218 wx/lib/pydocview.py:2915
+#: wx/lib/pydocview.py:3017
+msgid "&Window"
+msgstr "&Vindue"
+
+#: wx/lib/agw/cubecolourdialog.py:2806
+msgid "CubeColorDialog: Choose Color"
+msgstr "CubeColorDialog: Vælg farve"
+
+#: wx/lib/agw/fmcustomizedlg.py:171 wx/tools/Editra/src/ed_cmdbar.py:119
+msgid "Customize"
+msgstr "Tilpas"
+
+#: wx/lib/agw/fmcustomizedlg.py:206 wx/lib/pydocview.py:89
+msgid "&Close"
+msgstr "Luk"
+
+#: wx/lib/agw/fmcustomizedlg.py:215
+msgid "Menus"
+msgstr "Menuer"
+
+#: wx/lib/agw/fmcustomizedlg.py:216 wx/lib/pydocview.py:1491
+msgid "Options"
+msgstr "Indstillinger"
+
+#: wx/lib/agw/fmcustomizedlg.py:284
+msgid "Select Menu To Add/Remove:"
+msgstr "Vælg mappe som skal tilføjes/fjernes:"
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Default Style"
+msgstr "Standard-stil"
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Metallic"
+msgstr "Metallisk"
+
+#: wx/lib/agw/fmcustomizedlg.py:324
+msgid "Menu bar style"
+msgstr "Stil på menubjælke"
+
+#: wx/lib/agw/fmcustomizedlg.py:340
+msgid "Default style settings"
+msgstr "Standard stil-indstillinger"
+
+#: wx/lib/agw/fmcustomizedlg.py:342
+msgid "Draw vertical gradient"
+msgstr "Tegn lodret farveovergang"
+
+#: wx/lib/agw/fmcustomizedlg.py:348
+msgid "Draw border around menu bar"
+msgstr "Tegn ramme om menubjælke"
+
+#: wx/lib/agw/fmcustomizedlg.py:354
+msgid "Toolbar float over menu bar"
+msgstr "Værktøjsbjælke flyder over menubjælke"
+
+#: wx/lib/agw/fmcustomizedlg.py:362 wx/tools/Editra/src/prefdlg.py:1095
+msgid "Color Scheme"
+msgstr "Farveskema"
+
+#: wx/lib/agw/genericmessagedialog.py:471 wx/lib/pydocview.py:178
+#: wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save"
+msgstr "Gem"
+
+#: wx/lib/agw/genericmessagedialog.py:473
+msgid "Don't Save"
+msgstr "Undlad at gemme"
+
+#: wx/lib/agw/genericmessagedialog.py:821 wx/lib/agw/multidirdialog.py:474
+#: wx/tools/Editra/src/style_editor.py:139
+msgid "OK"
+msgstr "OK"
+
+#: wx/lib/agw/genericmessagedialog.py:825 wx/lib/agw/multidirdialog.py:476
+#: wx/tools/Editra/src/ed_search.py:1244
+#: wx/tools/Editra/src/style_editor.py:141 wx/tools/Editra/src/updater.py:570
+msgid "Cancel"
+msgstr "Fortryd"
+
+#: wx/lib/agw/genericmessagedialog.py:829
+msgid "Yes"
+msgstr "Ja"
+
+#: wx/lib/agw/genericmessagedialog.py:833
+msgid "No"
+msgstr "Nej"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Choose a directory"
+msgstr "Vælg et katalog"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Browse For Folders"
+msgstr "Søg efter mapper"
+
+#: wx/lib/agw/multidirdialog.py:390
+msgid "Choose one or more folders:"
+msgstr "Vælg en eller flere mapper:"
+
+#: wx/lib/agw/multidirdialog.py:399
+msgid "Folder:"
+msgstr "Mappe:"
+
+#: wx/lib/agw/multidirdialog.py:472
+msgid "Make New Folder"
+msgstr "Opret ny mappe"
+
+#: wx/lib/agw/pybusyinfo.py:211
+msgid "Busy"
+msgstr "Optaget"
+
+#: wx/lib/colourchooser/pycolourchooser.py:120
+msgid "Basic Colors:"
+msgstr "Grundfarver:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:121
+msgid "Custom Colors:"
+msgstr "Brugerdefinerede farver:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:122
+msgid "Add to Custom Colors"
+msgstr "Føj til brugerdefinerede farver"
+
+#: wx/lib/colourchooser/pycolourchooser.py:188
+msgid "Solid Color"
+msgstr "Ensfarvet"
+
+#: wx/lib/colourchooser/pycolourchooser.py:194
+msgid "H:"
+msgstr "Farvetone:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:197
+msgid "S:"
+msgstr "Mætning:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:200
+msgid "V:"
+msgstr "Værdi:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:210
+msgid "R:"
+msgstr "R:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:213
+msgid "G:"
+msgstr "G:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:216
+msgid "B:"
+msgstr "B:"
+
+#: wx/lib/docview.py:385
+msgid "Application"
+msgstr "Program"
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637 wx/lib/docview.py:1897
+msgid " has been modified outside of "
+msgstr " er blevet ændret uden for "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid ". Overwrite "
+msgstr ". Overskriv "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid " with current changes?"
+msgstr " med aktuelle ændringer?"
+
+#: wx/lib/docview.py:412 wx/tools/Editra/src/eclib/filemgrdlg.py:123
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save As"
+msgstr "Gem som"
+
+#: wx/lib/docview.py:453 wx/lib/docview.py:526 wx/lib/docview.py:2449
+#: wx/lib/docview.py:2705 wx/lib/pydocview.py:1076 wx/lib/pydocview.py:2215
+#: wx/lib/pydocview.py:2391
+msgid "File Error"
+msgstr "Filfejl"
+
+#: wx/lib/docview.py:597
+msgid "Untitled"
+msgstr "Unavngivet"
+
+#: wx/lib/docview.py:654
+#, python-format
+msgid "Save changes to '%s'?"
+msgstr "Gem ændringer til '%s'?"
+
+#: wx/lib/docview.py:1567
+msgid "Unable to display print preview."
+msgstr "Kan ikke vise udskriftsvisning."
+
+#: wx/lib/docview.py:1573 wx/tools/Editra/src/style_editor.py:132
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: wx/lib/docview.py:1660 wx/lib/pydocview.py:112
+msgid "&Undo\tCtrl+Z"
+msgstr "Fortryd\t Ctrl+&Z"
+
+#: wx/lib/docview.py:1672 wx/lib/pydocview.py:113
+msgid "&Redo\tCtrl+Y"
+msgstr "Gentag\t Ctrl+&Y"
+
+#: wx/lib/docview.py:1897
+msgid "Reload "
+msgstr "Genindlæs "
+
+#: wx/lib/docview.py:1897
+msgid " from file system?"
+msgstr " fra filsystem?"
+
+#: wx/lib/docview.py:1903
+msgid "Couldn't reload "
+msgstr "Kunne ikke genindlæse "
+
+#: wx/lib/docview.py:1903
+msgid "Unable to close current "
+msgstr "Kan ikke lukke aktuelle "
+
+#: wx/lib/docview.py:2006
+#, python-format
+#, python-format,
+msgid "Untitled %d"
+msgstr "Ikke-navngivet %d"
+
+#: wx/lib/docview.py:2175
+#, python-format
+msgid "All|*.*|%s"
+msgstr "Alle|*.*|%s"
+
+#: wx/lib/docview.py:2180
+msgid "Select a File"
+msgstr "Vælg en fil"
+
+#: wx/lib/docview.py:2243
+msgid "Select a document type:"
+msgstr "Vælg en dokumenttype:"
+
+#: wx/lib/docview.py:2244
+msgid "Documents"
+msgstr "Dokumenter"
+
+#: wx/lib/docview.py:2274
+msgid "Select a document view:"
+msgstr "Vælg en dokumentvisning:"
+
+#: wx/lib/docview.py:2275
+msgid "Views"
+msgstr "Visninger"
+
+#: wx/lib/docview.py:3049
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: wx/lib/docview.py:3050
+msgid "Ctrl+Y"
+msgstr "Ctrl+Y"
+
+#: wx/lib/docview.py:3157 wx/lib/docview.py:3161
+#: wx/tools/Editra/src/ed_menu.py:578
+msgid "&Undo"
+msgstr "Fortr&yd"
+
+#: wx/lib/docview.py:3163 wx/lib/docview.py:3165
+msgid "&Redo"
+msgstr "&Redo (ctrl+&y)"
+
+#: wx/lib/pydocview.py:87
+msgid "&New...\tCtrl+N"
+msgstr "&Nyt...\t Ctrl+N"
+
+#: wx/lib/pydocview.py:87 wx/lib/pydocview.py:176
+msgid "Creates a new document"
+msgstr "Opretter et nye dokument"
+
+#: wx/lib/pydocview.py:88
+msgid "&Open...\tCtrl+O"
+msgstr "Åbn...\tCtrl+&O"
+
+#: wx/lib/pydocview.py:88 wx/lib/pydocview.py:177
+msgid "Opens an existing document"
+msgstr "Åbner et eksisterende dokument"
+
+#: wx/lib/pydocview.py:89
+msgid "Closes the active document"
+msgstr "Lukker det aktive dokument"
+
+#: wx/lib/pydocview.py:91
+msgid "Close A&ll"
+msgstr "Luk a&lle"
+
+#: wx/lib/pydocview.py:91
+msgid "Closes all open documents"
+msgstr "Lukker alle åbne dokumenter"
+
+#: wx/lib/pydocview.py:93
+msgid "&Save\tCtrl+S"
+msgstr "Gem\tCtrl+&S"
+
+#: wx/lib/pydocview.py:93 wx/lib/pydocview.py:178
+msgid "Saves the active document"
+msgstr "Gemmer det aktive dokument"
+
+#: wx/lib/pydocview.py:94
+msgid "Save &As..."
+msgstr "Gem &som..."
+
+#: wx/lib/pydocview.py:94
+msgid "Saves the active document with a new name"
+msgstr "Gemmer det aktive dokument med et nyt navn"
+
+#: wx/lib/pydocview.py:95
+msgid "Save All\tCtrl+Shift+A"
+msgstr "Gem alle\tCtrl+Skift+A"
+
+#: wx/lib/pydocview.py:95
+msgid "Saves the all active documents"
+msgstr "Gem alle de aktive dokumenter"
+
+#: wx/lib/pydocview.py:99
+msgid "&Print\tCtrl+P"
+msgstr "Udskriv\tCtrl+&P"
+
+#: wx/lib/pydocview.py:99 wx/lib/pydocview.py:182
+msgid "Prints the active document"
+msgstr "Udskriver det aktive dokument"
+
+#: wx/lib/pydocview.py:100 wx/tools/Editra/src/ed_menu.py:562
+msgid "Print Pre&view"
+msgstr "Forhånd&vis udskrift"
+
+#: wx/lib/pydocview.py:100 wx/lib/pydocview.py:181
+msgid "Displays full pages"
+msgstr "Viser fulde sider"
+
+#: wx/lib/pydocview.py:101 wx/tools/Editra/src/ed_menu.py:560
+msgid "Page Set&up"
+msgstr "Side&opsætning"
+
+#: wx/lib/pydocview.py:101
+msgid "Changes page layout settings"
+msgstr "Ændrer indstillinger for sidelayout"
+
+#: wx/lib/pydocview.py:104
+msgid "&Quit"
+msgstr "Afsl&ut"
+
+#: wx/lib/pydocview.py:104 wx/lib/pydocview.py:106
+msgid "Closes this program"
+msgstr "Lukker dette program"
+
+#: wx/lib/pydocview.py:106 wx/tools/Editra/src/ed_menu.py:566
+msgid "E&xit"
+msgstr "&Afslut"
+
+#: wx/lib/pydocview.py:112 wx/lib/pydocview.py:187
+msgid "Reverses the last action"
+msgstr "Omgør seneste handling"
+
+#: wx/lib/pydocview.py:113 wx/lib/pydocview.py:188
+msgid "Reverses the last undo"
+msgstr "Omgør seneste fortrydelse"
+
+#: wx/lib/pydocview.py:118
+msgid "Cu&t\tCtrl+X"
+msgstr "Klip\tC&trl+X"
+
+#: wx/lib/pydocview.py:118 wx/lib/pydocview.py:184
+msgid "Cuts the selection and puts it on the Clipboard"
+msgstr "Klipper markeringen og placerer den i udklipsholderen"
+
+#: wx/lib/pydocview.py:121
+msgid "&Copy\tCtrl+C"
+msgstr "Kopiér\tCtrl+&C"
+
+#: wx/lib/pydocview.py:121 wx/lib/pydocview.py:185
+msgid "Copies the selection and puts it on the Clipboard"
+msgstr "Kopierer markeringen og placerer den i udklipsholderen"
+
+#: wx/lib/pydocview.py:124
+msgid "&Paste\tCtrl+V"
+msgstr "Indsæt\tCtrl+&V"
+
+#: wx/lib/pydocview.py:124 wx/lib/pydocview.py:186
+msgid "Inserts Clipboard contents"
+msgstr "Insætter indhold fra udklipsholder"
+
+#: wx/lib/pydocview.py:127
+msgid "&Delete"
+msgstr "Sl&et"
+
+#: wx/lib/pydocview.py:127
+msgid "Erases the selection"
+msgstr "Sletter markeringen"
+
+#: wx/lib/pydocview.py:131
+msgid "Select A&ll\tCtrl+A"
+msgstr "Vælg alle\tCtrl+&A"
+
+#: wx/lib/pydocview.py:131
+msgid "Selects all available data"
+msgstr "Markerer alle tilgængelige data"
+
+#: wx/lib/pydocview.py:140 wx/tools/Editra/src/ed_menu.py:708
+msgid "&Toolbar"
+msgstr "Værk&tøjsbjælke"
+
+#: wx/lib/pydocview.py:140
+msgid "Shows or hides the toolbar"
+msgstr "Viser eller skjuler værktøjsbjælken"
+
+#: wx/lib/pydocview.py:143
+msgid "&Status Bar"
+msgstr "&Statusbjælke"
+
+#: wx/lib/pydocview.py:143
+msgid "Shows or hides the status bar"
+msgstr "Viser eller skjuler statusbjælken"
+
+#: wx/lib/pydocview.py:149
+msgid "&About"
+msgstr "&Om"
+
+#: wx/lib/pydocview.py:149
+msgid "Displays program information, version number, and copyright"
+msgstr "Viser information om program, versionsnummer og ophavsret"
+
+#: wx/lib/pydocview.py:177 wx/tools/Editra/src/ed_menu.py:518
+#: wx/tools/Editra/src/ed_toolbar.py:78
+msgid "Open"
+msgstr "Åbn"
+
+#: wx/lib/pydocview.py:179 wx/tools/Editra/src/ed_menu.py:532
+msgid "Save All"
+msgstr "Gem alle"
+
+#: wx/lib/pydocview.py:179
+msgid "Saves all the active documents"
+msgstr "Gemmer alle de aktive dokumenter"
+
+#: wx/lib/pydocview.py:184 wx/tools/Editra/src/ed_editv.py:364
+#: wx/tools/Editra/src/ed_toolbar.py:86
+msgid "Cut"
+msgstr "Klip"
+
+#: wx/lib/pydocview.py:185 wx/tools/Editra/src/ed_editv.py:365
+#: wx/tools/Editra/src/ed_toolbar.py:88
+msgid "Copy"
+msgstr "Kopiér"
+
+#: wx/lib/pydocview.py:186 wx/tools/Editra/src/ed_editv.py:366
+#: wx/tools/Editra/src/ed_toolbar.py:90
+msgid "Paste"
+msgstr "Indsæt"
+
+#: wx/lib/pydocview.py:187 wx/tools/Editra/src/ed_editv.py:361
+#: wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo"
+msgstr "Fortryd"
+
+#: wx/lib/pydocview.py:188 wx/tools/Editra/src/ed_editv.py:362
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo"
+msgstr "Omgør"
+
+#: wx/lib/pydocview.py:251
+msgid "Ready"
+msgstr "Klar"
+
+#: wx/lib/pydocview.py:911
+#, python-format
+msgid "Close All but \"%s\""
+msgstr "Luk alle undtagen \"%s\""
+
+#: wx/lib/pydocview.py:921
+msgid "Select Tab"
+msgstr "Vælg fane"
+
+#: wx/lib/pydocview.py:1408 wx/lib/pydocview.py:1415
+#: wx/tools/Editra/src/ed_menu.py:822
+msgid "&Tools"
+msgstr "Værk&tøjer"
+
+#: wx/lib/pydocview.py:1414
+msgid "&Format"
+msgstr "&Format"
+
+#: wx/lib/pydocview.py:1419
+msgid "&Options..."
+msgstr "&Indstillinger..."
+
+#: wx/lib/pydocview.py:1419
+msgid "Sets options"
+msgstr "Angiv indstillinger"
+
+#: wx/lib/pydocview.py:1592
+msgid "Show tips at start up"
+msgstr "Vis tips ved opstart"
+
+#: wx/lib/pydocview.py:1597
+msgid "Show each document in its own window"
+msgstr "Vis hvert dokument i sit eget vindue"
+
+#: wx/lib/pydocview.py:1598
+msgid "Show all documents in a single window with tabs"
+msgstr "Vis alle dokumenter i et enkelt vindue med faner"
+
+#: wx/lib/pydocview.py:1599
+msgid "Show all documents in a single window with child windows"
+msgstr "Vis alle dokumenter i et enkelt vindue med tilhørende vinduer"
+
+#: wx/lib/pydocview.py:1605
+msgid "Document Display Style"
+msgstr "Visningsform for dokument"
+
+#: wx/lib/pydocview.py:1619
+msgid "Document Options"
+msgstr "Egenskaber for dokument"
+
+#: wx/lib/pydocview.py:1620
+msgid ""
+"Document interface changes will not appear until the application is "
+"restarted."
+msgstr ""
+"Ændringer for dokument-grænseflade vises ikke før programmet er genstartet."
+
+#: wx/lib/pydocview.py:2525
+msgid "About "
+msgstr "Om "
+
+#: wx/lib/pydocview.py:2564
+msgid "&Properties"
+msgstr "&Egenskaber"
+
+#: wx/lib/pydocview.py:2564
+msgid "Show file properties"
+msgstr "Vis filegenskaber"
+
+#: wx/lib/pydocview.py:2678
+msgid "File Properties"
+msgstr "Filegenskaber"
+
+#: wx/lib/pydocview.py:2692
+msgid "Filename:"
+msgstr "Filnavn:"
+
+#: wx/lib/pydocview.py:2695
+msgid "Location:"
+msgstr "Placering:"
+
+#: wx/lib/pydocview.py:2698
+msgid "Size:"
+msgstr "Størrelse:"
+
+#: wx/lib/pydocview.py:2700
+msgid "bytes"
+msgstr "bytes"
+
+#: wx/lib/pydocview.py:2706
+msgid "Created:"
+msgstr "Oprettet:"
+
+#: wx/lib/pydocview.py:2710
+msgid "Modified:"
+msgstr "Ændret:"
+
+#: wx/lib/pydocview.py:2714
+msgid "Accessed:"
+msgstr "Tilgået:"
+
+#: wx/lib/pydocview.py:2890
+msgid "&Arrange All"
+msgstr "&Arrangér alle"
+
+#: wx/lib/pydocview.py:2890
+msgid "Arrange the open windows"
+msgstr "Arrangér de åbne vinduer"
+
+#: wx/lib/pydocview.py:2899 wx/tools/Editra/src/ed_cmdbar.py:274
+msgid "Previous"
+msgstr "Forrige"
+
+#: wx/lib/pydocview.py:2899
+msgid "Previous Tab"
+msgstr "Forrige fane"
+
+#: wx/lib/pydocview.py:2902 wx/tools/Editra/src/ed_cmdbar.py:266
+msgid "Next"
+msgstr "Næste"
+
+#: wx/lib/pydocview.py:2902
+msgid "Next Tab"
+msgstr "Næste fane"
+
+#: wx/lib/pydocview.py:2905
+msgid "Close Current\tCtrl+F4"
+msgstr "Luk nuværende\tCtrl+F4"
+
+#: wx/lib/pydocview.py:2905 wx/tools/Editra/src/ed_menu.py:524
+msgid "Close Current Tab"
+msgstr "Luk nuværende fane"
+
+#: wx/lib/pydocview.py:3037
+msgid "&More Windows..."
+msgstr "Flere v&induer..."
+
+#: wx/lib/pydocview.py:3163
+msgid "Select a window to show:"
+msgstr "Vælg vinduet som skal vises:"
+
+#: wx/lib/pydocview.py:3164
+msgid "Select Window"
+msgstr "Vælg vindue"
+
+#: wx/tools/Editra/src/Editra.py:590
+#, python-format
+msgid ""
+"An updated version of Editra is available\n"
+"Would you like to download Editra %s now?"
+msgstr ""
+"En opdateret version af Editra er tilgængelig\n"
+"Vil du hente Editra %s nu?"
+
+#: wx/tools/Editra/src/Editra.py:592
+msgid "Update Available"
+msgstr "Opdatering tilgængelig"
+
+#: wx/tools/Editra/src/Editra.py:596 wx/tools/Editra/src/prefdlg.py:1565
+msgid "Downloading Update"
+msgstr "Henter opdatering"
+
+#: wx/tools/Editra/src/Editra.py:889 wx/tools/Editra/src/Editra.py:1097
+msgid "Your profile has been updated to the latest version"
+msgstr "Din profil er blevet opdateret til seneste version"
+
+#: wx/tools/Editra/src/Editra.py:891 wx/tools/Editra/src/Editra.py:1099
+msgid "Please check the preferences dialog to check your preferences"
+msgstr "Tjek venligst dialogen præferencer for at tjekke dine præferencer"
+
+#: wx/tools/Editra/src/Editra.py:892 wx/tools/Editra/src/Editra.py:1100
+msgid "Profile Updated"
+msgstr "Profil opdateret"
+
+#: wx/tools/Editra/src/dev_tool.py:242
+msgid ""
+"Error: Something unexpected happend\n"
+"Help improve Editra by clicking on Report Error\n"
+"to send the Error Traceback shown below."
+msgstr ""
+"Fejl: Der skete noget uventet\n"
+"Hjælp med at forbedre Editra, klik på Rapportér fejl\n"
+"for at sende tilbagesporing af fejl som vises nedenfor."
+
+#: wx/tools/Editra/src/eclib/colorsetter.py:85
+msgid "Enter a hex color value"
+msgstr "Indtast en hex-værdi for farve"
+
+#: wx/tools/Editra/src/eclib/ecpickers.py:83
+msgid "Set Font"
+msgstr "Angiv skrift"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:319
+msgid "Error Traceback:"
+msgstr "Tilbagesporing af fejl:"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:323
+msgid "Abort"
+msgstr "Forlad"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:324
+msgid "Exit the application"
+msgstr "Afslut programmet"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:325
+msgid "Report Error"
+msgstr "Rapportér fejl"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:169
+#, python-format
+msgid "Are you sure want to delete %s?"
+msgstr "Er du sikker på at du vil slette %s?"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:170
+msgid "Delete File?"
+msgstr "Slet fil?"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:176
+#, python-format
+msgid "Unable to delete %s"
+msgstr "Kan ikke slete %s"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:177
+msgid "Delete Error"
+msgstr "Slet fejl"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:220
+#: wx/tools/Editra/src/prefdlg.py:307
+msgid "Files"
+msgstr "Filer"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:77
+msgid "Add >>"
+msgstr "Tilføj >>"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:78
+msgid "<< Remove"
+msgstr "<< Fjern"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:632
+#: wx/tools/Editra/src/eclib/finddlg.py:767
+#: wx/tools/Editra/src/eclib/finddlg.py:843
+#: wx/tools/Editra/src/ed_cmdbar.py:264 wx/tools/Editra/src/ed_search.py:149
+#: wx/tools/Editra/src/ed_search.py:153 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find"
+msgstr "Søg"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:635
+#: wx/tools/Editra/src/eclib/finddlg.py:844
+msgid "Replace"
+msgstr "Erstat"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Current Document"
+msgstr "Nuværende dokument"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Selected Text"
+msgstr "Markeret tekst"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:713
+msgid "Open Documents"
+msgstr "Åben dokumenter"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:716
+msgid "File Filters:"
+msgstr "Fil-filtre:"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:765
+msgid "Find what"
+msgstr "Hvad skal findes"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:778
+msgid "Replace with"
+msgstr "Erstat med"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:790
+msgid "Choose Folder"
+msgstr "Vælg mappe"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:793
+msgid "Look in"
+msgstr "Søg i"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:804
+msgid "Up"
+msgstr "Op"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:806
+msgid "Down"
+msgstr "Ned"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:812
+msgid "Find Options"
+msgstr "Indstillinger for søg"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:814
+msgid "Match case"
+msgstr "Match store/små bogstaver"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:815
+msgid "Whole word"
+msgstr "Helt ord"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:816
+msgid "Regular expression"
+msgstr "Regulært udtryk"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:817
+msgid "Search Recursively"
+msgstr "Søg rekursivt"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:823
+msgid "Enter wildcard shell patterns for matching files (*.txt)."
+msgstr "Indtast jokertegn-skalmønstre for at matche filer (*.txt)."
+
+#: wx/tools/Editra/src/eclib/finddlg.py:845
+msgid "Count"
+msgstr "Antal"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:846
+#: wx/tools/Editra/src/ed_cmdbar.py:280
+msgid "Find All"
+msgstr "Find alle"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:847
+msgid "Replace All"
+msgstr "Erstat alle"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:1118
+msgid "Choose Search Folder"
+msgstr "Vælg søge-mappe"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:60
+msgid "Info"
+msgstr "Info"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:117
+msgid "File Stat Failed"
+msgstr "Fil-stat mislykkedes"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:165
+#: wx/tools/Editra/src/eclib/infodlg.py:197
+msgid "Modified"
+msgstr "Ændret"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:184
+msgid "Kind"
+msgstr "Slags"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:191
+#: wx/tools/Editra/src/style_editor.py:704
+msgid "Size"
+msgstr "Størrelse"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:193
+msgid "Where"
+msgstr "Hvor"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:195
+msgid "Created"
+msgstr "Oprettet"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:199
+msgid "Permissions"
+msgstr "Rettigheder"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:294 wx/tools/Editra/src/util.py:357
+msgid "Folder"
+msgstr "Mappe"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:300 wx/tools/Editra/src/plugdlg.py:368
+#: wx/tools/Editra/src/plugdlg.py:374 wx/tools/Editra/src/plugdlg.py:421
+#: wx/tools/Editra/src/plugdlg.py:425 wx/tools/Editra/src/plugin.py:724
+#: wx/tools/Editra/src/util.py:367
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:286
+msgid "Match Case"
+msgstr "Match store/små bogstaver"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:293
+msgid "Whole Word"
+msgstr "Helt ord"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:297
+msgid "Regular Expression"
+msgstr "Regulært udtryk"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:410
+msgid "Command"
+msgstr "Kommando"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:440
+msgid "Goto Line"
+msgstr "Gå til linje"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:562
+#, python-format
+msgid "Can't change directory to: %s"
+msgstr "Kan ikke ændre katalog til: %s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:764
+#, python-format
+msgid "Access Denied: %s"
+msgstr "Adgang nægtet: %s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:779
+msgid "Invalid Path"
+msgstr "Ugyldig sti"
+
+# Unsure about this one.
+#: wx/tools/Editra/src/ed_cmdbar.py:874
+msgid "cwd: "
+msgstr "cwd: "
+
+#: wx/tools/Editra/src/ed_editv.py:189
+#, python-format
+#, python-format,
+msgid ""
+"Failed to reload %(filename)s:\n"
+"Error: %(errmsg)s"
+msgstr ""
+"Mislykkedes med at gemme fil: %(filename)s:\n"
+"Fejl: %(errmsg)s"
+
+#: wx/tools/Editra/src/ed_editv.py:228
+msgid "New Tab"
+msgstr "Ny fane"
+
+#: wx/tools/Editra/src/ed_editv.py:229
+msgid "Move Tab to New Window"
+msgstr "Flyt fane til nyt vindue"
+
+#: wx/tools/Editra/src/ed_editv.py:231
+#, python-format
+msgid "Save \"%s\""
+msgstr "Gem \"%s\""
+
+#: wx/tools/Editra/src/ed_editv.py:232
+#, python-format
+msgid "Close \"%s\""
+msgstr "Luk \"%s\""
+
+#: wx/tools/Editra/src/ed_editv.py:233
+msgid "Close Other Tabs"
+msgstr "Luk andre faner"
+
+#: wx/tools/Editra/src/ed_editv.py:236
+msgid "Copy Full Path"
+msgstr "Kopier hele stien"
+
+#: wx/tools/Editra/src/ed_editv.py:368
+msgid "To Uppercase"
+msgstr "Til store bogstaver"
+
+#: wx/tools/Editra/src/ed_editv.py:369
+msgid "To Lowercase"
+msgstr "Til små bogstaver"
+
+#: wx/tools/Editra/src/ed_editv.py:371
+msgid "Select All"
+msgstr "Vælg alle"
+
+#: wx/tools/Editra/src/ed_editv.py:394
+msgid "No Suggestions"
+msgstr "Ingen forslag"
+
+#: wx/tools/Editra/src/ed_editv.py:444
+#, python-format
+msgid ""
+"%s has been deleted since its last save point.\n"
+"\n"
+"Would you like to save it again?"
+msgstr ""
+"%s er blevet slettet siden dets sidste gemmepunkt.\n"
+"\n"
+"Vil du gerne gemme det igen?"
+
+#: wx/tools/Editra/src/ed_editv.py:447
+msgid "Resave File?"
+msgstr "Gem fil igen?"
+
+#: wx/tools/Editra/src/ed_editv.py:464
+#, python-format
+msgid ""
+"%s has been modified by another application.\n"
+"\n"
+"Would you like to reload it?"
+msgstr ""
+"%s er blevet ændret af et andet program.\n"
+"\n"
+"Vil du genindlæse det?"
+
+#: wx/tools/Editra/src/ed_editv.py:467
+msgid "Reload File?"
+msgstr "Indlæs fil igen?"
+
+#: wx/tools/Editra/src/ed_editv.py:500
+#, python-format
+msgid ""
+"The file: \"%s\" has been modified since the last save point.\n"
+"\n"
+"Would you like to save the changes?"
+msgstr ""
+"Filen: \"%s\" er blevet ændret siden seneste gemmepunkt.\n"
+"\n"
+"Vil du gemme ændringerne?"
+
+#: wx/tools/Editra/src/ed_editv.py:503
+msgid "Save Changes?"
+msgstr "Gem ændringer?"
+
+#: wx/tools/Editra/src/ed_glob.py:384
+msgid "Old Macintosh (\\n)"
+msgstr ""
+"Gammel Macintosh (\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:385 wx/tools/Editra/src/ed_menu.py:761
+#: wx/tools/Editra/src/ed_menu.py:763 wx/tools/Editra/src/prefdlg.py:755
+msgid "Unix (\\n)"
+msgstr ""
+"Unix (\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:386
+msgid "Windows (\\n)"
+msgstr ""
+"Windows (\n"
+")"
+
+#: wx/tools/Editra/src/ed_log.py:81
+msgid "Editra Log"
+msgstr "Editra Log"
+
+#: wx/tools/Editra/src/ed_log.py:82
+msgid "View Editra's console log"
+msgstr "Se Editras konsol-log"
+
+#: wx/tools/Editra/src/ed_log.py:134
+msgid "Show output from"
+msgstr "Vis uddata fra"
+
+#: wx/tools/Editra/src/ed_log.py:142 wx/tools/Editra/src/ed_search.py:1253
+msgid "Clear"
+msgstr "Ryd"
+
+#: wx/tools/Editra/src/ed_log.py:172 wx/tools/Editra/src/ed_log.py:247
+msgid "All"
+msgstr "Alle"
+
+#: wx/tools/Editra/src/ed_main.py:143
+msgid "Perspectives"
+msgstr "Perspektiver"
+
+#: wx/tools/Editra/src/ed_main.py:464
+msgid "Editra: Open"
+msgstr "Editra: Åbn"
+
+#: wx/tools/Editra/src/ed_main.py:602
+#, python-format
+msgid ""
+"%s could not be found.\n"
+"Perhaps it's been moved or deleted."
+msgstr ""
+"%s kunne ikke findes.\n"
+"Den er muligvis flyttet eller slettet."
+
+#: wx/tools/Editra/src/ed_main.py:604
+msgid "File Not Found"
+msgstr "Fil ikke fundet"
+
+#: wx/tools/Editra/src/ed_main.py:664
+#, python-format
+msgid "Saved File: %s"
+msgstr "Gemte fil: %s"
+
+#: wx/tools/Editra/src/ed_main.py:667
+#, python-format
+msgid "ERROR: %s"
+msgstr "FEJL: %s"
+
+#: wx/tools/Editra/src/ed_main.py:691
+msgid "Choose a Save Location"
+msgstr "Vælg en placering til lagring"
+
+#: wx/tools/Editra/src/ed_main.py:707
+#, python-format
+msgid "ERROR: Failed to save %s"
+msgstr "FEJL: Mislykkedes med at gemme %s"
+
+#: wx/tools/Editra/src/ed_main.py:710
+#, python-format
+msgid "Saved File As: %s"
+msgstr "Gemte fil som: %s"
+
+#: wx/tools/Editra/src/ed_main.py:726
+msgid "Where to Save Profile?"
+msgstr "Hvor skal profil gemmes?"
+
+#: wx/tools/Editra/src/ed_main.py:728 wx/tools/Editra/src/ed_main.py:749
+#: wx/tools/Editra/src/ed_menu.py:547
+msgid "Profile"
+msgstr "Profil"
+
+#: wx/tools/Editra/src/ed_main.py:733
+#, python-format
+msgid "Profile Saved as: %s"
+msgstr "Profil gemt som: %s"
+
+#: wx/tools/Editra/src/ed_main.py:747 wx/tools/Editra/src/ed_menu.py:546
+msgid "Load a Custom Profile"
+msgstr "Indlæs tilpasset profil"
+
+#: wx/tools/Editra/src/ed_main.py:754
+#, python-format
+msgid "Loaded Profile: %s"
+msgstr "Indlæste profilen: %s"
+
+#: wx/tools/Editra/src/ed_main.py:771
+msgid "Where to Save Session?"
+msgstr "Hvor skal session gemmes?"
+
+#: wx/tools/Editra/src/ed_main.py:773 wx/tools/Editra/src/ed_main.py:800
+msgid "Session"
+msgstr "Session"
+
+#: wx/tools/Editra/src/ed_main.py:788
+#, python-format
+msgid "Session Saved as: %s"
+msgstr "Session gemt som: %s"
+
+#: wx/tools/Editra/src/ed_main.py:798
+msgid "Load a Session file"
+msgstr "Indlæs en sessionsfil"
+
+#: wx/tools/Editra/src/ed_main.py:812
+#, python-format
+msgid "Loaded Session: %s"
+msgstr "Indlæste session: %s"
+
+#: wx/tools/Editra/src/ed_main.py:1072 wx/tools/Editra/src/ed_menu.py:808
+msgid "Plugin Manager"
+msgstr "Udvidelseshåndtering"
+
+#: wx/tools/Editra/src/ed_main.py:1208
+msgid "Select an encoding to reload the file with"
+msgstr "Vælg en kodning som filen skal genindlæses med"
+
+#: wx/tools/Editra/src/ed_main.py:1209
+msgid "Reload with Encoding"
+msgstr "Genindlæs med kodning"
+
+#: wx/tools/Editra/src/ed_main.py:1221
+#, python-format
+msgid "Failed to reload the file with: %(encoding)s"
+msgstr "Mislykkedes med at genindlæse filen med: %(encoding)s"
+
+#: wx/tools/Editra/src/ed_main.py:1240
+msgid "Aui Pane Navigator"
+msgstr "Navigation for Aui-rude"
+
+#: wx/tools/Editra/src/ed_main.py:1414 wx/tools/Editra/src/ed_menu.py:688
+msgid "Maximize Editor"
+msgstr "Maksimér redigering"
+
+#: wx/tools/Editra/src/ed_main.py:1416
+msgid "Restore Editor"
+msgstr "Genskab redigeringsværktøj"
+
+#: wx/tools/Editra/src/ed_main.py:1436
+msgid "Customize Menu"
+msgstr "Tilpas menu"
+
+#: wx/tools/Editra/src/ed_main.py:1485
+#, python-format
+msgid "Opening %s"
+msgstr "Åbner %s"
+
+#: wx/tools/Editra/src/ed_main.py:1488
+#, python-format
+msgid "Error: Unable to open %s"
+msgstr "Fejl: Kan ikke åbne %s"
+
+#: wx/tools/Editra/src/ed_main.py:1538
+msgid "Editra is a programmer's text editor."
+msgstr "Editra er en tekstredigering for programmører."
+
+#: wx/tools/Editra/src/ed_main.py:1539
+#, python-format
+msgid "Written in 100%% Python."
+msgstr "Skrevet 100%% i Python."
+
+#: wx/tools/Editra/src/ed_main.py:1540
+msgid "Homepage"
+msgstr "Hjemmeside"
+
+#: wx/tools/Editra/src/ed_main.py:1541
+msgid "Platform Info"
+msgstr "Info om platform"
+
+#: wx/tools/Editra/src/ed_main.py:1542
+msgid "License: wxWindows (see COPYING.txt for full license)"
+msgstr "Licens: wxWindows (se COPYING.txt for det fulde licens)"
+
+#: wx/tools/Editra/src/ed_main.py:1548
+msgid "Copyright"
+msgstr "Ophavsret"
+
+#: wx/tools/Editra/src/ed_mdlg.py:86
+#, python-format
+msgid ""
+"Editra could not open %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"Editra kunne ikke åbne %(filename)s\n"
+"\n"
+"Fejl:\n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:88
+msgid "Error Opening File"
+msgstr "Fejl under åbning af fil"
+
+#: wx/tools/Editra/src/ed_mdlg.py:105
+#, python-format
+msgid ""
+"Failed to save file: %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"Mislykkedes med at gemme fil: %(filename)s\n"
+"\n"
+"Fejl:\n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:107
+msgid "Save Error"
+msgstr "Fejl under gem"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Old Macintosh (\n"
+")"
+msgstr ""
+"Gammel Macintosh (\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Unix (\n"
+")"
+msgstr ""
+"Unix (\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:139
+msgid ""
+"Windows (\n"
+")"
+msgstr ""
+"Windows (\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:472
+msgid "Customize..."
+msgstr "Tilpas..."
+
+#: wx/tools/Editra/src/ed_menu.py:473
+msgid "Customize the items shown in this menu."
+msgstr "Tilpas elementerne vist i denne menu."
+
+#: wx/tools/Editra/src/ed_menu.py:479 wx/tools/Editra/src/syntax/syntax.py:318
+#, python-format
+msgid "Switch Lexer to %s"
+msgstr "Skift lexer til %s"
+
+#: wx/tools/Editra/src/ed_menu.py:481
+msgid "Lexers"
+msgstr "Lexere"
+
+#: wx/tools/Editra/src/ed_menu.py:483
+msgid "Manually Set a Lexer/Syntax"
+msgstr "Angiv manuelt en lexer/syntaks"
+
+#: wx/tools/Editra/src/ed_menu.py:513
+msgid "&New Tab"
+msgstr "&Ny fane"
+
+#: wx/tools/Editra/src/ed_menu.py:514
+msgid "Start a new file in a new tab"
+msgstr "Åbn ny fil i en ny fane"
+
+#: wx/tools/Editra/src/ed_menu.py:515
+msgid "New &Window"
+msgstr "Nyt &vindue"
+
+#: wx/tools/Editra/src/ed_menu.py:516
+msgid "Start a new file in a new window"
+msgstr "Start ny fil i et nyt vindue"
+
+#: wx/tools/Editra/src/ed_menu.py:518
+msgid "&Open"
+msgstr "&Åbn"
+
+#: wx/tools/Editra/src/ed_menu.py:521
+msgid "Recently Opened Files"
+msgstr "Senest åbnede filer"
+
+#: wx/tools/Editra/src/ed_menu.py:523
+msgid "&Close Tab"
+msgstr "&Luk fane"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close Window"
+msgstr "Luk vindue"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close the current window"
+msgstr "Luk nuværende vindue"
+
+#: wx/tools/Editra/src/ed_menu.py:527
+msgid "Close All Tabs"
+msgstr "Luk alle faner"
+
+#: wx/tools/Editra/src/ed_menu.py:528
+msgid "Close all open tabs"
+msgstr "Luk alle åbne faner"
+
+#: wx/tools/Editra/src/ed_menu.py:530
+msgid "&Save"
+msgstr "&Gem"
+
+#: wx/tools/Editra/src/ed_menu.py:530 wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save Current File"
+msgstr "Gem nuværende fil"
+
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save &As"
+msgstr "Gem &som"
+
+#: wx/tools/Editra/src/ed_menu.py:533
+msgid "Save all open pages"
+msgstr "Gem alle åbne sider"
+
+#: wx/tools/Editra/src/ed_menu.py:535
+msgid "Revert to Saved"
+msgstr "Rul tilbage til gemt"
+
+#: wx/tools/Editra/src/ed_menu.py:536
+msgid "Revert file to last save point"
+msgstr "Rul fil til senest gemt punkt"
+
+#: wx/tools/Editra/src/ed_menu.py:537
+msgid "Reload with Encoding..."
+msgstr "Genindlæs med kodning..."
+
+#: wx/tools/Editra/src/ed_menu.py:538
+msgid "Reload the file with a specified encoding"
+msgstr "Genindlæs filen med angivelse af kodning"
+
+#: wx/tools/Editra/src/ed_menu.py:543
+msgid "Save Profile"
+msgstr "Gem profil"
+
+#: wx/tools/Editra/src/ed_menu.py:544
+msgid "Save Current Settings to a New Profile"
+msgstr "Gem nuværende indstillinger til en ny profil"
+
+#: wx/tools/Editra/src/ed_menu.py:545
+msgid "Load Profile"
+msgstr "Indlæs profil"
+
+#: wx/tools/Editra/src/ed_menu.py:548
+msgid "Load and save custom Profiles"
+msgstr "Indlæs og gem tilpassede profiler"
+
+#: wx/tools/Editra/src/ed_menu.py:552
+msgid "Save Session"
+msgstr "Gem session"
+
+#: wx/tools/Editra/src/ed_menu.py:553
+msgid "Save the current session."
+msgstr "Gem den nuværende session."
+
+#: wx/tools/Editra/src/ed_menu.py:554
+msgid "Load Session"
+msgstr "Indlæs session"
+
+#: wx/tools/Editra/src/ed_menu.py:555
+msgid "Load a saved session."
+msgstr "Indlæs en gemt session."
+
+#: wx/tools/Editra/src/ed_menu.py:556
+msgid "Sessions"
+msgstr "Sessioner"
+
+#: wx/tools/Editra/src/ed_menu.py:557
+msgid "Load and save custom sessions."
+msgstr "Indlæs og gem tilpassede sessioner."
+
+#: wx/tools/Editra/src/ed_menu.py:561
+msgid "Configure Printer"
+msgstr "Konfigurér printer"
+
+#: wx/tools/Editra/src/ed_menu.py:563
+msgid "Preview Printout"
+msgstr "Forhåndsvis udskrift"
+
+#: wx/tools/Editra/src/ed_menu.py:564
+msgid "&Print"
+msgstr "&Udskriv"
+
+#: wx/tools/Editra/src/ed_menu.py:564 wx/tools/Editra/src/ed_toolbar.py:81
+msgid "Print Current File"
+msgstr "Udskriv nuværende fil"
+
+#: wx/tools/Editra/src/ed_menu.py:566
+msgid "Exit the Program"
+msgstr "Afslut programmet"
+
+#: wx/tools/Editra/src/ed_menu.py:578 wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo Last Action"
+msgstr "Fortryd seneste handling"
+
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo Last Undo"
+msgstr "Omgør seneste handling"
+
+#: wx/tools/Editra/src/ed_menu.py:581
+msgid "Cu&t"
+msgstr "Kli&p"
+
+#: wx/tools/Editra/src/ed_menu.py:582 wx/tools/Editra/src/ed_toolbar.py:87
+msgid "Cut Selected Text from File"
+msgstr "Klip markerede tekst fra fil"
+
+#: wx/tools/Editra/src/ed_menu.py:583
+msgid "&Copy"
+msgstr "&Kopiér"
+
+#: wx/tools/Editra/src/ed_menu.py:584 wx/tools/Editra/src/ed_toolbar.py:89
+msgid "Copy Selected Text to Clipboard"
+msgstr "Kopiér markerede tekst til udklipsholder"
+
+#: wx/tools/Editra/src/ed_menu.py:585
+msgid "&Paste"
+msgstr "&Indsæt"
+
+#: wx/tools/Editra/src/ed_menu.py:586 wx/tools/Editra/src/ed_toolbar.py:91
+msgid "Paste Text from Clipboard to File"
+msgstr "Indsæt tekst fra udklipsholder til fil"
+
+#: wx/tools/Editra/src/ed_menu.py:587
+msgid "P&aste After"
+msgstr "Inds&æt efter"
+
+#: wx/tools/Editra/src/ed_menu.py:588
+msgid "Paste Text from Clipboard to File after the cursor"
+msgstr "Indsæt tekst fra udklipsholder til fil efter markør"
+
+#: wx/tools/Editra/src/ed_menu.py:589
+msgid "Cycle Clipboard"
+msgstr "Gennemgå udklipsholder"
+
+#: wx/tools/Editra/src/ed_menu.py:590
+msgid "Cycle through recent clipboard text"
+msgstr "Går gennem seneste tekst i udklipsholder"
+
+#: wx/tools/Editra/src/ed_menu.py:592
+msgid "Select &All"
+msgstr "Vælg &alt"
+
+#: wx/tools/Editra/src/ed_menu.py:593
+msgid "Select All Text in Document"
+msgstr "Vælg al tekst i dokument"
+
+#: wx/tools/Editra/src/ed_menu.py:594
+msgid "Column Mode"
+msgstr "Kolonne-tilstand"
+
+#: wx/tools/Editra/src/ed_menu.py:595
+msgid "Enable column edit mode."
+msgstr "Aktivér kolonne-tilstand for redigering."
+
+#: wx/tools/Editra/src/ed_menu.py:598
+msgid "New Line After"
+msgstr "Ny linje efter"
+
+#: wx/tools/Editra/src/ed_menu.py:599
+msgid "Add a new line after the current line"
+msgstr "Tilføj en ny linje efter nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:600
+msgid "New Line Before"
+msgstr "Ny linje før"
+
+#: wx/tools/Editra/src/ed_menu.py:601
+msgid "Add a new line before the current line"
+msgstr "Tilføj en ny linje før nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:603
+msgid "Cut Line"
+msgstr "Klip linje"
+
+#: wx/tools/Editra/src/ed_menu.py:604
+msgid "Cut Current Line"
+msgstr "Klip nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:605
+msgid "Delete Line"
+msgstr "Slet linje"
+
+#: wx/tools/Editra/src/ed_menu.py:606
+msgid "Delete the selected line(s)"
+msgstr "Slet markerede linje(r)"
+
+#: wx/tools/Editra/src/ed_menu.py:607
+msgid "Copy Line"
+msgstr "Kopiér linje"
+
+#: wx/tools/Editra/src/ed_menu.py:608
+msgid "Copy Current Line"
+msgstr "Kopiér nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:609
+msgid "Duplicate Line"
+msgstr "Duplikér linje"
+
+#: wx/tools/Editra/src/ed_menu.py:610
+msgid "Duplicate the current line"
+msgstr "Duplikér nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:612
+msgid "Join Lines"
+msgstr "Sammensæt linjer"
+
+#: wx/tools/Editra/src/ed_menu.py:613
+msgid "Join the Selected Lines"
+msgstr "Sammensæt de markerede linjer"
+
+#: wx/tools/Editra/src/ed_menu.py:614
+msgid "Transpose Line"
+msgstr "Transponér linje"
+
+#: wx/tools/Editra/src/ed_menu.py:615
+msgid "Transpose the current line with the previous one"
+msgstr "Transponér nuværende linje med den forrige"
+
+#: wx/tools/Editra/src/ed_menu.py:616
+msgid "Move Current Line Up"
+msgstr "Flyt nuværende linje op"
+
+#: wx/tools/Editra/src/ed_menu.py:617
+msgid "Move the current line up"
+msgstr "Flyt den nuværende linje op"
+
+#: wx/tools/Editra/src/ed_menu.py:619
+msgid "Move Current Line Down"
+msgstr "Flyt nuværende linje ned"
+
+#: wx/tools/Editra/src/ed_menu.py:620
+msgid "Move the current line down"
+msgstr "Flyt den nuværende linje ned"
+
+#: wx/tools/Editra/src/ed_menu.py:621
+msgid "Line Edit"
+msgstr "Linje-redigering"
+
+#: wx/tools/Editra/src/ed_menu.py:622
+msgid "Commands that influence an entire line"
+msgstr "Kommandoer som påvirker en hel linje"
+
+#: wx/tools/Editra/src/ed_menu.py:624
+msgid "Toggle Bookmark"
+msgstr "Vis/skjul bogmærke"
+
+#: wx/tools/Editra/src/ed_menu.py:625
+msgid "Toggle bookmark of the current line"
+msgstr "Vis/skjul bogmærke for nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:626
+msgid "Remove All Bookmarks"
+msgstr "Fjern alle bogmærker"
+
+#: wx/tools/Editra/src/ed_menu.py:627
+msgid "Remove all bookmarks from the current document"
+msgstr "Fjern alle bogmærker fra det nuværende dokument"
+
+#: wx/tools/Editra/src/ed_menu.py:628
+msgid "Bookmarks"
+msgstr "Bogmærker"
+
+#: wx/tools/Editra/src/ed_menu.py:629
+msgid "Add and remove bookmarks"
+msgstr "Tilføj og fjern bogmærker"
+
+#: wx/tools/Editra/src/ed_menu.py:631
+msgid "&Find"
+msgstr "&Søg"
+
+#: wx/tools/Editra/src/ed_menu.py:631 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find Text"
+msgstr "Søg tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:632
+msgid "Find/R&eplace"
+msgstr "Søg/&Erstat"
+
+#: wx/tools/Editra/src/ed_menu.py:633 wx/tools/Editra/src/ed_toolbar.py:95
+msgid "Find and Replace Text"
+msgstr "Søg og erstat tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:634
+msgid "&Quick Find"
+msgstr "&Hurtigsøg"
+
+#: wx/tools/Editra/src/ed_menu.py:635
+msgid "Open the Quick Find Bar"
+msgstr "Åbn bjælken med hurtigsøg"
+
+#: wx/tools/Editra/src/ed_menu.py:636
+msgid "Find Previous"
+msgstr "Find forrige"
+
+#: wx/tools/Editra/src/ed_menu.py:637
+msgid "Goto previous match"
+msgstr "Gå til forrige forekomst"
+
+#: wx/tools/Editra/src/ed_menu.py:638
+msgid "Find Next"
+msgstr "Find næste"
+
+#: wx/tools/Editra/src/ed_menu.py:639
+msgid "Goto the next match"
+msgstr "Gå til næste forekomst"
+
+#: wx/tools/Editra/src/ed_menu.py:640
+msgid "Find Selected"
+msgstr "Søg det valgte"
+
+#: wx/tools/Editra/src/ed_menu.py:641
+msgid "Search for the currently selected phrase"
+msgstr "Søg efter den nuværende valgte frase"
+
+#: wx/tools/Editra/src/ed_menu.py:643
+msgid "Pr&eferences"
+msgstr "Præf&erencer"
+
+#: wx/tools/Editra/src/ed_menu.py:644
+msgid "Edit Preferences / Settings"
+msgstr "Redigér præferencer / indstillinger"
+
+#: wx/tools/Editra/src/ed_menu.py:656
+msgid "Zoom Out"
+msgstr "Zoom ud"
+
+#: wx/tools/Editra/src/ed_menu.py:657
+msgid "Zoom In"
+msgstr "Zoom ind"
+
+#: wx/tools/Editra/src/ed_menu.py:658 wx/tools/Editra/src/ed_menu.py:659
+msgid "Zoom Default"
+msgstr "Zoom standard"
+
+# What is caret?
+#: wx/tools/Editra/src/ed_menu.py:662 wx/tools/Editra/src/prefdlg.py:933
+msgid "Highlight Caret Line"
+msgstr "Fremhæv markørlinje"
+
+#: wx/tools/Editra/src/ed_menu.py:663
+msgid "Highlight the background of the current line"
+msgstr "Fremhæv baggrunden til nuværende linje"
+
+#: wx/tools/Editra/src/ed_menu.py:665 wx/tools/Editra/src/prefdlg.py:936
+msgid "Indentation Guides"
+msgstr "Guider til indrykning"
+
+#: wx/tools/Editra/src/ed_menu.py:666
+msgid "Show Indentation Guides"
+msgstr "Vis guider til indrykning"
+
+#: wx/tools/Editra/src/ed_menu.py:667
+msgid "Show Edge Guide"
+msgstr "Vis guide til kanter"
+
+#: wx/tools/Editra/src/ed_menu.py:668
+msgid "Show the edge column guide"
+msgstr "Vis guide til kolonne-kanter"
+
+#: wx/tools/Editra/src/ed_menu.py:669 wx/tools/Editra/src/ed_menu.py:670
+#: wx/tools/Editra/src/prefdlg.py:767
+msgid "Show EOL Markers"
+msgstr "Vis markører for linjeafslutning"
+
+#: wx/tools/Editra/src/ed_menu.py:671 wx/tools/Editra/src/prefdlg.py:769
+msgid "Show Line Numbers"
+msgstr "Vis linjenumre"
+
+#: wx/tools/Editra/src/ed_menu.py:672
+msgid "Show Line Number Margin"
+msgstr "Vis margin til linjenumre"
+
+#: wx/tools/Editra/src/ed_menu.py:673 wx/tools/Editra/src/prefdlg.py:771
+msgid "Show Whitespace"
+msgstr "Vis blanke felter"
+
+#: wx/tools/Editra/src/ed_menu.py:674
+msgid "Show Whitespace Markers"
+msgstr "Vis markører for blanke felter"
+
+#: wx/tools/Editra/src/ed_menu.py:675
+msgid "Editor"
+msgstr "Redigering"
+
+#: wx/tools/Editra/src/ed_menu.py:676
+msgid "Toggle Editor View Options"
+msgstr "Vis/skjul visningsvalg for redigering"
+
+#: wx/tools/Editra/src/ed_menu.py:678
+msgid "Toggle fold"
+msgstr "Vis/skjul sammenfold"
+
+#: wx/tools/Editra/src/ed_menu.py:679
+msgid "Toggle current fold"
+msgstr "Vis/skjul nuværende sammenfold"
+
+#: wx/tools/Editra/src/ed_menu.py:680 wx/tools/Editra/src/ed_menu.py:681
+msgid "Toggle all folds"
+msgstr "Vis/skjul alle sammenfold"
+
+#: wx/tools/Editra/src/ed_menu.py:682 wx/tools/Editra/src/ed_menu.py:787
+#: wx/tools/Editra/src/prefdlg.py:922
+msgid "Code Folding"
+msgstr "Sammenfold af kode"
+
+#: wx/tools/Editra/src/ed_menu.py:683
+msgid "Code folding toggle actions"
+msgstr "Vis/skjul handlinger for sammenfold af kode"
+
+#: wx/tools/Editra/src/ed_menu.py:686
+msgid "Pane Navigator"
+msgstr "Navigation for rude"
+
+#: wx/tools/Editra/src/ed_menu.py:687
+msgid "View pane selection list"
+msgstr "Vis liste for rudevalg"
+
+#: wx/tools/Editra/src/ed_menu.py:689
+msgid "Toggle Editor Maximization"
+msgstr "Vis/skjul maksimering af redigering"
+
+#: wx/tools/Editra/src/ed_menu.py:691
+msgid "&Goto Line"
+msgstr "&Gå til linje"
+
+#: wx/tools/Editra/src/ed_menu.py:692
+msgid "Goto Line Number"
+msgstr "Gå til linjenummer"
+
+#: wx/tools/Editra/src/ed_menu.py:693
+msgid "Goto Matching Brace"
+msgstr "Gå til matchende klamme"
+
+#: wx/tools/Editra/src/ed_menu.py:694
+msgid "Move caret matching brace"
+msgstr "Flyt matchende markør-klamme"
+
+#: wx/tools/Editra/src/ed_menu.py:696
+msgid "Next Position"
+msgstr "Næste placering"
+
+#: wx/tools/Editra/src/ed_menu.py:697
+msgid "Goto next position in history."
+msgstr "Gå til næste placering i historik."
+
+#: wx/tools/Editra/src/ed_menu.py:698
+msgid "Previous Position"
+msgstr "Forrige placering"
+
+#: wx/tools/Editra/src/ed_menu.py:699
+msgid "Goto previous position in history."
+msgstr "Gå til forrige placering i historik."
+
+#: wx/tools/Editra/src/ed_menu.py:701
+msgid "Next Bookmark"
+msgstr "Næste bogmærke"
+
+#: wx/tools/Editra/src/ed_menu.py:702
+msgid "View Line of Next Bookmark"
+msgstr "Vis linje for næste bogmærke"
+
+#: wx/tools/Editra/src/ed_menu.py:703
+msgid "Previous Bookmark"
+msgstr "Forrige bogmærke"
+
+#: wx/tools/Editra/src/ed_menu.py:704
+msgid "View Line of Previous Bookmark"
+msgstr "Vis linje for forrige bogmærke"
+
+#: wx/tools/Editra/src/ed_menu.py:707 wx/tools/Editra/src/prefdlg.py:1207
+msgid "Show Status Bar"
+msgstr "Vis statusbjælke"
+
+#: wx/tools/Editra/src/ed_menu.py:709 wx/tools/Editra/src/prefdlg.py:1209
+msgid "Show Toolbar"
+msgstr "Vis værktøjsbjælke"
+
+#: wx/tools/Editra/src/ed_menu.py:721
+msgid "&Font"
+msgstr "Skri&fttype"
+
+#: wx/tools/Editra/src/ed_menu.py:722
+msgid "Change Font Settings"
+msgstr "Skift indstillinger for skrift"
+
+#: wx/tools/Editra/src/ed_menu.py:724
+msgid "Toggle Comment"
+msgstr "Vis/skjul kommentar"
+
+#: wx/tools/Editra/src/ed_menu.py:725
+msgid "Toggle comment on the selected line(s)"
+msgstr "Vis/skjul kommentar for valgte linje(r)"
+
+#: wx/tools/Editra/src/ed_menu.py:728
+msgid "Indent Lines"
+msgstr "Indryk linjer"
+
+#: wx/tools/Editra/src/ed_menu.py:729
+msgid "Indent the selected lines"
+msgstr "Indryk de valgte linje"
+
+#: wx/tools/Editra/src/ed_menu.py:730
+msgid "Unindent Lines"
+msgstr "Afindryk linjer"
+
+#: wx/tools/Editra/src/ed_menu.py:731
+msgid "Unindent the selected lines"
+msgstr "Afindryk de valgte linjer"
+
+#: wx/tools/Editra/src/ed_menu.py:733
+msgid "Uppercase"
+msgstr "Store bogstaver"
+
+#: wx/tools/Editra/src/ed_menu.py:734
+msgid "Convert selected text to all uppercase letters"
+msgstr "Konvertér til store bogstaver for valgt tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:735
+msgid "Lowercase"
+msgstr "Små bogstaver"
+
+#: wx/tools/Editra/src/ed_menu.py:736
+msgid "Convert selected text to all lowercase letters"
+msgstr "Konvertér til små bogstaver for valgt tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:738
+msgid "Use Soft Tabs"
+msgstr "Brug bløde tabuleringer"
+
+#: wx/tools/Editra/src/ed_menu.py:739
+msgid "Insert spaces instead of tab characters with tab key"
+msgstr "Indsæt mellemrum i stedet for indrykningstegn med tabuleringstast"
+
+#: wx/tools/Editra/src/ed_menu.py:741 wx/tools/Editra/src/prefdlg.py:773
+msgid "Word Wrap"
+msgstr "Ombrydning af ord"
+
+#: wx/tools/Editra/src/ed_menu.py:742
+msgid "Wrap Text Horizontally"
+msgstr "Ombryd tekst vandret"
+
+#: wx/tools/Editra/src/ed_menu.py:747
+msgid "Spaces to Tabs"
+msgstr "Mellemrum til tabuleringer"
+
+#: wx/tools/Editra/src/ed_menu.py:748
+msgid "Convert spaces to tabs in selected/all text"
+msgstr "Konvertér mellemrum til tabuleringer for valgt/al tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:749
+msgid "Tabs to Spaces"
+msgstr "Tabuleringer til mellemrum"
+
+#: wx/tools/Editra/src/ed_menu.py:750
+msgid "Convert tabs to spaces in selected/all text"
+msgstr "Konvertér tabuleringer til mellemrum for valgt/al tekst"
+
+#: wx/tools/Editra/src/ed_menu.py:751
+msgid "Trim Trailing Whitespace"
+msgstr "Trim efterfølgende blanke tegn"
+
+#: wx/tools/Editra/src/ed_menu.py:752
+msgid "Remove trailing whitespace"
+msgstr "Fjern efterfølgende blanke tegn"
+
+#: wx/tools/Editra/src/ed_menu.py:753
+msgid "Whitespace"
+msgstr "Blanke tegn"
+
+#: wx/tools/Editra/src/ed_menu.py:754
+msgid "Whitespace formating commands"
+msgstr "Kommandoer til formatering af blanke tegn"
+
+# I have problems with "\r"
+#: wx/tools/Editra/src/ed_menu.py:758 wx/tools/Editra/src/ed_menu.py:760
+#: wx/tools/Editra/src/prefdlg.py:755
+msgid "Old Macintosh (\\r)"
+msgstr "Gammel Macintosh (\r)"
+
+#: wx/tools/Editra/src/ed_menu.py:759 wx/tools/Editra/src/ed_menu.py:762
+#: wx/tools/Editra/src/ed_menu.py:765
+#, python-format
+msgid "Format all EOL characters to %s Mode"
+msgstr "Formatér alle linjeafslutninger til tilstanden %s"
+
+#: wx/tools/Editra/src/ed_menu.py:764 wx/tools/Editra/src/ed_menu.py:766
+#: wx/tools/Editra/src/prefdlg.py:756
+msgid "Windows (\\r\\n)"
+msgstr ""
+"Windows (\r\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:767
+msgid "EOL Mode"
+msgstr "Tilstand for linjeafslutning"
+
+#: wx/tools/Editra/src/ed_menu.py:768
+msgid "End of line character formatting"
+msgstr "Tegn-formatering for linjeafslutning"
+
+#: wx/tools/Editra/src/ed_menu.py:771
+msgid "F&ormat"
+msgstr "F&ormat"
+
+#: wx/tools/Editra/src/ed_menu.py:780 wx/tools/Editra/src/prefdlg.py:940
+msgid "Auto-Completion"
+msgstr "Auto-fuldførelse"
+
+#: wx/tools/Editra/src/ed_menu.py:781
+msgid "Use Auto Completion when available"
+msgstr "Brug automatisk fuldførelse når det er muligt"
+
+#: wx/tools/Editra/src/ed_menu.py:782 wx/tools/Editra/src/prefdlg.py:950
+msgid "Auto-Indent"
+msgstr "Auto-indryk"
+
+#: wx/tools/Editra/src/ed_menu.py:783
+msgid "Toggle Auto-Indentation functionality"
+msgstr "Vis/skjul funktionalitet til automatisk indrykning"
+
+#: wx/tools/Editra/src/ed_menu.py:785 wx/tools/Editra/src/prefdlg.py:920
+msgid "Bracket Highlighting"
+msgstr "Fremhævelse af parenteser"
+
+#: wx/tools/Editra/src/ed_menu.py:786
+msgid "Highlight Brackets/Braces"
+msgstr "Fremhæv klammer/parenteser"
+
+#: wx/tools/Editra/src/ed_menu.py:788
+msgid "Toggle Code Folding"
+msgstr "Vis/skjul sammenfold af kode"
+
+#: wx/tools/Editra/src/ed_menu.py:789 wx/tools/Editra/src/prefdlg.py:679
+#: wx/tools/Editra/src/prefdlg.py:1080
+msgid "Syntax Highlighting"
+msgstr "Fremhævning af syntaks"
+
+#: wx/tools/Editra/src/ed_menu.py:790
+msgid "Color Highlight Code Syntax"
+msgstr "Farvet fremhævning af kode-syntaks"
+
+#: wx/tools/Editra/src/ed_menu.py:795
+msgid "&Settings"
+msgstr "Ind&stillinger"
+
+#: wx/tools/Editra/src/ed_menu.py:806
+msgid "Editor Command"
+msgstr "Kommando til redigering"
+
+#: wx/tools/Editra/src/ed_menu.py:807
+msgid "Goto command buffer"
+msgstr "Buffer for gå til-kommando"
+
+#: wx/tools/Editra/src/ed_menu.py:809
+msgid "Manage, Download, and Install plugins"
+msgstr "Håndtér, hent og installér udvidelser"
+
+#: wx/tools/Editra/src/ed_menu.py:810 wx/tools/Editra/src/style_editor.py:65
+msgid "Style Editor"
+msgstr "Stil-redigeringsværktøj"
+
+#: wx/tools/Editra/src/ed_menu.py:811
+msgid "Edit the way syntax is highlighted"
+msgstr "Tilpas måden syntaks fremhæves på"
+
+#: wx/tools/Editra/src/ed_menu.py:831
+msgid "&About..."
+msgstr "&Om..."
+
+#: wx/tools/Editra/src/ed_menu.py:832
+msgid "About"
+msgstr "Om"
+
+#: wx/tools/Editra/src/ed_menu.py:833
+msgid "Project Homepage..."
+msgstr "Projektets hjemmeside..."
+
+#: wx/tools/Editra/src/ed_menu.py:834
+#, python-format
+msgid "Visit the project homepage %s"
+msgstr "Besøg projektets hjemmeside %s"
+
+#: wx/tools/Editra/src/ed_menu.py:836
+msgid "Online Documentation..."
+msgstr "Online-dokumentation..."
+
+#: wx/tools/Editra/src/ed_menu.py:837
+msgid "Online project documentation and help guides"
+msgstr "Projektets online-dokumentation og vejledninger"
+
+#: wx/tools/Editra/src/ed_menu.py:838
+msgid "Translate Editra..."
+msgstr "Oversæt Editra..."
+
+#: wx/tools/Editra/src/ed_menu.py:839
+msgid "Editra translations project"
+msgstr "Projekt for Editra-oversættelser"
+
+#: wx/tools/Editra/src/ed_menu.py:840
+msgid "Bug Tracker..."
+msgstr "Fejlrapporteringsværktøj..."
+
+#: wx/tools/Editra/src/ed_menu.py:841
+msgid "Feedback"
+msgstr "Tilbagemelding"
+
+#: wx/tools/Editra/src/ed_menu.py:842
+msgid "Send bug reports and suggestions"
+msgstr "Send fejlrapporter og forslag"
+
+#: wx/tools/Editra/src/ed_pages.py:162
+#, python-format
+#, python-format,
+msgid ""
+"The correct encoding of '%s' could not be determined.\n"
+"\n"
+"Choose an encoding and select OK to open the file with the chosen encoding.\n"
+"Click Cancel to abort opening the file"
+msgstr ""
+"Den korrekte kodning for '%s' kunne ikke fastslægges.\n"
+"\n"
+"Vælg en kodning og vælg OK for at åbne filen med den valgte kodning.\n"
+"Klik Fortryd for at afbryde åbning af filen"
+
+#: wx/tools/Editra/src/ed_pages.py:172
+msgid "Choose an Encoding"
+msgstr "Vælg en kodning"
+
+#: wx/tools/Editra/src/ed_pages.py:211
+msgid ""
+"File is already open in an existing page.\n"
+"Do you wish to open it again?"
+msgstr ""
+"Fil er allerede åben i en eksisterende side.\n"
+"Ønsker du at åbne den igen?"
+
+#: wx/tools/Editra/src/ed_pages.py:213
+msgid "Open File"
+msgstr "Åbn fil"
+
+#: wx/tools/Editra/src/ed_pages.py:232
+#, python-format
+msgid "untitled %d"
+msgstr "unavngivet %d"
+
+#: wx/tools/Editra/src/ed_pages.py:234
+msgid "untitled"
+msgstr "unavngivet"
+
+#: wx/tools/Editra/src/ed_pages.py:324
+msgid "Error Saving Session File"
+msgstr "Fejl under lagring af sessionsfil"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Invalid File"
+msgstr "Ugyldig fil"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Session file doesn't exist."
+msgstr "Sessionsfil eksisterer ikke."
+
+#: wx/tools/Editra/src/ed_pages.py:367
+msgid "Invalid file"
+msgstr "Ugyldig fil"
+
+#: wx/tools/Editra/src/ed_pages.py:368
+msgid "Selected file is not a valid session file"
+msgstr "Valgt fil er ikke en gyldig sessionsfil"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Empty File"
+msgstr "Tom fil"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Session file is empty."
+msgstr "Sessionsfil er tom."
+
+#: wx/tools/Editra/src/ed_pages.py:388
+msgid "Missing session files"
+msgstr "Manglende sessionsfiler"
+
+#: wx/tools/Editra/src/ed_pages.py:389
+msgid "Some files in saved session could not be found on disk:\n"
+msgstr "Nogle filer i gemt session kunne ikke findes på disk:\n"
+
+#: wx/tools/Editra/src/ed_pages.py:965
+#, python-format
+msgid "Invalid file: %s"
+msgstr "Ugyldig fil: %s"
+
+#: wx/tools/Editra/src/ed_pages.py:973
+#, python-format
+msgid "There are no files that Editra can open in %s"
+msgstr "Der er ingen filer som Editra kan åbne i %s"
+
+#: wx/tools/Editra/src/ed_pages.py:975
+msgid "No Valid Files to Open"
+msgstr "Ingen gyldige filer som kan åbnes"
+
+#: wx/tools/Editra/src/ed_pages.py:981
+#, python-format
+#, python-format,
+msgid ""
+"Do you wish to open all %d files in this directory?\n"
+"\n"
+"Warning: opening many files at once may cause the editor to temporarily "
+"freeze."
+msgstr ""
+"Ønsker du at åbne alle %d filer i dette katalog?\n"
+"\n"
+"Advarsel: når mange filer åbnes på samme tid kan redigeringsværktøjet gå i "
+"stå midlertidigt."
+
+#: wx/tools/Editra/src/ed_pages.py:986
+msgid "Open Directory?"
+msgstr "Åbn katalog?"
+
+#: wx/tools/Editra/src/ed_pages.py:1006
+#, python-format
+msgid "Opened file: %s"
+msgstr "Åbnede fil: %s"
+
+#: wx/tools/Editra/src/ed_print.py:115
+msgid "Failed to create print preview"
+msgstr "Kunne ikke oprette forhåndsvisning af udskrift"
+
+#: wx/tools/Editra/src/ed_print.py:116
+msgid "Print Error"
+msgstr "Udskriftsfejl"
+
+#: wx/tools/Editra/src/ed_print.py:132
+msgid ""
+"There was an error when printing.\n"
+"Check that your printer is properly connected."
+msgstr ""
+"Der opstod en fejl ved udskrivning.\n"
+"Kontroller at printeren er korrekt tilsluttet."
+
+#: wx/tools/Editra/src/ed_print.py:134
+msgid "Printer Error"
+msgstr "Printerfejl"
+
+#: wx/tools/Editra/src/ed_print.py:232
+#, python-format
+msgid "Page: %d"
+msgstr "Side: %d"
+
+#: wx/tools/Editra/src/ed_script.py:203 wx/tools/Editra/src/ed_script.py:213
+msgid "Macro Manager"
+msgstr "Makro-håndtering"
+
+#: wx/tools/Editra/src/ed_script.py:204
+msgid "View and Edit Macros"
+msgstr "Vis og redigér makroer"
+
+#: wx/tools/Editra/src/ed_search.py:64 wx/tools/Editra/src/ed_search.py:68
+msgid "DECODING ERROR"
+msgstr "AFKODNINGSFEJL"
+
+#: wx/tools/Editra/src/ed_search.py:149 wx/tools/Editra/src/ed_search.py:153
+#: wx/tools/Editra/src/ed_toolbar.py:94
+msgid "Find/Replace"
+msgstr "Søg/erstat"
+
+#: wx/tools/Editra/src/ed_search.py:310
+#, python-format
+msgid "The search term '%(term)s' was found %(count)d times."
+msgstr "Søge-termen '%(term)s' blev fundet %(count)d gang(e)."
+
+#: wx/tools/Editra/src/ed_search.py:311
+msgid "Find Count"
+msgstr "Søgeforekomster"
+
+#: wx/tools/Editra/src/ed_search.py:351
+#, python-format
+msgid "Invalid expression \"%s\""
+msgstr "Ugyldigt udtryk \"%s\""
+
+#: wx/tools/Editra/src/ed_search.py:352
+msgid "Regex Compile Error"
+msgstr "Kompileringsfejl for regulære udtryk"
+
+#: wx/tools/Editra/src/ed_search.py:405
+msgid "Search wrapped to top"
+msgstr "Søgning pakket i toppen"
+
+#: wx/tools/Editra/src/ed_search.py:410
+msgid "Search wrapped to bottom"
+msgstr "Søgning pakket i bunden"
+
+#: wx/tools/Editra/src/ed_search.py:431
+#, python-format
+msgid "\"%s\" was not found"
+msgstr "\"%s\" blev ikke fundet"
+
+#: wx/tools/Editra/src/ed_search.py:539 wx/tools/Editra/src/ed_search.py:700
+#, python-format
+#, python-format,
+msgid ""
+"Error in regular expression expansion. The replace action cannot be "
+"completed.\n"
+"\n"
+"Error Message: %s"
+msgstr ""
+"Fejl i udvidelse af regulært udtryk. Erstat-handlingen kan ikke fuldføres.\n"
+"\n"
+"Fejlbesked: %s"
+
+#: wx/tools/Editra/src/ed_search.py:542 wx/tools/Editra/src/ed_search.py:703
+msgid "Replace Error"
+msgstr "Fejl ved erstatning"
+
+#: wx/tools/Editra/src/ed_search.py:612
+msgid "Sorry will be ready for next version"
+msgstr "Beklager, vil være klar i næste version"
+
+#: wx/tools/Editra/src/ed_search.py:613
+msgid "Not implemented"
+msgstr "Ikke implementeret"
+
+#: wx/tools/Editra/src/ed_search.py:633
+#, python-format
+msgid "%d matches were replaced."
+msgstr "%d forekomster blev erstattet."
+
+#: wx/tools/Editra/src/ed_search.py:796
+msgid "Recent Searches"
+msgstr "Seneste søgninger"
+
+#: wx/tools/Editra/src/ed_search.py:1271
+msgid "Search Started"
+msgstr "Søgning startet"
+
+#: wx/tools/Editra/src/ed_search.py:1290
+msgid "Search complete"
+msgstr "Søgning fuldført"
+
+#: wx/tools/Editra/src/ed_search.py:1297
+#, python-format
+msgid "Search Complete: %d matching lines where found."
+msgstr "Søgning fuldført: %d matchende linjer blev fundet."
+
+#: wx/tools/Editra/src/ed_search.py:1298
+#, python-format
+msgid "Files Searched: %d"
+msgstr "Filer gennemsøgt: %d"
+
+#: wx/tools/Editra/src/ed_search.py:1381
+#, python-format
+msgid "Searching in: %s"
+msgstr "Søger i: %s"
+
+#: wx/tools/Editra/src/ed_shelf.py:117
+msgid "Shelf"
+msgstr "Hylde"
+
+#: wx/tools/Editra/src/ed_shelf.py:118
+msgid "Put an item on the Shelf"
+msgstr "Læg element på hylden"
+
+#: wx/tools/Editra/src/ed_shelf.py:351
+msgid "Show Shelf"
+msgstr "Vis hylde"
+
+#: wx/tools/Editra/src/ed_shelf.py:353
+msgid "Show the Shelf"
+msgstr "Vis hylden"
+
+#: wx/tools/Editra/src/ed_statbar.py:62 wx/tools/Editra/src/ed_statbar.py:64
+#: wx/tools/Editra/src/ed_statbar.py:66
+#, python-format
+msgid "Change line endings to %s"
+msgstr "Skift linjeendelser til %s"
+
+#: wx/tools/Editra/src/ed_statbar.py:184
+msgid "Change the encoding of the current document."
+msgstr "Skift kodningen af nuværende dokument."
+
+#: wx/tools/Editra/src/ed_statbar.py:185
+msgid "Change Encoding"
+msgstr "Skift kodning"
+
+#: wx/tools/Editra/src/ed_stc.py:563
+#, python-format
+msgid "File backup performed: %s"
+msgstr "Sikkerhedskopiering af fil udført: %s"
+
+#: wx/tools/Editra/src/ed_stc.py:697
+#, python-format
+msgid "Line: %(lnum)d  Column: %(cnum)d"
+msgstr "Linje %(lnum)d  Kolonne: %(cnum)d"
+
+#: wx/tools/Editra/src/ed_stc.py:1097
+msgid ""
+"Mixed EOL characters detected.\n"
+"\n"
+"Would you like to format them to all be the same?"
+msgstr ""
+"Blandet tegn for linjeafslutning detekteret.\n"
+"\n"
+"Ønsker du dem formateret, så alle er ens?"
+
+#: wx/tools/Editra/src/ed_stc.py:1100
+msgid "Format EOL?"
+msgstr "Formatér linjeafslutning?"
+
+#: wx/tools/Editra/src/ed_stc.py:1355
+msgid "Recording Macro"
+msgstr "Optager makro"
+
+#: wx/tools/Editra/src/ed_stc.py:1368
+msgid "Recording Finished"
+msgstr "Optagelse afsluttet"
+
+#: wx/tools/Editra/src/ed_stc.py:1674
+#, python-format
+msgid "%s does not exist"
+msgstr "%s eksisterer ikke"
+
+#: wx/tools/Editra/src/ed_stc.py:1721
+msgid "File is Read Only and cannot be saved"
+msgstr "Fil er skrivebeskyttet og kan ikke gemmes"
+
+#: wx/tools/Editra/src/ed_toolbar.py:77
+msgid "Start a New File"
+msgstr "Start en ny fil"
+
+#: wx/tools/Editra/src/generator.py:117
+msgid "Generator"
+msgstr "Generator"
+
+#: wx/tools/Editra/src/generator.py:118
+msgid "Generate Code and Documents"
+msgstr "Generér kode og dokumenter"
+
+#: wx/tools/Editra/src/generator.py:291 wx/tools/Editra/src/generator.py:678
+#: wx/tools/Editra/src/generator.py:881
+#, python-format
+msgid "Generate %s"
+msgstr "Generér %s"
+
+#: wx/tools/Editra/src/generator.py:292 wx/tools/Editra/src/generator.py:882
+#, python-format
+msgid "Generate a %s version of the current document"
+msgstr "Generér en %s version af det aktuelle dokument"
+
+#: wx/tools/Editra/src/generator.py:679
+#, python-format
+msgid "Generate an %s version of the current document"
+msgstr "Generér en %s version af det aktuelle dokument"
+
+#: wx/tools/Editra/src/perspective.py:72
+msgid "Save Current View"
+msgstr "Gem nuværende visning"
+
+#: wx/tools/Editra/src/perspective.py:73
+msgid "Save the current window layout"
+msgstr "Gem nuværende layout for vindue"
+
+#: wx/tools/Editra/src/perspective.py:74
+msgid "Delete Saved View"
+msgstr "Slet gemt visning"
+
+#: wx/tools/Editra/src/perspective.py:76
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: wx/tools/Editra/src/perspective.py:77
+msgid "Automatically save/use window state from last session"
+msgstr "Gem/brug automatisk vinduestilstand fra seneste session"
+
+#: wx/tools/Editra/src/perspective.py:130
+#, python-format
+msgid "Change view to \"%s\""
+msgstr "Skift visning til \"%s\""
+
+#: wx/tools/Editra/src/perspective.py:252
+msgid "Perspective Name"
+msgstr "Navn på perspektiv"
+
+#: wx/tools/Editra/src/perspective.py:253
+msgid "Save Perspective"
+msgstr "Gem perspektiv"
+
+#: wx/tools/Editra/src/perspective.py:269
+msgid "Perspective to Delete"
+msgstr "Perspektiv som skal slettes"
+
+#: wx/tools/Editra/src/perspective.py:270
+msgid "Delete Perspective"
+msgstr "Slet perspektiv"
+
+#: wx/tools/Editra/src/plugdlg.py:121 wx/tools/Editra/src/plugdlg.py:958
+msgid "Configure"
+msgstr "Tilpas"
+
+#: wx/tools/Editra/src/plugdlg.py:122 wx/tools/Editra/src/plugdlg.py:462
+#: wx/tools/Editra/src/plugdlg.py:1110 wx/tools/Editra/src/prefdlg.py:1524
+msgid "Download"
+msgstr "Hent"
+
+#: wx/tools/Editra/src/plugdlg.py:123 wx/tools/Editra/src/plugdlg.py:765
+msgid "Install"
+msgstr "Installér"
+
+#: wx/tools/Editra/src/plugdlg.py:131
+msgid "Errors"
+msgstr "Fejl"
+
+#: wx/tools/Editra/src/plugdlg.py:180
+msgid "Downloads are incomplete"
+msgstr "Hentede filer er ikke komplette"
+
+#: wx/tools/Editra/src/plugdlg.py:181
+msgid "Do you wish to exit?"
+msgstr "Ønsker du at afbryde?"
+
+#: wx/tools/Editra/src/plugdlg.py:192
+msgid "You must restart Editra before your changes will take full effect."
+msgstr "Du skal genstarte Editra før dine ændringer træder helt i kraft."
+
+#: wx/tools/Editra/src/plugdlg.py:194
+msgid "Configuration Changes Made"
+msgstr "Ændringer af konfiguration foretaget"
+
+#: wx/tools/Editra/src/plugdlg.py:234
+msgid "Changes will take effect once the program has been restarted"
+msgstr "Ændringer vil træde i kraft når programmet er genstartet"
+
+#: wx/tools/Editra/src/plugdlg.py:372 wx/tools/Editra/src/plugin.py:723
+msgid "No Description Available"
+msgstr "Ingen tilgængelig beskrivelse"
+
+#: wx/tools/Editra/src/plugdlg.py:410
+msgid "This plugin requires a newer version of Editra."
+msgstr "Dette udvidelsesmodul kræver en nyere version af Editra."
+
+#: wx/tools/Editra/src/plugdlg.py:485
+msgid "Downloaded"
+msgstr "Hentet"
+
+#: wx/tools/Editra/src/plugdlg.py:488
+msgid "Finished downloading plugins"
+msgstr "Færdig med hentning af udvidelsesmoduler"
+
+#: wx/tools/Editra/src/plugdlg.py:503
+msgid "Select plugins to download"
+msgstr "Vælg udvidelsesmoduler som skal hentes"
+
+#: wx/tools/Editra/src/plugdlg.py:508
+msgid "Unable to retrieve plugin list"
+msgstr "Ikke i stand til at indhente liste med udvidelsesmoduler"
+
+#: wx/tools/Editra/src/plugdlg.py:597 wx/tools/Editra/src/updater.py:606
+msgid "Downloading"
+msgstr "Henter"
+
+#: wx/tools/Editra/src/plugdlg.py:675
+msgid "Retrieving Plugin List"
+msgstr "Indhenter liste med udvidelsesmoduler"
+
+#: wx/tools/Editra/src/plugdlg.py:754
+msgid ""
+"To add a new item drag and drop the plugin file into the list.\n"
+"\n"
+"To remove an item select it and hit Delete or Backspace."
+msgstr ""
+"For at tilføje et nyt element, så træk og slip filen for udvidelsesmodulet "
+"ind i listen.\n"
+"\n"
+"For at fjerne et element, så vælg det og tryk slette- eller tilbagetasten."
+
+#: wx/tools/Editra/src/plugdlg.py:767
+msgid "User Directory"
+msgstr "Brugerkatalog"
+
+#: wx/tools/Editra/src/plugdlg.py:769
+msgid "Install the plugins only for the current user"
+msgstr "Installér kun udvidelsesmodulerne for nuværende bruger"
+
+#: wx/tools/Editra/src/plugdlg.py:771
+msgid "System Directory"
+msgstr "Systemkatalog"
+
+#: wx/tools/Editra/src/plugdlg.py:772
+msgid ""
+"Install the plugins for all users\n"
+" **requires administrative privileges**"
+msgstr ""
+"Installér udvidelsesmodulerne for alle brugere\n"
+"** kræver administrative rettigheder**"
+
+#: wx/tools/Editra/src/plugdlg.py:833
+msgid "Successfully Installed Plugins"
+msgstr "Udvidelsesmoduler installeret med succes"
+
+#: wx/tools/Editra/src/plugdlg.py:842
+#, python-format
+msgid "Failed to install %d plugins"
+msgstr "Mislykkedes med at installere %d udvidelsesmoduler"
+
+#: wx/tools/Editra/src/plugdlg.py:844
+msgid "Installation Error"
+msgstr "Installationsfejl"
+
+#: wx/tools/Editra/src/plugdlg.py:950 wx/tools/Editra/src/plugdlg.py:1131
+#, python-format
+msgid "Author: %s"
+msgstr "Forfatter: %s"
+
+#: wx/tools/Editra/src/plugdlg.py:951
+msgid "Enable"
+msgstr "Aktivér"
+
+#: wx/tools/Editra/src/plugdlg.py:954
+msgid "Uninstall"
+msgstr "Afinstallér"
+
+#: wx/tools/Editra/src/plugdlg.py:1062
+#, python-format
+msgid ""
+"Are you sure you want to uninstall %s?\n"
+"This cannot be undone."
+msgstr ""
+"Er du sikker på at du vil afinstallére %s?\n"
+"Dette kan ikke fortrydes."
+
+#: wx/tools/Editra/src/plugdlg.py:1064
+msgid "Uninstall Plugin"
+msgstr "Afinstallér udvidelsesmodul"
+
+#: wx/tools/Editra/src/plugdlg.py:1068
+msgid "This plugin will be uninstalled on next program launch."
+msgstr "Dette udvidelsesmodul vil blive afinstalleret ved næste programkørsel."
+
+#: wx/tools/Editra/src/prefdlg.py:109
+msgid "Preferences - Editra"
+msgstr "Præferencer - Editra"
+
+#: wx/tools/Editra/src/prefdlg.py:193
+msgid "Appearance"
+msgstr "Udseende"
+
+#: wx/tools/Editra/src/prefdlg.py:195
+msgid "Document"
+msgstr "Dokument"
+
+#: wx/tools/Editra/src/prefdlg.py:197
+msgid "Network"
+msgstr "Netværk"
+
+#: wx/tools/Editra/src/prefdlg.py:199
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: wx/tools/Editra/src/prefdlg.py:284
+msgid ""
+"Changes made in this dialog are saved in your current profile. Some Items "
+"such as Language require the program to be restarted before taking effect."
+msgstr ""
+"Ændringer som foretages i denne dialogboks gemmes i din aktuelle profil. "
+"Nogle elementer, såsom sprog kræver at programmet bliver genstartet, før de "
+"virker."
+
+#: wx/tools/Editra/src/prefdlg.py:306
+msgid "Startup"
+msgstr "Opstart"
+
+#: wx/tools/Editra/src/prefdlg.py:385
+msgid "Editor Mode"
+msgstr "Redigeringstilstand"
+
+#: wx/tools/Editra/src/prefdlg.py:393
+msgid "Printer Mode"
+msgstr "Printer-tilstand"
+
+#: wx/tools/Editra/src/prefdlg.py:401
+msgid "Disable Error Reporter"
+msgstr "Deaktivér fejlrapportering"
+
+#: wx/tools/Editra/src/prefdlg.py:403
+msgid "Load Last Session"
+msgstr "Indlæs seneste session"
+
+#: wx/tools/Editra/src/prefdlg.py:405
+msgid "Load files from last session on startup"
+msgstr "Indlæs filer fra seneste session ved opstart"
+
+#: wx/tools/Editra/src/prefdlg.py:407
+msgid "Show Splash Screen"
+msgstr "Vis startskærm"
+
+#: wx/tools/Editra/src/prefdlg.py:414
+msgid "Check for updates on startup"
+msgstr "Tjek for opdateringer ved opstart"
+
+#: wx/tools/Editra/src/prefdlg.py:419
+msgid "Language"
+msgstr "Sprog"
+
+#: wx/tools/Editra/src/prefdlg.py:429
+msgid "Startup Settings"
+msgstr "Indstillinger for opstart"
+
+#: wx/tools/Editra/src/prefdlg.py:440
+msgid "Locale Settings"
+msgstr "Lokalitetsindstillinger"
+
+#: wx/tools/Editra/src/prefdlg.py:477
+msgid "File History Length"
+msgstr "Længde for filhistorik"
+
+#: wx/tools/Editra/src/prefdlg.py:496
+msgid "Encoding to try when auto detection fails"
+msgstr "Kodning som afprøves når automatisk genkendelse mislykkes"
+
+#: wx/tools/Editra/src/prefdlg.py:498
+msgid "Prefered Encoding"
+msgstr "Foretrukken kodning"
+
+#: wx/tools/Editra/src/prefdlg.py:502
+msgid "Automatically Backup Files"
+msgstr "Sikkerhedskopiér automatisk filer"
+
+#: wx/tools/Editra/src/prefdlg.py:505
+msgid "Backup buffer to file periodically"
+msgstr "Sikkerhedskopier buffer til fil regelmæssigt"
+
+#: wx/tools/Editra/src/prefdlg.py:508
+msgid "Backup Path:"
+msgstr "Sti til sikkerhedskopi:"
+
+#: wx/tools/Editra/src/prefdlg.py:513
+msgid ""
+"Used to set a custom backup path. If not specified the backup will be put in "
+"the same directory as the file."
+msgstr ""
+"Anvendes til at angive en brugerdefineret sti til sikkerhedskopi. Hvis den "
+"ikke angives, så vil sikkerhedskopi blive placeret i samme katalog som "
+"filen."
+
+#: wx/tools/Editra/src/prefdlg.py:523
+msgid "Open files in new windows by default"
+msgstr "Åbn filer i nye vinduer som standard"
+
+#: wx/tools/Editra/src/prefdlg.py:526
+msgid "Remember File Position"
+msgstr "Husk filposition"
+
+#: wx/tools/Editra/src/prefdlg.py:529
+msgid "Check if on disk file has been modified by others"
+msgstr "Tjek om filer på disk er blevet ændret af andre"
+
+#: wx/tools/Editra/src/prefdlg.py:534
+msgid "Automatically reload files when changes are detected on disk"
+msgstr "Genindlæs automatisk filer når ændringer detekteres på disk"
+
+#: wx/tools/Editra/src/prefdlg.py:539
+msgid "Warn when mixed eol characters are detected"
+msgstr "Advar når blandede linjeafslutningstegn detekteres"
+
+#: wx/tools/Editra/src/prefdlg.py:545
+msgid "File Settings"
+msgstr "Filindstillinger"
+
+#: wx/tools/Editra/src/prefdlg.py:559
+msgid "Spell Checking"
+msgstr "Stavekontrol"
+
+#: wx/tools/Editra/src/prefdlg.py:563
+msgid "Check spelling while typing"
+msgstr "Foretage stavekontrol, mens du skriver"
+
+#: wx/tools/Editra/src/prefdlg.py:570
+msgid "Dictionary"
+msgstr "Ordbog"
+
+#: wx/tools/Editra/src/prefdlg.py:580
+msgid "Enchant Path"
+msgstr "Sti for Enchant"
+
+#: wx/tools/Editra/src/prefdlg.py:585 wx/tools/Editra/src/prefdlg.py:586
+msgid "Path to libenchant"
+msgstr "Sti til libenchant"
+
+#: wx/tools/Editra/src/prefdlg.py:649
+msgid "Failed to load Enchant"
+msgstr "Mislykkedes med at indlæse Enchant"
+
+#: wx/tools/Editra/src/prefdlg.py:650
+msgid "Library Error"
+msgstr "Biblioteksfejl"
+
+#: wx/tools/Editra/src/prefdlg.py:678
+msgid "Code"
+msgstr "Kode"
+
+#: wx/tools/Editra/src/prefdlg.py:726
+msgid "Tab Width"
+msgstr "Tabulatorbredde"
+
+#: wx/tools/Editra/src/prefdlg.py:734
+msgid "Indent Width"
+msgstr "Indrykningsbredde"
+
+#: wx/tools/Editra/src/prefdlg.py:742
+msgid "Automatically trim whitespace on save"
+msgstr "Trim automatisk blanke tegn ved gem"
+
+#: wx/tools/Editra/src/prefdlg.py:745
+msgid "Use Tabs Instead of Spaces"
+msgstr "Brug indrykninger i stedet for mellemrum"
+
+#: wx/tools/Editra/src/prefdlg.py:748
+msgid "Backspace Unindents"
+msgstr "Tilbagetast fjerner indrykninger"
+
+#: wx/tools/Editra/src/prefdlg.py:760
+msgid "Default EOL Mode"
+msgstr "Tilstand for standard linjeafslutning"
+
+#: wx/tools/Editra/src/prefdlg.py:765
+msgid "AntiAliasing"
+msgstr "Udjævning"
+
+#: wx/tools/Editra/src/prefdlg.py:775
+msgid "Turn off for better performance"
+msgstr "Deaktivér for bedre ydeevne"
+
+#: wx/tools/Editra/src/prefdlg.py:782
+msgid "Sets the main/default font of the document"
+msgstr "Angiver primær/standard-skrifttype for dokumentet"
+
+#: wx/tools/Editra/src/prefdlg.py:787
+msgid ""
+"Sets a secondary font used for special regions when syntax highlighting is "
+"in use"
+msgstr ""
+"Angiver en sekundær skrifttype som bruges til specielle afsnit når "
+"syntaksfremhævning er i brug"
+
+#: wx/tools/Editra/src/prefdlg.py:794
+msgid "Format"
+msgstr "Format"
+
+#: wx/tools/Editra/src/prefdlg.py:802
+msgid "View Options"
+msgstr "Indstillinger for visning"
+
+#: wx/tools/Editra/src/prefdlg.py:809
+msgid "Primary Font"
+msgstr "Primær skrifttype"
+
+#: wx/tools/Editra/src/prefdlg.py:812
+msgid "Secondary Font"
+msgstr "Sekundær skrifttype"
+
+#: wx/tools/Editra/src/prefdlg.py:911
+msgid "Default highlighing for new documents"
+msgstr "Standard fremhævning for nye dokumenter"
+
+#: wx/tools/Editra/src/prefdlg.py:913
+msgid "Default Lexer"
+msgstr "Standard-Lexer"
+
+#: wx/tools/Editra/src/prefdlg.py:918
+msgid "Visual Helpers"
+msgstr "Visuelle hjælpere"
+
+#: wx/tools/Editra/src/prefdlg.py:924
+msgid "Edge Guide"
+msgstr "Guide til kanter"
+
+#: wx/tools/Editra/src/prefdlg.py:928
+msgid "Guide Column"
+msgstr "Guide til kolonner"
+
+#: wx/tools/Editra/src/prefdlg.py:943
+msgid "Extended Auto-Comp"
+msgstr "Udvidet auto-fuldførelse"
+
+#: wx/tools/Editra/src/prefdlg.py:946
+msgid "Warning suggestions will include context insensitive results"
+msgstr ""
+"Forslag til advarsler vil inkludere resultater som ikke afhænger af kontekst"
+
+#: wx/tools/Editra/src/prefdlg.py:952
+msgid "Enable Vi Emulation"
+msgstr "Aktivér Vi-emulering"
+
+#: wx/tools/Editra/src/prefdlg.py:955
+msgid "Start in Normal Mode"
+msgstr "Start i normal tilstand"
+
+#: wx/tools/Editra/src/prefdlg.py:973
+msgid "Input Helpers"
+msgstr "Hjælp med inddata"
+
+#: wx/tools/Editra/src/prefdlg.py:1089
+msgid "Filetype Associations"
+msgstr "Filassociationer"
+
+#: wx/tools/Editra/src/prefdlg.py:1106 wx/tools/Editra/src/prefdlg.py:1761
+msgid "Revert to Default"
+msgstr "Gå tilbage til standard"
+
+#: wx/tools/Editra/src/prefdlg.py:1175
+msgid "Icon Theme"
+msgstr "Ikontema"
+
+#: wx/tools/Editra/src/prefdlg.py:1180
+msgid "Toolbar Icon Size"
+msgstr "Ikonstørrelse for værktøjslinjer"
+
+#: wx/tools/Editra/src/prefdlg.py:1186
+msgid "Show Icons on Tabs"
+msgstr "Vis ikoner på faner"
+
+#: wx/tools/Editra/src/prefdlg.py:1197
+msgid "Default Perspective"
+msgstr "Standard perspektiv"
+
+#: wx/tools/Editra/src/prefdlg.py:1202
+msgid "Remember Window Size on Exit"
+msgstr "Husk vinduesstørrelse ved afslutning"
+
+#: wx/tools/Editra/src/prefdlg.py:1205
+msgid "Remember Window Position on Exit"
+msgstr "Husk placeringen af vinduet ved afslutning"
+
+#: wx/tools/Editra/src/prefdlg.py:1215
+msgid "Main display font for various UI components"
+msgstr "Primær skrifttype som vises i forskellige brugerflade-komponenter"
+
+#: wx/tools/Editra/src/prefdlg.py:1220
+msgid "Icons"
+msgstr "Ikoner"
+
+#: wx/tools/Editra/src/prefdlg.py:1225
+msgid "Layout"
+msgstr "Layout"
+
+#: wx/tools/Editra/src/prefdlg.py:1233
+msgid "Transparency"
+msgstr "Gennemsigtighed"
+
+#: wx/tools/Editra/src/prefdlg.py:1239
+msgid "Display Font"
+msgstr "Vis skrifttype"
+
+#: wx/tools/Editra/src/prefdlg.py:1339
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: wx/tools/Editra/src/prefdlg.py:1343
+msgid "Update"
+msgstr "Opdatér"
+
+#: wx/tools/Editra/src/prefdlg.py:1376
+msgid "Proxy Settings"
+msgstr "Proxy-indstillinger"
+
+#: wx/tools/Editra/src/prefdlg.py:1381
+msgid "Use Proxy"
+msgstr "Brug proxy"
+
+#: wx/tools/Editra/src/prefdlg.py:1386
+msgid "Proxy URL"
+msgstr "Proxy-URL"
+
+#: wx/tools/Editra/src/prefdlg.py:1390
+msgid "Port Number"
+msgstr "Portnummer"
+
+#: wx/tools/Editra/src/prefdlg.py:1398
+msgid "Username"
+msgstr "Brugernavn"
+
+#: wx/tools/Editra/src/prefdlg.py:1405
+msgid "Password"
+msgstr "Adgangskode"
+
+#: wx/tools/Editra/src/prefdlg.py:1505
+msgid "Installed Version"
+msgstr "Installeret version"
+
+#: wx/tools/Editra/src/prefdlg.py:1511
+msgid "Latest Version"
+msgstr "Nyeste version"
+
+#: wx/tools/Editra/src/prefdlg.py:1529
+msgid "Check"
+msgstr "Tjek"
+
+#: wx/tools/Editra/src/prefdlg.py:1617
+msgid "Keybindings"
+msgstr "Genvejstaster"
+
+#: wx/tools/Editra/src/prefdlg.py:1702
+msgid "Key Profile"
+msgstr "Nøgleprofil"
+
+#: wx/tools/Editra/src/prefdlg.py:1715
+msgid "Menu"
+msgstr "Menu"
+
+#: wx/tools/Editra/src/prefdlg.py:1725
+msgid "Modifier 1"
+msgstr "Modifikator 1"
+
+#: wx/tools/Editra/src/prefdlg.py:1729
+msgid "Modifier 2"
+msgstr "Modifikator 2"
+
+#: wx/tools/Editra/src/prefdlg.py:1733
+msgid "Key"
+msgstr "Nøgle"
+
+#: wx/tools/Editra/src/prefdlg.py:1737
+msgid "Binding"
+msgstr "Binding"
+
+#: wx/tools/Editra/src/prefdlg.py:1763
+msgid "Apply"
+msgstr "Anvend"
+
+#: wx/tools/Editra/src/prefdlg.py:1799
+msgid "None"
+msgstr "Ingen"
+
+#: wx/tools/Editra/src/prefdlg.py:1900
+msgid "New Profile"
+msgstr "Ny profil"
+
+#: wx/tools/Editra/src/prefdlg.py:1901
+msgid "Enter the name of the new key profile"
+msgstr "Angiv navnet på den nye nøgleprofil"
+
+#: wx/tools/Editra/src/prefdlg.py:2038
+msgid "Lexer"
+msgstr "Lexer"
+
+#: wx/tools/Editra/src/prefdlg.py:2040
+msgid "Extensions (space separated, no dots)"
+msgstr "Udvidelser (adskilt af mellemrum, ingen prikker)"
+
+#: wx/tools/Editra/src/prefdlg.py:2151
+msgid "Black/White"
+msgstr "Sort/hvid"
+
+#: wx/tools/Editra/src/prefdlg.py:2152
+msgid "Color/White"
+msgstr "Farve/hvid"
+
+#: wx/tools/Editra/src/prefdlg.py:2153
+msgid "Color/Default"
+msgstr "Farve/standard"
+
+#: wx/tools/Editra/src/prefdlg.py:2154
+msgid "Inverse"
+msgstr "Omvendt"
+
+#: wx/tools/Editra/src/prefdlg.py:2155
+msgid "Normal"
+msgstr "Normal"
+
+#: wx/tools/Editra/src/style_editor.py:143
+msgid "Export"
+msgstr "Eksport"
+
+#: wx/tools/Editra/src/style_editor.py:176
+msgid "Syntax Files"
+msgstr "Syntaks-filer"
+
+#: wx/tools/Editra/src/style_editor.py:179
+msgid "Set the preview file type"
+msgstr "Angiv filtype til forhåndsvisning"
+
+#: wx/tools/Editra/src/style_editor.py:194
+msgid "Style Theme"
+msgstr "Stil-tema"
+
+#: wx/tools/Editra/src/style_editor.py:198
+msgid "Base new theme on existing one"
+msgstr "Brug eksisterende til nyt tema"
+
+#: wx/tools/Editra/src/style_editor.py:201
+msgid "Start a blank new style"
+msgstr "Start en blank, ny stil"
+
+#: wx/tools/Editra/src/style_editor.py:218
+msgid "Style Tags"
+msgstr "Stil-mærker"
+
+#: wx/tools/Editra/src/style_editor.py:252
+msgid "Some styles have been changed would you like to save before exiting?"
+msgstr "Nogle stile er blevet ændret, ønsker du at gemme før der afsluttes?"
+
+#: wx/tools/Editra/src/style_editor.py:254
+msgid "Save Styles"
+msgstr "Gem stile"
+
+#: wx/tools/Editra/src/style_editor.py:294
+msgid "Enter style sheet name"
+msgstr "Indtast navn på stilark"
+
+#: wx/tools/Editra/src/style_editor.py:295
+msgid "Export Style Sheet"
+msgstr "Eksportér stilark"
+
+#: wx/tools/Editra/src/style_editor.py:640
+msgid "Color"
+msgstr "Farve"
+
+#: wx/tools/Editra/src/style_editor.py:644
+msgid "Foreground"
+msgstr "Forgrund"
+
+#: wx/tools/Editra/src/style_editor.py:656
+msgid "Background"
+msgstr "Baggrund"
+
+#: wx/tools/Editra/src/style_editor.py:667
+msgid "Attributes"
+msgstr "Attributter"
+
+#: wx/tools/Editra/src/style_editor.py:671
+msgid "bold"
+msgstr "Fed"
+
+#: wx/tools/Editra/src/style_editor.py:672
+msgid "eol"
+msgstr "eol"
+
+#: wx/tools/Editra/src/style_editor.py:673
+msgid "italic"
+msgstr "kursiv"
+
+#: wx/tools/Editra/src/style_editor.py:674
+msgid "underline"
+msgstr "understreget"
+
+#: wx/tools/Editra/src/style_editor.py:683
+msgid "Font Settings"
+msgstr "Indstilling for skrifttyper"
+
+#: wx/tools/Editra/src/style_editor.py:688
+msgid "Font"
+msgstr "Skrifttype"
+
+#: wx/tools/Editra/src/updater.py:147
+msgid "Unable to retrieve version info"
+msgstr "Kan ikke indhente info om version"
+
+#: wx/tools/Editra/src/updater.py:292
+msgid "Status Unknown"
+msgstr "Status ukendt"
+
+#: wx/tools/Editra/src/updater.py:567
+#, python-format
+msgid "Downloading: %s"
+msgstr "Henter: %s"
+
+#: wx/tools/Editra/src/updater.py:569
+#, python-format
+msgid "Downloading To: %s"
+msgstr "Henter til: %s"
+
+#: wx/tools/Editra/src/updater.py:647
+msgid "Canceled"
+msgstr "Annulleret"
+
+#: wx/tools/Editra/src/updater.py:675
+#, python-format
+msgid "Rate: %.2f Kb/s"
+msgstr "Hastighed: %.2f Kb/s"
+
+#: wx/tools/Editra/src/updater.py:682
+msgid "Finished"
+msgstr "Afsluttet"
+
+#: wx/tools/Editra/src/updater.py:685
+msgid "Failed"
+msgstr "Mislykkedes"
+
+#: wx/tools/Editra/src/util.py:184
+msgid "Unable to accept dropped file or text"
+msgstr "Kan ikke godkende mistet fil eller tekst"
+
+#: wx/tools/Editra/src/util.py:361
+msgid "Text Document"
+msgstr "Tekstdokument"
+
+#: wx/tools/Editra/src/util.py:369
+#, python-format
+msgid "%s Source File"
+msgstr "%s kildefil"
+
+#~ msgid ""
+#~ "\n"
+#~ "The timeline shows dates according to the Gregorian calendar on the x-axis. "
+#~ "Currently the dates are limited to dates between year 10 and year 9989.\n"
+#~ "\n"
+#~ "Future versions might support various kinds of timelines so that you for "
+#~ "example can specify a time in terms of number of minutes since a start time. "
+#~ "If you are interested in such a feature, please get in touch.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Tidslinjen viser datoer i henhold til den gregorianske kalender på x-aksen. "
+#~ "I øjeblikket er datoerme begrænset til datoer mellem år 10 og år 9989.\n"
+#~ "\n"
+#~ "Fremtidige version vil muligvis understøtte forskellige slags tidslinjer, så "
+#~ "du eksempelvis kan angive et tidspunkt gennem antal minutter siden et "
+#~ "starttidspunkt. Hvis du er interesseret i sådan en egenskab, så tag venligst "
+#~ "kontakt.\n"
+
+#, python-format
+#, python-format,
+#~ msgid "Events belonging to '%(name)s' will now belong "
+#~ msgstr "Begivenheder som hører til '%(name)s' vil nu tilhøre "
+
+#~ msgid "&Undo "
+#~ msgstr "Fortryd (ctrl+&z) "
+
+#~ msgid "Events belonging to "
+#~ msgstr "Begivenheder som hører til "
+
+#~ msgid " will now belong to "
+#~ msgstr " vil nu høre til "
+
+#~ msgid "Please check the preferences dialog to verify your preferences"
+#~ msgstr "Tjek venligst dialogen præferencer for at bekræfte dine præferencer"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Old Machintosh (\\r)"
+#~ msgstr "Gammel Macintosh (\r)"
+
+#~ msgid "&Redo "
+#~ msgstr "Gentag (ctrl+&y)"
+
+#~ msgid "Colour Scheme"
+#~ msgstr "Farveskema"

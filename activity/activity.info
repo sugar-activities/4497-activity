@@ -1,0 +1,9 @@
+[Activity]
+name = Time Line
+activity_version = 4
+bundle_id = org.ceibaljam.timeline
+icon = timeline
+exec = sugar-activity timeline.TimeLine
+license = GPLv3
+mime_types = application/timeline
+summary = Allows create interactive time lines

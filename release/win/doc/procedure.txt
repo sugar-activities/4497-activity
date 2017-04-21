@@ -1,0 +1,43 @@
+Procedure to produce Win install exe's
+======================================
+
+1. Download the timeline project from SourceForge
+-------------------------------------------------
+hg clone http://thetimelineproj.hg.sourceforge.net:8000/hgroot/thetimelineproj/main
+hg clone http://thetimelineproj.hg.sourceforge.net:8000/hgroot/thetimelineproj/stable
+
+to a new directory
+
+
+2. Check po files
+-----------------
+Check that all po files found in the directory win\timeline\po also are mentioned
+in the main\release\win\inno\Timeline.iss file.
+
+[Files]
+Source: "po\sv\LC_MESSAGES\*"; DestDir: "{app}\po\sv\LC_MESSAGES"; Flags: ignoreversion
+
+
+3. Execute build script
+-----------------------
+Run the script main\release\win\cmd\build_install_exe.cmd
+
+
+4. Test the install exe
+-----------------------
+Install the new version of Timeline by executing the script
+main\bin\SetupTimeline9nn9Py2Exe.exe
+
+5. Test the installation
+------------------------
+Test Timeline
+
+
+9. Dsitribute the exe
+---------------------
+Rename the instalaltion exe to win\bin\SetupTimelinexyzPy2Exe.ex_ and mail
+to the person responsiblen for uploading the file to SourceForge.
+
+or
+
+Uplod the file directly to SourceForge

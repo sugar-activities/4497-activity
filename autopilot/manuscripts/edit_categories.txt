@@ -1,0 +1,31 @@
+Select Menu(Help, "Getting started tutorial") 
+
+# Just Open/Close dialog
+#Select Menu(Timeline, "Edit Categories") 
+#Click Button(Stäng)
+
+# Add a new category
+Select Menu(Timeline, "Edit Categories") 
+Click Button("Lägg till")
+Enter Text(1, "Test activities")
+Click Button(OK)
+
+# Edit the added activity
+select ctctrl(1, "Test activities")
+Click Button(Redigera)
+# Select Color
+Click Button(1)
+Click button(OK) 
+# Select Font Color
+Click Button(2)
+Click button(OK)
+Select Combobox(1, "Intro")
+Click button(OK)
+
+# Delete the activity created
+select ctctrl(1, "Test activities")
+Click button("Ta bort")
+Click button(Ja)
+
+Click button(Stäng)
+Exit App 

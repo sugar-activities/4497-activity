@@ -1,0 +1,30 @@
+# File menu
+
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(File, New, "File Timeline...") 
+Click Button(Avbryt)
+
+Select Menu(File, New, "Directory Timeline...") 
+Click Button(Avbryt)
+
+Select Menu(File, "Öppna") 
+Click Button(Avbryt)
+
+Select Menu(File, "Spara som") 
+Click Button(Avbryt)
+
+Select Menu(File, "Page Setup") 
+Click Button(Avbryt)
+
+Select Menu(File, "Förhandsgranska") 
+Click Button(Stäng)
+
+Select Menu(File, "Skriv ut") 
+Click Button(Avbryt)
+
+Select Menu(File, "Export to Image") 
+Click Button(Avbryt)
+
+Select Menu(File, "Export to SVG") 
+Click Button(Avbryt)

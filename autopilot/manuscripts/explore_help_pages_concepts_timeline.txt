@@ -1,0 +1,15 @@
+# Concepts - Timeline 
+click mouse(100,275)
+
+# Timeline
+click mouse(60,335)
+click mouse(60,50)
+
+# Categories
+click mouse(60,358)
+click mouse(60,50)
+
+# Events
+click mouse(60,381)
+click mouse(60,50)
+click mouse(60,50)

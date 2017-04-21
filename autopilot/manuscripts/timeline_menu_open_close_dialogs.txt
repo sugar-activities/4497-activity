@@ -1,0 +1,15 @@
+# Timeline menu
+
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(Timeline, "Create Event...") 
+Click Button(Avbryt)
+
+Select Menu(Navigate, "Go to Today") 
+Select Menu(Navigate, "Forward One Week") 
+Select Menu(Navigate, "Forward One Week") 
+
+Select Menu(Timeline, "Edit Categories") 
+Click Button(Stäng)
+
+Select Menu(Timeline, "Read Only") 

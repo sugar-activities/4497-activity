@@ -1,0 +1,11 @@
+# View menu
+
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(View, Sidebar) 
+Select Menu(View, Sidebar) 
+
+Select Menu(View, Legend) 
+Select Menu(View, Legend) 
+
+

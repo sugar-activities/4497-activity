@@ -1,0 +1,5 @@
+The recommended way to install Timeline is to first uninstall any 
+other version of Timeline.
+
+If you really need more than one version of Timeline, make sure you
+install the new version in a new directory not used before.

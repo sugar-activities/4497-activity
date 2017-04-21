@@ -1,0 +1,17 @@
+# Help Pages - Questions & Answers
+
+click mouse(100,150)
+click mouse(60,50)
+
+click mouse(100,175)
+click mouse(60,50)
+
+click mouse(100,200)
+click mouse(60,50)
+
+click mouse(100,220)
+click mouse(60,50)
+
+click mouse(100,240)
+click mouse(60,50)
+

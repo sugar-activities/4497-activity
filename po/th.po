@@ -1,0 +1,4669 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-28 00:31-0400\n"
+"PO-Revision-Date: 2012-03-20 10:55+0200\n"
+"Last-Translator: Meechai <malaku38@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Time Line"
+msgstr "Time Line"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Allows create interactive time lines"
+msgstr ""
+
+#: specs/EventEditor.py:370 timelinelib/editors/event.py:156
+msgid "You can't change time when the Event is locked"
+msgstr "คุณไม่สามารถเปลี่ยนเวลาถ้าเหตุการณ์นี้ถูกล็อก"
+
+#: specs/MonthNames.py:33 timelinelib/calendar/monthnames.py:37
+msgid "Jan"
+msgstr "ชื่อย่อของเดือน มกราคม"
+
+#: specs/MonthNames.py:48 timelinelib/calendar/monthnames.py:48
+msgid "Dec"
+msgstr "ชื่อย่อของเดือนธันวาคม"
+
+#: specs/PyTimeType.py:56 specs/WxTimeType.py:82
+#: timelinelib/calendar/monthnames.py:44
+msgid "Aug"
+msgstr "ชื่อย่อของเดือนสิงหาคม"
+
+#: specs/PyTimeType.py:110 specs/PyTimeType.py:130 specs/PyTimeType.py:146
+#: specs/PyTimeType.py:150 specs/WxTimeType.py:150 specs/WxTimeType.py:166
+#: specs/WxTimeType.py:170 timelinelib/time/pytime.py:123
+#: timelinelib/time/wxtime.py:121
+msgid "day"
+msgstr "วัน"
+
+#: specs/PyTimeType.py:114 specs/PyTimeType.py:138 specs/PyTimeType.py:158
+#: specs/WxTimeType.py:134 specs/WxTimeType.py:158 specs/WxTimeType.py:178
+#: timelinelib/time/pytime.py:131 timelinelib/time/wxtime.py:129
+msgid "minute"
+msgstr "นาที"
+
+#: specs/PyTimeType.py:118 specs/PyTimeType.py:142 specs/PyTimeType.py:162
+#: specs/WxTimeType.py:138 specs/WxTimeType.py:162 specs/WxTimeType.py:182
+#: timelinelib/time/pytime.py:133 timelinelib/time/wxtime.py:131
+msgid "minutes"
+msgstr "หลายนาที"
+
+#: specs/PyTimeType.py:122 specs/PyTimeType.py:138 specs/PyTimeType.py:142
+#: specs/PyTimeType.py:146 specs/WxTimeType.py:142 specs/WxTimeType.py:158
+#: specs/WxTimeType.py:162 specs/WxTimeType.py:166
+#: timelinelib/time/pytime.py:127 timelinelib/time/wxtime.py:125
+msgid "hour"
+msgstr "ชั่วโมง"
+
+#: specs/PyTimeType.py:126 specs/PyTimeType.py:150 specs/PyTimeType.py:154
+#: specs/PyTimeType.py:158 specs/PyTimeType.py:162 specs/WxTimeType.py:146
+#: specs/WxTimeType.py:170 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186
+#: timelinelib/time/pytime.py:129 timelinelib/time/wxtime.py:127
+msgid "hours"
+msgstr "หลายชั่วโมง"
+
+#: specs/PyTimeType.py:134 specs/PyTimeType.py:154 specs/PyTimeType.py:158
+#: specs/PyTimeType.py:162 specs/PyTimeType.py:166 specs/PyTimeType.py:172
+#: specs/WxTimeType.py:154 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186 specs/WxTimeType.py:192
+#: timelinelib/time/pytime.py:125 timelinelib/time/wxtime.py:123
+msgid "days"
+msgstr "หลายวัน"
+
+#: specs/TimelineView.py:66 timelinelib/view/zoom.py:28
+msgid "Select region to zoom into"
+msgstr "เลือกบริเวณที่จะ ขยาย ภาพ"
+
+#: specs/TimelineView.py:74 timelinelib/view/zoom.py:38
+msgid "Region too short"
+msgstr "บริเวณสั้นเกินไป"
+
+#: specs/TimelineView.py:90 timelinelib/view/zoom.py:35
+msgid "Region too long"
+msgstr "บริเวณยาวเกินไป"
+
+#: specs/TimelineView.py:191 timelinelib/view/drawingarea.py:172
+msgid "Can't scroll more to the left"
+msgstr "ไม่สามารถเลื่อนไปทางซ้ายได้อีก"
+
+#: specs/TimelineView.py:198 timelinelib/view/drawingarea.py:174
+msgid "Can't scroll more to the right"
+msgstr "ไม่สามารถเลื่อนไปทางขวาได้อีก"
+
+#: specs/WeekdayNames.py:28 timelinelib/calendar/weekdaynames.py:21
+msgid "Mon"
+msgstr "จ."
+
+#: specs/WeekdayNames.py:33 timelinelib/calendar/weekdaynames.py:27
+msgid "Sun"
+msgstr "อา."
+
+#: timelinelib/application.py:89
+msgid ""
+"Someone else has changed the Timeline.\n"
+"You have two choices!\n"
+"  1. Set Timeline in Read-Only mode.\n"
+"  2. Synchronize Timeline.\n"
+"\n"
+"Do you want to Synchronize?"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:38
+msgid "Feb"
+msgstr "ชื่อย่อ ของเดือนกุมภาพันธ์"
+
+#: timelinelib/calendar/monthnames.py:39
+msgid "Mar"
+msgstr "ชื่อย่อ ของเดือนมีนาคม"
+
+#: timelinelib/calendar/monthnames.py:40
+msgid "Apr"
+msgstr "ชื่อย่อ ของเดือนเมษายน"
+
+#: timelinelib/calendar/monthnames.py:41
+msgid "May"
+msgstr "ชื่อย่อ ของเดือนพฤษภาคม"
+
+#: timelinelib/calendar/monthnames.py:42
+msgid "Jun"
+msgstr "ชื่อย่อ ของเดือนมิถุนายน"
+
+#: timelinelib/calendar/monthnames.py:43
+msgid "Jul"
+msgstr "ชื่อย่อ ของเดือนกรกฎาคม"
+
+#: timelinelib/calendar/monthnames.py:45
+msgid "Sep"
+msgstr "ชื่อย่อ ของเดือนกันยายน"
+
+#: timelinelib/calendar/monthnames.py:46
+msgid "Oct"
+msgstr "ชื่อย่อ ของเดือนตุลาคม"
+
+#: timelinelib/calendar/monthnames.py:47
+msgid "Nov"
+msgstr "ชื่อย่อ ของเดือนพฤศจิกายน"
+
+#: timelinelib/calendar/weekdaynames.py:22
+msgid "Tue"
+msgstr "วันอังคาร"
+
+#: timelinelib/calendar/weekdaynames.py:23
+msgid "Wed"
+msgstr "วันพุธ"
+
+#: timelinelib/calendar/weekdaynames.py:24
+msgid "Thu"
+msgstr "วันพฤหัสบดี"
+
+#: timelinelib/calendar/weekdaynames.py:25
+msgid "Fri"
+msgstr "วันศุกร์"
+
+#: timelinelib/calendar/weekdaynames.py:26
+msgid "Sat"
+msgstr "วันเสาร์"
+
+#: timelinelib/db/__init__.py:67
+msgid ""
+"Could not find iCalendar Python package. It is required for working with ICS "
+"files. See the Timeline website or the INSTALL file for instructions how to "
+"install it."
+msgstr ""
+"ไม่สามารถหา iCalendar Phythonpackage.มันถูกต้องการสำหรับการทำงานกับ ICS "
+"ไฟล์.ดู Timeline หรือ install ไฟล์สำหรับคำแนะนำในการ install"
+
+#: timelinelib/db/__init__.py:72
+#, python-format
+msgid "Unable to open timeline '%s'."
+msgstr "ไม่สามารถ เปิด timeline '%s'."
+
+#: timelinelib/db/__init__.py:73
+msgid "Unknown format."
+msgstr "ไม่รู้จัก รูปแบบ นี้"
+
+#: timelinelib/db/backends/dir.py:105 timelinelib/db/backends/file.py:114
+#: timelinelib/db/backends/ics.py:137
+#, python-format
+msgid "Unable to read from file '%s'."
+msgstr "ไม่สามารถอ่านไฟล์ '%s'."
+
+#: timelinelib/db/backends/file.py:107 timelinelib/db/backends/ics.py:131
+#: timelinelib/db/backends/xmlfile.py:142
+#, python-format
+msgid "Unable to read timeline data from '%s'."
+msgstr "ไม่สามารถอ่านข้อมูล timelime จาก '%s'."
+
+#: timelinelib/db/backends/memory.py:227
+msgid "Displayed period must be > 0."
+msgstr "การดูช่วงต้อง > 0"
+
+#: timelinelib/db/backends/tutorial.py:30
+msgid "Welcome"
+msgstr "ยินดีต้อนรับ"
+
+#: timelinelib/db/backends/tutorial.py:32
+msgid "Welcome to Timeline"
+msgstr "ยินดีต้อนรับ สู่ TimeLine"
+
+#: timelinelib/db/backends/tutorial.py:35
+msgid "Intro"
+msgstr "การเปิดตัว"
+
+#: timelinelib/db/backends/tutorial.py:37
+#, fuzzy
+msgid "Hover me!"
+msgstr "Hover me!"
+
+#: timelinelib/db/backends/tutorial.py:38
+msgid "Hovering events with a triangle shows the event description."
+msgstr "เหตุการณ์ Hovering ที่มีรูปสามเหลี่ยมแสดงให้เห็นถึงคำอธิบายของเหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:40
+msgid "Features"
+msgstr "คุณสมบัติ"
+
+#: timelinelib/db/backends/tutorial.py:42
+msgid "Scroll"
+msgstr "เลื่อน"
+
+#: timelinelib/db/backends/tutorial.py:43
+msgid ""
+"Left click somewhere on the timeline and start dragging.\n"
+"\n"
+"You can also use the mouse wheel.\n"
+"\n"
+"You can also middle click with the mouse to center around that point."
+msgstr ""
+"คลิกซ้ายที่บางที่บนTimelineเพื่อเริ่ม ลาก.\n"
+"\n"
+"คุณสามารถใช้ wheel เม้าส์\n"
+"\n"
+"คุณสามารถใช้ คลิกกลาง กับ เม้าส์ เพื่อ ศูนย์รอบจุดบริเวณ"
+
+#: timelinelib/db/backends/tutorial.py:51
+msgid "Zoom"
+msgstr "ขยาย"
+
+#: timelinelib/db/backends/tutorial.py:52
+msgid ""
+"Hold down Ctrl while scrolling the mouse wheel.\n"
+"\n"
+"Hold down Shift while dragging with the mouse."
+msgstr ""
+"กด Ctrl ระหว่างเลื่อน wheel เม้าส์ \n"
+"\n"
+"กด shift ระหว่าง เลื่อน เม้าส์"
+
+#: timelinelib/db/backends/tutorial.py:58 timelinelib/help/pages.py:148
+msgid "Create event"
+msgstr "สร้างเหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:59
+msgid ""
+"Double click somewhere on the timeline.\n"
+"\n"
+"Hold down Ctrl while dragging the mouse to select a period."
+msgstr ""
+"double คลิ๊กเม้าส์ บริเวณที่ใดก็ได้ของ timeline\n"
+"\n"
+"กด Ctrl ไปด้วยขณะเลื่อนเพื่อ เลือก ระยะเวลา"
+
+#: timelinelib/db/backends/tutorial.py:65 timelinelib/help/pages.py:165
+msgid "Edit event"
+msgstr "แก้ไขเหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:66
+msgid "Double click on an event."
+msgstr "double คลิ๊ก ในบริเวณในเหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:70
+msgid "Select event"
+msgstr "เลือก เหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:71
+msgid ""
+"Click on it.\n"
+"\n"
+"Hold down Ctrl while clicking events to select multiple."
+msgstr ""
+"คลิ๊กที่นี้ \n"
+"\n"
+"กด ctrl ขณะ คลิ๊กเหตุการณ์ เพื่อเลือกได้หลายเหตูการณ์"
+
+#: timelinelib/db/backends/tutorial.py:77 timelinelib/help/pages.py:203
+msgid "Delete event"
+msgstr "ลบเหตุการณ์"
+
+#: timelinelib/db/backends/tutorial.py:78
+msgid "Select events to be deleted and press the Del key."
+msgstr "เลือกเหตุการณ์เพื่อลบ โดยการกดปุ่ม delete"
+
+#: timelinelib/db/backends/tutorial.py:82
+msgid "Resize and move me!"
+msgstr "ปรับขนาดใหม่และย้ายฉัน"
+
+#: timelinelib/db/backends/tutorial.py:83
+msgid "First select me and then drag the handles."
+msgstr "เลือกฉันก่อนแล้วใช้ตัวจัดการเพื่อลาก"
+
+#: timelinelib/db/backends/tutorial.py:86
+#: timelinelib/db/backends/tutorial.py:88
+msgid "Saving"
+msgstr "กำลังบันทึก"
+
+#: timelinelib/db/backends/tutorial.py:89
+msgid ""
+"This timeline is stored in memory and modifications to it will not be "
+"persisted between sessions.\n"
+"\n"
+"Choose File/New/File Timeline to create a timeline that is saved on disk."
+msgstr ""
+"timeline นี้ถูกจัดเก็บ ลง memory และ การปรับเปลี่ยน "
+"เพื่อมันจะไม่หายระหว่างวาระงาน\n"
+"\n"
+"เลือกไฟล์/ไฟล์ใหม่/ไฟล์ timeline เพื่อสร้าง timeline ที่ถูกเซฟลงดิสกฺ์"
+
+#: timelinelib/db/objects/timeperiod.py:72
+msgid "Start time "
+msgstr "เวลาเริ่มต้น "
+
+#: timelinelib/db/objects/timeperiod.py:74
+msgid "End time "
+msgstr "เวลาสิ้นสุด "
+
+#: timelinelib/db/objects/timeperiod.py:84
+msgid "Start time can't be after end time"
+msgstr "ไม่สามารถเริ่มต้นเวลาได้หลังจากหมดเวลา"
+
+#: timelinelib/db/utils.py:45
+#, python-format
+msgid "Unable to save timeline data to '%s'. File left unmodified."
+msgstr "ไม่สามารถบันทึกข้อมูลได้ที่ '%s' ไฟล์ยังไม่ได้เปลี่ยนแปลง"
+
+#: timelinelib/db/utils.py:60
+msgid "Unable to write timeline data."
+msgstr "ไม่สามารถเขียนข้อมูลได้"
+
+#: timelinelib/db/utils.py:64
+#, python-format
+msgid "Unable to write to temporary file '%s'."
+msgstr "ไม่สามารถเขียนเป็นไฟล์ชั่วคราวได้ที่ '%s'."
+
+#: timelinelib/db/utils.py:70
+#, python-format
+msgid "Unable to take backup to '%s'."
+msgstr "ไม่สามารถสำรองไฟล์ไปที่ '%s'."
+
+#: timelinelib/db/utils.py:75
+#, python-format
+msgid "Unable to rename temporary file '%s' to original."
+msgstr "ไม่สามารถเปลี่ยนชื่อไฟล์สำรองที่ '%s' เป็นแบบเดิม"
+
+#: timelinelib/db/utils.py:81
+#, python-format
+msgid "Unable to delete backup file '%s'."
+msgstr "ไม่สามารถลบไฟล์สำรองที่ '%s'."
+
+#: timelinelib/editors/container.py:81 timelinelib/editors/event.py:250
+#, python-format
+msgid "Field '%s' can't be empty."
+msgstr "พื้นที่ '%s' ไม่สามารถว่างได้"
+
+#: timelinelib/editors/container.py:81
+#, fuzzy
+msgid "Name"
+msgstr "ชื่อ:"
+
+#: timelinelib/editors/event.py:237
+msgid "End must be > Start"
+msgstr ""
+
+#: timelinelib/editors/event.py:245
+msgid "Entered period is too long."
+msgstr "ระยะเวลาที่เข้าไปยาวเกินไป"
+
+#: timelinelib/editors/event.py:250
+msgid "Text"
+msgstr "ข้อความ"
+
+#: timelinelib/export/bitmap.py:29
+msgid "Image files"
+msgstr "แฟ้มรูปภาพ"
+
+#: timelinelib/export/bitmap.py:31
+msgid "Export to Image"
+msgstr "ส่งภาพออก"
+
+#: timelinelib/export/bitmap.py:35 timelinelib/wxgui/dialogs/mainframe.py:325
+#, python-format
+#, python-format, fuzzy
+msgid "File '%s' exists. Overwrite?"
+msgstr "แฟ้มเอกสารที่มีอยู่ สามารถเขียนทับได้ไหม?"
+
+#: timelinelib/help/pages.py:36
+msgid "Help contents"
+msgstr "เนื้อหา สนับสนุน"
+
+#: timelinelib/help/pages.py:56
+msgid "Questions and answers"
+msgstr "คำถามและคำตอบ"
+
+#: timelinelib/help/pages.py:56
+msgid "Concepts"
+msgstr "แนวคิด"
+
+#: timelinelib/help/pages.py:56
+msgid "Tasks"
+msgstr "งาน"
+
+#: timelinelib/help/pages.py:61
+msgid "Where is the save button?"
+msgstr "ปุ่มบันทึกอยู่ที่ไหน?"
+
+#: timelinelib/help/pages.py:67
+msgid ""
+"\n"
+"There is no save button. Timeline will automatically save your data whenever "
+"needed.\n"
+msgstr ""
+"\n"
+"ไม่มีปุ่มบันทึก โปรแกรมจะทำการบันทึกให้โดยอัติโนมัติเมื่อจำเป็น\n"
+
+#: timelinelib/help/pages.py:74
+msgid "Where do the week numbers go if I start my weeks on Sunday?"
+msgstr "อีกกี่สัปดาห์ ถ้าฉันเริ่มต้นสัปดาห์ในวันอาทิตย์ ?"
+
+#: timelinelib/help/pages.py:80
+msgid ""
+"\n"
+"The date data object used does not support week numbers for weeks that start "
+"on Sunday at present.  We plan on using a different date object that will "
+"support this in future versions.\n"
+msgstr ""
+"\n"
+"วันที่ของข้อมูล ไม่สนับสนุนสัปดาห์ที่เริ่มต้นด้วยวันอาทิตย์ ที่เสนอ "
+"แผนของเรา ที่ใช้วันที่ของข้อมูลแตกต่าง จะสนับสนุนรุ่นต่อๆไปในอนาคต\n"
+
+#: timelinelib/help/pages.py:86
+msgid "Can multiple users work with the same timeline?"
+msgstr ""
+
+#: timelinelib/help/pages.py:92
+msgid ""
+"\n"
+"There are some support for multiple users to work on the same timeline "
+"file.\n"
+"\n"
+"When you try to make a change and someone else has made a change you will be "
+"asked to make one of two choices:\n"
+"\n"
+"- Set timeline in read-only mode.\n"
+"- Synchronize the timeline.\n"
+" \n"
+"During the your edit action the timeline is locked for changes by others. If "
+"you try to edit a timeline when it is locked by someone else you will be "
+"notified about this situation.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:105
+msgid "Timeline"
+msgstr "ไทม์ไลน์"
+
+#: timelinelib/help/pages.py:112
+msgid ""
+"\n"
+"The timeline shows dates according to the Gregorian calendar on the x-axis. "
+"Currently the dates are limited to dates between year 10 and year 9989.\n"
+"\n"
+"Future versions might support various kinds of timelines so that you for "
+"example can specify a time in terms of number of minutes since a start time. "
+"If you are interested in such a feature, please get in touch.\n"
+"\n"
+"The timeline is divided in two areas with a horizontal adjustable divider "
+"line. Period events are displayed below the line and point events are "
+"displayed above the line.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:122
+msgid "Events"
+msgstr "เหตุการณ์"
+
+#: timelinelib/help/pages.py:129
+msgid ""
+"\n"
+"An event is the basic data type for representing information on the "
+"timeline.  It must specify where on the timeline is should be placed (when "
+"that event happened). This can be either a specific point in time or a "
+"period.\n"
+msgstr ""
+"\n"
+"เหตุการณ์ เป็นพื้นฐานของข้อมูล สำหรับการนำเสนอข้อมูลบนไทม์ไลน์ "
+"จะต้องระบุตำแหน่งที่เกี่ยวกับระยะเวลาที่จะควรอยู่ "
+"(เมื่อมีเหตุการณ์ที่เกิดขึ้น) "
+"นี้สามารถเป็นได้ทั้งจุดที่ระบุในเวลาหรือช่วงเวลา.\n"
+
+#: timelinelib/help/pages.py:135
+msgid "Categories"
+msgstr "หมวดหมู่"
+
+#: timelinelib/help/pages.py:142
+msgid ""
+"\n"
+"Categories are used to group events. An event can only belong to one "
+"category. All events that belong to the same category are displayed with the "
+"same background color.\n"
+msgstr ""
+"\n"
+"หมวดหมู่จะใช้บ่อยในกลุ่มเหตุการณ์ แต่ละเหตุการณ์สามารถ "
+"เป็นได้แค่หนึ่งหมวดหมู่เท่านั้น "
+"ทุกๆเหตุการณ์ที่เป็นเหมือนหมวดหมู่จะแสดงที่สีพื้นหลังเหมือนกัน\n"
+
+#: timelinelib/help/pages.py:155
+msgid ""
+"\n"
+"The *Create Event* dialog can be opened in the following ways:\n"
+"\n"
+"- Select *Timeline* - *Create Event* from the menu.\n"
+"- Double click with the *left* mouse button on the timeline.\n"
+"- Press the *Ctrl* key, thereafter hold *left* mouse button down on the "
+"timeline, drag the mouse and release it.\n"
+msgstr ""
+"\n"
+"* Create Event * dialog สามารถ เปิดได้ในทางนี้ :\n"
+"\n"
+"-เลือก * Timeline* - *Create Event * จากเมนู \n"
+"-ดับเบิ้ลคลิก *ซ้าย* ปุ่มเมาส์ในไทม์ไลน์\n"
+"-กดปุ่ม *Ctrl* หลังจากนั้น กดปุ่ม*left* ลงบนไทม์ไลน์ ลากเมาส์และปล่อยมัน\n"
+
+#: timelinelib/help/pages.py:172
+msgid ""
+"\n"
+"The *Edit Event* dialog can be opened by double clicking on an event.\n"
+msgstr ""
+"\n"
+"*Edit Event* dialog สามารถเปิดได้โดยดับเบิลคลิกที่เหตุการณ์.\n"
+
+#: timelinelib/help/pages.py:178
+msgid "Move event vertically"
+msgstr ""
+
+#: timelinelib/help/pages.py:185
+msgid ""
+"\n"
+"An event can be moved vertically. This is done by first selecting the event "
+"and therefter using the Alt+Up or Alt+Down keys.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:191
+msgid "Selecting events"
+msgstr "เลือกเหตุการณ์"
+
+#: timelinelib/help/pages.py:197
+msgid ""
+"\n"
+"To select an event, click on it. To select multiple events, hold down the "
+"*Ctrl* key while clicking events.\n"
+msgstr ""
+"\n"
+"เพื่อเลือกเหตการณ์,กดคลิกมัน.เพื่อเลือกหลายๆเหตุการณ์,กดปุ่ม Ctrl "
+"ค้างไว้จนกว่าจะเสร็จ.\n"
+
+#: timelinelib/help/pages.py:210
+msgid ""
+"\n"
+"To delete an event, select it and press the *Del* key. Multiple events can "
+"be deleted at the same time.\n"
+msgstr ""
+"\n"
+"เพื่อลบเหตุการณ์ เลือกและกดปุ่ม*Del* หลายๆเหตุการณ์ "
+"สามารถลบได้ในเวลาเดียวกัน\n"
+
+#: timelinelib/help/pages.py:216
+msgid "Will associated events be deleted when I delete a category?"
+msgstr "กิจกรรมที่เกี่ยวข้องจะถูกลบเมื่อฉันลบหมวดหมู่นี้?"
+
+#: timelinelib/help/pages.py:222
+msgid ""
+"\n"
+"No. The events will still be there but they will not belong to a category.\n"
+msgstr ""
+"\n"
+"ไม่ เหตุการณ์ จะอยู่ตรงนั้น แต่จะไม่เป็นของหมวหมู่\n"
+
+#: timelinelib/help/pages.py:228
+#: timelinelib/wxgui/components/categorychoice.py:53
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit categories"
+msgstr "กำหนด หมวดหมู่"
+
+#: timelinelib/help/pages.py:235
+msgid ""
+"\n"
+"Categories can be managed in the *Edit Categories* dialog (*Timeline* > "
+"*Edit Categories*). To edit an existing category, double click on it.\n"
+"\n"
+"The visibility of categories can also be edited in the sidebar (*View* > "
+"*Sidebar*).\n"
+msgstr ""
+"\n"
+"หมวดหมู่ สามารถจัดการได้ใน *Edit Categories* dialog(*Timeline *> *Edit "
+"Categories*) เพื่อกำหนดหมวดหมู่ที่มีอยู่ให้ดับเบิลคลิกที่มัน. \n"
+"\n"
+"การแสดงผลของประเภทนี้ยังสามารถแก้ไขได้ในแถบด้านข้าง (* View *> * Sidebar *).\n"
+
+#: timelinelib/help/pages.py:243 timelinelib/wxgui/dialogs/mainframe.py:653
+#: timelinelib/wxgui/dialogs/mainframe.py:1139
+msgid "Contact"
+msgstr "ติดต่อ"
+
+#: timelinelib/help/pages.py:249
+msgid ""
+"\n"
+"If you have more questions about Timeline, or if you want to get in contact "
+"with users and developers of Timeline, send an email to the user mailing "
+"list: <thetimelineproj-user@lists.sourceforge.net>. (Please use English.)\n"
+msgstr ""
+"\n"
+"ถ้าคุณมีคำถามอื่นๆ เกี่ยวกับไทม์ไลน์ หรือ ถ้าคุณต้องการติดต่อผู้ใช้งาน "
+"และผู้พัฒนา ไทม์ไลน์ ส่งจดหมายอิเล็กส์ทรอนิค ไปที่รายชื่อผู้ใช้\n"
+
+#: timelinelib/help/pages.py:255
+msgid "Why is Timeline not available in my language?"
+msgstr "ทำไม ไทม์ไลน์ ไม่สามารถใช้งานได้ กับภาษาของฉัน ?"
+
+#: timelinelib/help/pages.py:262
+msgid ""
+"\n"
+"Timeline is developed and translated by volunteers. If you would like to "
+"contribute translations you are very much welcome to contact us.\n"
+msgstr ""
+"\n"
+"ไทม์ไลน์ ถูกพัฒนาและแปลโดย อาสาสมัคร ถ้าคุณต้องการสนับสนุนการแปล "
+"มีความยินดีอย่างมากที่จะติดต่อเรา.\n"
+
+#: timelinelib/help/system.py:64
+#, python-format
+msgid "Search results for '%s'"
+msgstr "ค้นหาผลลัพท์ สำหรับ '%s'"
+
+#: timelinelib/help/system.py:122
+msgid "Related pages"
+msgstr "หน้าที่เกี่ยวข้อง"
+
+#: timelinelib/printing.py:100
+msgid ""
+"There was a problem printing.\n"
+"Perhaps your current printer is not set correctly?"
+msgstr ""
+"การพิมมีปัญหาเกิดขึ้น \n"
+" บางทีเครื่องพิมพ์ปัจจุบันของคุณไม่ได้ตั้งค่าอย่างถูกต้อง?"
+
+#: timelinelib/printing.py:100
+msgid "Printing"
+msgstr "กำลังพิมพ์"
+
+#: timelinelib/printing.py:114
+msgid "Print preview"
+msgstr "ตัวอย่างการพิมพ์"
+
+#: timelinelib/time/numtime.py:46
+#, fuzzy
+msgid "Go to &Zero\tCtrl+Z"
+msgstr "Go to &Zero\tCtrl+Z"
+
+#: timelinelib/time/numtime.py:47
+msgid "Go to &Time\tCtrl+T"
+msgstr ""
+
+#: timelinelib/time/numtime.py:49 timelinelib/time/pytime.py:74
+#: timelinelib/time/wxtime.py:69
+msgid "Backward\tPgUp"
+msgstr ""
+
+#: timelinelib/time/numtime.py:50 timelinelib/time/pytime.py:75
+#: timelinelib/time/wxtime.py:70
+msgid "Forward\tPgDn"
+msgstr ""
+
+#: timelinelib/time/numtime.py:113
+msgid "Can't zoom deeper than 5"
+msgstr "ไม่สามารถ ขยายได้ใกล้กว่า 5"
+
+#: timelinelib/time/numtime.py:126
+msgid "1-period"
+msgstr "1 ตอน"
+
+#: timelinelib/time/numtime.py:127
+msgid "10-period"
+msgstr "10 ตอน"
+
+#: timelinelib/time/numtime.py:128
+msgid "100-period"
+msgstr "100 ตอน"
+
+#: timelinelib/time/numtime.py:129
+msgid "1000-period"
+msgstr "1000 ตอน"
+
+#: timelinelib/time/numtime.py:174
+msgid "Go to Time"
+msgstr "ไปที่เวลา"
+
+#: timelinelib/time/pytime.py:71 timelinelib/time/wxtime.py:66
+msgid "Go to &Today\tCtrl+T"
+msgstr ""
+
+#: timelinelib/time/pytime.py:72 timelinelib/time/wxtime.py:67
+msgid "Go to D&ate...\tCtrl+G"
+msgstr ""
+
+#: timelinelib/time/pytime.py:76 timelinelib/time/wxtime.py:71
+#, fuzzy
+msgid "Forward One Wee&k\tCtrl+K"
+msgstr "Forward One Wee&k\tCtrl+K"
+
+#: timelinelib/time/pytime.py:77 timelinelib/time/wxtime.py:72
+msgid "Back One &Week\tCtrl+W"
+msgstr ""
+
+#: timelinelib/time/pytime.py:78 timelinelib/time/wxtime.py:73
+#, fuzzy
+msgid "Forward One Mont&h\tCtrl+h"
+msgstr "Forward One Wee&k\tCtrl+K"
+
+#: timelinelib/time/pytime.py:79 timelinelib/time/wxtime.py:74
+msgid "Back One &Month\tCtrl+M"
+msgstr ""
+
+#: timelinelib/time/pytime.py:80 timelinelib/time/wxtime.py:75
+#, fuzzy
+msgid "Forward One Yea&r\tCtrl+R"
+msgstr "Forward One Wee&k\tCtrl+K"
+
+#: timelinelib/time/pytime.py:81 timelinelib/time/wxtime.py:76
+msgid "Back One &Year\tCtrl+Y"
+msgstr ""
+
+#: timelinelib/time/pytime.py:83 timelinelib/time/wxtime.py:78
+msgid "Fit Millennium"
+msgstr "มิลเลนเนียมที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:84 timelinelib/time/wxtime.py:79
+msgid "Fit Century"
+msgstr "Centuryที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:85 timelinelib/time/wxtime.py:80
+msgid "Fit Decade"
+msgstr "ทศวรรษที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:86 timelinelib/time/wxtime.py:81
+msgid "Fit Year"
+msgstr "ปีที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:87 timelinelib/time/wxtime.py:82
+msgid "Fit Month"
+msgstr "เดือนที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:88 timelinelib/time/wxtime.py:83
+msgid "Fit Week"
+msgstr ""
+
+#: timelinelib/time/pytime.py:89 timelinelib/time/wxtime.py:84
+msgid "Fit Day"
+msgstr "วันที่เหมาะสม"
+
+#: timelinelib/time/pytime.py:141
+msgid "can't be before year 10"
+msgstr "ไม่สามารถเป็นไปได้ก่อนปีที่ 10"
+
+#: timelinelib/time/pytime.py:145
+msgid "can't be after year 9989"
+msgstr "ไม่สามารถเป็นไปได้หลังปีที่ 9989"
+
+#: timelinelib/time/pytime.py:202 timelinelib/time/wxtime.py:199
+msgid "Can't zoom wider than 1200 years"
+msgstr "ไม่สามารถซูมกว้างกว่า 1200 ปี"
+
+#: timelinelib/time/pytime.py:205 timelinelib/time/wxtime.py:202
+msgid "Can't zoom deeper than 1 hour"
+msgstr "ไม่สามารถขยายลึกกว่า 1 ชั่วโมง"
+
+#: timelinelib/time/pytime.py:220 timelinelib/time/wxtime.py:217
+msgid "Day"
+msgstr "วัน"
+
+#: timelinelib/time/pytime.py:221 timelinelib/time/pytime.py:583
+#: timelinelib/time/wxtime.py:218 timelinelib/time/wxtime.py:561
+msgid "Week"
+msgstr "สัปดาห์"
+
+#: timelinelib/time/pytime.py:222 timelinelib/time/wxtime.py:219
+msgid "Month"
+msgstr "เดือน"
+
+#: timelinelib/time/pytime.py:223 timelinelib/time/wxtime.py:220
+msgid "Year"
+msgstr "ปี"
+
+#: timelinelib/time/pytime.py:259 timelinelib/time/wxtime.py:262
+msgid "Go to Date"
+msgstr "ไปยังวัน"
+
+#: timelinelib/time/wxtime.py:139
+#, python-format
+msgid "can't be before year %d"
+msgstr "ไม่สามารถเป็นไปได้ก่อนปีที่ %d"
+
+#: timelinelib/time/wxtime.py:143
+#, python-format
+msgid "can't be after year %d"
+msgstr "ไม่สามารถเป็นไปได้หลังปีที่ %d"
+
+#: timelinelib/view/drawingarea.py:148 timelinelib/view/drawingarea.py:166
+msgid "No timeline set"
+msgstr "ไม่มีการตั้งค่า Timeline"
+
+#: timelinelib/view/drawingarea.py:201
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: timelinelib/view/drawingarea.py:202
+msgid "Duplicate..."
+msgstr "คัดลอก..."
+
+#: timelinelib/view/drawingarea.py:203
+#: timelinelib/wxgui/components/cattree.py:82
+#: wx/tools/Editra/src/prefdlg.py:1706
+msgid "Delete"
+msgstr "ลบ"
+
+#: timelinelib/view/drawingarea.py:206
+#, fuzzy
+msgid "Sticky Balloon"
+msgstr "Sticky Balloon"
+
+#: timelinelib/view/drawingarea.py:209
+msgid "Goto URL"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:372
+msgid "Center"
+msgstr "ศูนย์กลาง"
+
+#: timelinelib/view/drawingarea.py:420
+#, python-format
+msgid "%s events hidden"
+msgstr "เหตุการณ์ %s ถูกซ่อนไว้"
+
+#: timelinelib/view/drawingarea.py:489
+#, python-format
+msgid "Are you sure you want to delete %d events?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเหตุการณ์ %d"
+
+#: timelinelib/view/drawingarea.py:492
+msgid "Are you sure you want to delete this event?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบเหตุการณ์นี้"
+
+#: timelinelib/view/move.py:66
+msgid "Can't move locked event"
+msgstr "ไม่สามารถเคลื่อนย้ายเหตุการณ์ที่ถูกล็อคไว้ได้"
+
+#: timelinelib/view/resize.py:67
+msgid "Period is too long"
+msgstr "ระยะเวลานานเกินไป"
+
+#: timelinelib/wxgui/components/categorychoice.py:52
+#: timelinelib/wxgui/dialogs/eventeditor.py:308
+msgid "Add new"
+msgstr "เพิ่มใหม่"
+
+#: timelinelib/wxgui/components/categorychoice.py:76
+#: timelinelib/wxgui/components/cattree.py:228
+msgid "Add Category"
+msgstr "เพิ่มหมวดหมู่"
+
+#: timelinelib/wxgui/components/cattree.py:76
+msgid "Edit..."
+msgstr "แก้ไข..."
+
+#: timelinelib/wxgui/components/cattree.py:79
+msgid "Add..."
+msgstr "เพิ่ม..."
+
+#: timelinelib/wxgui/components/cattree.py:222
+msgid "Edit Category"
+msgstr "แก้ไขประเภท"
+
+#: timelinelib/wxgui/components/cattree.py:233
+#, python-format
+msgid "Are you sure you want to delete category '%s'?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบหมวด '%s' ?"
+
+#: timelinelib/wxgui/components/cattree.py:236
+#, python-format
+#, fuzzy
+msgid "Events belonging to '%s' will no longer belong to a category."
+msgstr "เหตุการณ์ที่เป็นของ '%s' จะไม่สามารถเป็นของหมวดหมู่ได้"
+
+#: timelinelib/wxgui/components/cattree.py:239
+#, python-format
+msgid "Events belonging to '%(name)s' will now belong to '%(parent)s'."
+msgstr ""
+
+#: timelinelib/wxgui/components/pydatetimepicker.py:84
+#: timelinelib/wxgui/components/wxdatetimepicker.py:79
+msgid "Invalid date"
+msgstr "วันที่ไม่ถูกต้อง"
+
+#: timelinelib/wxgui/components/search.py:70
+msgid "No match"
+msgstr "ไม่ตรงกัน"
+
+#: timelinelib/wxgui/components/search.py:74
+msgid "Only one match"
+msgstr "ตรงกันหนึ่งอัน"
+
+#: timelinelib/wxgui/dialogs/categorieseditor.py:38
+msgid "Edit Categories"
+msgstr "แก้ไขหมวดหมู่"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:87
+#, python-format
+msgid "Category name '%s' not valid. Must be non-empty."
+msgstr "หมวดหมู่ชื่อ '%s' ไม่ถูกต้อง มันจะต้องไม่ว่างเปล่า"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:92
+#, python-format
+msgid "Category name '%s' already in use."
+msgstr "หมวดหมู่ชื่อ '%s' ถูกใช้งานเรียบร้อยแล้ว"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:116
+#: timelinelib/wxgui/dialogs/containereditor.py:59
+msgid "Name:"
+msgstr "ชื่อ:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:117
+msgid "Color:"
+msgstr "สี:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:118
+msgid "Font Color:"
+msgstr "สีตัวอักษร:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:119
+msgid "Parent:"
+msgstr "พ่อแม่:"
+
+#: timelinelib/wxgui/dialogs/containereditor.py:45
+msgid "Container Properties"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/containereditor.py:65
+#: timelinelib/wxgui/dialogs/eventeditor.py:219
+msgid "Category:"
+msgstr "หมวดหมู่:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:32
+msgid "Duplicate Event"
+msgstr "คัดลอกเหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:69
+#, python-format
+msgid "%d Events not duplicated due to missing dates."
+msgstr "เหตุการณ์ %d ไม่สามารถคัดสอกได้เนื่องจากวันที่หายไป"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:89
+msgid "Number of duplicates:"
+msgstr "จำนวนรายการที่ซ้ำกัน:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:99
+#: timelinelib/wxgui/dialogs/eventeditor.py:176
+msgid "Period"
+msgstr "ระยะเวลา"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:109
+msgid "Frequency:"
+msgstr "ความถี่:"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Forward"
+msgstr "ไปข้างหน้า"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Backward"
+msgstr "ย้อนกลับ"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Both"
+msgstr "ทั้งสอง"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:120
+#: wx/tools/Editra/src/eclib/finddlg.py:802
+msgid "Direction"
+msgstr "ทิศทาง"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:64
+msgid "Event Properties"
+msgstr "คุณสมบัติของเหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:87
+#: timelinelib/wxgui/dialogs/eventeditor.py:578
+msgid "When:"
+msgstr "เวลา:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:90
+msgid "to"
+msgstr "ถึง"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:125
+msgid "Container:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:163
+msgid "Add Container"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:183
+#: timelinelib/wxgui/dialogs/timeeditor.py:47
+msgid "Show time"
+msgstr "โชว์เวลา"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:191
+msgid "Fuzzy"
+msgstr "เลื่อน"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:195
+msgid "Locked"
+msgstr "ถูกล็อคไว้"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:202
+msgid "Ends today"
+msgstr "สิ้นสุดวันนี้"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:213
+#: timelinelib/wxgui/dialogs/eventeditor.py:579
+msgid "Text:"
+msgstr "ข้อความ:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:244
+msgid "Description"
+msgstr "คำบรรยาย"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:245
+msgid "Alert"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:246
+msgid "Icon"
+msgstr "สัญลักษณ์"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:247
+msgid "Hyperlink"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:264
+msgid "Add more events after this one"
+msgstr "เพิ่มเหตุการณ์ หลังจากเหตุการณ์นี้"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:456
+#, fuzzy
+msgid "Images will be scaled to fit inside a 128x128 box."
+msgstr "รูปภาพจะถูกปรับขนาดให้พอดีภายในกล่องขนาด 128 x 128"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:493
+msgid "Select Icon"
+msgstr "เลือกสัญลักษณ์"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:668
+#, fuzzy
+msgid "Test"
+msgstr "ข้อความ"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:678
+msgid "URL:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:722
+msgid "Edit Container"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:726
+msgid "Edit Event"
+msgstr "แก้ไขเหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:734
+msgid "Create Event"
+msgstr "สร้างเหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:36
+#: wx/lib/agw/genericmessagedialog.py:837
+msgid "Help"
+msgstr "ขอความช่วยเหลือ"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:65
+msgid ""
+"Could not find markdown Python package.  It is needed by the help system. "
+"See the Timeline website or the INSTALL file for instructions how to install "
+"it."
+msgstr ""
+"ไม่พบ markdown Phyton package มันเป็นสิ่งจำเป็นโดยระบบช่วยเหลือ  "
+"ดูเวบไซด์ไทม์ไลน์หรือติดตั้งไฟล์สำหรับคำแนะนำวิธีการติดตั้ง"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:103
+msgid "Go to home page"
+msgstr "กลับสู่หน้าหลัก"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:110
+msgid "Go back one page"
+msgstr "ย้อนกลับไปหน้าก่อนหน้านี้"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:116
+msgid "Go forward one page"
+msgstr "ไปหน้าถัดไป"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:201
+msgid "Page not found"
+msgstr "ไม่พบหน้านี้"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:202
+#, python-format
+msgid "Could not find page '%s'."
+msgstr "ไม่พบหน้า '%s'"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:105
+#: timelinelib/wxgui/dialogs/mainframe.py:225
+msgid "Timeline files"
+msgstr "แฟ้มไทม์ไลน์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:107
+msgid "SVG files"
+msgstr "แฟ้ม SVG"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:157 wx/lib/pydocview.py:109
+#: wx/lib/pydocview.py:2561 wx/tools/Editra/src/ed_menu.py:569
+msgid "&File"
+msgstr "&แฟ้ม"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163 wx/lib/pydocview.py:176
+#: wx/tools/Editra/src/ed_toolbar.py:77 wx/tools/Editra/src/prefdlg.py:1705
+#: wx/tools/Editra/src/style_editor.py:200
+msgid "New"
+msgstr "ใหม่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163
+msgid "Create a new timeline"
+msgstr "สร้างไทม์ไลน์ใหม่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:169
+msgid "File Timeline..."
+msgstr "แฟ้มไทม์ไลน์..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:177
+#: timelinelib/wxgui/dialogs/mainframe.py:200
+msgid "Create Timeline"
+msgstr "สร้างไทม์ไลน์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:183
+msgid "The specified timeline already exists."
+msgstr "ไทม์ไลน์ที่กำหนด มีอยู่แล้ว"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:184
+msgid "Opening timeline instead of creating new."
+msgstr "เปิดไทม์ไลน์แทนการสร้างใหม่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:186
+msgid "Information"
+msgstr "ข้อมูล"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:193
+msgid "Directory Timeline..."
+msgstr "สารบบของไทม์ไลน์..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:209
+msgid "Open an existing timeline"
+msgstr "เปิดไทม์ไลน์ที่มีอยู่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:228
+msgid "Save Timeline As"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:253
+msgid "Open Timeline"
+msgstr "เปิดไทม์ไลน์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:263
+#: wx/tools/Editra/src/ed_menu.py:520
+msgid "Open &Recent"
+msgstr "เปิดชิ้นงานล่าสุด"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:267
+#, fuzzy
+msgid "Save As..."
+msgstr "บันทึกเป็น..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Page Set&up..."
+msgstr "ตั้งค่าหน้ากระดาษ..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Setup page for printing"
+msgstr "ตั้งค่าหน้ากระดาษก่อนพิมพ์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:281 wx/lib/docview.py:1571
+#: wx/lib/pydocview.py:182 wx/tools/Editra/src/ed_print.py:108
+msgid "Print Preview"
+msgstr "ดูตัวอย่างก่อนพิมพ์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:290 wx/lib/pydocview.py:181
+#: wx/tools/Editra/src/ed_toolbar.py:80
+msgid "Print"
+msgstr "พิมพ์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "&Export to Image..."
+msgstr "ทำเป็นรูปภาพ..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "Export the current view to a PNG image"
+msgstr "แปลงมุมมองปัจจุบันเป็นรูปประเภท PNG"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "&Export to SVG..."
+msgstr "ส่ง SVG ออก..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "Export the current view to a SVG image"
+msgstr "ส่งออกภาพ SVG ณ ปัจจุบัน"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:317
+msgid ""
+"Could not find pysvg Python package. It is needed to export to SVG. See the "
+"Timeline website or the INSTALL file for instructions how to install it."
+msgstr ""
+"ไม่สามารถหา pysvg phyton package มันต้องการส่งออกไปยัง SVG. "
+"ดูตารางเวลาเวบไซด์หรือติดตั้งเอกสารเพื่อเป็นคำแนะนำว่าติดตั้งอย่างไร"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:321
+msgid "Export to SVG"
+msgstr "ส่ง SVG ออก"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline"
+msgstr "เล่นตารางเวลา"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline as movie"
+msgstr "เล่นตารางเวลาในรูปแบบภาพยนตร์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:351
+msgid "Exit the program"
+msgstr "ออกจากโปรแกรม"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:362 wx/lib/pydocview.py:134
+#: wx/lib/pydocview.py:1925 wx/tools/Editra/src/ed_menu.py:647
+msgid "&Edit"
+msgstr "แก้ไข"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:389 wx/lib/pydocview.py:146
+#: wx/tools/Editra/src/ed_menu.py:712
+msgid "&View"
+msgstr "มอง"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:393
+msgid "&Sidebar\tCtrl+I"
+msgstr "แถบด้านข้าง\tCtrl+l"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:407
+msgid "&Legend"
+msgstr "คำบรรยายใต้ภาพ"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:418
+msgid "&Balloons on hover"
+msgstr "เวลาเลื่อน"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:433
+msgid "&Timeline"
+msgstr "ตารางเวลา"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create &Event..."
+msgstr "สร้างเหตุการณ์..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create a new event"
+msgstr "สร้างเหตุการณ์ใหม่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "&Duplicate Selected Event..."
+msgstr "จำลองเหตุการณ์ที่เลือก..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "Duplicate the Selected Event"
+msgstr "จำลองเหตุการณ์ที่เลือก"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:468
+msgid "&Measure Distance between two Events..."
+msgstr "จำนวนระยะทางระหว่าง 2 เหตุการณ์..."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:469
+msgid "Measure the Distance between two Events"
+msgstr "จำนวนระยะทางระหว่าง 2 เหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:500
+msgid "Distance between selected events"
+msgstr "ระยะทางระหว่าง 2 เหตุการณ์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:503
+msgid "Events are overlapping or distance is 0"
+msgstr "หลายเหตุการณ์ที่ซ้อนกันหรือระยะทางเป็นศูนย์"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+msgid "Edit &Categories"
+msgstr "แก้ไขและแบ่งหมวดหมู่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:526
+#: wx/tools/Editra/src/ed_stc.py:1722
+msgid "Read Only"
+msgstr "อ่านอย่างเดียว"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:534
+#: timelinelib/wxgui/dialogs/mainframe.py:723
+msgid "read-only"
+msgstr "อ่านได้อย่างเดียว"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:551
+msgid "&Navigate"
+msgstr "หาเส้นทาง"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:555
+msgid "Find First Event"
+msgstr "หาเหตุการณ์แรก"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:569
+msgid "Find Last Event"
+msgstr "หาเหตุการณ์สุดท้าย"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:583
+msgid "Fit All Events"
+msgstr "ทำให้เหตุการณ์ทั้งหมดมีความพอดี,เหมาะสม"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:636 wx/lib/pydocview.py:150
+#: wx/lib/pydocview.py:2914 wx/tools/Editra/src/ed_main.py:152
+#: wx/tools/Editra/src/ed_menu.py:845
+msgid "&Help"
+msgstr "&ช่วยเหลือ"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:639
+msgid "&Contents\tF1"
+msgstr "&เนื้อหา\tF1"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:646
+#: timelinelib/wxgui/dialogs/mainframe.py:1034
+msgid "Getting started tutorial"
+msgstr "เริ่มต้นการสอน"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:682
+msgid "Unable to write configuration file."
+msgstr "ไฟล์ที่ตั้งค่าไว้ไม่สามารถเขียนได้"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:784
+#, python-format
+msgid "File '%s' does not exist."
+msgstr "ไม่มีไฟล์ '%s'."
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1026
+msgid "No timeline opened."
+msgstr "ไม่มีตารางเวลาที่เปิดอยู่"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1031
+msgid "First time using Timeline?"
+msgstr "ครั้งแรกที่ใช้ตารางเวลา?"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1136
+msgid "Relevant help topics:"
+msgstr "หัวข้อช่วยเหลือที่เกี่ยวข้อง:"
+
+#: timelinelib/wxgui/dialogs/playframe.py:31 wx/lib/pydocview.py:905
+msgid "Close"
+msgstr "ปิด"
+
+#: timelinelib/wxgui/dialogs/preferences.py:28
+msgid "Preferences"
+msgstr "การตั้งค่า"
+
+#: timelinelib/wxgui/dialogs/preferences.py:72 wx/lib/pydocview.py:1635
+#: wx/lib/pydocview.py:2722 wx/tools/Editra/src/prefdlg.py:191
+#: wx/tools/Editra/src/prefdlg.py:677 wx/tools/Editra/src/prefdlg.py:964
+msgid "General"
+msgstr "ทั่วไป"
+
+#: timelinelib/wxgui/dialogs/preferences.py:82
+msgid "Date && Time"
+msgstr "วัน && เวลา"
+
+#: timelinelib/wxgui/dialogs/preferences.py:90
+msgid "Week start on:"
+msgstr "เริ่มต้น,เริ่มทำงานสัปดาห์ที่:"
+
+#: timelinelib/wxgui/dialogs/preferences.py:93
+msgid ""
+"This feature is experimental. If events are\n"
+"created in the extended range, you can not\n"
+"disable this option and successfully load\n"
+"the timeline again. A reload of the timeline\n"
+"is also needed for this to take effect."
+msgstr ""
+"คุณลักษณะนี้มีการทดลอง. ถ้าเหตุการณ์\n"
+"ถูกสร้างขึ้นในช่วงที่มีการขยาย,เพิ่มเติม,คุณไม่สามารถ\n"
+"ปิดตัวเลือกการใช้งานและประสบความสำเร็จในการโหลด\n"
+"ตาราเวลาอีกครั้ง. ตาราเวลามีการโหลดใหม่\n"
+"มันยังเป็นสิ่งจำเป็นต่อการถูกบังคับใช้"
+
+#: timelinelib/wxgui/dialogs/preferences.py:110
+msgid "Open most recent timeline on startup"
+msgstr "ครั้งล่าสุดที่เปิดตารางเวลา"
+
+#: timelinelib/wxgui/dialogs/preferences.py:116
+msgid "Use inertial scrolling"
+msgstr "ใช้ตัวเลื่อน"
+
+#: timelinelib/wxgui/dialogs/preferences.py:122
+msgid "Use extended date range (before 1 AD)"
+msgstr "ใช้ช่วงวันที่ถูกขยาย(ก่อน 1 AD)"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Monday"
+msgstr "วันจันทร์"
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Sunday"
+msgstr "วันอาทิตย์"
+
+#: timelinelib/wxgui/dialogs/textdisplay.py:90
+msgid "Unable to copy to clipboard."
+msgstr "ไม่สามารถคัดลอกลงบนคลิปบอร์ด"
+
+#: timelinelib/wxgui/utils.py:134 wx/tools/Editra/src/ed_editv.py:191
+#: wx/tools/Editra/src/plugdlg.py:840
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+#: timelinelib/wxgui/utils.py:139 wx/lib/docview.py:635 wx/lib/docview.py:652
+#: wx/lib/docview.py:1895
+msgid "Warning"
+msgstr "คำเตือน"
+
+#: timelinelib/wxgui/utils.py:144 timelinelib/wxgui/utils.py:150
+msgid "Question"
+msgstr "คำถาม"
+
+#: wx/lib/agw/artmanager.py:620 wx/lib/agw/artmanager.py:1943
+#: wx/lib/agw/fmcustomizedlg.py:506
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: wx/lib/agw/artmanager.py:1944
+msgid "Dark"
+msgstr "ที่มืด"
+
+#: wx/lib/agw/artmanager.py:1945
+msgid "Dark Olive Green"
+msgstr "มะกอกเขียวเข้ม"
+
+#: wx/lib/agw/artmanager.py:1946
+msgid "Generic"
+msgstr "ทั่วไป"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1054
+msgid "Pane Switcher"
+msgstr "ตัวสลับหน้าต่าง"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "<body bgcolor=\"#"
+msgstr "<body bgcolor=\"#"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "\"><b>"
+msgstr "\"><b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "</b>"
+msgstr "</b>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1182
+msgid "<p>"
+msgstr "<p>"
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1185
+msgid "</body>"
+msgstr "</body>"
+
+#: wx/lib/agw/aui/framemanager.py:10214
+msgid "Pane Preview"
+msgstr "แสดงตัวอย่างหน้าต่าง"
+
+#: wx/lib/agw/aui/tabmdi.py:34
+msgid "Cl&ose"
+msgstr "ปิด"
+
+#: wx/lib/agw/aui/tabmdi.py:35 wx/tools/Editra/src/ed_editv.py:234
+msgid "Close All"
+msgstr "ปิดทั้งหมด"
+
+#: wx/lib/agw/aui/tabmdi.py:37
+msgid "&Next"
+msgstr "&ต่อไป"
+
+#: wx/lib/agw/aui/tabmdi.py:38
+msgid "&Previous"
+msgstr "&ก่อนหน้า"
+
+#: wx/lib/agw/aui/tabmdi.py:205 wx/lib/agw/aui/tabmdi.py:216
+#: wx/lib/agw/aui/tabmdi.py:218 wx/lib/pydocview.py:2915
+#: wx/lib/pydocview.py:3017
+msgid "&Window"
+msgstr "&หน้าต่าง"
+
+#: wx/lib/agw/cubecolourdialog.py:2806
+msgid "CubeColorDialog: Choose Color"
+msgstr "กล่องลูกบาศก์สี: เลือกสี"
+
+#: wx/lib/agw/fmcustomizedlg.py:171 wx/tools/Editra/src/ed_cmdbar.py:119
+msgid "Customize"
+msgstr "กำหนดเอง"
+
+#: wx/lib/agw/fmcustomizedlg.py:206 wx/lib/pydocview.py:89
+msgid "&Close"
+msgstr "&ปิด"
+
+#: wx/lib/agw/fmcustomizedlg.py:215
+msgid "Menus"
+msgstr "เมนู"
+
+#: wx/lib/agw/fmcustomizedlg.py:216 wx/lib/pydocview.py:1491
+msgid "Options"
+msgstr "ตัวเลือก"
+
+#: wx/lib/agw/fmcustomizedlg.py:284
+msgid "Select Menu To Add/Remove:"
+msgstr "เลือกเมนูสำหรับเพิ่ม หรือลบ:"
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Default Style"
+msgstr "รูปแบบค่าเริ่มต้น"
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Metallic"
+msgstr "ประกายระยิบระยับ"
+
+#: wx/lib/agw/fmcustomizedlg.py:324
+msgid "Menu bar style"
+msgstr "รูปแบบของแถบเมนู"
+
+#: wx/lib/agw/fmcustomizedlg.py:340
+msgid "Default style settings"
+msgstr "รูปแบบการตั้งค่าเริ่มต้น"
+
+#: wx/lib/agw/fmcustomizedlg.py:342
+msgid "Draw vertical gradient"
+msgstr "วาดไล่ระดับสีในแนวตั้ง"
+
+#: wx/lib/agw/fmcustomizedlg.py:348
+msgid "Draw border around menu bar"
+msgstr "วาดเส้นขอบรอบๆแถบเมนู"
+
+#: wx/lib/agw/fmcustomizedlg.py:354
+msgid "Toolbar float over menu bar"
+msgstr "แถบเครื่องมือลอยบนแถบเมนู"
+
+#: wx/lib/agw/fmcustomizedlg.py:362 wx/tools/Editra/src/prefdlg.py:1095
+msgid "Color Scheme"
+msgstr "รูปแบบสี ,โทนสี"
+
+#: wx/lib/agw/genericmessagedialog.py:471 wx/lib/pydocview.py:178
+#: wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save"
+msgstr "บันทึก"
+
+#: wx/lib/agw/genericmessagedialog.py:473
+msgid "Don't Save"
+msgstr "ไม่บันทึก"
+
+#: wx/lib/agw/genericmessagedialog.py:821 wx/lib/agw/multidirdialog.py:474
+#: wx/tools/Editra/src/style_editor.py:139
+msgid "OK"
+msgstr "ตกลง"
+
+#: wx/lib/agw/genericmessagedialog.py:825 wx/lib/agw/multidirdialog.py:476
+#: wx/tools/Editra/src/ed_search.py:1244
+#: wx/tools/Editra/src/style_editor.py:141 wx/tools/Editra/src/updater.py:570
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: wx/lib/agw/genericmessagedialog.py:829
+msgid "Yes"
+msgstr "ใช่"
+
+#: wx/lib/agw/genericmessagedialog.py:833
+msgid "No"
+msgstr "ไม่"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Choose a directory"
+msgstr "เลือกแฟ้ม"
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Browse For Folders"
+msgstr "เรียกดูแฟ้มเอกสาร"
+
+#: wx/lib/agw/multidirdialog.py:390
+msgid "Choose one or more folders:"
+msgstr "เลือกหนึ่ง แฟ้ม หรือแฟ้มอื่นๆ;"
+
+#: wx/lib/agw/multidirdialog.py:399
+msgid "Folder:"
+msgstr "แฟ้มเอกสาร:"
+
+#: wx/lib/agw/multidirdialog.py:472
+msgid "Make New Folder"
+msgstr "สร้ามแฟ้มใหม่"
+
+#: wx/lib/agw/pybusyinfo.py:211
+msgid "Busy"
+msgstr "ไม่ว่าง"
+
+#: wx/lib/colourchooser/pycolourchooser.py:120
+msgid "Basic Colors:"
+msgstr "สีพื้นฐาน:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:121
+msgid "Custom Colors:"
+msgstr "สีที่กำหนดเอง:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:122
+msgid "Add to Custom Colors"
+msgstr "เพิ่มสีที่กำหนดเอง"
+
+#: wx/lib/colourchooser/pycolourchooser.py:188
+msgid "Solid Color"
+msgstr "สีทึบ"
+
+#: wx/lib/colourchooser/pycolourchooser.py:194
+msgid "H:"
+msgstr "H:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:197
+msgid "S:"
+msgstr "S:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:200
+msgid "V:"
+msgstr "V:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:210
+msgid "R:"
+msgstr "R:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:213
+msgid "G:"
+msgstr "G:"
+
+#: wx/lib/colourchooser/pycolourchooser.py:216
+msgid "B:"
+msgstr "B:"
+
+#: wx/lib/docview.py:385
+msgid "Application"
+msgstr "เป็นการใช้เทคโนโลยีระบบ หรือผลิตภัณฑ์"
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637 wx/lib/docview.py:1897
+msgid " has been modified outside of "
+msgstr " ถูกเปลี่ยน,แก้ไขจากภายนอก "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid ". Overwrite "
+msgstr "เขียนทับ "
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid " with current changes?"
+msgstr " มีการเปลี่ยนแปลง กับปัจจุบัน ?"
+
+#: wx/lib/docview.py:412 wx/tools/Editra/src/eclib/filemgrdlg.py:123
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save As"
+msgstr "บันทึกแฟ้มเป็น"
+
+#: wx/lib/docview.py:453 wx/lib/docview.py:526 wx/lib/docview.py:2449
+#: wx/lib/docview.py:2705 wx/lib/pydocview.py:1076 wx/lib/pydocview.py:2215
+#: wx/lib/pydocview.py:2391
+msgid "File Error"
+msgstr "เกิดข้อผิดพลาดของแฟ้มงาน"
+
+#: wx/lib/docview.py:597
+msgid "Untitled"
+msgstr "ไม่มีชื่อ"
+
+#: wx/lib/docview.py:654
+#, python-format
+#, python-format,
+msgid "Save changes to '%s'?"
+msgstr "ต้องการบันทึกการเปลี่ยนแปลง'%s' หรือไม่ ?"
+
+#: wx/lib/docview.py:1567
+msgid "Unable to display print preview."
+msgstr "ไม่สามารถแสดงตัวอย่างก่อนพิมพ์"
+
+#: wx/lib/docview.py:1573 wx/tools/Editra/src/style_editor.py:132
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+#: wx/lib/docview.py:1660 wx/lib/pydocview.py:112
+msgid "&Undo\tCtrl+Z"
+msgstr "&ยกเลิกทำล่าสุด\tCtrl+Z"
+
+#: wx/lib/docview.py:1672 wx/lib/pydocview.py:113
+msgid "&Redo\tCtrl+Y"
+msgstr "&ทำซ้ำอีกครั้ง\tCtrl+Y"
+
+#: wx/lib/docview.py:1897
+msgid "Reload "
+msgstr "เรียกใหม่อีกครั้ง "
+
+#: wx/lib/docview.py:1897
+msgid " from file system?"
+msgstr " จากระบบแฟ้ม?"
+
+#: wx/lib/docview.py:1903
+msgid "Couldn't reload "
+msgstr "ไม่สามารถเรียกใหม่ได้ "
+
+#: wx/lib/docview.py:1903
+msgid "Unable to close current "
+msgstr "ไม่สามารถปิดในตอนนี้ "
+
+#: wx/lib/docview.py:2006
+#, python-format
+#, python-format, fuzzy
+msgid "Untitled %d"
+msgstr "ไม่มีชื่อ %d"
+
+#: wx/lib/docview.py:2175
+#, python-format
+#, python-format, fuzzy
+msgid "All|*.*|%s"
+msgstr "All|*.*|%s"
+
+#: wx/lib/docview.py:2180
+msgid "Select a File"
+msgstr "เลือกแฟ้ม"
+
+#: wx/lib/docview.py:2243
+msgid "Select a document type:"
+msgstr "เลือกประเภทของเอกสาร:"
+
+#: wx/lib/docview.py:2244
+msgid "Documents"
+msgstr "เอกสาร"
+
+#: wx/lib/docview.py:2274
+msgid "Select a document view:"
+msgstr "เลือกมุมมองของเอกสาร:"
+
+#: wx/lib/docview.py:2275
+msgid "Views"
+msgstr "แสดง"
+
+#: wx/lib/docview.py:3049
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: wx/lib/docview.py:3050
+msgid "Ctrl+Y"
+msgstr "Ctrl+Y"
+
+#: wx/lib/docview.py:3157 wx/lib/docview.py:3161
+#: wx/tools/Editra/src/ed_menu.py:578
+msgid "&Undo"
+msgstr "&เปลี่ยนกลับ"
+
+#: wx/lib/docview.py:3163 wx/lib/docview.py:3165
+msgid "&Redo"
+msgstr "&ทำใหม่"
+
+#: wx/lib/pydocview.py:87
+msgid "&New...\tCtrl+N"
+msgstr "&ใหม่...\tCtrl+N"
+
+#: wx/lib/pydocview.py:87 wx/lib/pydocview.py:176
+msgid "Creates a new document"
+msgstr "สร้างเอกสารใหม่"
+
+#: wx/lib/pydocview.py:88
+msgid "&Open...\tCtrl+O"
+msgstr "&เปิด...\tCtrl+O"
+
+#: wx/lib/pydocview.py:88 wx/lib/pydocview.py:177
+msgid "Opens an existing document"
+msgstr "เปิดเอกสารที่มีอยู่"
+
+#: wx/lib/pydocview.py:89
+msgid "Closes the active document"
+msgstr "ปิดเอกสารที่ใช้งานอยู่"
+
+#: wx/lib/pydocview.py:91
+msgid "Close A&ll"
+msgstr "ปิดทั้งหมด"
+
+#: wx/lib/pydocview.py:91
+msgid "Closes all open documents"
+msgstr "ปิดเอกสารที่เปิดอยู่ทั้งหมด"
+
+#: wx/lib/pydocview.py:93
+#, fuzzy
+msgid "&Save\tCtrl+S"
+msgstr "&Save\tCtrl+S"
+
+#: wx/lib/pydocview.py:93 wx/lib/pydocview.py:178
+msgid "Saves the active document"
+msgstr "บันทึกเอกสารที่ใช้งาน"
+
+#: wx/lib/pydocview.py:94
+msgid "Save &As..."
+msgstr "บันทึกเป็น..."
+
+#: wx/lib/pydocview.py:94
+msgid "Saves the active document with a new name"
+msgstr "บันทึกเอกสารที่ใช้งานด้วยชื่อใหม่"
+
+#: wx/lib/pydocview.py:95
+#, fuzzy
+msgid "Save All\tCtrl+Shift+A"
+msgstr "Save All\tCtrl+Shift+A"
+
+#: wx/lib/pydocview.py:95
+msgid "Saves the all active documents"
+msgstr "บันทึกเอกสารทั้งหมดที่ใช้งาน"
+
+#: wx/lib/pydocview.py:99
+msgid "&Print\tCtrl+P"
+msgstr "&พิมพ์\tCtrl+P"
+
+#: wx/lib/pydocview.py:99 wx/lib/pydocview.py:182
+msgid "Prints the active document"
+msgstr "พิมพ์เอกสารที่ใช้งาน"
+
+#: wx/lib/pydocview.py:100 wx/tools/Editra/src/ed_menu.py:562
+msgid "Print Pre&view"
+msgstr "แสดงตัวอย่างก่อนพิมพ์"
+
+#: wx/lib/pydocview.py:100 wx/lib/pydocview.py:181
+msgid "Displays full pages"
+msgstr "แสดงผลแบบเต็มหน้า"
+
+#: wx/lib/pydocview.py:101 wx/tools/Editra/src/ed_menu.py:560
+msgid "Page Set&up"
+msgstr "ตั้งค่าหน้ากระดาษ"
+
+#: wx/lib/pydocview.py:101
+msgid "Changes page layout settings"
+msgstr "เปลี่ยนแปลงการตั้งค่าเค้าโครงหน้า"
+
+#: wx/lib/pydocview.py:104
+msgid "&Quit"
+msgstr "&ออก"
+
+#: wx/lib/pydocview.py:104 wx/lib/pydocview.py:106
+msgid "Closes this program"
+msgstr "ปิดโปรแกรมนี้"
+
+#: wx/lib/pydocview.py:106 wx/tools/Editra/src/ed_menu.py:566
+msgid "E&xit"
+msgstr "ออก"
+
+#: wx/lib/pydocview.py:112 wx/lib/pydocview.py:187
+msgid "Reverses the last action"
+msgstr "กลับไปการกระทำล่าสุดที่ผ่านมา"
+
+#: wx/lib/pydocview.py:113 wx/lib/pydocview.py:188
+msgid "Reverses the last undo"
+msgstr "ยกเลิกการกระทำที่ผ่านมา"
+
+#: wx/lib/pydocview.py:118
+#, fuzzy
+msgid "Cu&t\tCtrl+X"
+msgstr "Cu&t\tCtrl+X"
+
+#: wx/lib/pydocview.py:118 wx/lib/pydocview.py:184
+msgid "Cuts the selection and puts it on the Clipboard"
+msgstr "ตัดส่วนที่เลือกและใส่ที่คลิปบอร์ด"
+
+#: wx/lib/pydocview.py:121
+msgid "&Copy\tCtrl+C"
+msgstr "&คัดลอก\tCtrl+C"
+
+#: wx/lib/pydocview.py:121 wx/lib/pydocview.py:185
+msgid "Copies the selection and puts it on the Clipboard"
+msgstr "คัดลอกส่วนที่เลือกเเละใส่ที่คลิปบอร์ด"
+
+#: wx/lib/pydocview.py:124
+msgid "&Paste\tCtrl+V"
+msgstr "&วาง\tCtrl+V"
+
+#: wx/lib/pydocview.py:124 wx/lib/pydocview.py:186
+msgid "Inserts Clipboard contents"
+msgstr "เเทรกเนื้อหาของคลิปบอร์ด"
+
+#: wx/lib/pydocview.py:127
+msgid "&Delete"
+msgstr "&ลบ"
+
+#: wx/lib/pydocview.py:127
+msgid "Erases the selection"
+msgstr "ลบสิ่งที่เลือก"
+
+#: wx/lib/pydocview.py:131
+msgid "Select A&ll\tCtrl+A"
+msgstr "เลือก A&ll\tCtrl+A"
+
+#: wx/lib/pydocview.py:131
+msgid "Selects all available data"
+msgstr "เลือกข้อมูลที่มีอยู่ทั้งหมด"
+
+#: wx/lib/pydocview.py:140 wx/tools/Editra/src/ed_menu.py:708
+msgid "&Toolbar"
+msgstr "&แถบเครื่องมือ"
+
+#: wx/lib/pydocview.py:140
+msgid "Shows or hides the toolbar"
+msgstr "แสดงหรือซ่อนเเถบเครื่องมือ"
+
+#: wx/lib/pydocview.py:143
+msgid "&Status Bar"
+msgstr "&แถบสถานะ"
+
+#: wx/lib/pydocview.py:143
+msgid "Shows or hides the status bar"
+msgstr "แสดงหรือซ่อนแถบสถานะ"
+
+#: wx/lib/pydocview.py:149
+msgid "&About"
+msgstr "&เกี่ยวกับ"
+
+#: wx/lib/pydocview.py:149
+msgid "Displays program information, version number, and copyright"
+msgstr "แสดงข้อมูลของโปรแกรมหมายเลขรุ่นและลิขสิทธิ์"
+
+#: wx/lib/pydocview.py:177 wx/tools/Editra/src/ed_menu.py:518
+#: wx/tools/Editra/src/ed_toolbar.py:78
+msgid "Open"
+msgstr "เปิด"
+
+#: wx/lib/pydocview.py:179 wx/tools/Editra/src/ed_menu.py:532
+msgid "Save All"
+msgstr "บันทึกทั้งหมด"
+
+#: wx/lib/pydocview.py:179
+msgid "Saves all the active documents"
+msgstr "บันทึกเอกสารที่ใช้งานทั้งหมด"
+
+#: wx/lib/pydocview.py:184 wx/tools/Editra/src/ed_editv.py:364
+#: wx/tools/Editra/src/ed_toolbar.py:86
+msgid "Cut"
+msgstr "ตัด"
+
+#: wx/lib/pydocview.py:185 wx/tools/Editra/src/ed_editv.py:365
+#: wx/tools/Editra/src/ed_toolbar.py:88
+msgid "Copy"
+msgstr "คัดลอก"
+
+#: wx/lib/pydocview.py:186 wx/tools/Editra/src/ed_editv.py:366
+#: wx/tools/Editra/src/ed_toolbar.py:90
+msgid "Paste"
+msgstr "วาง"
+
+#: wx/lib/pydocview.py:187 wx/tools/Editra/src/ed_editv.py:361
+#: wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo"
+msgstr "ยกเลิกคำสั่ง"
+
+#: wx/lib/pydocview.py:188 wx/tools/Editra/src/ed_editv.py:362
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo"
+msgstr "ทำใหม่"
+
+#: wx/lib/pydocview.py:251
+msgid "Ready"
+msgstr "พร้อม"
+
+#: wx/lib/pydocview.py:911
+#, python-format
+msgid "Close All but \"%s\""
+msgstr "ปิดทั้งหมด แต่\"%s\""
+
+#: wx/lib/pydocview.py:921
+msgid "Select Tab"
+msgstr "เลือกแท็บ"
+
+#: wx/lib/pydocview.py:1408 wx/lib/pydocview.py:1415
+#: wx/tools/Editra/src/ed_menu.py:822
+msgid "&Tools"
+msgstr "&เครื่องมือ"
+
+#: wx/lib/pydocview.py:1414
+msgid "&Format"
+msgstr "&รูปแบบ"
+
+#: wx/lib/pydocview.py:1419
+msgid "&Options..."
+msgstr "&ตัวเลือก..."
+
+#: wx/lib/pydocview.py:1419
+msgid "Sets options"
+msgstr "ตั้งค่าตัวเลือก"
+
+#: wx/lib/pydocview.py:1592
+msgid "Show tips at start up"
+msgstr "แสดงเคล็ดลับที่start up"
+
+#: wx/lib/pydocview.py:1597
+msgid "Show each document in its own window"
+msgstr "แสดงเอกสารในเเต่ละหน้าต่างของตัวเอง"
+
+#: wx/lib/pydocview.py:1598
+msgid "Show all documents in a single window with tabs"
+msgstr "แสดงเอกสารทั้งหมดในหน้าต่างเดียวด้วยแท็บ"
+
+#: wx/lib/pydocview.py:1599
+msgid "Show all documents in a single window with child windows"
+msgstr "แสดงเอกสารทั้งหมดในหน้าต่างเดียวด้วยหน้าต่างลูก(หน้าต่างใหม่)"
+
+#: wx/lib/pydocview.py:1605
+msgid "Document Display Style"
+msgstr "แสดงด้วยรูปแบบของเอกสาร"
+
+#: wx/lib/pydocview.py:1619
+msgid "Document Options"
+msgstr "ตัวเลือกเอกสาร"
+
+#: wx/lib/pydocview.py:1620
+msgid ""
+"Document interface changes will not appear until the application is "
+"restarted."
+msgstr "อินเทอร์เฟซเอกสารจะไม่เปลี่ยนแปลงจนกว่าจะเริ่มต้นโปรแกรมใหม่อีกครั้ง"
+
+#: wx/lib/pydocview.py:2525
+msgid "About "
+msgstr "เกี่ยวกับ "
+
+#: wx/lib/pydocview.py:2564
+msgid "&Properties"
+msgstr "&คุณสมบัติ"
+
+#: wx/lib/pydocview.py:2564
+msgid "Show file properties"
+msgstr "แสดงคุณสมบัติของไฟล์"
+
+#: wx/lib/pydocview.py:2678
+msgid "File Properties"
+msgstr "คุณสมบัติไฟล์"
+
+#: wx/lib/pydocview.py:2692
+msgid "Filename:"
+msgstr "ชื่อไฟล์:"
+
+#: wx/lib/pydocview.py:2695
+msgid "Location:"
+msgstr "ที่อยู่:"
+
+#: wx/lib/pydocview.py:2698
+msgid "Size:"
+msgstr "ขนาด:"
+
+#: wx/lib/pydocview.py:2700
+msgid "bytes"
+msgstr "ไบต์"
+
+#: wx/lib/pydocview.py:2706
+msgid "Created:"
+msgstr "สร้าง:"
+
+#: wx/lib/pydocview.py:2710
+msgid "Modified:"
+msgstr "เปลี่ยนแปลง:"
+
+#: wx/lib/pydocview.py:2714
+msgid "Accessed:"
+msgstr "ได้เข้าถึง"
+
+#: wx/lib/pydocview.py:2890
+msgid "&Arrange All"
+msgstr "&จัดการทั้งหมด"
+
+#: wx/lib/pydocview.py:2890
+msgid "Arrange the open windows"
+msgstr "จัดกาีรหน้าต่างที่เปิดอยู่"
+
+#: wx/lib/pydocview.py:2899 wx/tools/Editra/src/ed_cmdbar.py:274
+msgid "Previous"
+msgstr "ก่อนหน้า"
+
+#: wx/lib/pydocview.py:2899
+msgid "Previous Tab"
+msgstr "แท็บก่อนหน้านี้"
+
+#: wx/lib/pydocview.py:2902 wx/tools/Editra/src/ed_cmdbar.py:266
+msgid "Next"
+msgstr "ต่อไป"
+
+#: wx/lib/pydocview.py:2902
+msgid "Next Tab"
+msgstr "แท็บต่อไป"
+
+#: wx/lib/pydocview.py:2905
+msgid "Close Current\tCtrl+F4"
+msgstr "ปิด \t ขณะนี้ Ctrl+F4"
+
+#: wx/lib/pydocview.py:2905 wx/tools/Editra/src/ed_menu.py:524
+msgid "Close Current Tab"
+msgstr "ปิดแท็บขณะนี้"
+
+#: wx/lib/pydocview.py:3037
+msgid "&More Windows..."
+msgstr "&หน้าต่างอื่นๆ"
+
+#: wx/lib/pydocview.py:3163
+msgid "Select a window to show:"
+msgstr "เลือกหน้าต่างที่จะโชว์:"
+
+#: wx/lib/pydocview.py:3164
+msgid "Select Window"
+msgstr "เลือกหน้าต่าง"
+
+#: wx/tools/Editra/src/Editra.py:590
+#, python-format
+msgid ""
+"An updated version of Editra is available\n"
+"Would you like to download Editra %s now?"
+msgstr ""
+"Editra รุ่นใหม่พร้อมที่จะอัพเดตแล้ว\n"
+"คุณต้องการดาวโหลด Editra %s เดี๋ยวนี้ไหม?"
+
+#: wx/tools/Editra/src/Editra.py:592
+msgid "Update Available"
+msgstr "อัพเดตใหม่พร้อมแล้ว"
+
+#: wx/tools/Editra/src/Editra.py:596 wx/tools/Editra/src/prefdlg.py:1565
+msgid "Downloading Update"
+msgstr "กำลังดาวน์โหลดอัพเดต"
+
+#: wx/tools/Editra/src/Editra.py:889 wx/tools/Editra/src/Editra.py:1097
+msgid "Your profile has been updated to the latest version"
+msgstr "โปรไฟล์ของคุณได้อัพเดตเป็นรุ่นล่าสุดแล้ว"
+
+#: wx/tools/Editra/src/Editra.py:891 wx/tools/Editra/src/Editra.py:1099
+msgid "Please check the preferences dialog to check your preferences"
+msgstr "โปรดตรวจสอบค่าปรับแต่งของคุณเพื่อตรวจสอบการปรับแต่งของคุณ"
+
+#: wx/tools/Editra/src/Editra.py:892 wx/tools/Editra/src/Editra.py:1100
+msgid "Profile Updated"
+msgstr "โปรไฟล์ได้อัพเดต"
+
+#: wx/tools/Editra/src/dev_tool.py:242
+msgid ""
+"Error: Something unexpected happend\n"
+"Help improve Editra by clicking on Report Error\n"
+"to send the Error Traceback shown below."
+msgstr ""
+"ข้อผิดพลาด: มีบางสิ่งบางอย่างที่ไม่ต้องการเกิดขึ้น\n"
+"เพื่อช่วยพัฒนา Editra โปรดกดปุ่ม รายงานข้อผิดพลาด\n"
+"เพื่อส่ง Traceback ของข้อผิดพลาดที่โชว์อยู่ข้างล่างนี้"
+
+#: wx/tools/Editra/src/eclib/colorsetter.py:85
+msgid "Enter a hex color value"
+msgstr "โปรดใส่ค่าสี(รูปแบบฐาน16)"
+
+#: wx/tools/Editra/src/eclib/ecpickers.py:83
+msgid "Set Font"
+msgstr "ตั้งค่าตัวอักษร"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:319
+msgid "Error Traceback:"
+msgstr "Tracebackของข้อผิดพลาด:"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:323
+msgid "Abort"
+msgstr "ยกเลิก"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:324
+msgid "Exit the application"
+msgstr "ออกจากโปรแกรม"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:325
+msgid "Report Error"
+msgstr "รายงานข้อผิดพลาด"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:169
+#, python-format
+msgid "Are you sure want to delete %s?"
+msgstr "คุณแน่ใจว่าต้องการลบหรือไม่ %s?"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:170
+msgid "Delete File?"
+msgstr "ลบไฟล์?"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:176
+#, python-format
+msgid "Unable to delete %s"
+msgstr "ไม่สามารถลบได้ %s"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:177
+msgid "Delete Error"
+msgstr "ลบข้อผิดพลาด"
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:220
+#: wx/tools/Editra/src/prefdlg.py:307
+msgid "Files"
+msgstr "ไฟล์"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:77
+msgid "Add >>"
+msgstr "เพิ่ม >>"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:78
+msgid "<< Remove"
+msgstr "<< ลบออก"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:632
+#: wx/tools/Editra/src/eclib/finddlg.py:767
+#: wx/tools/Editra/src/eclib/finddlg.py:843
+#: wx/tools/Editra/src/ed_cmdbar.py:264 wx/tools/Editra/src/ed_search.py:149
+#: wx/tools/Editra/src/ed_search.py:153 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find"
+msgstr "ค้นหา"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:635
+#: wx/tools/Editra/src/eclib/finddlg.py:844
+msgid "Replace"
+msgstr "แทนที่"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Current Document"
+msgstr "เอกสารปัจจุบัน"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Selected Text"
+msgstr "ข้อความที่ถูกเลือก"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:713
+msgid "Open Documents"
+msgstr "เปิดเอกสาร"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:716
+msgid "File Filters:"
+msgstr "ตัวกรองแฟ้มเอกสาร:"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:765
+msgid "Find what"
+msgstr "ค้นหาอะไร"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:778
+msgid "Replace with"
+msgstr "แทนที่ด้วย"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:790
+msgid "Choose Folder"
+msgstr "เลือกที่เก็บเอกสาร"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:793
+msgid "Look in"
+msgstr "มองเข้าไปใน"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:804
+msgid "Up"
+msgstr "ขึ้น"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:806
+msgid "Down"
+msgstr "ลง"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:812
+msgid "Find Options"
+msgstr "ค้นหาทางเลือก"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:814
+msgid "Match case"
+msgstr "ปัญหา/เรื่องราวที่เหมือนกัน"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:815
+msgid "Whole word"
+msgstr "คำศัพท์ทั้งหมด"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:816
+msgid "Regular expression"
+msgstr "นิพจน์ปกติ"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:817
+msgid "Search Recursively"
+msgstr "ค้นหาอย่างซ้ำ"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:823
+msgid "Enter wildcard shell patterns for matching files (*.txt)."
+msgstr "ใส่อักขระพิเศษเพื่อให้เหมาะกับไฟล์ เช่น *.txt"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:845
+msgid "Count"
+msgstr "จำนวนนับ, ผลรวม"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:846
+#: wx/tools/Editra/src/ed_cmdbar.py:280
+msgid "Find All"
+msgstr "ค้นหาทั้งหมด"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:847
+msgid "Replace All"
+msgstr "แทนที่ทั้งหมด"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:1118
+msgid "Choose Search Folder"
+msgstr "เลือกแฟ้มเอกสารที่ต้องการค้นหา"
+
+# information
+#: wx/tools/Editra/src/eclib/infodlg.py:60
+msgid "Info"
+msgstr "ข้อมูล, ข่าวสาร"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:117
+msgid "File Stat Failed"
+msgstr "สถิติของไฟล์ล้มเหลว"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:165
+#: wx/tools/Editra/src/eclib/infodlg.py:197
+msgid "Modified"
+msgstr "เปลี่ยนแปลง, ดัดแปลง"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:184
+msgid "Kind"
+msgstr "ชนิด, ใจดี"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:191
+#: wx/tools/Editra/src/style_editor.py:704
+msgid "Size"
+msgstr "ขนาด"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:193
+msgid "Where"
+msgstr "ที่ไหน"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:195
+msgid "Created"
+msgstr "สร้างเมื่อ"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:199
+msgid "Permissions"
+msgstr "ความยินยอม, สิทธิ์อนุญาติ"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:294 wx/tools/Editra/src/util.py:357
+msgid "Folder"
+msgstr "ที่เก็บเอกสาร"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:300 wx/tools/Editra/src/plugdlg.py:368
+#: wx/tools/Editra/src/plugdlg.py:374 wx/tools/Editra/src/plugdlg.py:421
+#: wx/tools/Editra/src/plugdlg.py:425 wx/tools/Editra/src/plugin.py:724
+#: wx/tools/Editra/src/util.py:367
+msgid "Unknown"
+msgstr "ที่ไม่เป็นที่รู้จัก, ไม่ทราบ"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:286
+msgid "Match Case"
+msgstr "กรณีที่เหมือนกัน"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:293
+msgid "Whole Word"
+msgstr "คำทั้งหมด"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:297
+msgid "Regular Expression"
+msgstr "นิพจน์ปกติ"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:410
+msgid "Command"
+msgstr "ควบคุม, คำสั่ง, การออกคำสั่ง"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:440
+msgid "Goto Line"
+msgstr "ข้ามไปบรรทัดต่อไป"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:562
+#, python-format
+msgid "Can't change directory to: %s"
+msgstr "ไม่สามารถเปลี่ยนไดเรกทอรีไปที่: %s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:764
+#, python-format
+msgid "Access Denied: %s"
+msgstr "การปฏิเสธการเข้าถึง: %s"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:779
+msgid "Invalid Path"
+msgstr "พาธนั้นไม่สามารถใช้ได้"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:874
+#, fuzzy
+msgid "cwd: "
+msgstr "cwd: "
+
+#: wx/tools/Editra/src/ed_editv.py:189
+#, python-format
+msgid ""
+"Failed to reload %(filename)s:\n"
+"Error: %(errmsg)s"
+msgstr ""
+"ล้มเหลวในการโหลด %(filename)s:\n"
+"ข้อผิดพลาด: %(errmsg)s"
+
+#: wx/tools/Editra/src/ed_editv.py:228
+msgid "New Tab"
+msgstr "แท็บใหม่"
+
+#: wx/tools/Editra/src/ed_editv.py:229
+msgid "Move Tab to New Window"
+msgstr "ย้ายแท็บไปหน้าต่างใหม่"
+
+#: wx/tools/Editra/src/ed_editv.py:231
+#, python-format
+msgid "Save \"%s\""
+msgstr "บันทึก \"%s\""
+
+#: wx/tools/Editra/src/ed_editv.py:232
+#, python-format
+msgid "Close \"%s\""
+msgstr "ปิดที่ \"%s\""
+
+#: wx/tools/Editra/src/ed_editv.py:233
+msgid "Close Other Tabs"
+msgstr "ปิดแท็บอื่นๆ"
+
+#: wx/tools/Editra/src/ed_editv.py:236
+msgid "Copy Full Path"
+msgstr "คัดลอกเต็มพาธ"
+
+#: wx/tools/Editra/src/ed_editv.py:368
+msgid "To Uppercase"
+msgstr "ไปยังตัวอักษรพิมพ์ใหญ่"
+
+#: wx/tools/Editra/src/ed_editv.py:369
+msgid "To Lowercase"
+msgstr "ไปยังตัวอักษรพิมพ์เล็ก"
+
+#: wx/tools/Editra/src/ed_editv.py:371
+msgid "Select All"
+msgstr "เลือกทั้งหมด"
+
+#: wx/tools/Editra/src/ed_editv.py:394
+msgid "No Suggestions"
+msgstr "ไม่มีข้อเสนอแนะ"
+
+#: wx/tools/Editra/src/ed_editv.py:444
+#, python-format
+msgid ""
+"%s has been deleted since its last save point.\n"
+"\n"
+"Would you like to save it again?"
+msgstr ""
+"%s ถูกลบไปแล้วตั้งแต่จุดที่บันทึกไว้เป็นครั้งสุดท้าย. \n"
+" \n"
+"คุณต้องการที่จะบันทึกอีกครั้ง?"
+
+#: wx/tools/Editra/src/ed_editv.py:447
+msgid "Resave File?"
+msgstr "บันทึกไฟล์อีกครั้ง?"
+
+#: wx/tools/Editra/src/ed_editv.py:464
+#, python-format
+msgid ""
+"%s has been modified by another application.\n"
+"\n"
+"Would you like to reload it?"
+msgstr ""
+"%s ได้รับการแก้ไขโดยโปรแกรมประยุกต์อื่น. \n"
+"\n"
+"คุณต้องการที่จะโหลดมันได้หรือไม่?"
+
+#: wx/tools/Editra/src/ed_editv.py:467
+msgid "Reload File?"
+msgstr "เรียกไฟล์ใหม่อีกครั้ง?"
+
+#: wx/tools/Editra/src/ed_editv.py:500
+#, python-format
+msgid ""
+"The file: \"%s\" has been modified since the last save point.\n"
+"\n"
+"Would you like to save the changes?"
+msgstr ""
+"แฟ้ม: \"%s\" ได้รับการแก้ไขตั้งแต่จุดที่บันทึกครั้งสุดท้าย.\n"
+"\n"
+"คุณต้องการที่จะบันทึกการเปลี่ยนแปลง?"
+
+#: wx/tools/Editra/src/ed_editv.py:503
+msgid "Save Changes?"
+msgstr "บันทึกการเปลี่ยนแปลง?"
+
+#: wx/tools/Editra/src/ed_glob.py:384
+msgid "Old Macintosh (\\n)"
+msgstr ""
+"แมคอินทอชแบบเก่า (\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:385 wx/tools/Editra/src/ed_menu.py:761
+#: wx/tools/Editra/src/ed_menu.py:763 wx/tools/Editra/src/prefdlg.py:755
+msgid "Unix (\\n)"
+msgstr ""
+"ยูนิคซ์ (\n"
+")"
+
+#: wx/tools/Editra/src/ed_glob.py:386
+msgid "Windows (\\n)"
+msgstr ""
+"วินโดว์(\n"
+")"
+
+#: wx/tools/Editra/src/ed_log.py:81
+msgid "Editra Log"
+msgstr "เข้าสู่ระบบ Editra"
+
+#: wx/tools/Editra/src/ed_log.py:82
+msgid "View Editra's console log"
+msgstr "ดูบันทึกของคอนโซล Editra"
+
+#: wx/tools/Editra/src/ed_log.py:134
+msgid "Show output from"
+msgstr "แสดงผลลัพธ์จาก"
+
+#: wx/tools/Editra/src/ed_log.py:142 wx/tools/Editra/src/ed_search.py:1253
+msgid "Clear"
+msgstr "ล้าง"
+
+#: wx/tools/Editra/src/ed_log.py:172 wx/tools/Editra/src/ed_log.py:247
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: wx/tools/Editra/src/ed_main.py:143
+msgid "Perspectives"
+msgstr "ทัศนคติ"
+
+#: wx/tools/Editra/src/ed_main.py:464
+msgid "Editra: Open"
+msgstr "Editra: เปิด"
+
+#: wx/tools/Editra/src/ed_main.py:602
+#, python-format
+msgid ""
+"%s could not be found.\n"
+"Perhaps it's been moved or deleted."
+msgstr ""
+"%s อาจจะไม่พบ.\n"
+"บางทีมันก็ถูกย้ายหรือลบไปแล้ว"
+
+#: wx/tools/Editra/src/ed_main.py:604
+msgid "File Not Found"
+msgstr "ไม่พบไฟล์"
+
+#: wx/tools/Editra/src/ed_main.py:664
+#, python-format
+msgid "Saved File: %s"
+msgstr "บันทึกไฟล์: %s"
+
+#: wx/tools/Editra/src/ed_main.py:667
+#, python-format
+msgid "ERROR: %s"
+msgstr "ผิดพลาด: %s"
+
+#: wx/tools/Editra/src/ed_main.py:691
+msgid "Choose a Save Location"
+msgstr "เลือกตำแหน่งที่บันทึก"
+
+#: wx/tools/Editra/src/ed_main.py:707
+#, python-format
+msgid "ERROR: Failed to save %s"
+msgstr "ผิดพลาด: การบันทึกล้มเหลว %s"
+
+#: wx/tools/Editra/src/ed_main.py:710
+#, python-format
+msgid "Saved File As: %s"
+msgstr "บันทึกไฟล์เป็น: %s"
+
+#: wx/tools/Editra/src/ed_main.py:726
+msgid "Where to Save Profile?"
+msgstr "บันทึกโครงร่างที่ไหน?"
+
+#: wx/tools/Editra/src/ed_main.py:728 wx/tools/Editra/src/ed_main.py:749
+#: wx/tools/Editra/src/ed_menu.py:547
+msgid "Profile"
+msgstr "รูปโครงร่าง"
+
+#: wx/tools/Editra/src/ed_main.py:733
+#, python-format
+msgid "Profile Saved as: %s"
+msgstr "บันทึกโครงร่างเป็น: %s"
+
+#: wx/tools/Editra/src/ed_main.py:747 wx/tools/Editra/src/ed_menu.py:546
+msgid "Load a Custom Profile"
+msgstr "โหลดรูปโครงร่างที่กำหนด"
+
+#: wx/tools/Editra/src/ed_main.py:754
+#, python-format
+msgid "Loaded Profile: %s"
+msgstr "โหลดรูปโครงร่าง: %s"
+
+#: wx/tools/Editra/src/ed_main.py:771
+msgid "Where to Save Session?"
+msgstr "บันทึกวาระงานไว้ที่ไหน?"
+
+#: wx/tools/Editra/src/ed_main.py:773 wx/tools/Editra/src/ed_main.py:800
+msgid "Session"
+msgstr "วาระงาน"
+
+#: wx/tools/Editra/src/ed_main.py:788
+#, python-format
+msgid "Session Saved as: %s"
+msgstr "บันทึกวาระงานเป็น: %s"
+
+#: wx/tools/Editra/src/ed_main.py:798
+msgid "Load a Session file"
+msgstr "โหลดไฟล์วาระงาน"
+
+#: wx/tools/Editra/src/ed_main.py:812
+#, python-format
+msgid "Loaded Session: %s"
+msgstr "โหลดวาระงาน: %s"
+
+#: wx/tools/Editra/src/ed_main.py:1072 wx/tools/Editra/src/ed_menu.py:808
+msgid "Plugin Manager"
+msgstr "Plugin ผู้จัดการ"
+
+#: wx/tools/Editra/src/ed_main.py:1208
+msgid "Select an encoding to reload the file with"
+msgstr "เลือกการเข้ารหัสเพื่อโหลดไฟล์อีกครั้งด้วย"
+
+#: wx/tools/Editra/src/ed_main.py:1209
+msgid "Reload with Encoding"
+msgstr "โหลดอีกครั้งด้วยการเข้ารหัส"
+
+#: wx/tools/Editra/src/ed_main.py:1221
+#, python-format
+msgid "Failed to reload the file with: %(encoding)s"
+msgstr "การโหลดไฟล์ล้มเหลวด้วย:%(encoding)s"
+
+#: wx/tools/Editra/src/ed_main.py:1240
+msgid "Aui Pane Navigator"
+msgstr "ผู้นำทาง Aui Pane"
+
+#: wx/tools/Editra/src/ed_main.py:1414 wx/tools/Editra/src/ed_menu.py:688
+msgid "Maximize Editor"
+msgstr "เพิ่มตัวแก้ไข"
+
+#: wx/tools/Editra/src/ed_main.py:1416
+msgid "Restore Editor"
+msgstr "คืนค่าตัวแก้ไข"
+
+#: wx/tools/Editra/src/ed_main.py:1436
+msgid "Customize Menu"
+msgstr "ปรับแต่งเมนู"
+
+#: wx/tools/Editra/src/ed_main.py:1485
+#, python-format
+msgid "Opening %s"
+msgstr "กำลังเปิด %s"
+
+#: wx/tools/Editra/src/ed_main.py:1488
+#, python-format
+msgid "Error: Unable to open %s"
+msgstr "ข้อผิดพลาด: ไม่สามารถเปิด %s"
+
+#: wx/tools/Editra/src/ed_main.py:1538
+msgid "Editra is a programmer's text editor."
+msgstr "Editra สามารถแก้ไขข้อความของโปรแกรมเมอร์"
+
+#: wx/tools/Editra/src/ed_main.py:1539
+#, python-format
+msgid "Written in 100%% Python."
+msgstr "เขียนใน 100%% Python"
+
+#: wx/tools/Editra/src/ed_main.py:1540
+msgid "Homepage"
+msgstr "หน้าแรก"
+
+#: wx/tools/Editra/src/ed_main.py:1541
+msgid "Platform Info"
+msgstr "ข้อมูลแพลทฟอร์ม"
+
+#: wx/tools/Editra/src/ed_main.py:1542
+msgid "License: wxWindows (see COPYING.txt for full license)"
+msgstr "ใบอนุญาต: wxWindows (ดู COPYING.txt สำหรับใบอนุญาตเต็มรูปแบบ)"
+
+#: wx/tools/Editra/src/ed_main.py:1548
+msgid "Copyright"
+msgstr "ลิขสิทธิ์"
+
+#: wx/tools/Editra/src/ed_mdlg.py:86
+#, python-format
+msgid ""
+"Editra could not open %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"Editra ไม่สามารถเปิด %(filename)s\n"
+"\n"
+"ข้อผิดพลาด:\n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:88
+msgid "Error Opening File"
+msgstr "การเปิดไฟล์มีข้อผิดพลาด"
+
+#: wx/tools/Editra/src/ed_mdlg.py:105
+#, python-format
+msgid ""
+"Failed to save file: %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+"ไม่สามารถบันทึกไฟล์:%(filename)s\n"
+"\n"
+"ข้อผิดพลาด: \n"
+"%(errormsg)s"
+
+#: wx/tools/Editra/src/ed_mdlg.py:107
+msgid "Save Error"
+msgstr "บันทึกข้อผิดพลาด"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+#, fuzzy
+msgid ""
+"Old Macintosh (\n"
+")"
+msgstr ""
+"Old Macintosh (\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+#, fuzzy
+msgid ""
+"Unix (\n"
+")"
+msgstr ""
+"Unix (\n"
+")"
+
+#: wx/tools/Editra/src/ed_mdlg.py:139
+msgid ""
+"Windows (\n"
+")"
+msgstr ""
+"หน้าต่าง (\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:472
+msgid "Customize..."
+msgstr "กำหนด..."
+
+#: wx/tools/Editra/src/ed_menu.py:473
+msgid "Customize the items shown in this menu."
+msgstr "การกำหนดรายการที่แสดงในเมนูนี้"
+
+#: wx/tools/Editra/src/ed_menu.py:479 wx/tools/Editra/src/syntax/syntax.py:318
+#, python-format
+msgid "Switch Lexer to %s"
+msgstr "สลับ ลีเซอร์ ไปยัง%s"
+
+#: wx/tools/Editra/src/ed_menu.py:481
+msgid "Lexers"
+msgstr "เล็กเซอร์"
+
+#: wx/tools/Editra/src/ed_menu.py:483
+msgid "Manually Set a Lexer/Syntax"
+msgstr "ตั้งค่า เล็กเซอร์/ ไวยากรณ์ ด้วยตนเอง"
+
+#: wx/tools/Editra/src/ed_menu.py:513
+msgid "&New Tab"
+msgstr "&แถบใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:514
+msgid "Start a new file in a new tab"
+msgstr "เริ่มต้นไฟล์ใหม่ในแถบใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:515
+msgid "New &Window"
+msgstr "&หน้าต่างใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:516
+msgid "Start a new file in a new window"
+msgstr "เริ่มต้นไฟล์ใหม่ในหน้าต่างใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:518
+msgid "&Open"
+msgstr "&เปิด"
+
+#: wx/tools/Editra/src/ed_menu.py:521
+msgid "Recently Opened Files"
+msgstr "ไฟล์ที่ถูกเปิดล่าสุด"
+
+#: wx/tools/Editra/src/ed_menu.py:523
+msgid "&Close Tab"
+msgstr "&ปิดแถบ"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close Window"
+msgstr "ปิดหน้าต่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close the current window"
+msgstr "ปิดหน้าต่างปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:527
+msgid "Close All Tabs"
+msgstr "ปิดแถบทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:528
+msgid "Close all open tabs"
+msgstr "ปิดแถบทั้งหมดที่เปิดอยู่"
+
+#: wx/tools/Editra/src/ed_menu.py:530
+msgid "&Save"
+msgstr "และบันทึก"
+
+#: wx/tools/Editra/src/ed_menu.py:530 wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save Current File"
+msgstr "บันทึกไฟล์ปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:531
+msgid "Save &As"
+msgstr "บันทึกและอย่างเช่น"
+
+#: wx/tools/Editra/src/ed_menu.py:533
+msgid "Save all open pages"
+msgstr "บันทึกหน้าทั้งหมดที่เปิด"
+
+#: wx/tools/Editra/src/ed_menu.py:535
+msgid "Revert to Saved"
+msgstr "ย้อนกลับเพื่อบันทึก"
+
+#: wx/tools/Editra/src/ed_menu.py:536
+msgid "Revert file to last save point"
+msgstr "ย้อนกลับไปยังจุดที่ไฟล์จัดเก็บครั้งสุดท้าย"
+
+#: wx/tools/Editra/src/ed_menu.py:537
+msgid "Reload with Encoding..."
+msgstr "เรียกใหม่อีกครั้งด้วยการเข้ารหัส..."
+
+#: wx/tools/Editra/src/ed_menu.py:538
+msgid "Reload the file with a specified encoding"
+msgstr "เ่รียกไฟล์ที่มีการเข้ารหัสใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:543
+msgid "Save Profile"
+msgstr "บันทึกข้อมูล"
+
+#: wx/tools/Editra/src/ed_menu.py:544
+msgid "Save Current Settings to a New Profile"
+msgstr "บันทึกการตั้งค่าปัจจุบันในโปรไฟล์ใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:545
+msgid "Load Profile"
+msgstr "โหลดโปรไฟล์"
+
+#: wx/tools/Editra/src/ed_menu.py:548
+msgid "Load and save custom Profiles"
+msgstr "โหลดและเซฟโปรไฟล์ของผู้ใช้"
+
+#: wx/tools/Editra/src/ed_menu.py:552
+msgid "Save Session"
+msgstr "บันทึก session"
+
+#: wx/tools/Editra/src/ed_menu.py:553
+msgid "Save the current session."
+msgstr "บันทึก session ปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:554
+msgid "Load Session"
+msgstr "โหลด session"
+
+#: wx/tools/Editra/src/ed_menu.py:555
+msgid "Load a saved session."
+msgstr "โหลด session ที่บันทึกแล้ว"
+
+#: wx/tools/Editra/src/ed_menu.py:556
+msgid "Sessions"
+msgstr "วาระงาน"
+
+#: wx/tools/Editra/src/ed_menu.py:557
+msgid "Load and save custom sessions."
+msgstr "โหลดและเซฟงานที่กำหนดเอง"
+
+#: wx/tools/Editra/src/ed_menu.py:561
+msgid "Configure Printer"
+msgstr "ตั้งค่าเครื่องพิมพ์"
+
+#: wx/tools/Editra/src/ed_menu.py:563
+msgid "Preview Printout"
+msgstr "แสดงภาพตัวอย่างก่อนพิมพ์"
+
+#: wx/tools/Editra/src/ed_menu.py:564
+msgid "&Print"
+msgstr "พิมพ์"
+
+#: wx/tools/Editra/src/ed_menu.py:564 wx/tools/Editra/src/ed_toolbar.py:81
+msgid "Print Current File"
+msgstr "พิมพ์ไฟล์ปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:566
+msgid "Exit the Program"
+msgstr "ออกจากโปรแกรม"
+
+#: wx/tools/Editra/src/ed_menu.py:578 wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo Last Action"
+msgstr "ยกเลิกการกระทำครั้งสุดท้าย"
+
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo Last Undo"
+msgstr "ทำที่เลิกทำใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:581
+msgid "Cu&t"
+msgstr "ตัด"
+
+#: wx/tools/Editra/src/ed_menu.py:582 wx/tools/Editra/src/ed_toolbar.py:87
+msgid "Cut Selected Text from File"
+msgstr "ตัดข้อความส่วนที่เลือกจากแฟ้ม"
+
+#: wx/tools/Editra/src/ed_menu.py:583
+msgid "&Copy"
+msgstr "คัดลอก"
+
+#: wx/tools/Editra/src/ed_menu.py:584 wx/tools/Editra/src/ed_toolbar.py:89
+msgid "Copy Selected Text to Clipboard"
+msgstr "คัดลอกข้อความส่วนที่เลือกไปยังคลิปบอร์ด"
+
+#: wx/tools/Editra/src/ed_menu.py:585
+msgid "&Paste"
+msgstr "วาง"
+
+#: wx/tools/Editra/src/ed_menu.py:586 wx/tools/Editra/src/ed_toolbar.py:91
+msgid "Paste Text from Clipboard to File"
+msgstr "วางข้อความจากคลิปบอร์ด"
+
+#: wx/tools/Editra/src/ed_menu.py:587
+msgid "P&aste After"
+msgstr "วางภายหลัง"
+
+#: wx/tools/Editra/src/ed_menu.py:588
+msgid "Paste Text from Clipboard to File after the cursor"
+msgstr "วางข้อความจากคลิปบอร์ดลงแฟ้มภายหลัง"
+
+#: wx/tools/Editra/src/ed_menu.py:589
+msgid "Cycle Clipboard"
+msgstr "วงจรคลิปบอร์ด"
+
+#: wx/tools/Editra/src/ed_menu.py:590
+msgid "Cycle through recent clipboard text"
+msgstr "วงจรผ่านข้อความคลิปบอร์ดล่าสุด"
+
+#: wx/tools/Editra/src/ed_menu.py:592
+msgid "Select &All"
+msgstr "เลือกทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:593
+msgid "Select All Text in Document"
+msgstr "เลือกข้อความทั้งหมดในเอกสาร"
+
+#: wx/tools/Editra/src/ed_menu.py:594
+msgid "Column Mode"
+msgstr "โหมดคอลัมน์"
+
+#: wx/tools/Editra/src/ed_menu.py:595
+msgid "Enable column edit mode."
+msgstr "เปิดโหมดแก้ไขคอลัมน์"
+
+#: wx/tools/Editra/src/ed_menu.py:598
+msgid "New Line After"
+msgstr "ต่อบรรทัดใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:599
+msgid "Add a new line after the current line"
+msgstr "เพิ่มบรรทัดใหม่ต่อจากบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:600
+msgid "New Line Before"
+msgstr "ก่อนบรรทัดใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:601
+msgid "Add a new line before the current line"
+msgstr "เพิ่งบรรทัดใหม่ก่อนบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:603
+msgid "Cut Line"
+msgstr "ตัดบรรทัดออก"
+
+#: wx/tools/Editra/src/ed_menu.py:604
+msgid "Cut Current Line"
+msgstr "ตัดบรรทัดปัจจุบันออก"
+
+#: wx/tools/Editra/src/ed_menu.py:605
+msgid "Delete Line"
+msgstr "ลบบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:606
+msgid "Delete the selected line(s)"
+msgstr "ลบบรรทัดที่เลือก"
+
+#: wx/tools/Editra/src/ed_menu.py:607
+msgid "Copy Line"
+msgstr "คัดลอกบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:608
+msgid "Copy Current Line"
+msgstr "คัดลอกบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:609
+msgid "Duplicate Line"
+msgstr "ทำสำเนาบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:610
+msgid "Duplicate the current line"
+msgstr "ทำสำเนาบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:612
+msgid "Join Lines"
+msgstr "รวมบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:613
+msgid "Join the Selected Lines"
+msgstr "รวมบรรทัดที่เลือก"
+
+#: wx/tools/Editra/src/ed_menu.py:614
+msgid "Transpose Line"
+msgstr "สลับบรรทัดไขว้กัน"
+
+#: wx/tools/Editra/src/ed_menu.py:615
+msgid "Transpose the current line with the previous one"
+msgstr "สลับบรรทัดปัจจุบันกับบรรทัดก่อนหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:616
+msgid "Move Current Line Up"
+msgstr "ย้ายบรรทัดปัจจุบันขึ้นไป"
+
+#: wx/tools/Editra/src/ed_menu.py:617
+msgid "Move the current line up"
+msgstr "ย้ายบรรทัดปัจจุบันขึ้นไป"
+
+#: wx/tools/Editra/src/ed_menu.py:619
+msgid "Move Current Line Down"
+msgstr "ย้ายบรรทัดปัจจุบันลง"
+
+#: wx/tools/Editra/src/ed_menu.py:620
+msgid "Move the current line down"
+msgstr "ย้ายบรรทัดปัจจุบันลง"
+
+#: wx/tools/Editra/src/ed_menu.py:621
+msgid "Line Edit"
+msgstr "แก้ไขบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:622
+msgid "Commands that influence an entire line"
+msgstr "คำสั่งที่มีผลต่อบรรทัดทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:624
+msgid "Toggle Bookmark"
+msgstr "สลับที่คั่นหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:625
+msgid "Toggle bookmark of the current line"
+msgstr "สลับที่คั่นหน้าของบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:626
+msgid "Remove All Bookmarks"
+msgstr "ลบที่คั่นหน้าทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:627
+msgid "Remove all bookmarks from the current document"
+msgstr "ลบที่คั่นหน้าทั้งหมดจากเอกสารปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:628
+msgid "Bookmarks"
+msgstr "ที่คั่นหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:629
+msgid "Add and remove bookmarks"
+msgstr "เพิ่มและลบที่คั่นหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:631
+msgid "&Find"
+msgstr "ค้นหา"
+
+#: wx/tools/Editra/src/ed_menu.py:631 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find Text"
+msgstr "ค้นหาข้อความ"
+
+#: wx/tools/Editra/src/ed_menu.py:632
+msgid "Find/R&eplace"
+msgstr "้ค้นหา/แทนที่"
+
+#: wx/tools/Editra/src/ed_menu.py:633 wx/tools/Editra/src/ed_toolbar.py:95
+msgid "Find and Replace Text"
+msgstr "ค้้นหาและแทนที่ข้อความ"
+
+#: wx/tools/Editra/src/ed_menu.py:634
+msgid "&Quick Find"
+msgstr "ค้นหาอย่างรวดเร็ว"
+
+#: wx/tools/Editra/src/ed_menu.py:635
+msgid "Open the Quick Find Bar"
+msgstr "เปิดแถบเครื่องมือค้นหาอย่างรวดเร็ว"
+
+#: wx/tools/Editra/src/ed_menu.py:636
+msgid "Find Previous"
+msgstr "ค้นหาก่อนหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:637
+msgid "Goto previous match"
+msgstr "ไปที่เหมือนก่อนหน้านี้"
+
+#: wx/tools/Editra/src/ed_menu.py:638
+msgid "Find Next"
+msgstr "ค้นหาถัดไป"
+
+#: wx/tools/Editra/src/ed_menu.py:639
+msgid "Goto the next match"
+msgstr "ไปที่เหมือนถัดไป"
+
+#: wx/tools/Editra/src/ed_menu.py:640
+msgid "Find Selected"
+msgstr "ค้นหาที่ถูกเลือก"
+
+#: wx/tools/Editra/src/ed_menu.py:641
+msgid "Search for the currently selected phrase"
+msgstr "ค้นหากลุ่มคำที่เลือกในตอนนี้"
+
+#: wx/tools/Editra/src/ed_menu.py:643
+msgid "Pr&eferences"
+msgstr "การตั้งค่า"
+
+#: wx/tools/Editra/src/ed_menu.py:644
+msgid "Edit Preferences / Settings"
+msgstr "แก้ไขการตั้งค่า"
+
+#: wx/tools/Editra/src/ed_menu.py:656
+msgid "Zoom Out"
+msgstr "ขยายออก"
+
+#: wx/tools/Editra/src/ed_menu.py:657
+msgid "Zoom In"
+msgstr "ขยายเข้า"
+
+#: wx/tools/Editra/src/ed_menu.py:658 wx/tools/Editra/src/ed_menu.py:659
+msgid "Zoom Default"
+msgstr "ขยายค่าเริ่มต้น"
+
+#: wx/tools/Editra/src/ed_menu.py:662 wx/tools/Editra/src/prefdlg.py:933
+msgid "Highlight Caret Line"
+msgstr "เน้นส่วนบรรทัดนั้น"
+
+#: wx/tools/Editra/src/ed_menu.py:663
+msgid "Highlight the background of the current line"
+msgstr "เน้นไปที่พื้นหลังของบรรทัดปัจจุบัน"
+
+#: wx/tools/Editra/src/ed_menu.py:665 wx/tools/Editra/src/prefdlg.py:936
+msgid "Indentation Guides"
+msgstr "เคล็ดลับการย่อหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:666
+msgid "Show Indentation Guides"
+msgstr "แสดงเคล็ดลับการย่อหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:667
+msgid "Show Edge Guide"
+msgstr "แสดงเคล็ดลับขอบเขต"
+
+#: wx/tools/Editra/src/ed_menu.py:668
+msgid "Show the edge column guide"
+msgstr "คู่มือแสดงแถวตอนในขอบเขตนั้น"
+
+#: wx/tools/Editra/src/ed_menu.py:669 wx/tools/Editra/src/ed_menu.py:670
+#: wx/tools/Editra/src/prefdlg.py:767
+msgid "Show EOL Markers"
+msgstr "แสดงเครื่องหมาย EOL"
+
+#: wx/tools/Editra/src/ed_menu.py:671 wx/tools/Editra/src/prefdlg.py:769
+msgid "Show Line Numbers"
+msgstr "แสดงหมายเลขบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:672
+msgid "Show Line Number Margin"
+msgstr "แสดงขอบหมายเลขบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:673 wx/tools/Editra/src/prefdlg.py:771
+msgid "Show Whitespace"
+msgstr "แสดงพื้นที่สีขาว"
+
+#: wx/tools/Editra/src/ed_menu.py:674
+msgid "Show Whitespace Markers"
+msgstr "เครื่องหมายแสดงช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:675
+msgid "Editor"
+msgstr "บรรณาธิการ"
+
+#: wx/tools/Editra/src/ed_menu.py:676
+msgid "Toggle Editor View Options"
+msgstr "สลับตัวเลือกมุมมองแก้ไข"
+
+#: wx/tools/Editra/src/ed_menu.py:678
+msgid "Toggle fold"
+msgstr "สลับพับ"
+
+#: wx/tools/Editra/src/ed_menu.py:679
+msgid "Toggle current fold"
+msgstr "กระแสไฟฟ้าสลับ"
+
+#: wx/tools/Editra/src/ed_menu.py:680 wx/tools/Editra/src/ed_menu.py:681
+msgid "Toggle all folds"
+msgstr "สลับทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:682 wx/tools/Editra/src/ed_menu.py:787
+#: wx/tools/Editra/src/prefdlg.py:922
+msgid "Code Folding"
+msgstr "พับโค้ด"
+
+#: wx/tools/Editra/src/ed_menu.py:683
+msgid "Code folding toggle actions"
+msgstr "การกระทำที่สลับรหัสพับ"
+
+#: wx/tools/Editra/src/ed_menu.py:686
+msgid "Pane Navigator"
+msgstr "หน้าปัดตัวนำทาง"
+
+#: wx/tools/Editra/src/ed_menu.py:687
+msgid "View pane selection list"
+msgstr "ดูหน้าต่างรายการตัวเลือก"
+
+#: wx/tools/Editra/src/ed_menu.py:689
+msgid "Toggle Editor Maximization"
+msgstr "สลับการปรับปรุงสูงสุด"
+
+#: wx/tools/Editra/src/ed_menu.py:691
+msgid "&Goto Line"
+msgstr "ไปยังบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:692
+msgid "Goto Line Number"
+msgstr "ไปยังบรรทัดหมายเลข"
+
+#: wx/tools/Editra/src/ed_menu.py:693
+msgid "Goto Matching Brace"
+msgstr "ไปจับคู่รั้ง"
+
+#: wx/tools/Editra/src/ed_menu.py:694
+msgid "Move caret matching brace"
+msgstr "ย้ายเครื่องหมายวงเล็บปีกกาที่ตรงกัน"
+
+#: wx/tools/Editra/src/ed_menu.py:696
+msgid "Next Position"
+msgstr "ไปยังตำแหน่งถัดไป"
+
+#: wx/tools/Editra/src/ed_menu.py:697
+msgid "Goto next position in history."
+msgstr "ไปยังตำแหน่งต่อไปในประวัติการใช้งาน"
+
+#: wx/tools/Editra/src/ed_menu.py:698
+msgid "Previous Position"
+msgstr "ตำแหน่งก่อนหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:699
+msgid "Goto previous position in history."
+msgstr "ไปยังตำแหน่งก่อนหน้าในประวัติการใช้งาน"
+
+#: wx/tools/Editra/src/ed_menu.py:701
+msgid "Next Bookmark"
+msgstr "ที่คั่นหน้าถัดไป"
+
+#: wx/tools/Editra/src/ed_menu.py:702
+msgid "View Line of Next Bookmark"
+msgstr "ดูบรรทัดที่คั่นหน้าถัดไป"
+
+#: wx/tools/Editra/src/ed_menu.py:703
+msgid "Previous Bookmark"
+msgstr "ที่คั่นหน้าก่อนหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:704
+msgid "View Line of Previous Bookmark"
+msgstr "ดูบรรทัดของที่คั่นหน้าก่อนหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:707 wx/tools/Editra/src/prefdlg.py:1207
+msgid "Show Status Bar"
+msgstr "แถบแสดงสถานะ"
+
+#: wx/tools/Editra/src/ed_menu.py:709 wx/tools/Editra/src/prefdlg.py:1209
+msgid "Show Toolbar"
+msgstr "แสดงแถบเครื่องมือ"
+
+#: wx/tools/Editra/src/ed_menu.py:721
+msgid "&Font"
+msgstr "แบบอักษร"
+
+#: wx/tools/Editra/src/ed_menu.py:722
+msgid "Change Font Settings"
+msgstr "เปลี่ยนการตั้งค่าแบบอักษร"
+
+#: wx/tools/Editra/src/ed_menu.py:724
+msgid "Toggle Comment"
+msgstr "สลับหมายเหตุ"
+
+#: wx/tools/Editra/src/ed_menu.py:725
+msgid "Toggle comment on the selected line(s)"
+msgstr "สลับหมายเหตุในบรรทัดที่ถูกเลือก"
+
+#: wx/tools/Editra/src/ed_menu.py:728
+msgid "Indent Lines"
+msgstr "บรรทัดย่อหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:729
+msgid "Indent the selected lines"
+msgstr "เลือกบรรทัดย่อหน้า"
+
+#: wx/tools/Editra/src/ed_menu.py:730
+msgid "Unindent Lines"
+msgstr "บรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:731
+msgid "Unindent the selected lines"
+msgstr "เลือกบรรทัด"
+
+#: wx/tools/Editra/src/ed_menu.py:733
+msgid "Uppercase"
+msgstr "ตัวพิมพ์ใหญ่"
+
+#: wx/tools/Editra/src/ed_menu.py:734
+msgid "Convert selected text to all uppercase letters"
+msgstr "เปลี่ยนตัวอักษรที่เลือกให้เป็นตัวพิมพ์ใหญ่ทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:735
+msgid "Lowercase"
+msgstr "ตัวพิมพ์เล็ก"
+
+#: wx/tools/Editra/src/ed_menu.py:736
+msgid "Convert selected text to all lowercase letters"
+msgstr "เปลี่ยนตัวอักษรที่เลือกให้เป็นตัวพิมพ์เล็กทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:738
+msgid "Use Soft Tabs"
+msgstr "ใช้แท็บ"
+
+#: wx/tools/Editra/src/ed_menu.py:739
+msgid "Insert spaces instead of tab characters with tab key"
+msgstr "แทรกช่องว่างแทนอักขระแท็บที่มีคีย์แท็บ"
+
+#: wx/tools/Editra/src/ed_menu.py:741 wx/tools/Editra/src/prefdlg.py:773
+msgid "Word Wrap"
+msgstr "ตัดคำขึ้นบรรทัดใหม่"
+
+#: wx/tools/Editra/src/ed_menu.py:742
+msgid "Wrap Text Horizontally"
+msgstr "ตัดข้อความแนวนอน"
+
+#: wx/tools/Editra/src/ed_menu.py:747
+msgid "Spaces to Tabs"
+msgstr "ช่องว่างที่จะแท็บ"
+
+#: wx/tools/Editra/src/ed_menu.py:748
+msgid "Convert spaces to tabs in selected/all text"
+msgstr "แปลงช่องว่างแท็บในการเลือก / ข้อความทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:749
+msgid "Tabs to Spaces"
+msgstr "แท็บที่จะเว้นช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:750
+msgid "Convert tabs to spaces in selected/all text"
+msgstr "แปลงแท็บไปที่ช่องว่างในการเลือก / ข้อความทั้งหมด"
+
+#: wx/tools/Editra/src/ed_menu.py:751
+msgid "Trim Trailing Whitespace"
+msgstr "ตัดตามช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:752
+msgid "Remove trailing whitespace"
+msgstr "ลบออกตามช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:753
+msgid "Whitespace"
+msgstr "ช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:754
+msgid "Whitespace formating commands"
+msgstr "คำสั่งรูปแบบช่องว่าง"
+
+#: wx/tools/Editra/src/ed_menu.py:758 wx/tools/Editra/src/ed_menu.py:760
+#: wx/tools/Editra/src/prefdlg.py:755
+msgid "Old Macintosh (\\r)"
+msgstr "แมคอินทอชรุ่นเก่า (\r)"
+
+#: wx/tools/Editra/src/ed_menu.py:759 wx/tools/Editra/src/ed_menu.py:762
+#: wx/tools/Editra/src/ed_menu.py:765
+#, python-format
+msgid "Format all EOL characters to %s Mode"
+msgstr "จัดรูปแบบ ตัวอักษร EOL ทุกตัว ให้เป็นรูปแบบ %s"
+
+#: wx/tools/Editra/src/ed_menu.py:764 wx/tools/Editra/src/ed_menu.py:766
+#: wx/tools/Editra/src/prefdlg.py:756
+msgid "Windows (\\r\\n)"
+msgstr ""
+"วินโดวส์ (\r\n"
+")"
+
+#: wx/tools/Editra/src/ed_menu.py:767
+msgid "EOL Mode"
+msgstr "รูปแบบ EOL"
+
+#: wx/tools/Editra/src/ed_menu.py:768
+msgid "End of line character formatting"
+msgstr "สุดบรรทัดการจัดรูปแบบตัวอักษร"
+
+#: wx/tools/Editra/src/ed_menu.py:771
+#, fuzzy
+msgid "F&ormat"
+msgstr "รู&ปแบบ"
+
+#: wx/tools/Editra/src/ed_menu.py:780 wx/tools/Editra/src/prefdlg.py:940
+msgid "Auto-Completion"
+msgstr "ทำเสร็จอัตโนมัติ"
+
+#: wx/tools/Editra/src/ed_menu.py:781
+msgid "Use Auto Completion when available"
+msgstr "ใช้การทำเสร็จอัตโนมัติเมื่อสามารถใช้ได้"
+
+#: wx/tools/Editra/src/ed_menu.py:782 wx/tools/Editra/src/prefdlg.py:950
+msgid "Auto-Indent"
+msgstr "ทำการย่อหน้าอัตโนมัติ"
+
+#: wx/tools/Editra/src/ed_menu.py:783
+msgid "Toggle Auto-Indentation functionality"
+msgstr "เปิด/ปิดการย่อหน้าอัตโนมัติ"
+
+#: wx/tools/Editra/src/ed_menu.py:785 wx/tools/Editra/src/prefdlg.py:920
+msgid "Bracket Highlighting"
+msgstr "การไฮไลท์วงเล็บ"
+
+#: wx/tools/Editra/src/ed_menu.py:786
+msgid "Highlight Brackets/Braces"
+msgstr "ไฮไลท์วงเล็บ/วงเล็บปีกกา"
+
+#: wx/tools/Editra/src/ed_menu.py:788
+msgid "Toggle Code Folding"
+msgstr "เปิด/ปิดการพับโค้ด"
+
+#: wx/tools/Editra/src/ed_menu.py:789 wx/tools/Editra/src/prefdlg.py:679
+#: wx/tools/Editra/src/prefdlg.py:1080
+msgid "Syntax Highlighting"
+msgstr "ไฮไลท์ไวยากรณ์"
+
+#: wx/tools/Editra/src/ed_menu.py:790
+msgid "Color Highlight Code Syntax"
+msgstr "ไฮไลท์โค้ดไวยากรณ์โดยใช้สี"
+
+#: wx/tools/Editra/src/ed_menu.py:795
+msgid "&Settings"
+msgstr "&การตั้งค่า"
+
+#: wx/tools/Editra/src/ed_menu.py:806
+msgid "Editor Command"
+msgstr "คำสั่งแก้ไข"
+
+#: wx/tools/Editra/src/ed_menu.py:807
+msgid "Goto command buffer"
+msgstr "ไปยังตัวรับคำสั่ง"
+
+#: wx/tools/Editra/src/ed_menu.py:809
+msgid "Manage, Download, and Install plugins"
+msgstr "บริหาร ดาวน์โหลด และติดตั้งปลั๊กอินเสริม"
+
+#: wx/tools/Editra/src/ed_menu.py:810 wx/tools/Editra/src/style_editor.py:65
+msgid "Style Editor"
+msgstr "ตัวแก้ไขสไตล์"
+
+#: wx/tools/Editra/src/ed_menu.py:811
+msgid "Edit the way syntax is highlighted"
+msgstr "แก้ไขวิธีการไฮไลท์ไวยากรณ์"
+
+#: wx/tools/Editra/src/ed_menu.py:831
+msgid "&About..."
+msgstr "&เกี่ยวกับ..."
+
+#: wx/tools/Editra/src/ed_menu.py:832
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: wx/tools/Editra/src/ed_menu.py:833
+msgid "Project Homepage..."
+msgstr "หน้าหลักโปรเจ็กต์..."
+
+#: wx/tools/Editra/src/ed_menu.py:834
+#, python-format
+#, python-format,
+msgid "Visit the project homepage %s"
+msgstr "เยี่ยมชมหน้าหลักของโปรเจ็กต์ %s"
+
+#: wx/tools/Editra/src/ed_menu.py:836
+msgid "Online Documentation..."
+msgstr "เอกสารออนไลน์..."
+
+#: wx/tools/Editra/src/ed_menu.py:837
+msgid "Online project documentation and help guides"
+msgstr "เอกสารออนไลน์และเอกสารช่วย/แนะนำ"
+
+#: wx/tools/Editra/src/ed_menu.py:838
+msgid "Translate Editra..."
+msgstr "แปล Editra..."
+
+#: wx/tools/Editra/src/ed_menu.py:839
+msgid "Editra translations project"
+msgstr "โปรเจ็กต์การแปล Editra"
+
+#: wx/tools/Editra/src/ed_menu.py:840
+msgid "Bug Tracker..."
+msgstr "ตัวติดตามบั๊ก..."
+
+#: wx/tools/Editra/src/ed_menu.py:841
+msgid "Feedback"
+msgstr "การโต้ตอบ"
+
+#: wx/tools/Editra/src/ed_menu.py:842
+msgid "Send bug reports and suggestions"
+msgstr "ส่งรายงานบั๊กหรือคำแนะนำอื่นๆ"
+
+#: wx/tools/Editra/src/ed_pages.py:162
+#, python-format
+msgid ""
+"The correct encoding of '%s' could not be determined.\n"
+"\n"
+"Choose an encoding and select OK to open the file with the chosen encoding.\n"
+"Click Cancel to abort opening the file"
+msgstr ""
+"ไม่สามารถพิจารณาการเข้ารหัสที่ถูกต้องของ '%s' ได้\n"
+"\n"
+"เลือกรูปแบบการเข้ารหัสที่ต้องการแล้วเลือก OK "
+"เพื่อเปิดไฟล์ในรูปแบบการเข้ารหัสนั้น กดยกเลิกถ้าไม่ต้องการเปิดไฟล์"
+
+#: wx/tools/Editra/src/ed_pages.py:172
+msgid "Choose an Encoding"
+msgstr "เลือกรูปแบบการเข้ารหัส"
+
+#: wx/tools/Editra/src/ed_pages.py:211
+msgid ""
+"File is already open in an existing page.\n"
+"Do you wish to open it again?"
+msgstr "ไฟล์นี้ถูกเปิดอยู่แล้วในหน้าที่มีอยู่ตอนนี้ ต้องการเปิดอีกครั้งหรือไม่?"
+
+#: wx/tools/Editra/src/ed_pages.py:213
+msgid "Open File"
+msgstr "เปิดไฟล์"
+
+#: wx/tools/Editra/src/ed_pages.py:232
+#, python-format
+msgid "untitled %d"
+msgstr "ไม่มีชื่อ %d"
+
+#: wx/tools/Editra/src/ed_pages.py:234
+msgid "untitled"
+msgstr "ไม่มีชื่อ"
+
+#: wx/tools/Editra/src/ed_pages.py:324
+msgid "Error Saving Session File"
+msgstr "พบปัญหาในการบันทึกแฟ้มวาระงาน"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Invalid File"
+msgstr "แฟ้มไม่ถูกต้อง"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Session file doesn't exist."
+msgstr "ไม่พบแฟ้มวาระงาน"
+
+#: wx/tools/Editra/src/ed_pages.py:367
+msgid "Invalid file"
+msgstr "แฟ้มไม่ถูกต้อง"
+
+#: wx/tools/Editra/src/ed_pages.py:368
+msgid "Selected file is not a valid session file"
+msgstr "แฟ้มที่เลือกไม่ใช่แฟ้มวาระงานที่ถูกต้อง"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Empty File"
+msgstr "แฟ้มว่างเปล่า"
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Session file is empty."
+msgstr "แฟ้มวาระงานว่างเปล่า"
+
+#: wx/tools/Editra/src/ed_pages.py:388
+msgid "Missing session files"
+msgstr "ขาดแฟ้มวาระงาน"
+
+#: wx/tools/Editra/src/ed_pages.py:389
+msgid "Some files in saved session could not be found on disk:\n"
+msgstr "แฟ้มบางแฟ้มในวาระที่บันทึกแล้ว ไม่สามารถหาพบบนดิสก์:\n"
+
+#: wx/tools/Editra/src/ed_pages.py:965
+#, python-format
+msgid "Invalid file: %s"
+msgstr "แฟ้มไม่ถูกต้อง: %s"
+
+#: wx/tools/Editra/src/ed_pages.py:973
+#, python-format
+msgid "There are no files that Editra can open in %s"
+msgstr "ไม่มีแฟ้มที่ Editra สามารถเปิดได้ใน %s"
+
+#: wx/tools/Editra/src/ed_pages.py:975
+msgid "No Valid Files to Open"
+msgstr "ไม่มีแฟ้มที่ถูกต้องที่จะเปิด"
+
+#: wx/tools/Editra/src/ed_pages.py:981
+#, python-format
+msgid ""
+"Do you wish to open all %d files in this directory?\n"
+"\n"
+"Warning: opening many files at once may cause the editor to temporarily "
+"freeze."
+msgstr ""
+"คุณต้องการเปิดทุกแฟ้ม %d ในไดเรกทอรีนี้หรือไม่?\n"
+"\n"
+"คำเตือน: เปิดหลายแฟ้มทีเดียวอาจทำให้ตัวแก้ไขค้างไปขณะหนึ่ง"
+
+#: wx/tools/Editra/src/ed_pages.py:986
+msgid "Open Directory?"
+msgstr "เปิดไดเรกทอรีหรือไม่?"
+
+#: wx/tools/Editra/src/ed_pages.py:1006
+#, python-format
+msgid "Opened file: %s"
+msgstr "แฟ้มที่เปิดแล้ว: %s"
+
+#: wx/tools/Editra/src/ed_print.py:115
+msgid "Failed to create print preview"
+msgstr "พบข้อผิดพลาดขณะแสดงตัวอย่างก่อนพิมพ์"
+
+#: wx/tools/Editra/src/ed_print.py:116
+msgid "Print Error"
+msgstr "การพิมพ์มีปัญหา"
+
+#: wx/tools/Editra/src/ed_print.py:132
+msgid ""
+"There was an error when printing.\n"
+"Check that your printer is properly connected."
+msgstr ""
+"มีข้อผิดพลาดขณะพิมพ์\n"
+"โปรดตรวจสอบว่าเครื่องพิมพ์ของคุณเชื่อมต่อถูกต้องดีแล้ว"
+
+#: wx/tools/Editra/src/ed_print.py:134
+msgid "Printer Error"
+msgstr "เครื่องพิมพ์มีปัญหา"
+
+#: wx/tools/Editra/src/ed_print.py:232
+#, python-format
+msgid "Page: %d"
+msgstr "หน้า: %d"
+
+#: wx/tools/Editra/src/ed_script.py:203 wx/tools/Editra/src/ed_script.py:213
+msgid "Macro Manager"
+msgstr "ตัวจัดการแมโคร"
+
+#: wx/tools/Editra/src/ed_script.py:204
+msgid "View and Edit Macros"
+msgstr "มุมมองและแก้ไขแมโคร"
+
+#: wx/tools/Editra/src/ed_search.py:64 wx/tools/Editra/src/ed_search.py:68
+msgid "DECODING ERROR"
+msgstr "การถอดรหัสข้อมูลมีปัญหา"
+
+#: wx/tools/Editra/src/ed_search.py:149 wx/tools/Editra/src/ed_search.py:153
+#: wx/tools/Editra/src/ed_toolbar.py:94
+msgid "Find/Replace"
+msgstr "ค้นหา/แทนที่"
+
+#: wx/tools/Editra/src/ed_search.py:310
+#, python-format
+msgid "The search term '%(term)s' was found %(count)d times."
+msgstr "พบคำค้นหา '%(term)s' จำนวน %(count)d ครั้ง"
+
+#: wx/tools/Editra/src/ed_search.py:311
+msgid "Find Count"
+msgstr "จำนวนครั้งค้นหา"
+
+#: wx/tools/Editra/src/ed_search.py:351
+#, python-format
+msgid "Invalid expression \"%s\""
+msgstr "วิธีการเขียน \"%s\" ไม่ถูกต้อง"
+
+#: wx/tools/Editra/src/ed_search.py:352
+msgid "Regex Compile Error"
+msgstr "มีปัญหาในการแปลวิธีการเขียนทั่วไป (Regex Complie Error)"
+
+#: wx/tools/Editra/src/ed_search.py:405
+msgid "Search wrapped to top"
+msgstr "ค้นหาไปบนสุด"
+
+#: wx/tools/Editra/src/ed_search.py:410
+msgid "Search wrapped to bottom"
+msgstr "ค้นหาไปล่างสุด"
+
+#: wx/tools/Editra/src/ed_search.py:431
+#, python-format
+msgid "\"%s\" was not found"
+msgstr "ไม่พบ \"%s\""
+
+#: wx/tools/Editra/src/ed_search.py:539 wx/tools/Editra/src/ed_search.py:700
+#, python-format
+msgid ""
+"Error in regular expression expansion. The replace action cannot be "
+"completed.\n"
+"\n"
+"Error Message: %s"
+msgstr ""
+"มีปัญหาในการขยายการเขียนทั่วไป การแทนที่ไม่สำเร็จ\n"
+"\n"
+"ข้อผิดพลาด: %s"
+
+#: wx/tools/Editra/src/ed_search.py:542 wx/tools/Editra/src/ed_search.py:703
+msgid "Replace Error"
+msgstr "การแทนที่มีปัญหา"
+
+#: wx/tools/Editra/src/ed_search.py:612
+msgid "Sorry will be ready for next version"
+msgstr "ขออภัย จะมีพร้อมในรุ่นถัดไป"
+
+#: wx/tools/Editra/src/ed_search.py:613
+msgid "Not implemented"
+msgstr "ไม่ได้สร้างจัดทำไว้"
+
+#: wx/tools/Editra/src/ed_search.py:633
+#, python-format
+msgid "%d matches were replaced."
+msgstr "จำนวน %d คำที่ตรงกันถูกแทนที่เรียบร้อยแล้ว"
+
+#: wx/tools/Editra/src/ed_search.py:796
+msgid "Recent Searches"
+msgstr "คำค้นหาที่ผ่านมา"
+
+#: wx/tools/Editra/src/ed_search.py:1271
+msgid "Search Started"
+msgstr "การค้นหาได้เริ่มต้นขึ้น"
+
+#: wx/tools/Editra/src/ed_search.py:1290
+msgid "Search complete"
+msgstr "การค้นหาเสร็จสิ้นลง"
+
+#: wx/tools/Editra/src/ed_search.py:1297
+#, python-format
+msgid "Search Complete: %d matching lines where found."
+msgstr "การค้นหาเสร็จสิ้นลง: พบ %d บรรทัดที่พบคำที่ตรงกัน"
+
+#: wx/tools/Editra/src/ed_search.py:1298
+#, python-format
+msgid "Files Searched: %d"
+msgstr "จำนวนแฟ้มที่ค้นหาพบ: %d"
+
+#: wx/tools/Editra/src/ed_search.py:1381
+#, python-format
+msgid "Searching in: %s"
+msgstr "ค้นหาใน: %s"
+
+#: wx/tools/Editra/src/ed_shelf.py:117
+msgid "Shelf"
+msgstr "หิ้ง"
+
+#: wx/tools/Editra/src/ed_shelf.py:118
+msgid "Put an item on the Shelf"
+msgstr "วางสิ่งของบนหิ้ง"
+
+#: wx/tools/Editra/src/ed_shelf.py:351
+msgid "Show Shelf"
+msgstr "แสดงหิ้ง"
+
+#: wx/tools/Editra/src/ed_shelf.py:353
+msgid "Show the Shelf"
+msgstr "แสดงหิ้งนี้"
+
+#: wx/tools/Editra/src/ed_statbar.py:62 wx/tools/Editra/src/ed_statbar.py:64
+#: wx/tools/Editra/src/ed_statbar.py:66
+#, python-format
+msgid "Change line endings to %s"
+msgstr "เปลี่ยนบรรทัดจบเป็น %s"
+
+#: wx/tools/Editra/src/ed_statbar.py:184
+msgid "Change the encoding of the current document."
+msgstr "เปลี่ยนการเข้ารหัสของเอกสารนี้"
+
+#: wx/tools/Editra/src/ed_statbar.py:185
+msgid "Change Encoding"
+msgstr "เปลี่ยนการเข้ารหัส"
+
+#: wx/tools/Editra/src/ed_stc.py:563
+#, python-format
+msgid "File backup performed: %s"
+msgstr "กระทำแฟ้มกู้ข้อมูลแล้ว: %s"
+
+#: wx/tools/Editra/src/ed_stc.py:697
+#, python-format
+msgid "Line: %(lnum)d  Column: %(cnum)d"
+msgstr "บรรทัดที่: %(lnum)d  คอลัมน์ที่: %(cnum)d"
+
+#: wx/tools/Editra/src/ed_stc.py:1097
+msgid ""
+"Mixed EOL characters detected.\n"
+"\n"
+"Would you like to format them to all be the same?"
+msgstr ""
+"ตรวจพบตัวอักษร EOL แบบผสม\n"
+"\n"
+"คุณต้องการจัดรูปแบบให้ทั้งหมดเป็นแบบเดียวกันหรือไม่?"
+
+#: wx/tools/Editra/src/ed_stc.py:1100
+msgid "Format EOL?"
+msgstr "จัดรูปแบบ EOL หรือไม่?"
+
+#: wx/tools/Editra/src/ed_stc.py:1355
+msgid "Recording Macro"
+msgstr "กำลังบันทึกแมโคร"
+
+#: wx/tools/Editra/src/ed_stc.py:1368
+msgid "Recording Finished"
+msgstr "การบันทึกเสร็จสิ้นแล้ว"
+
+#: wx/tools/Editra/src/ed_stc.py:1674
+#, python-format
+msgid "%s does not exist"
+msgstr "ไม่พบ %s"
+
+#: wx/tools/Editra/src/ed_stc.py:1721
+msgid "File is Read Only and cannot be saved"
+msgstr "แฟ้มเป็นลักษณะอ่านอย่างเดียวและไม่สามารถบันทึกได้"
+
+#: wx/tools/Editra/src/ed_toolbar.py:77
+msgid "Start a New File"
+msgstr "เริ่มแฟ้มใหม่"
+
+#: wx/tools/Editra/src/generator.py:117
+msgid "Generator"
+msgstr "ตัวสร้าง"
+
+#: wx/tools/Editra/src/generator.py:118
+msgid "Generate Code and Documents"
+msgstr "สร้างโค้ดและเอกสาร"
+
+#: wx/tools/Editra/src/generator.py:291 wx/tools/Editra/src/generator.py:678
+#: wx/tools/Editra/src/generator.py:881
+#, python-format
+msgid "Generate %s"
+msgstr "สร้าง %s"
+
+#: wx/tools/Editra/src/generator.py:292 wx/tools/Editra/src/generator.py:882
+#, python-format
+msgid "Generate a %s version of the current document"
+msgstr "สร้างรุ่น %s ของเอกสารปัจจุบัน"
+
+#: wx/tools/Editra/src/generator.py:679
+#, python-format
+msgid "Generate an %s version of the current document"
+msgstr "สร้างรุ่น %s ของเอกสารปัจจุบัน"
+
+#: wx/tools/Editra/src/perspective.py:72
+msgid "Save Current View"
+msgstr "บันทึกมุมมองปัจจุบัน"
+
+#: wx/tools/Editra/src/perspective.py:73
+msgid "Save the current window layout"
+msgstr "บันทึกเค้าโครงหน้าต่างปัจจุบัน"
+
+#: wx/tools/Editra/src/perspective.py:74
+msgid "Delete Saved View"
+msgstr "ลบมุมมองที่บันทึก"
+
+#: wx/tools/Editra/src/perspective.py:76
+msgid "Automatic"
+msgstr "อัติโนมัติ"
+
+#: wx/tools/Editra/src/perspective.py:77
+msgid "Automatically save/use window state from last session"
+msgstr "บันทึก/ใช้สถานะของหน้าต่างจากวาระล่าสุดอัติโนมัติ"
+
+#: wx/tools/Editra/src/perspective.py:130
+#, python-format
+msgid "Change view to \"%s\""
+msgstr "เปลี่ยนมุมมองเป็น \"%s\""
+
+#: wx/tools/Editra/src/perspective.py:252
+msgid "Perspective Name"
+msgstr "ชื่อมุมมองสัดส่วน"
+
+#: wx/tools/Editra/src/perspective.py:253
+msgid "Save Perspective"
+msgstr "บันทึกมุมมองสัดส่วน"
+
+#: wx/tools/Editra/src/perspective.py:269
+msgid "Perspective to Delete"
+msgstr "มุมมองสัดส่วนที่จะลบ"
+
+#: wx/tools/Editra/src/perspective.py:270
+msgid "Delete Perspective"
+msgstr "ลบมุมมองสัดส่วน"
+
+#: wx/tools/Editra/src/plugdlg.py:121 wx/tools/Editra/src/plugdlg.py:958
+msgid "Configure"
+msgstr "ปรับแต่ง"
+
+#: wx/tools/Editra/src/plugdlg.py:122 wx/tools/Editra/src/plugdlg.py:462
+#: wx/tools/Editra/src/plugdlg.py:1110 wx/tools/Editra/src/prefdlg.py:1524
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: wx/tools/Editra/src/plugdlg.py:123 wx/tools/Editra/src/plugdlg.py:765
+msgid "Install"
+msgstr "ติดตั้ง"
+
+#: wx/tools/Editra/src/plugdlg.py:131
+msgid "Errors"
+msgstr "ข้อผิดพลาด"
+
+#: wx/tools/Editra/src/plugdlg.py:180
+msgid "Downloads are incomplete"
+msgstr "การดาวน์โหลดไม่สมบูรณ์"
+
+#: wx/tools/Editra/src/plugdlg.py:181
+msgid "Do you wish to exit?"
+msgstr "คุณต้องการจบการทำงานหรือไม่?"
+
+#: wx/tools/Editra/src/plugdlg.py:192
+msgid "You must restart Editra before your changes will take full effect."
+msgstr ""
+"คุณต้องปิดและเปิด Editra ใหม่ก่อนที่การเปลี่ยนค่าของคุณจะมีผลอย่างเต็มรูปแบบ"
+
+#: wx/tools/Editra/src/plugdlg.py:194
+msgid "Configuration Changes Made"
+msgstr "ปรับแต่งเรียบร้อยแล้ว"
+
+#: wx/tools/Editra/src/plugdlg.py:234
+msgid "Changes will take effect once the program has been restarted"
+msgstr "การเปลี่ยนค่าจะมีผลอย่างเต็มรูปแบบเมื่อเริ่มโปรแกรมใหม่อีกครั้ง"
+
+#: wx/tools/Editra/src/plugdlg.py:372 wx/tools/Editra/src/plugin.py:723
+msgid "No Description Available"
+msgstr "ไม่มีรายละเอียด"
+
+#: wx/tools/Editra/src/plugdlg.py:410
+msgid "This plugin requires a newer version of Editra."
+msgstr "ปลั๊กอินเสริมนี้ต้องการ Editra รุ่นที่ใหม่กว่า"
+
+#: wx/tools/Editra/src/plugdlg.py:485
+msgid "Downloaded"
+msgstr "ดาวน์โหลดแล้ว"
+
+#: wx/tools/Editra/src/plugdlg.py:488
+msgid "Finished downloading plugins"
+msgstr "การดาวน์โหลดปลั๊กอินเสริมสำเร็จแล้ว"
+
+#: wx/tools/Editra/src/plugdlg.py:503
+msgid "Select plugins to download"
+msgstr "เลือกปลั๊กอินเสริมที่ต้องการดาวน์โหลด"
+
+#: wx/tools/Editra/src/plugdlg.py:508
+msgid "Unable to retrieve plugin list"
+msgstr "ไม่สามารถรับแสดงรายการของปลั๊กอินเสริม"
+
+#: wx/tools/Editra/src/plugdlg.py:597 wx/tools/Editra/src/updater.py:606
+msgid "Downloading"
+msgstr "กำลังดาวน์โหลด"
+
+#: wx/tools/Editra/src/plugdlg.py:675
+msgid "Retrieving Plugin List"
+msgstr "กำลังรับแสดงรายการของปลั๊กอินเสริม"
+
+#: wx/tools/Editra/src/plugdlg.py:754
+msgid ""
+"To add a new item drag and drop the plugin file into the list.\n"
+"\n"
+"To remove an item select it and hit Delete or Backspace."
+msgstr ""
+"ลากแฟ้มปลั๊กอินเสริมและวางลงในรายการ เพื่อเพิ่มสิ่งของใหม่\n"
+"\n"
+"เลือกแฟ้มและกด Delete หรือ Backspace เพื่อลบสิ่งของนั้น"
+
+#: wx/tools/Editra/src/plugdlg.py:767
+msgid "User Directory"
+msgstr "ไดเรกทอรีผู้ใช้"
+
+#: wx/tools/Editra/src/plugdlg.py:769
+msgid "Install the plugins only for the current user"
+msgstr "ติดตั้งปลั๊กอินเสริมสำหรับผู้ใช้ปัจจุบันเท่านั้น"
+
+#: wx/tools/Editra/src/plugdlg.py:771
+msgid "System Directory"
+msgstr "ไดเรกทอรีระบบ"
+
+#: wx/tools/Editra/src/plugdlg.py:772
+msgid ""
+"Install the plugins for all users\n"
+" **requires administrative privileges**"
+msgstr ""
+"ติดตั้งปลั๊กอินเสริมสำหรับทุกผู้ใช้\n"
+"**ต้องการคำสั่งพิเศษของผู้ดูแล**"
+
+#: wx/tools/Editra/src/plugdlg.py:833
+msgid "Successfully Installed Plugins"
+msgstr "ติดตั้งปลั๊กอินเสริมสำเร็จแล้ว"
+
+#: wx/tools/Editra/src/plugdlg.py:842
+#, python-format
+#, python-format, fuzzy
+msgid "Failed to install %d plugins"
+msgstr "มีข้อผิดพลาดในการติดตั้งปลั๊กอินเสริม"
+
+#: wx/tools/Editra/src/plugdlg.py:844
+msgid "Installation Error"
+msgstr "การติดตั้งมีปัญหา"
+
+#: wx/tools/Editra/src/plugdlg.py:950 wx/tools/Editra/src/plugdlg.py:1131
+#, python-format
+msgid "Author: %s"
+msgstr "ผู้เขียน: %s"
+
+#: wx/tools/Editra/src/plugdlg.py:951
+msgid "Enable"
+msgstr "เปิดการใช้งาน"
+
+#: wx/tools/Editra/src/plugdlg.py:954
+msgid "Uninstall"
+msgstr "ถอนการติดตั้ง"
+
+#: wx/tools/Editra/src/plugdlg.py:1062
+#, python-format
+msgid ""
+"Are you sure you want to uninstall %s?\n"
+"This cannot be undone."
+msgstr ""
+"คุณแน่ใจหรือไม่ ที่จะถอนการติดตั้ง %s?\n"
+"การกระทำนี้ไม่สามารถเปลี่ยนได้"
+
+#: wx/tools/Editra/src/plugdlg.py:1064
+msgid "Uninstall Plugin"
+msgstr "ถอนการติดตั้งลูกเล่นเสริม"
+
+#: wx/tools/Editra/src/plugdlg.py:1068
+msgid "This plugin will be uninstalled on next program launch."
+msgstr "ลูกเล่นเสริมจะทำการถอนการติดตั้ง เมื่อใช้งานโปรแกรมครั้งถัดไป"
+
+#: wx/tools/Editra/src/prefdlg.py:109
+msgid "Preferences - Editra"
+msgstr "แหล่งข้อมูล - Editra"
+
+#: wx/tools/Editra/src/prefdlg.py:193
+msgid "Appearance"
+msgstr "รูปลักษณ์"
+
+#: wx/tools/Editra/src/prefdlg.py:195
+msgid "Document"
+msgstr "เอกสาร"
+
+#: wx/tools/Editra/src/prefdlg.py:197
+msgid "Network"
+msgstr "ระบบเครือข่าย"
+
+#: wx/tools/Editra/src/prefdlg.py:199
+msgid "Advanced"
+msgstr "ขั้นสูง"
+
+#: wx/tools/Editra/src/prefdlg.py:284
+msgid ""
+"Changes made in this dialog are saved in your current profile. Some Items "
+"such as Language require the program to be restarted before taking effect."
+msgstr ""
+"สิ่งที่ได้เปลี่ยนแปลงในกล่องโต้ตอบนี้ "
+"จะไปเซฟไว้ในโปรไฟล์ปัจจุบันของคุณรายการบางรายการ อย่างเช่นภาษา "
+"จะสามารถทำงานได้ก็ต่อเมื่อโปรแกรมถูก รีสตาร์ทเท่านั้น"
+
+#: wx/tools/Editra/src/prefdlg.py:306
+msgid "Startup"
+msgstr "เริ่มโปรแกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:385
+msgid "Editor Mode"
+msgstr "โหมดแก้ไข"
+
+#: wx/tools/Editra/src/prefdlg.py:393
+msgid "Printer Mode"
+msgstr "โหมดปริ้นเตอร์"
+
+#: wx/tools/Editra/src/prefdlg.py:401
+msgid "Disable Error Reporter"
+msgstr "ปิดการใช้งานการแจ้งเตือนข้อผิดพลาด"
+
+#: wx/tools/Editra/src/prefdlg.py:403
+msgid "Load Last Session"
+msgstr "โหลดชุดงานล่าสุดขึ้นมา"
+
+#: wx/tools/Editra/src/prefdlg.py:405
+msgid "Load files from last session on startup"
+msgstr "โหลดไฟล์จากชุดงานล่าสุดเมื่อเริ่มโปรแกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:407
+msgid "Show Splash Screen"
+msgstr "แสดงภาพ Splash Screen"
+
+#: wx/tools/Editra/src/prefdlg.py:414
+msgid "Check for updates on startup"
+msgstr "จะทำการอัพเดทเมื่อเปิดโปรแกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:419
+msgid "Language"
+msgstr "ภาษา"
+
+#: wx/tools/Editra/src/prefdlg.py:429
+msgid "Startup Settings"
+msgstr "ตั้งค่าเริ่มต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:440
+msgid "Locale Settings"
+msgstr "ตั้งค่ารูปแบบภาษา"
+
+#: wx/tools/Editra/src/prefdlg.py:477
+msgid "File History Length"
+msgstr "ขอบเขตประวัติการใช้งานของไฟล์"
+
+#: wx/tools/Editra/src/prefdlg.py:496
+msgid "Encoding to try when auto detection fails"
+msgstr "การเข้ารหัสจะเกิดขึ้นก็ต่อเมื่อการตรวจสอบอัตโนมัติล้มเหลว"
+
+#: wx/tools/Editra/src/prefdlg.py:498
+msgid "Prefered Encoding"
+msgstr "รูปแบบการตั้งรหัสที่ต้องการ"
+
+#: wx/tools/Editra/src/prefdlg.py:502
+msgid "Automatically Backup Files"
+msgstr "ไฟล์สำรองข้อมูลโดยอัตโนมัติ"
+
+#: wx/tools/Editra/src/prefdlg.py:505
+msgid "Backup buffer to file periodically"
+msgstr "เก็บข้อมูลสำรองลงในไฟล์เป็นระยะๆ"
+
+#: wx/tools/Editra/src/prefdlg.py:508
+msgid "Backup Path:"
+msgstr "เส้นทางสำรอง:"
+
+#: wx/tools/Editra/src/prefdlg.py:513
+msgid ""
+"Used to set a custom backup path. If not specified the backup will be put in "
+"the same directory as the file."
+msgstr ""
+"ใช้เพื่อกำหนดเส้นทางสำรองที่กำหนดเอง ถ้าไม่ได้ระบุการสำรองข้อมูลไว้ "
+"จะถูกวางในไดเรกทอรีเดียวกันกับไฟล์"
+
+#: wx/tools/Editra/src/prefdlg.py:523
+msgid "Open files in new windows by default"
+msgstr "เปิดไฟล์ในหน้าต่างใหม่ตามค่าเริ่มต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:526
+msgid "Remember File Position"
+msgstr "จดจำตำแหน่งของไฟล์"
+
+#: wx/tools/Editra/src/prefdlg.py:529
+msgid "Check if on disk file has been modified by others"
+msgstr "ตรวจสอบบนไฟล์ดิสก์ ถ้าได้รับการเปลี่ยนแปลงโดยผู้อื่น"
+
+#: wx/tools/Editra/src/prefdlg.py:534
+msgid "Automatically reload files when changes are detected on disk"
+msgstr "ทำการโหลดไฟล์ใหม่โดยอัตโนมัติ เมื่อตรวจพบว่ามีการเปลี่ยนแปลงบนดิสก์"
+
+#: wx/tools/Editra/src/prefdlg.py:539
+msgid "Warn when mixed eol characters are detected"
+msgstr "แจ้งเตือนเมื่อมีการตรวจพบตัวอักขระพิเศษเมื่อขึ้นบรรทัดใหม่"
+
+#: wx/tools/Editra/src/prefdlg.py:545
+msgid "File Settings"
+msgstr "ตั้งค่าไฟล์"
+
+#: wx/tools/Editra/src/prefdlg.py:559
+msgid "Spell Checking"
+msgstr "ตรวจสอบตัวสะกด"
+
+#: wx/tools/Editra/src/prefdlg.py:563
+msgid "Check spelling while typing"
+msgstr "ตรวจสอบตัวสะกดในขณะที่พิมพ์"
+
+#: wx/tools/Editra/src/prefdlg.py:570
+msgid "Dictionary"
+msgstr "พจนานุกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:580
+msgid "Enchant Path"
+msgstr "เส้นทาง Enchant"
+
+#: wx/tools/Editra/src/prefdlg.py:585 wx/tools/Editra/src/prefdlg.py:586
+msgid "Path to libenchant"
+msgstr "ทางเข้าสู่ libenchant"
+
+#: wx/tools/Editra/src/prefdlg.py:649
+msgid "Failed to load Enchant"
+msgstr "ไม่สามารถทำการโหลด Enchant ขึ้นมาได้"
+
+#: wx/tools/Editra/src/prefdlg.py:650
+msgid "Library Error"
+msgstr "มีข้อผิดพลาดในการเข้าถึง Library"
+
+#: wx/tools/Editra/src/prefdlg.py:678
+msgid "Code"
+msgstr "รหัส"
+
+#: wx/tools/Editra/src/prefdlg.py:726
+msgid "Tab Width"
+msgstr "ขนาดของแท็บ"
+
+#: wx/tools/Editra/src/prefdlg.py:734
+msgid "Indent Width"
+msgstr "ขนาดของย่อหน้า"
+
+#: wx/tools/Editra/src/prefdlg.py:742
+msgid "Automatically trim whitespace on save"
+msgstr "ลบช่องว่างโดยอัตโนมัติเมื่อบันทึก"
+
+#: wx/tools/Editra/src/prefdlg.py:745
+msgid "Use Tabs Instead of Spaces"
+msgstr "ใช้แท็บแทนช่องว่าง"
+
+#: wx/tools/Editra/src/prefdlg.py:748
+msgid "Backspace Unindents"
+msgstr "ย่อหน้าจะหายไปเมื่อกดปุ่ม Backspace"
+
+#: wx/tools/Editra/src/prefdlg.py:760
+msgid "Default EOL Mode"
+msgstr "เริ่มต้นด้วยโหมด EOL(end of line)"
+
+#: wx/tools/Editra/src/prefdlg.py:765
+msgid "AntiAliasing"
+msgstr "ลบรอยหยัก"
+
+#: wx/tools/Editra/src/prefdlg.py:775
+msgid "Turn off for better performance"
+msgstr "ปิดเพื่อให้การทำงานเร็วขึ้น"
+
+#: wx/tools/Editra/src/prefdlg.py:782
+msgid "Sets the main/default font of the document"
+msgstr "ตั้งค่าตัวอักษรพื้นฐานของเอกสาร"
+
+#: wx/tools/Editra/src/prefdlg.py:787
+msgid ""
+"Sets a secondary font used for special regions when syntax highlighting is "
+"in use"
+msgstr "ตั้งตัวอักษรสำรองเพื่อใช้หากมีการเน้นไวยากรณ์สำหรับตัวอัีกขระพิเศษ"
+
+#: wx/tools/Editra/src/prefdlg.py:794
+msgid "Format"
+msgstr "รูปแบบ"
+
+#: wx/tools/Editra/src/prefdlg.py:802
+msgid "View Options"
+msgstr "แสดงตัวเลือก"
+
+#: wx/tools/Editra/src/prefdlg.py:809
+msgid "Primary Font"
+msgstr "อักษรหลัก"
+
+#: wx/tools/Editra/src/prefdlg.py:812
+msgid "Secondary Font"
+msgstr "อักษรสำรอง"
+
+#: wx/tools/Editra/src/prefdlg.py:911
+msgid "Default highlighing for new documents"
+msgstr "ใช้การไฮไลต์เป็นค่าเริ่มต้นสำหรับเอกสารใหม่"
+
+#: wx/tools/Editra/src/prefdlg.py:913
+msgid "Default Lexer"
+msgstr "ตั้ง Lexer เป็นค่าเริ่มต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:918
+msgid "Visual Helpers"
+msgstr "แสดงผู้ช่วย"
+
+#: wx/tools/Editra/src/prefdlg.py:924
+msgid "Edge Guide"
+msgstr "แถบคู่มือ"
+
+#: wx/tools/Editra/src/prefdlg.py:928
+msgid "Guide Column"
+msgstr "คู่มือการใช้คอลัมน์"
+
+#: wx/tools/Editra/src/prefdlg.py:943
+msgid "Extended Auto-Comp"
+msgstr "ขยาย Auto-Comp"
+
+#: wx/tools/Editra/src/prefdlg.py:946
+msgid "Warning suggestions will include context insensitive results"
+msgstr "การแจ้งเตือนคำแนะนำจะไม่รวมผลลัพธ์ที่ไม่รวมถึงเนื้อหา"
+
+#: wx/tools/Editra/src/prefdlg.py:952
+msgid "Enable Vi Emulation"
+msgstr "เปิดใช้งานการจำลอง Vi"
+
+#: wx/tools/Editra/src/prefdlg.py:955
+msgid "Start in Normal Mode"
+msgstr "เริ่มโหมดปกติ"
+
+#: wx/tools/Editra/src/prefdlg.py:973
+msgid "Input Helpers"
+msgstr "ตัวช่วยในการป้อนข้อมูล"
+
+#: wx/tools/Editra/src/prefdlg.py:1089
+msgid "Filetype Associations"
+msgstr "ความเกี่ยวข้องกับชนิดของไฟล์"
+
+#: wx/tools/Editra/src/prefdlg.py:1106 wx/tools/Editra/src/prefdlg.py:1761
+msgid "Revert to Default"
+msgstr "กลับไปสู่ค่าเริ่มต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:1175
+msgid "Icon Theme"
+msgstr "ไอคอนธีม"
+
+#: wx/tools/Editra/src/prefdlg.py:1180
+msgid "Toolbar Icon Size"
+msgstr "ขนาดไอคอนบนแถบเครื่องมือ"
+
+#: wx/tools/Editra/src/prefdlg.py:1186
+msgid "Show Icons on Tabs"
+msgstr "แสดงไอคอนบนแท็บ"
+
+#: wx/tools/Editra/src/prefdlg.py:1197
+msgid "Default Perspective"
+msgstr "มุมมองเริ่มต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:1202
+msgid "Remember Window Size on Exit"
+msgstr "จำขนาดของหน้าต่างเวลาออกจากโปรแกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:1205
+msgid "Remember Window Position on Exit"
+msgstr "จำตำแหน่งของหน้าต่างเวลาออกจากโปรแกรม"
+
+#: wx/tools/Editra/src/prefdlg.py:1215
+msgid "Main display font for various UI components"
+msgstr "รูปแบบตัวอักษรหลักๆ ที่ปรากฏสำหรับส่วนติดต่อกับผู้ใช้ที่แตกต่างกัน"
+
+#: wx/tools/Editra/src/prefdlg.py:1220
+msgid "Icons"
+msgstr "ไอคอน"
+
+#: wx/tools/Editra/src/prefdlg.py:1225
+msgid "Layout"
+msgstr "การจัดวาง"
+
+#: wx/tools/Editra/src/prefdlg.py:1233
+msgid "Transparency"
+msgstr "โปร่งแสง"
+
+#: wx/tools/Editra/src/prefdlg.py:1239
+msgid "Display Font"
+msgstr "แสดงผลตัวอักษร"
+
+#: wx/tools/Editra/src/prefdlg.py:1339
+msgid "Configuration"
+msgstr "กำหนดค่า"
+
+#: wx/tools/Editra/src/prefdlg.py:1343
+msgid "Update"
+msgstr "อัพเดท"
+
+#: wx/tools/Editra/src/prefdlg.py:1376
+msgid "Proxy Settings"
+msgstr "ตั้งค่าพร็อกซี"
+
+#: wx/tools/Editra/src/prefdlg.py:1381
+msgid "Use Proxy"
+msgstr "ใช้พร็อกซี"
+
+#: wx/tools/Editra/src/prefdlg.py:1386
+msgid "Proxy URL"
+msgstr "พร็อกซี่ URL"
+
+#: wx/tools/Editra/src/prefdlg.py:1390
+msgid "Port Number"
+msgstr "หมายเลขพอร์ต"
+
+#: wx/tools/Editra/src/prefdlg.py:1398
+msgid "Username"
+msgstr "ชื่อผู้ใช้"
+
+#: wx/tools/Editra/src/prefdlg.py:1405
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#: wx/tools/Editra/src/prefdlg.py:1505
+msgid "Installed Version"
+msgstr "เวอร์ชันที่ติดตั้ง"
+
+#: wx/tools/Editra/src/prefdlg.py:1511
+msgid "Latest Version"
+msgstr "เวอร์ชั่นล่าสุด"
+
+#: wx/tools/Editra/src/prefdlg.py:1529
+msgid "Check"
+msgstr "ตรวจสอบ"
+
+#: wx/tools/Editra/src/prefdlg.py:1617
+msgid "Keybindings"
+msgstr "ตั้งค่าปุ่ม"
+
+#: wx/tools/Editra/src/prefdlg.py:1702
+msgid "Key Profile"
+msgstr "รายละเอียดของปุ่ม"
+
+#: wx/tools/Editra/src/prefdlg.py:1715
+msgid "Menu"
+msgstr "เมนู"
+
+#: wx/tools/Editra/src/prefdlg.py:1725
+msgid "Modifier 1"
+msgstr "ตัวปรับเปลี่ยนที่ 1"
+
+#: wx/tools/Editra/src/prefdlg.py:1729
+msgid "Modifier 2"
+msgstr "ตัวปรับเปลี่ยนที่ 2"
+
+#: wx/tools/Editra/src/prefdlg.py:1733
+msgid "Key"
+msgstr "ปุ่ม"
+
+#: wx/tools/Editra/src/prefdlg.py:1737
+msgid "Binding"
+msgstr "สัมพันธ์"
+
+#: wx/tools/Editra/src/prefdlg.py:1763
+msgid "Apply"
+msgstr "นำไปใช้"
+
+#: wx/tools/Editra/src/prefdlg.py:1799
+msgid "None"
+msgstr "ไม่มี"
+
+#: wx/tools/Editra/src/prefdlg.py:1900
+msgid "New Profile"
+msgstr "สร้างประวัติใหม่"
+
+#: wx/tools/Editra/src/prefdlg.py:1901
+msgid "Enter the name of the new key profile"
+msgstr "ใส่ชื่อเพื่อสร้างประวัติใหม่"
+
+#: wx/tools/Editra/src/prefdlg.py:2038
+#, fuzzy
+msgid "Lexer"
+msgstr "Lexer"
+
+#: wx/tools/Editra/src/prefdlg.py:2040
+msgid "Extensions (space separated, no dots)"
+msgstr "นามสกุลของไฟล์(เว้นช่องว่าง, ไม่มีจุด)"
+
+#: wx/tools/Editra/src/prefdlg.py:2151
+msgid "Black/White"
+msgstr "ขาว/ดำ"
+
+#: wx/tools/Editra/src/prefdlg.py:2152
+msgid "Color/White"
+msgstr "สี/ขาว"
+
+#: wx/tools/Editra/src/prefdlg.py:2153
+msgid "Color/Default"
+msgstr "สี/ตั้งต้น"
+
+#: wx/tools/Editra/src/prefdlg.py:2154
+msgid "Inverse"
+msgstr "กลับกัน"
+
+#: wx/tools/Editra/src/prefdlg.py:2155
+msgid "Normal"
+msgstr "ปกติ"
+
+#: wx/tools/Editra/src/style_editor.py:143
+msgid "Export"
+msgstr "ส่งออก"
+
+#: wx/tools/Editra/src/style_editor.py:176
+msgid "Syntax Files"
+msgstr "ซินแท็กซ์ไฟล์"
+
+#: wx/tools/Editra/src/style_editor.py:179
+msgid "Set the preview file type"
+msgstr "ตั้งค่ากาีรแสดงผลของชนิดไฟล์"
+
+#: wx/tools/Editra/src/style_editor.py:194
+msgid "Style Theme"
+msgstr "รูปแบบของธีม"
+
+#: wx/tools/Editra/src/style_editor.py:198
+msgid "Base new theme on existing one"
+msgstr "ธีมใหม่ยึดรูปแบบตามธีมที่มีอยู่"
+
+#: wx/tools/Editra/src/style_editor.py:201
+msgid "Start a blank new style"
+msgstr "เริ่มรูปแบบว่างเปล่าใหม่"
+
+#: wx/tools/Editra/src/style_editor.py:218
+msgid "Style Tags"
+msgstr "รูปแบบป้ายกำกับ"
+
+#: wx/tools/Editra/src/style_editor.py:252
+msgid "Some styles have been changed would you like to save before exiting?"
+msgstr "บางรูปแบบได้ถูกเปลี่ยนแปลง คุณต้องการจะบันทึกก่อนออกไหม?"
+
+#: wx/tools/Editra/src/style_editor.py:254
+msgid "Save Styles"
+msgstr "บันทึกรูปแบบ"
+
+#: wx/tools/Editra/src/style_editor.py:294
+msgid "Enter style sheet name"
+msgstr "ใส่ชื่อรูปแบบของเอกสาร"
+
+#: wx/tools/Editra/src/style_editor.py:295
+msgid "Export Style Sheet"
+msgstr "ส่งออกรูปแบบของเอกสาร"
+
+#: wx/tools/Editra/src/style_editor.py:640
+msgid "Color"
+msgstr "สี"
+
+#: wx/tools/Editra/src/style_editor.py:644
+msgid "Foreground"
+msgstr "พื้นหน้า"
+
+#: wx/tools/Editra/src/style_editor.py:656
+msgid "Background"
+msgstr "พื้นหลัง"
+
+#: wx/tools/Editra/src/style_editor.py:667
+msgid "Attributes"
+msgstr "คุณลักษณะ"
+
+#: wx/tools/Editra/src/style_editor.py:671
+msgid "bold"
+msgstr "ตัวหนา"
+
+#: wx/tools/Editra/src/style_editor.py:672
+msgid "eol"
+msgstr "ปลายบรรทัด"
+
+#: wx/tools/Editra/src/style_editor.py:673
+msgid "italic"
+msgstr "ตัวเอียง"
+
+#: wx/tools/Editra/src/style_editor.py:674
+msgid "underline"
+msgstr "ขีดเส้นใต้"
+
+#: wx/tools/Editra/src/style_editor.py:683
+msgid "Font Settings"
+msgstr "ตั้งค่าตัวอักษร"
+
+#: wx/tools/Editra/src/style_editor.py:688
+msgid "Font"
+msgstr "ตัวอักษร"
+
+#: wx/tools/Editra/src/updater.py:147
+msgid "Unable to retrieve version info"
+msgstr "ไม่สามารถที่จะดึงข้อมูลเวอร์ชั่น"
+
+#: wx/tools/Editra/src/updater.py:292
+msgid "Status Unknown"
+msgstr "ไม่ทราบสถานะ"
+
+#: wx/tools/Editra/src/updater.py:567
+#, python-format
+msgid "Downloading: %s"
+msgstr "กำลังดาวน์โหลด: %s"
+
+#: wx/tools/Editra/src/updater.py:569
+#, python-format
+msgid "Downloading To: %s"
+msgstr "กำลังดาวน์โหลดไปแล้ว: %s"
+
+#: wx/tools/Editra/src/updater.py:647
+msgid "Canceled"
+msgstr "ยกเลิก"
+
+#: wx/tools/Editra/src/updater.py:675
+#, python-format
+msgid "Rate: %.2f Kb/s"
+msgstr "อัตรา: %.2f Kb/s"
+
+#: wx/tools/Editra/src/updater.py:682
+msgid "Finished"
+msgstr "เสร็จสิ้น"
+
+#: wx/tools/Editra/src/updater.py:685
+msgid "Failed"
+msgstr "ล้มเหลว"
+
+#: wx/tools/Editra/src/util.py:184
+msgid "Unable to accept dropped file or text"
+msgstr "ไม่สามารถให้ทำการวางไฟล์หรือข้อความ"
+
+#: wx/tools/Editra/src/util.py:361
+msgid "Text Document"
+msgstr "เอกสารข้อความ"
+
+#: wx/tools/Editra/src/util.py:369
+#, python-format
+msgid "%s Source File"
+msgstr "%s แหล่งอ้างอิงไฟล์"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "The timeline shows dates according to the Gregorian calendar on the x-axis. "
+#~ "Currently the dates are limited to dates between year 10 and year 9989.\n"
+#~ "\n"
+#~ "Future versions might support various kinds of timelines so that you for "
+#~ "example can specify a time in terms of number of minutes since a start time. "
+#~ "If you are interested in such a feature, please get in touch.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "ไทม์ไลน์ แสดงวันที่ของ ปฏิทินคริสต์ศักราช ใน แกน x ขณะนี้วันที่จะถูก จำกัด "
+#~ "ให้เป็นวันที่ระหว่าง 10 ปีและในปี 9989 \n"
+#~ "\n"
+#~ "รุ่นต่อไปในอนาคตสนับสนุนหลายชนิดของระยะเวลาเพื่อที่คุณจะยกตัวอย่างเช่นสามารถ"
+#~ "ระบุเวลาในมุมของจำนวนนาทีตั้งแต่เวลาเริ่มต้น "
+#~ "หากคุณสนใจในคุณลักษณะดังกล่าวโปรดติดต่อ.\n"
+
+#~ msgid "&Undo "
+#~ msgstr "&เปลี่ยนกลับ "
+
+#~ msgid "Events belonging to "
+#~ msgstr "เหตุการณ์ที่เป็นของ "
+
+#~ msgid " will now belong to "
+#~ msgstr " จะไม่เป็นของ "
+
+#~ msgid "Please check the preferences dialog to verify your preferences"
+#~ msgstr "โปรดตรวจสอบค่าปรับแต่งของคุณเพื่อยืนยันการปรับแต่ง"

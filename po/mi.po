@@ -1,0 +1,4583 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-28 00:31-0400\n"
+"PO-Revision-Date: 2013-06-28 21:11+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: mi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+#, fuzzy
+msgid "Time Line"
+msgstr "Rohewā"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Allows create interactive time lines"
+msgstr ""
+
+#: specs/EventEditor.py:370 timelinelib/editors/event.py:156
+msgid "You can't change time when the Event is locked"
+msgstr ""
+
+#: specs/MonthNames.py:33 timelinelib/calendar/monthnames.py:37
+msgid "Jan"
+msgstr ""
+
+#: specs/MonthNames.py:48 timelinelib/calendar/monthnames.py:48
+msgid "Dec"
+msgstr ""
+
+#: specs/PyTimeType.py:56 specs/WxTimeType.py:82
+#: timelinelib/calendar/monthnames.py:44
+msgid "Aug"
+msgstr ""
+
+#: specs/PyTimeType.py:110 specs/PyTimeType.py:130 specs/PyTimeType.py:146
+#: specs/PyTimeType.py:150 specs/WxTimeType.py:150 specs/WxTimeType.py:166
+#: specs/WxTimeType.py:170 timelinelib/time/pytime.py:123
+#: timelinelib/time/wxtime.py:121
+msgid "day"
+msgstr ""
+
+#: specs/PyTimeType.py:114 specs/PyTimeType.py:138 specs/PyTimeType.py:158
+#: specs/WxTimeType.py:134 specs/WxTimeType.py:158 specs/WxTimeType.py:178
+#: timelinelib/time/pytime.py:131 timelinelib/time/wxtime.py:129
+#, fuzzy
+msgid "minute"
+msgstr "1 meneti"
+
+#: specs/PyTimeType.py:118 specs/PyTimeType.py:142 specs/PyTimeType.py:162
+#: specs/WxTimeType.py:138 specs/WxTimeType.py:162 specs/WxTimeType.py:182
+#: timelinelib/time/pytime.py:133 timelinelib/time/wxtime.py:131
+#, fuzzy
+msgid "minutes"
+msgstr "5 meneti"
+
+#: specs/PyTimeType.py:122 specs/PyTimeType.py:138 specs/PyTimeType.py:142
+#: specs/PyTimeType.py:146 specs/WxTimeType.py:142 specs/WxTimeType.py:158
+#: specs/WxTimeType.py:162 specs/WxTimeType.py:166
+#: timelinelib/time/pytime.py:127 timelinelib/time/wxtime.py:125
+msgid "hour"
+msgstr ""
+
+#: specs/PyTimeType.py:126 specs/PyTimeType.py:150 specs/PyTimeType.py:154
+#: specs/PyTimeType.py:158 specs/PyTimeType.py:162 specs/WxTimeType.py:146
+#: specs/WxTimeType.py:170 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186
+#: timelinelib/time/pytime.py:129 timelinelib/time/wxtime.py:127
+msgid "hours"
+msgstr ""
+
+#: specs/PyTimeType.py:134 specs/PyTimeType.py:154 specs/PyTimeType.py:158
+#: specs/PyTimeType.py:162 specs/PyTimeType.py:166 specs/PyTimeType.py:172
+#: specs/WxTimeType.py:154 specs/WxTimeType.py:174 specs/WxTimeType.py:178
+#: specs/WxTimeType.py:182 specs/WxTimeType.py:186 specs/WxTimeType.py:192
+#: timelinelib/time/pytime.py:125 timelinelib/time/wxtime.py:123
+msgid "days"
+msgstr ""
+
+#: specs/TimelineView.py:66 timelinelib/view/zoom.py:28
+msgid "Select region to zoom into"
+msgstr ""
+
+#: specs/TimelineView.py:74 timelinelib/view/zoom.py:38
+msgid "Region too short"
+msgstr ""
+
+#: specs/TimelineView.py:90 timelinelib/view/zoom.py:35
+msgid "Region too long"
+msgstr ""
+
+#: specs/TimelineView.py:191 timelinelib/view/drawingarea.py:172
+msgid "Can't scroll more to the left"
+msgstr ""
+
+#: specs/TimelineView.py:198 timelinelib/view/drawingarea.py:174
+msgid "Can't scroll more to the right"
+msgstr ""
+
+#: specs/WeekdayNames.py:28 timelinelib/calendar/weekdaynames.py:21
+#, fuzzy
+msgid "Mon"
+msgstr "Te Marama"
+
+#: specs/WeekdayNames.py:33 timelinelib/calendar/weekdaynames.py:27
+msgid "Sun"
+msgstr ""
+
+#: timelinelib/application.py:89
+msgid ""
+"Someone else has changed the Timeline.\n"
+"You have two choices!\n"
+"  1. Set Timeline in Read-Only mode.\n"
+"  2. Synchronize Timeline.\n"
+"\n"
+"Do you want to Synchronize?"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:38
+msgid "Feb"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:39
+#, fuzzy
+msgid "Mar"
+msgstr "Tohu"
+
+#: timelinelib/calendar/monthnames.py:40
+msgid "Apr"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:41
+msgid "May"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:42
+msgid "Jun"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:43
+msgid "Jul"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:45
+#, fuzzy
+msgid "Sep"
+msgstr "Hipanga"
+
+#: timelinelib/calendar/monthnames.py:46
+msgid "Oct"
+msgstr ""
+
+#: timelinelib/calendar/monthnames.py:47
+msgid "Nov"
+msgstr ""
+
+#: timelinelib/calendar/weekdaynames.py:22
+msgid "Tue"
+msgstr ""
+
+#: timelinelib/calendar/weekdaynames.py:23
+msgid "Wed"
+msgstr ""
+
+#: timelinelib/calendar/weekdaynames.py:24
+msgid "Thu"
+msgstr ""
+
+#: timelinelib/calendar/weekdaynames.py:25
+msgid "Fri"
+msgstr ""
+
+#: timelinelib/calendar/weekdaynames.py:26
+msgid "Sat"
+msgstr ""
+
+#: timelinelib/db/__init__.py:67
+msgid ""
+"Could not find iCalendar Python package. It is required for working with ICS "
+"files. See the Timeline website or the INSTALL file for instructions how to "
+"install it."
+msgstr ""
+
+#: timelinelib/db/__init__.py:72
+#, python-format
+msgid "Unable to open timeline '%s'."
+msgstr ""
+
+#: timelinelib/db/__init__.py:73
+msgid "Unknown format."
+msgstr ""
+
+#: timelinelib/db/backends/dir.py:105 timelinelib/db/backends/file.py:114
+#: timelinelib/db/backends/ics.py:137
+#, python-format
+msgid "Unable to read from file '%s'."
+msgstr ""
+
+#: timelinelib/db/backends/file.py:107 timelinelib/db/backends/ics.py:131
+#: timelinelib/db/backends/xmlfile.py:142
+#, python-format
+msgid "Unable to read timeline data from '%s'."
+msgstr ""
+
+#: timelinelib/db/backends/memory.py:227
+msgid "Displayed period must be > 0."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:30
+msgid "Welcome"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:32
+msgid "Welcome to Timeline"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:35
+msgid "Intro"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:37
+msgid "Hover me!"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:38
+msgid "Hovering events with a triangle shows the event description."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:40
+msgid "Features"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:42
+msgid "Scroll"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:43
+msgid ""
+"Left click somewhere on the timeline and start dragging.\n"
+"\n"
+"You can also use the mouse wheel.\n"
+"\n"
+"You can also middle click with the mouse to center around that point."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:51
+msgid "Zoom"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:52
+msgid ""
+"Hold down Ctrl while scrolling the mouse wheel.\n"
+"\n"
+"Hold down Shift while dragging with the mouse."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:58 timelinelib/help/pages.py:148
+msgid "Create event"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:59
+msgid ""
+"Double click somewhere on the timeline.\n"
+"\n"
+"Hold down Ctrl while dragging the mouse to select a period."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:65 timelinelib/help/pages.py:165
+msgid "Edit event"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:66
+msgid "Double click on an event."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:70
+msgid "Select event"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:71
+msgid ""
+"Click on it.\n"
+"\n"
+"Hold down Ctrl while clicking events to select multiple."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:77 timelinelib/help/pages.py:203
+msgid "Delete event"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:78
+msgid "Select events to be deleted and press the Del key."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:82
+msgid "Resize and move me!"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:83
+msgid "First select me and then drag the handles."
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:86
+#: timelinelib/db/backends/tutorial.py:88
+msgid "Saving"
+msgstr ""
+
+#: timelinelib/db/backends/tutorial.py:89
+msgid ""
+"This timeline is stored in memory and modifications to it will not be "
+"persisted between sessions.\n"
+"\n"
+"Choose File/New/File Timeline to create a timeline that is saved on disk."
+msgstr ""
+
+#: timelinelib/db/objects/timeperiod.py:72
+msgid "Start time "
+msgstr ""
+
+#: timelinelib/db/objects/timeperiod.py:74
+msgid "End time "
+msgstr ""
+
+#: timelinelib/db/objects/timeperiod.py:84
+msgid "Start time can't be after end time"
+msgstr ""
+
+#: timelinelib/db/utils.py:45
+#, python-format
+msgid "Unable to save timeline data to '%s'. File left unmodified."
+msgstr ""
+
+#: timelinelib/db/utils.py:60
+msgid "Unable to write timeline data."
+msgstr ""
+
+#: timelinelib/db/utils.py:64
+#, python-format
+msgid "Unable to write to temporary file '%s'."
+msgstr ""
+
+#: timelinelib/db/utils.py:70
+#, python-format
+msgid "Unable to take backup to '%s'."
+msgstr ""
+
+#: timelinelib/db/utils.py:75
+#, python-format
+msgid "Unable to rename temporary file '%s' to original."
+msgstr ""
+
+#: timelinelib/db/utils.py:81
+#, python-format
+msgid "Unable to delete backup file '%s'."
+msgstr ""
+
+#: timelinelib/editors/container.py:81 timelinelib/editors/event.py:250
+#, python-format
+msgid "Field '%s' can't be empty."
+msgstr ""
+
+#: timelinelib/editors/container.py:81
+msgid "Name"
+msgstr "Ingoa"
+
+#: timelinelib/editors/event.py:237
+msgid "End must be > Start"
+msgstr ""
+
+#: timelinelib/editors/event.py:245
+msgid "Entered period is too long."
+msgstr ""
+
+#: timelinelib/editors/event.py:250
+msgid "Text"
+msgstr "Kupu"
+
+#: timelinelib/export/bitmap.py:29
+msgid "Image files"
+msgstr ""
+
+#: timelinelib/export/bitmap.py:31
+#, fuzzy
+msgid "Export to Image"
+msgstr "Kaweake hei Atahanga"
+
+#: timelinelib/export/bitmap.py:35 timelinelib/wxgui/dialogs/mainframe.py:325
+#, python-format
+msgid "File '%s' exists. Overwrite?"
+msgstr ""
+
+#: timelinelib/help/pages.py:36
+msgid "Help contents"
+msgstr ""
+
+#: timelinelib/help/pages.py:56
+msgid "Questions and answers"
+msgstr ""
+
+#: timelinelib/help/pages.py:56
+msgid "Concepts"
+msgstr ""
+
+#: timelinelib/help/pages.py:56
+msgid "Tasks"
+msgstr "Ngā Tūmahi"
+
+#: timelinelib/help/pages.py:61
+msgid "Where is the save button?"
+msgstr ""
+
+#: timelinelib/help/pages.py:67
+msgid ""
+"\n"
+"There is no save button. Timeline will automatically save your data whenever "
+"needed.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:74
+msgid "Where do the week numbers go if I start my weeks on Sunday?"
+msgstr ""
+
+#: timelinelib/help/pages.py:80
+msgid ""
+"\n"
+"The date data object used does not support week numbers for weeks that start "
+"on Sunday at present.  We plan on using a different date object that will "
+"support this in future versions.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:86
+msgid "Can multiple users work with the same timeline?"
+msgstr ""
+
+#: timelinelib/help/pages.py:92
+msgid ""
+"\n"
+"There are some support for multiple users to work on the same timeline "
+"file.\n"
+"\n"
+"When you try to make a change and someone else has made a change you will be "
+"asked to make one of two choices:\n"
+"\n"
+"- Set timeline in read-only mode.\n"
+"- Synchronize the timeline.\n"
+" \n"
+"During the your edit action the timeline is locked for changes by others. If "
+"you try to edit a timeline when it is locked by someone else you will be "
+"notified about this situation.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:105
+#, fuzzy
+msgid "Timeline"
+msgstr "Rohewā"
+
+#: timelinelib/help/pages.py:112
+msgid ""
+"\n"
+"The timeline shows dates according to the Gregorian calendar on the x-axis. "
+"Currently the dates are limited to dates between year 10 and year 9989.\n"
+"\n"
+"Future versions might support various kinds of timelines so that you for "
+"example can specify a time in terms of number of minutes since a start time. "
+"If you are interested in such a feature, please get in touch.\n"
+"\n"
+"The timeline is divided in two areas with a horizontal adjustable divider "
+"line. Period events are displayed below the line and point events are "
+"displayed above the line.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:122
+msgid "Events"
+msgstr ""
+
+#: timelinelib/help/pages.py:129
+msgid ""
+"\n"
+"An event is the basic data type for representing information on the "
+"timeline.  It must specify where on the timeline is should be placed (when "
+"that event happened). This can be either a specific point in time or a "
+"period.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:135
+msgid "Categories"
+msgstr ""
+
+#: timelinelib/help/pages.py:142
+msgid ""
+"\n"
+"Categories are used to group events. An event can only belong to one "
+"category. All events that belong to the same category are displayed with the "
+"same background color.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:155
+msgid ""
+"\n"
+"The *Create Event* dialog can be opened in the following ways:\n"
+"\n"
+"- Select *Timeline* - *Create Event* from the menu.\n"
+"- Double click with the *left* mouse button on the timeline.\n"
+"- Press the *Ctrl* key, thereafter hold *left* mouse button down on the "
+"timeline, drag the mouse and release it.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:172
+msgid ""
+"\n"
+"The *Edit Event* dialog can be opened by double clicking on an event.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:178
+msgid "Move event vertically"
+msgstr ""
+
+#: timelinelib/help/pages.py:185
+msgid ""
+"\n"
+"An event can be moved vertically. This is done by first selecting the event "
+"and therefter using the Alt+Up or Alt+Down keys.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:191
+msgid "Selecting events"
+msgstr ""
+
+#: timelinelib/help/pages.py:197
+msgid ""
+"\n"
+"To select an event, click on it. To select multiple events, hold down the "
+"*Ctrl* key while clicking events.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:210
+msgid ""
+"\n"
+"To delete an event, select it and press the *Del* key. Multiple events can "
+"be deleted at the same time.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:216
+msgid "Will associated events be deleted when I delete a category?"
+msgstr ""
+
+#: timelinelib/help/pages.py:222
+msgid ""
+"\n"
+"No. The events will still be there but they will not belong to a category.\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:228
+#: timelinelib/wxgui/components/categorychoice.py:53
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+#, fuzzy
+msgid "Edit categories"
+msgstr "Kāwai Hoko"
+
+#: timelinelib/help/pages.py:235
+msgid ""
+"\n"
+"Categories can be managed in the *Edit Categories* dialog (*Timeline* > "
+"*Edit Categories*). To edit an existing category, double click on it.\n"
+"\n"
+"The visibility of categories can also be edited in the sidebar (*View* > "
+"*Sidebar*).\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:243 timelinelib/wxgui/dialogs/mainframe.py:653
+#: timelinelib/wxgui/dialogs/mainframe.py:1139
+msgid "Contact"
+msgstr ""
+
+#: timelinelib/help/pages.py:249
+msgid ""
+"\n"
+"If you have more questions about Timeline, or if you want to get in contact "
+"with users and developers of Timeline, send an email to the user mailing "
+"list: <thetimelineproj-user@lists.sourceforge.net>. (Please use English.)\n"
+msgstr ""
+
+#: timelinelib/help/pages.py:255
+msgid "Why is Timeline not available in my language?"
+msgstr ""
+
+#: timelinelib/help/pages.py:262
+msgid ""
+"\n"
+"Timeline is developed and translated by volunteers. If you would like to "
+"contribute translations you are very much welcome to contact us.\n"
+msgstr ""
+
+#: timelinelib/help/system.py:64
+#, python-format
+msgid "Search results for '%s'"
+msgstr ""
+
+#: timelinelib/help/system.py:122
+msgid "Related pages"
+msgstr ""
+
+#: timelinelib/printing.py:100
+msgid ""
+"There was a problem printing.\n"
+"Perhaps your current printer is not set correctly?"
+msgstr ""
+
+#: timelinelib/printing.py:100
+msgid "Printing"
+msgstr ""
+
+#: timelinelib/printing.py:114
+msgid "Print preview"
+msgstr ""
+
+#: timelinelib/time/numtime.py:46
+msgid "Go to &Zero\tCtrl+Z"
+msgstr ""
+
+#: timelinelib/time/numtime.py:47
+msgid "Go to &Time\tCtrl+T"
+msgstr ""
+
+#: timelinelib/time/numtime.py:49 timelinelib/time/pytime.py:74
+#: timelinelib/time/wxtime.py:69
+msgid "Backward\tPgUp"
+msgstr ""
+
+#: timelinelib/time/numtime.py:50 timelinelib/time/pytime.py:75
+#: timelinelib/time/wxtime.py:70
+msgid "Forward\tPgDn"
+msgstr ""
+
+#: timelinelib/time/numtime.py:113
+msgid "Can't zoom deeper than 5"
+msgstr ""
+
+#: timelinelib/time/numtime.py:126
+msgid "1-period"
+msgstr ""
+
+#: timelinelib/time/numtime.py:127
+msgid "10-period"
+msgstr ""
+
+#: timelinelib/time/numtime.py:128
+msgid "100-period"
+msgstr ""
+
+#: timelinelib/time/numtime.py:129
+msgid "1000-period"
+msgstr ""
+
+#: timelinelib/time/numtime.py:174
+msgid "Go to Time"
+msgstr ""
+
+#: timelinelib/time/pytime.py:71 timelinelib/time/wxtime.py:66
+msgid "Go to &Today\tCtrl+T"
+msgstr ""
+
+#: timelinelib/time/pytime.py:72 timelinelib/time/wxtime.py:67
+msgid "Go to D&ate...\tCtrl+G"
+msgstr ""
+
+#: timelinelib/time/pytime.py:76 timelinelib/time/wxtime.py:71
+msgid "Forward One Wee&k\tCtrl+K"
+msgstr ""
+
+#: timelinelib/time/pytime.py:77 timelinelib/time/wxtime.py:72
+msgid "Back One &Week\tCtrl+W"
+msgstr ""
+
+#: timelinelib/time/pytime.py:78 timelinelib/time/wxtime.py:73
+msgid "Forward One Mont&h\tCtrl+h"
+msgstr ""
+
+#: timelinelib/time/pytime.py:79 timelinelib/time/wxtime.py:74
+msgid "Back One &Month\tCtrl+M"
+msgstr ""
+
+#: timelinelib/time/pytime.py:80 timelinelib/time/wxtime.py:75
+msgid "Forward One Yea&r\tCtrl+R"
+msgstr ""
+
+#: timelinelib/time/pytime.py:81 timelinelib/time/wxtime.py:76
+msgid "Back One &Year\tCtrl+Y"
+msgstr ""
+
+#: timelinelib/time/pytime.py:83 timelinelib/time/wxtime.py:78
+msgid "Fit Millennium"
+msgstr ""
+
+#: timelinelib/time/pytime.py:84 timelinelib/time/wxtime.py:79
+msgid "Fit Century"
+msgstr ""
+
+#: timelinelib/time/pytime.py:85 timelinelib/time/wxtime.py:80
+msgid "Fit Decade"
+msgstr ""
+
+#: timelinelib/time/pytime.py:86 timelinelib/time/wxtime.py:81
+msgid "Fit Year"
+msgstr ""
+
+#: timelinelib/time/pytime.py:87 timelinelib/time/wxtime.py:82
+msgid "Fit Month"
+msgstr ""
+
+#: timelinelib/time/pytime.py:88 timelinelib/time/wxtime.py:83
+msgid "Fit Week"
+msgstr ""
+
+#: timelinelib/time/pytime.py:89 timelinelib/time/wxtime.py:84
+msgid "Fit Day"
+msgstr ""
+
+#: timelinelib/time/pytime.py:141
+msgid "can't be before year 10"
+msgstr ""
+
+#: timelinelib/time/pytime.py:145
+msgid "can't be after year 9989"
+msgstr ""
+
+#: timelinelib/time/pytime.py:202 timelinelib/time/wxtime.py:199
+msgid "Can't zoom wider than 1200 years"
+msgstr ""
+
+#: timelinelib/time/pytime.py:205 timelinelib/time/wxtime.py:202
+msgid "Can't zoom deeper than 1 hour"
+msgstr ""
+
+#: timelinelib/time/pytime.py:220 timelinelib/time/wxtime.py:217
+msgid "Day"
+msgstr "Rangi"
+
+#: timelinelib/time/pytime.py:221 timelinelib/time/pytime.py:583
+#: timelinelib/time/wxtime.py:218 timelinelib/time/wxtime.py:561
+msgid "Week"
+msgstr "Wiki"
+
+#: timelinelib/time/pytime.py:222 timelinelib/time/wxtime.py:219
+msgid "Month"
+msgstr "Marama"
+
+#: timelinelib/time/pytime.py:223 timelinelib/time/wxtime.py:220
+msgid "Year"
+msgstr "Tau"
+
+#: timelinelib/time/pytime.py:259 timelinelib/time/wxtime.py:262
+msgid "Go to Date"
+msgstr ""
+
+#: timelinelib/time/wxtime.py:139
+#, python-format
+msgid "can't be before year %d"
+msgstr ""
+
+#: timelinelib/time/wxtime.py:143
+#, python-format
+msgid "can't be after year %d"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:148 timelinelib/view/drawingarea.py:166
+msgid "No timeline set"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:201
+msgid "Edit"
+msgstr "Whakatika"
+
+#: timelinelib/view/drawingarea.py:202
+#, fuzzy
+msgid "Duplicate..."
+msgstr "Tārite"
+
+#: timelinelib/view/drawingarea.py:203
+#: timelinelib/wxgui/components/cattree.py:82
+#: wx/tools/Editra/src/prefdlg.py:1706
+msgid "Delete"
+msgstr "Muku"
+
+#: timelinelib/view/drawingarea.py:206
+msgid "Sticky Balloon"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:209
+msgid "Goto URL"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:372
+msgid "Center"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:420
+#, python-format
+msgid "%s events hidden"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:489
+#, python-format
+msgid "Are you sure you want to delete %d events?"
+msgstr ""
+
+#: timelinelib/view/drawingarea.py:492
+msgid "Are you sure you want to delete this event?"
+msgstr ""
+
+#: timelinelib/view/move.py:66
+msgid "Can't move locked event"
+msgstr ""
+
+#: timelinelib/view/resize.py:67
+msgid "Period is too long"
+msgstr ""
+
+#: timelinelib/wxgui/components/categorychoice.py:52
+#: timelinelib/wxgui/dialogs/eventeditor.py:308
+msgid "Add new"
+msgstr "Tāpiri hōu"
+
+#: timelinelib/wxgui/components/categorychoice.py:76
+#: timelinelib/wxgui/components/cattree.py:228
+#, fuzzy
+msgid "Add Category"
+msgstr "Kāwai Hoko"
+
+#: timelinelib/wxgui/components/cattree.py:76
+msgid "Edit..."
+msgstr ""
+
+#: timelinelib/wxgui/components/cattree.py:79
+msgid "Add..."
+msgstr ""
+
+#: timelinelib/wxgui/components/cattree.py:222
+#, fuzzy
+msgid "Edit Category"
+msgstr "Kāwai Hoko"
+
+#: timelinelib/wxgui/components/cattree.py:233
+#, python-format
+msgid "Are you sure you want to delete category '%s'?"
+msgstr ""
+
+#: timelinelib/wxgui/components/cattree.py:236
+#, python-format
+msgid "Events belonging to '%s' will no longer belong to a category."
+msgstr ""
+
+#: timelinelib/wxgui/components/cattree.py:239
+#, python-format
+msgid "Events belonging to '%(name)s' will now belong to '%(parent)s'."
+msgstr ""
+
+#: timelinelib/wxgui/components/pydatetimepicker.py:84
+#: timelinelib/wxgui/components/wxdatetimepicker.py:79
+#, fuzzy
+msgid "Invalid date"
+msgstr "Uara Muhu"
+
+#: timelinelib/wxgui/components/search.py:70
+msgid "No match"
+msgstr ""
+
+#: timelinelib/wxgui/components/search.py:74
+msgid "Only one match"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/categorieseditor.py:38
+#, fuzzy
+msgid "Edit Categories"
+msgstr "Kāwai Hoko"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:87
+#, python-format
+msgid "Category name '%s' not valid. Must be non-empty."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:92
+#, python-format
+msgid "Category name '%s' already in use."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:116
+#: timelinelib/wxgui/dialogs/containereditor.py:59
+msgid "Name:"
+msgstr "Ingoa:"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:117
+#, fuzzy
+msgid "Color:"
+msgstr "Ngā Tae"
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:118
+msgid "Font Color:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/categoryeditor.py:119
+msgid "Parent:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/containereditor.py:45
+msgid "Container Properties"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/containereditor.py:65
+#: timelinelib/wxgui/dialogs/eventeditor.py:219
+#, fuzzy
+msgid "Category:"
+msgstr "Kāwai"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:32
+msgid "Duplicate Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:69
+#, python-format
+msgid "%d Events not duplicated due to missing dates."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:89
+msgid "Number of duplicates:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:99
+#: timelinelib/wxgui/dialogs/eventeditor.py:176
+msgid "Period"
+msgstr "Wā"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:109
+#, fuzzy
+msgid "Frequency:"
+msgstr "Auautanga"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Forward"
+msgstr "Whakamua"
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Backward"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:119
+msgid "Both"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/duplicateevent.py:120
+#: wx/tools/Editra/src/eclib/finddlg.py:802
+msgid "Direction"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:64
+msgid "Event Properties"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:87
+#: timelinelib/wxgui/dialogs/eventeditor.py:578
+msgid "When:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:90
+msgid "to"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:125
+msgid "Container:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:163
+msgid "Add Container"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:183
+#: timelinelib/wxgui/dialogs/timeeditor.py:47
+msgid "Show time"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:191
+msgid "Fuzzy"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:195
+msgid "Locked"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:202
+msgid "Ends today"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:213
+#: timelinelib/wxgui/dialogs/eventeditor.py:579
+msgid "Text:"
+msgstr "Kupu:"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:244
+msgid "Description"
+msgstr "Whakaaturanga"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:245
+msgid "Alert"
+msgstr "Matohi"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:246
+msgid "Icon"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:247
+msgid "Hyperlink"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:264
+msgid "Add more events after this one"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:456
+msgid "Images will be scaled to fit inside a 128x128 box."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:493
+msgid "Select Icon"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:668
+#, fuzzy
+msgid "Test"
+msgstr "Kupu"
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:678
+msgid "URL:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:722
+msgid "Edit Container"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:726
+msgid "Edit Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/eventeditor.py:734
+msgid "Create Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:36
+#: wx/lib/agw/genericmessagedialog.py:837
+msgid "Help"
+msgstr "Āwhina"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:65
+msgid ""
+"Could not find markdown Python package.  It is needed by the help system. "
+"See the Timeline website or the INSTALL file for instructions how to install "
+"it."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:103
+msgid "Go to home page"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:110
+msgid "Go back one page"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:116
+msgid "Go forward one page"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:201
+#, fuzzy
+msgid "Page not found"
+msgstr "Kāore te kōnae i kitea"
+
+#: timelinelib/wxgui/dialogs/helpbrowser.py:202
+#, python-format
+msgid "Could not find page '%s'."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:105
+#: timelinelib/wxgui/dialogs/mainframe.py:225
+msgid "Timeline files"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:107
+msgid "SVG files"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:157 wx/lib/pydocview.py:109
+#: wx/lib/pydocview.py:2561 wx/tools/Editra/src/ed_menu.py:569
+#, fuzzy
+msgid "&File"
+msgstr "Kōnae"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163 wx/lib/pydocview.py:176
+#: wx/tools/Editra/src/ed_toolbar.py:77 wx/tools/Editra/src/prefdlg.py:1705
+#: wx/tools/Editra/src/style_editor.py:200
+msgid "New"
+msgstr "Hōu"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:163
+msgid "Create a new timeline"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:169
+msgid "File Timeline..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:177
+#: timelinelib/wxgui/dialogs/mainframe.py:200
+msgid "Create Timeline"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:183
+msgid "The specified timeline already exists."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:184
+msgid "Opening timeline instead of creating new."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:186
+msgid "Information"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:193
+msgid "Directory Timeline..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:209
+msgid "Open an existing timeline"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:228
+msgid "Save Timeline As"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:253
+msgid "Open Timeline"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:263
+#: wx/tools/Editra/src/ed_menu.py:520
+msgid "Open &Recent"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:267
+msgid "Save As..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Page Set&up..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:272
+msgid "Setup page for printing"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:281 wx/lib/docview.py:1571
+#: wx/lib/pydocview.py:182 wx/tools/Editra/src/ed_print.py:108
+msgid "Print Preview"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:290 wx/lib/pydocview.py:181
+#: wx/tools/Editra/src/ed_toolbar.py:80
+#, fuzzy
+msgid "Print"
+msgstr "Peita"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+#, fuzzy
+msgid "&Export to Image..."
+msgstr "Kaweake hei Atahanga"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:299
+msgid "Export the current view to a PNG image"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "&Export to SVG..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:308
+msgid "Export the current view to a SVG image"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:317
+msgid ""
+"Could not find pysvg Python package. It is needed to export to SVG. See the "
+"Timeline website or the INSTALL file for instructions how to install it."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:321
+msgid "Export to SVG"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:343
+msgid "Play timeline as movie"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:351
+msgid "Exit the program"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:362 wx/lib/pydocview.py:134
+#: wx/lib/pydocview.py:1925 wx/tools/Editra/src/ed_menu.py:647
+#, fuzzy
+msgid "&Edit"
+msgstr "Whakatika"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:389 wx/lib/pydocview.py:146
+#: wx/tools/Editra/src/ed_menu.py:712
+#, fuzzy
+msgid "&View"
+msgstr "Tiro"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:393
+msgid "&Sidebar\tCtrl+I"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:407
+msgid "&Legend"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:418
+msgid "&Balloons on hover"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:433
+#, fuzzy
+msgid "&Timeline"
+msgstr "Rohewā"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create &Event..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:437
+msgid "Create a new event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "&Duplicate Selected Event..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:447
+msgid "Duplicate the Selected Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:468
+msgid "&Measure Distance between two Events..."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:469
+msgid "Measure the Distance between two Events"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:500
+msgid "Distance between selected events"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:503
+msgid "Events are overlapping or distance is 0"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:514
+#, fuzzy
+msgid "Edit &Categories"
+msgstr "Kāwai Hoko"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:526
+#: wx/tools/Editra/src/ed_stc.py:1722
+msgid "Read Only"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:534
+#: timelinelib/wxgui/dialogs/mainframe.py:723
+msgid "read-only"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:551
+msgid "&Navigate"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:555
+msgid "Find First Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:569
+msgid "Find Last Event"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:583
+msgid "Fit All Events"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:636 wx/lib/pydocview.py:150
+#: wx/lib/pydocview.py:2914 wx/tools/Editra/src/ed_main.py:152
+#: wx/tools/Editra/src/ed_menu.py:845
+#, fuzzy
+msgid "&Help"
+msgstr "Āwhina"
+
+#: timelinelib/wxgui/dialogs/mainframe.py:639
+msgid "&Contents\tF1"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:646
+#: timelinelib/wxgui/dialogs/mainframe.py:1034
+msgid "Getting started tutorial"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:682
+msgid "Unable to write configuration file."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:784
+#, python-format
+msgid "File '%s' does not exist."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1026
+msgid "No timeline opened."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1031
+msgid "First time using Timeline?"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/mainframe.py:1136
+msgid "Relevant help topics:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/playframe.py:31 wx/lib/pydocview.py:905
+msgid "Close"
+msgstr "Kati"
+
+#: timelinelib/wxgui/dialogs/preferences.py:28
+msgid "Preferences"
+msgstr "Ngā Manakohanga"
+
+#: timelinelib/wxgui/dialogs/preferences.py:72 wx/lib/pydocview.py:1635
+#: wx/lib/pydocview.py:2722 wx/tools/Editra/src/prefdlg.py:191
+#: wx/tools/Editra/src/prefdlg.py:677 wx/tools/Editra/src/prefdlg.py:964
+#, fuzzy
+msgid "General"
+msgstr "Waihanga"
+
+#: timelinelib/wxgui/dialogs/preferences.py:82
+#, fuzzy
+msgid "Date && Time"
+msgstr "Rā me te Wā"
+
+#: timelinelib/wxgui/dialogs/preferences.py:90
+msgid "Week start on:"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:93
+msgid ""
+"This feature is experimental. If events are\n"
+"created in the extended range, you can not\n"
+"disable this option and successfully load\n"
+"the timeline again. A reload of the timeline\n"
+"is also needed for this to take effect."
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:110
+msgid "Open most recent timeline on startup"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:116
+msgid "Use inertial scrolling"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:122
+msgid "Use extended date range (before 1 AD)"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Monday"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/preferences.py:133
+msgid "Sunday"
+msgstr ""
+
+#: timelinelib/wxgui/dialogs/textdisplay.py:90
+msgid "Unable to copy to clipboard."
+msgstr ""
+
+#: timelinelib/wxgui/utils.py:134 wx/tools/Editra/src/ed_editv.py:191
+#: wx/tools/Editra/src/plugdlg.py:840
+msgid "Error"
+msgstr "Hapa"
+
+#: timelinelib/wxgui/utils.py:139 wx/lib/docview.py:635 wx/lib/docview.py:652
+#: wx/lib/docview.py:1895
+msgid "Warning"
+msgstr "Whakatūpato"
+
+#: timelinelib/wxgui/utils.py:144 timelinelib/wxgui/utils.py:150
+msgid "Question"
+msgstr ""
+
+#: wx/lib/agw/artmanager.py:620 wx/lib/agw/artmanager.py:1943
+#: wx/lib/agw/fmcustomizedlg.py:506
+msgid "Default"
+msgstr "Taunoa"
+
+#: wx/lib/agw/artmanager.py:1944
+#, fuzzy
+msgid "Dark"
+msgstr "Tohu"
+
+#: wx/lib/agw/artmanager.py:1945
+msgid "Dark Olive Green"
+msgstr ""
+
+#: wx/lib/agw/artmanager.py:1946
+msgid "Generic"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1054
+msgid "Pane Switcher"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "<body bgcolor=\"#"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "\"><b>"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1179
+msgid "</b>"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1182
+msgid "<p>"
+msgstr ""
+
+#: wx/lib/agw/aui/aui_switcherdialog.py:1185
+msgid "</body>"
+msgstr ""
+
+#: wx/lib/agw/aui/framemanager.py:10214
+msgid "Pane Preview"
+msgstr ""
+
+#: wx/lib/agw/aui/tabmdi.py:34
+#, fuzzy
+msgid "Cl&ose"
+msgstr "Kati"
+
+#: wx/lib/agw/aui/tabmdi.py:35 wx/tools/Editra/src/ed_editv.py:234
+msgid "Close All"
+msgstr ""
+
+#: wx/lib/agw/aui/tabmdi.py:37
+#, fuzzy
+msgid "&Next"
+msgstr "Panuku"
+
+#: wx/lib/agw/aui/tabmdi.py:38
+#, fuzzy
+msgid "&Previous"
+msgstr "Tōmua"
+
+#: wx/lib/agw/aui/tabmdi.py:205 wx/lib/agw/aui/tabmdi.py:216
+#: wx/lib/agw/aui/tabmdi.py:218 wx/lib/pydocview.py:2915
+#: wx/lib/pydocview.py:3017
+msgid "&Window"
+msgstr ""
+
+#: wx/lib/agw/cubecolourdialog.py:2806
+msgid "CubeColorDialog: Choose Color"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:171 wx/tools/Editra/src/ed_cmdbar.py:119
+msgid "Customize"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:206 wx/lib/pydocview.py:89
+#, fuzzy
+msgid "&Close"
+msgstr "Kati"
+
+#: wx/lib/agw/fmcustomizedlg.py:215
+msgid "Menus"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:216 wx/lib/pydocview.py:1491
+msgid "Options"
+msgstr "Ngā Kōwhiringa"
+
+#: wx/lib/agw/fmcustomizedlg.py:284
+msgid "Select Menu To Add/Remove:"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Default Style"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:323
+msgid "Metallic"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:324
+msgid "Menu bar style"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:340
+msgid "Default style settings"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:342
+msgid "Draw vertical gradient"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:348
+msgid "Draw border around menu bar"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:354
+msgid "Toolbar float over menu bar"
+msgstr ""
+
+#: wx/lib/agw/fmcustomizedlg.py:362 wx/tools/Editra/src/prefdlg.py:1095
+msgid "Color Scheme"
+msgstr ""
+
+#: wx/lib/agw/genericmessagedialog.py:471 wx/lib/pydocview.py:178
+#: wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save"
+msgstr "Tiaki"
+
+#: wx/lib/agw/genericmessagedialog.py:473
+msgid "Don't Save"
+msgstr ""
+
+#: wx/lib/agw/genericmessagedialog.py:821 wx/lib/agw/multidirdialog.py:474
+#: wx/tools/Editra/src/style_editor.py:139
+msgid "OK"
+msgstr ""
+
+#: wx/lib/agw/genericmessagedialog.py:825 wx/lib/agw/multidirdialog.py:476
+#: wx/tools/Editra/src/ed_search.py:1244
+#: wx/tools/Editra/src/style_editor.py:141 wx/tools/Editra/src/updater.py:570
+msgid "Cancel"
+msgstr "Whakakore"
+
+#: wx/lib/agw/genericmessagedialog.py:829
+msgid "Yes"
+msgstr ""
+
+#: wx/lib/agw/genericmessagedialog.py:833
+msgid "No"
+msgstr ""
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Choose a directory"
+msgstr ""
+
+#: wx/lib/agw/multidirdialog.py:272
+msgid "Browse For Folders"
+msgstr ""
+
+#: wx/lib/agw/multidirdialog.py:390
+msgid "Choose one or more folders:"
+msgstr ""
+
+#: wx/lib/agw/multidirdialog.py:399
+msgid "Folder:"
+msgstr ""
+
+#: wx/lib/agw/multidirdialog.py:472
+msgid "Make New Folder"
+msgstr ""
+
+#: wx/lib/agw/pybusyinfo.py:211
+msgid "Busy"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:120
+msgid "Basic Colors:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:121
+msgid "Custom Colors:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:122
+msgid "Add to Custom Colors"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:188
+msgid "Solid Color"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:194
+msgid "H:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:197
+msgid "S:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:200
+msgid "V:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:210
+msgid "R:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:213
+msgid "G:"
+msgstr ""
+
+#: wx/lib/colourchooser/pycolourchooser.py:216
+msgid "B:"
+msgstr ""
+
+#: wx/lib/docview.py:385
+msgid "Application"
+msgstr ""
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637 wx/lib/docview.py:1897
+msgid " has been modified outside of "
+msgstr ""
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid ". Overwrite "
+msgstr ""
+
+#: wx/lib/docview.py:386 wx/lib/docview.py:637
+msgid " with current changes?"
+msgstr ""
+
+#: wx/lib/docview.py:412 wx/tools/Editra/src/eclib/filemgrdlg.py:123
+#: wx/tools/Editra/src/ed_menu.py:531
+#, fuzzy
+msgid "Save As"
+msgstr "Tiaki hei"
+
+#: wx/lib/docview.py:453 wx/lib/docview.py:526 wx/lib/docview.py:2449
+#: wx/lib/docview.py:2705 wx/lib/pydocview.py:1076 wx/lib/pydocview.py:2215
+#: wx/lib/pydocview.py:2391
+msgid "File Error"
+msgstr ""
+
+#: wx/lib/docview.py:597
+msgid "Untitled"
+msgstr "Kore Ingoa"
+
+#: wx/lib/docview.py:654
+#, python-format
+msgid "Save changes to '%s'?"
+msgstr ""
+
+#: wx/lib/docview.py:1567
+msgid "Unable to display print preview."
+msgstr ""
+
+#: wx/lib/docview.py:1573 wx/tools/Editra/src/style_editor.py:132
+#, fuzzy
+msgid "Preview"
+msgstr "Arokite:"
+
+#: wx/lib/docview.py:1660 wx/lib/pydocview.py:112
+msgid "&Undo\tCtrl+Z"
+msgstr ""
+
+#: wx/lib/docview.py:1672 wx/lib/pydocview.py:113
+msgid "&Redo\tCtrl+Y"
+msgstr ""
+
+#: wx/lib/docview.py:1897
+msgid "Reload "
+msgstr ""
+
+#: wx/lib/docview.py:1897
+msgid " from file system?"
+msgstr ""
+
+#: wx/lib/docview.py:1903
+msgid "Couldn't reload "
+msgstr ""
+
+#: wx/lib/docview.py:1903
+msgid "Unable to close current "
+msgstr ""
+
+#: wx/lib/docview.py:2006
+#, python-format
+#, python-format, fuzzy
+msgid "Untitled %d"
+msgstr "Mahere Kore Ingoa %d"
+
+#: wx/lib/docview.py:2175
+#, python-format
+msgid "All|*.*|%s"
+msgstr ""
+
+#: wx/lib/docview.py:2180
+msgid "Select a File"
+msgstr ""
+
+#: wx/lib/docview.py:2243
+msgid "Select a document type:"
+msgstr ""
+
+#: wx/lib/docview.py:2244
+msgid "Documents"
+msgstr "Ngā Tuhinga"
+
+#: wx/lib/docview.py:2274
+msgid "Select a document view:"
+msgstr ""
+
+#: wx/lib/docview.py:2275
+#, fuzzy
+msgid "Views"
+msgstr "Tiro"
+
+#: wx/lib/docview.py:3049
+msgid "Ctrl+Z"
+msgstr ""
+
+#: wx/lib/docview.py:3050
+msgid "Ctrl+Y"
+msgstr ""
+
+#: wx/lib/docview.py:3157 wx/lib/docview.py:3161
+#: wx/tools/Editra/src/ed_menu.py:578
+#, fuzzy
+msgid "&Undo"
+msgstr "Wete"
+
+#: wx/lib/docview.py:3163 wx/lib/docview.py:3165
+#, fuzzy
+msgid "&Redo"
+msgstr "Mahi Anō"
+
+#: wx/lib/pydocview.py:87
+msgid "&New...\tCtrl+N"
+msgstr ""
+
+#: wx/lib/pydocview.py:87 wx/lib/pydocview.py:176
+msgid "Creates a new document"
+msgstr ""
+
+#: wx/lib/pydocview.py:88
+msgid "&Open...\tCtrl+O"
+msgstr ""
+
+#: wx/lib/pydocview.py:88 wx/lib/pydocview.py:177
+msgid "Opens an existing document"
+msgstr ""
+
+#: wx/lib/pydocview.py:89
+msgid "Closes the active document"
+msgstr ""
+
+#: wx/lib/pydocview.py:91
+msgid "Close A&ll"
+msgstr ""
+
+#: wx/lib/pydocview.py:91
+msgid "Closes all open documents"
+msgstr ""
+
+#: wx/lib/pydocview.py:93
+msgid "&Save\tCtrl+S"
+msgstr ""
+
+#: wx/lib/pydocview.py:93 wx/lib/pydocview.py:178
+msgid "Saves the active document"
+msgstr ""
+
+#: wx/lib/pydocview.py:94
+msgid "Save &As..."
+msgstr ""
+
+#: wx/lib/pydocview.py:94
+msgid "Saves the active document with a new name"
+msgstr ""
+
+#: wx/lib/pydocview.py:95
+msgid "Save All\tCtrl+Shift+A"
+msgstr ""
+
+#: wx/lib/pydocview.py:95
+msgid "Saves the all active documents"
+msgstr ""
+
+#: wx/lib/pydocview.py:99
+msgid "&Print\tCtrl+P"
+msgstr ""
+
+#: wx/lib/pydocview.py:99 wx/lib/pydocview.py:182
+msgid "Prints the active document"
+msgstr ""
+
+#: wx/lib/pydocview.py:100 wx/tools/Editra/src/ed_menu.py:562
+msgid "Print Pre&view"
+msgstr ""
+
+#: wx/lib/pydocview.py:100 wx/lib/pydocview.py:181
+msgid "Displays full pages"
+msgstr ""
+
+#: wx/lib/pydocview.py:101 wx/tools/Editra/src/ed_menu.py:560
+msgid "Page Set&up"
+msgstr ""
+
+#: wx/lib/pydocview.py:101
+msgid "Changes page layout settings"
+msgstr ""
+
+#: wx/lib/pydocview.py:104
+#, fuzzy
+msgid "&Quit"
+msgstr "Waiho"
+
+#: wx/lib/pydocview.py:104 wx/lib/pydocview.py:106
+msgid "Closes this program"
+msgstr ""
+
+#: wx/lib/pydocview.py:106 wx/tools/Editra/src/ed_menu.py:566
+#, fuzzy
+msgid "E&xit"
+msgstr "Putaatu"
+
+#: wx/lib/pydocview.py:112 wx/lib/pydocview.py:187
+msgid "Reverses the last action"
+msgstr ""
+
+#: wx/lib/pydocview.py:113 wx/lib/pydocview.py:188
+msgid "Reverses the last undo"
+msgstr ""
+
+#: wx/lib/pydocview.py:118
+msgid "Cu&t\tCtrl+X"
+msgstr ""
+
+#: wx/lib/pydocview.py:118 wx/lib/pydocview.py:184
+msgid "Cuts the selection and puts it on the Clipboard"
+msgstr ""
+
+#: wx/lib/pydocview.py:121
+msgid "&Copy\tCtrl+C"
+msgstr ""
+
+#: wx/lib/pydocview.py:121 wx/lib/pydocview.py:185
+msgid "Copies the selection and puts it on the Clipboard"
+msgstr ""
+
+#: wx/lib/pydocview.py:124
+msgid "&Paste\tCtrl+V"
+msgstr ""
+
+#: wx/lib/pydocview.py:124 wx/lib/pydocview.py:186
+msgid "Inserts Clipboard contents"
+msgstr ""
+
+#: wx/lib/pydocview.py:127
+#, fuzzy
+msgid "&Delete"
+msgstr "Muku"
+
+#: wx/lib/pydocview.py:127
+msgid "Erases the selection"
+msgstr ""
+
+#: wx/lib/pydocview.py:131
+msgid "Select A&ll\tCtrl+A"
+msgstr ""
+
+#: wx/lib/pydocview.py:131
+msgid "Selects all available data"
+msgstr ""
+
+#: wx/lib/pydocview.py:140 wx/tools/Editra/src/ed_menu.py:708
+#, fuzzy
+msgid "&Toolbar"
+msgstr "_Paeutauta"
+
+#: wx/lib/pydocview.py:140
+msgid "Shows or hides the toolbar"
+msgstr ""
+
+#: wx/lib/pydocview.py:143
+msgid "&Status Bar"
+msgstr ""
+
+#: wx/lib/pydocview.py:143
+msgid "Shows or hides the status bar"
+msgstr ""
+
+#: wx/lib/pydocview.py:149
+#, fuzzy
+msgid "&About"
+msgstr "Mōku Ake"
+
+#: wx/lib/pydocview.py:149
+msgid "Displays program information, version number, and copyright"
+msgstr ""
+
+#: wx/lib/pydocview.py:177 wx/tools/Editra/src/ed_menu.py:518
+#: wx/tools/Editra/src/ed_toolbar.py:78
+msgid "Open"
+msgstr "Whakatuwhera"
+
+#: wx/lib/pydocview.py:179 wx/tools/Editra/src/ed_menu.py:532
+#, fuzzy
+msgid "Save All"
+msgstr "Tiaki hei"
+
+#: wx/lib/pydocview.py:179
+msgid "Saves all the active documents"
+msgstr ""
+
+#: wx/lib/pydocview.py:184 wx/tools/Editra/src/ed_editv.py:364
+#: wx/tools/Editra/src/ed_toolbar.py:86
+msgid "Cut"
+msgstr "Tapahi"
+
+#: wx/lib/pydocview.py:185 wx/tools/Editra/src/ed_editv.py:365
+#: wx/tools/Editra/src/ed_toolbar.py:88
+msgid "Copy"
+msgstr "Tārua"
+
+#: wx/lib/pydocview.py:186 wx/tools/Editra/src/ed_editv.py:366
+#: wx/tools/Editra/src/ed_toolbar.py:90
+msgid "Paste"
+msgstr "Whakapiri"
+
+#: wx/lib/pydocview.py:187 wx/tools/Editra/src/ed_editv.py:361
+#: wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo"
+msgstr "Wete"
+
+#: wx/lib/pydocview.py:188 wx/tools/Editra/src/ed_editv.py:362
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo"
+msgstr "Mahi Anō"
+
+#: wx/lib/pydocview.py:251
+#, fuzzy
+msgid "Ready"
+msgstr "Pānui"
+
+#: wx/lib/pydocview.py:911
+#, python-format
+msgid "Close All but \"%s\""
+msgstr ""
+
+#: wx/lib/pydocview.py:921
+msgid "Select Tab"
+msgstr ""
+
+#: wx/lib/pydocview.py:1408 wx/lib/pydocview.py:1415
+#: wx/tools/Editra/src/ed_menu.py:822
+#, fuzzy
+msgid "&Tools"
+msgstr "Ngā Utauta"
+
+#: wx/lib/pydocview.py:1414
+#, fuzzy
+msgid "&Format"
+msgstr "_Hōputu"
+
+#: wx/lib/pydocview.py:1419
+msgid "&Options..."
+msgstr ""
+
+#: wx/lib/pydocview.py:1419
+msgid "Sets options"
+msgstr ""
+
+#: wx/lib/pydocview.py:1592
+msgid "Show tips at start up"
+msgstr ""
+
+#: wx/lib/pydocview.py:1597
+msgid "Show each document in its own window"
+msgstr ""
+
+#: wx/lib/pydocview.py:1598
+msgid "Show all documents in a single window with tabs"
+msgstr ""
+
+#: wx/lib/pydocview.py:1599
+msgid "Show all documents in a single window with child windows"
+msgstr ""
+
+#: wx/lib/pydocview.py:1605
+msgid "Document Display Style"
+msgstr ""
+
+#: wx/lib/pydocview.py:1619
+msgid "Document Options"
+msgstr ""
+
+#: wx/lib/pydocview.py:1620
+msgid ""
+"Document interface changes will not appear until the application is "
+"restarted."
+msgstr ""
+
+#: wx/lib/pydocview.py:2525
+#, fuzzy
+msgid "About "
+msgstr "Mōku Ake "
+
+#: wx/lib/pydocview.py:2564
+#, fuzzy
+msgid "&Properties"
+msgstr "Āhuatanga"
+
+#: wx/lib/pydocview.py:2564
+msgid "Show file properties"
+msgstr ""
+
+#: wx/lib/pydocview.py:2678
+msgid "File Properties"
+msgstr ""
+
+#: wx/lib/pydocview.py:2692
+msgid "Filename:"
+msgstr ""
+
+#: wx/lib/pydocview.py:2695
+msgid "Location:"
+msgstr ""
+
+#: wx/lib/pydocview.py:2698
+msgid "Size:"
+msgstr "Rahi:"
+
+#: wx/lib/pydocview.py:2700
+msgid "bytes"
+msgstr ""
+
+#: wx/lib/pydocview.py:2706
+#, fuzzy
+msgid "Created:"
+msgstr "Waihanga"
+
+#: wx/lib/pydocview.py:2710
+msgid "Modified:"
+msgstr ""
+
+#: wx/lib/pydocview.py:2714
+msgid "Accessed:"
+msgstr ""
+
+#: wx/lib/pydocview.py:2890
+msgid "&Arrange All"
+msgstr ""
+
+#: wx/lib/pydocview.py:2890
+msgid "Arrange the open windows"
+msgstr ""
+
+#: wx/lib/pydocview.py:2899 wx/tools/Editra/src/ed_cmdbar.py:274
+msgid "Previous"
+msgstr "Tōmua"
+
+#: wx/lib/pydocview.py:2899
+msgid "Previous Tab"
+msgstr "Ripa Tōmua"
+
+#: wx/lib/pydocview.py:2902 wx/tools/Editra/src/ed_cmdbar.py:266
+msgid "Next"
+msgstr "Panuku"
+
+#: wx/lib/pydocview.py:2902
+msgid "Next Tab"
+msgstr "Ripa Panuku"
+
+#: wx/lib/pydocview.py:2905
+msgid "Close Current\tCtrl+F4"
+msgstr ""
+
+#: wx/lib/pydocview.py:2905 wx/tools/Editra/src/ed_menu.py:524
+msgid "Close Current Tab"
+msgstr ""
+
+#: wx/lib/pydocview.py:3037
+msgid "&More Windows..."
+msgstr ""
+
+#: wx/lib/pydocview.py:3163
+msgid "Select a window to show:"
+msgstr ""
+
+#: wx/lib/pydocview.py:3164
+msgid "Select Window"
+msgstr ""
+
+#: wx/tools/Editra/src/Editra.py:590
+#, python-format
+msgid ""
+"An updated version of Editra is available\n"
+"Would you like to download Editra %s now?"
+msgstr ""
+
+#: wx/tools/Editra/src/Editra.py:592
+msgid "Update Available"
+msgstr ""
+
+#: wx/tools/Editra/src/Editra.py:596 wx/tools/Editra/src/prefdlg.py:1565
+#, fuzzy
+msgid "Downloading Update"
+msgstr "Tikiake ana i ngā whakahōu..."
+
+#: wx/tools/Editra/src/Editra.py:889 wx/tools/Editra/src/Editra.py:1097
+msgid "Your profile has been updated to the latest version"
+msgstr ""
+
+#: wx/tools/Editra/src/Editra.py:891 wx/tools/Editra/src/Editra.py:1099
+msgid "Please check the preferences dialog to check your preferences"
+msgstr ""
+
+#: wx/tools/Editra/src/Editra.py:892 wx/tools/Editra/src/Editra.py:1100
+msgid "Profile Updated"
+msgstr ""
+
+#: wx/tools/Editra/src/dev_tool.py:242
+msgid ""
+"Error: Something unexpected happend\n"
+"Help improve Editra by clicking on Report Error\n"
+"to send the Error Traceback shown below."
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/colorsetter.py:85
+msgid "Enter a hex color value"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/ecpickers.py:83
+msgid "Set Font"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/errdlg.py:319
+msgid "Error Traceback:"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/errdlg.py:323
+#, fuzzy
+msgid "Abort"
+msgstr "Mōku Ake"
+
+#: wx/tools/Editra/src/eclib/errdlg.py:324
+msgid "Exit the application"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/errdlg.py:325
+msgid "Report Error"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:169
+#, python-format
+msgid "Are you sure want to delete %s?"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:170
+msgid "Delete File?"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:176
+#, python-format
+msgid "Unable to delete %s"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:177
+msgid "Delete Error"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filemgrdlg.py:220
+#: wx/tools/Editra/src/prefdlg.py:307
+#, fuzzy
+msgid "Files"
+msgstr "Kōnae"
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:77
+msgid "Add >>"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/filterdlg.py:78
+msgid "<< Remove"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:632
+#: wx/tools/Editra/src/eclib/finddlg.py:767
+#: wx/tools/Editra/src/eclib/finddlg.py:843
+#: wx/tools/Editra/src/ed_cmdbar.py:264 wx/tools/Editra/src/ed_search.py:149
+#: wx/tools/Editra/src/ed_search.py:153 wx/tools/Editra/src/ed_toolbar.py:93
+msgid "Find"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:635
+#: wx/tools/Editra/src/eclib/finddlg.py:844
+msgid "Replace"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Current Document"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:712
+msgid "Selected Text"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:713
+msgid "Open Documents"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:716
+msgid "File Filters:"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:765
+msgid "Find what"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:778
+msgid "Replace with"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:790
+#, fuzzy
+msgid "Choose Folder"
+msgstr "Kōwhiri Tae"
+
+#: wx/tools/Editra/src/eclib/finddlg.py:793
+msgid "Look in"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:804
+msgid "Up"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:806
+msgid "Down"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:812
+msgid "Find Options"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:814
+msgid "Match case"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:815
+msgid "Whole word"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:816
+msgid "Regular expression"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:817
+msgid "Search Recursively"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:823
+msgid "Enter wildcard shell patterns for matching files (*.txt)."
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:845
+msgid "Count"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:846
+#: wx/tools/Editra/src/ed_cmdbar.py:280
+msgid "Find All"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:847
+msgid "Replace All"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/finddlg.py:1118
+msgid "Choose Search Folder"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:60
+msgid "Info"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:117
+msgid "File Stat Failed"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:165
+#: wx/tools/Editra/src/eclib/infodlg.py:197
+msgid "Modified"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:184
+msgid "Kind"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:191
+#: wx/tools/Editra/src/style_editor.py:704
+#, fuzzy
+msgid "Size"
+msgstr "Aho"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:193
+msgid "Where"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:195
+#, fuzzy
+msgid "Created"
+msgstr "Waihanga"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:199
+#, fuzzy
+msgid "Permissions"
+msgstr "Ngā Pahū"
+
+#: wx/tools/Editra/src/eclib/infodlg.py:294 wx/tools/Editra/src/util.py:357
+msgid "Folder"
+msgstr ""
+
+#: wx/tools/Editra/src/eclib/infodlg.py:300 wx/tools/Editra/src/plugdlg.py:368
+#: wx/tools/Editra/src/plugdlg.py:374 wx/tools/Editra/src/plugdlg.py:421
+#: wx/tools/Editra/src/plugdlg.py:425 wx/tools/Editra/src/plugin.py:724
+#: wx/tools/Editra/src/util.py:367
+msgid "Unknown"
+msgstr "Tē Mōhiotia"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:286
+msgid "Match Case"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:293
+msgid "Whole Word"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:297
+msgid "Regular Expression"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:410
+msgid "Command"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:440
+msgid "Goto Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:562
+#, python-format
+msgid "Can't change directory to: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:764
+#, python-format
+msgid "Access Denied: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_cmdbar.py:779
+#, fuzzy
+msgid "Invalid Path"
+msgstr "Uara Muhu"
+
+#: wx/tools/Editra/src/ed_cmdbar.py:874
+msgid "cwd: "
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:189
+#, python-format
+msgid ""
+"Failed to reload %(filename)s:\n"
+"Error: %(errmsg)s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:228
+#, fuzzy
+msgid "New Tab"
+msgstr "Ripa Panuku"
+
+#: wx/tools/Editra/src/ed_editv.py:229
+msgid "Move Tab to New Window"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:231
+#, python-format
+msgid "Save \"%s\""
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:232
+#, python-format
+msgid "Close \"%s\""
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:233
+msgid "Close Other Tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:236
+msgid "Copy Full Path"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:368
+msgid "To Uppercase"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:369
+msgid "To Lowercase"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:371
+msgid "Select All"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:394
+msgid "No Suggestions"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:444
+#, python-format
+msgid ""
+"%s has been deleted since its last save point.\n"
+"\n"
+"Would you like to save it again?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:447
+msgid "Resave File?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:464
+#, python-format
+msgid ""
+"%s has been modified by another application.\n"
+"\n"
+"Would you like to reload it?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:467
+msgid "Reload File?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:500
+#, python-format
+msgid ""
+"The file: \"%s\" has been modified since the last save point.\n"
+"\n"
+"Would you like to save the changes?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_editv.py:503
+msgid "Save Changes?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_glob.py:384
+msgid "Old Macintosh (\\n)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_glob.py:385 wx/tools/Editra/src/ed_menu.py:761
+#: wx/tools/Editra/src/ed_menu.py:763 wx/tools/Editra/src/prefdlg.py:755
+msgid "Unix (\\n)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_glob.py:386
+msgid "Windows (\\n)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_log.py:81
+msgid "Editra Log"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_log.py:82
+msgid "View Editra's console log"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_log.py:134
+msgid "Show output from"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_log.py:142 wx/tools/Editra/src/ed_search.py:1253
+msgid "Clear"
+msgstr "Ūkui"
+
+#: wx/tools/Editra/src/ed_log.py:172 wx/tools/Editra/src/ed_log.py:247
+msgid "All"
+msgstr "Katoa"
+
+#: wx/tools/Editra/src/ed_main.py:143
+msgid "Perspectives"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:464
+msgid "Editra: Open"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:602
+#, python-format
+msgid ""
+"%s could not be found.\n"
+"Perhaps it's been moved or deleted."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:604
+#, fuzzy
+msgid "File Not Found"
+msgstr "Kāore te kōnae i kitea"
+
+#: wx/tools/Editra/src/ed_main.py:664
+#, python-format
+#, python-format, fuzzy
+msgid "Saved File: %s"
+msgstr "Tīaki Kōnae Hei: %s"
+
+#: wx/tools/Editra/src/ed_main.py:667
+#, python-format
+msgid "ERROR: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:691
+msgid "Choose a Save Location"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:707
+#, python-format
+msgid "ERROR: Failed to save %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:710
+#, python-format
+#, fuzzy
+msgid "Saved File As: %s"
+msgstr "Tīaki Kōnae Hei: %s"
+
+#: wx/tools/Editra/src/ed_main.py:726
+msgid "Where to Save Profile?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:728 wx/tools/Editra/src/ed_main.py:749
+#: wx/tools/Editra/src/ed_menu.py:547
+msgid "Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:733
+#, python-format
+msgid "Profile Saved as: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:747 wx/tools/Editra/src/ed_menu.py:546
+msgid "Load a Custom Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:754
+#, python-format
+msgid "Loaded Profile: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:771
+msgid "Where to Save Session?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:773 wx/tools/Editra/src/ed_main.py:800
+msgid "Session"
+msgstr "Wātū"
+
+#: wx/tools/Editra/src/ed_main.py:788
+#, python-format
+msgid "Session Saved as: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:798
+msgid "Load a Session file"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:812
+#, python-format
+msgid "Loaded Session: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1072 wx/tools/Editra/src/ed_menu.py:808
+msgid "Plugin Manager"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1208
+msgid "Select an encoding to reload the file with"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1209
+msgid "Reload with Encoding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1221
+#, python-format
+msgid "Failed to reload the file with: %(encoding)s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1240
+msgid "Aui Pane Navigator"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1414 wx/tools/Editra/src/ed_menu.py:688
+msgid "Maximize Editor"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1416
+msgid "Restore Editor"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1436
+msgid "Customize Menu"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1485
+#, python-format
+msgid "Opening %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1488
+#, python-format
+msgid "Error: Unable to open %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1538
+msgid "Editra is a programmer's text editor."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1539
+#, python-format
+msgid "Written in 100%% Python."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1540
+#, fuzzy
+msgid "Homepage"
+msgstr "Whārangi kāinga"
+
+#: wx/tools/Editra/src/ed_main.py:1541
+msgid "Platform Info"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1542
+msgid "License: wxWindows (see COPYING.txt for full license)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_main.py:1548
+msgid "Copyright"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:86
+#, python-format
+msgid ""
+"Editra could not open %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:88
+msgid "Error Opening File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:105
+#, python-format
+msgid ""
+"Failed to save file: %(filename)s\n"
+"\n"
+"Error:\n"
+"%(errormsg)s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:107
+msgid "Save Error"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Old Macintosh (\n"
+")"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:138
+msgid ""
+"Unix (\n"
+")"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_mdlg.py:139
+msgid ""
+"Windows (\n"
+")"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:472
+msgid "Customize..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:473
+msgid "Customize the items shown in this menu."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:479 wx/tools/Editra/src/syntax/syntax.py:318
+#, python-format
+msgid "Switch Lexer to %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:481
+msgid "Lexers"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:483
+msgid "Manually Set a Lexer/Syntax"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:513
+#, fuzzy
+msgid "&New Tab"
+msgstr "Ripa Panuku"
+
+#: wx/tools/Editra/src/ed_menu.py:514
+msgid "Start a new file in a new tab"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:515
+msgid "New &Window"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:516
+msgid "Start a new file in a new window"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:518
+#, fuzzy
+msgid "&Open"
+msgstr "Whakatuwhera"
+
+#: wx/tools/Editra/src/ed_menu.py:521
+msgid "Recently Opened Files"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:523
+#, fuzzy
+msgid "&Close Tab"
+msgstr "Kati Ripa"
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close Window"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:526
+msgid "Close the current window"
+msgstr "Katia te matapihi o nāianei"
+
+#: wx/tools/Editra/src/ed_menu.py:527
+msgid "Close All Tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:528
+msgid "Close all open tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:530
+#, fuzzy
+msgid "&Save"
+msgstr "Tiaki"
+
+#: wx/tools/Editra/src/ed_menu.py:530 wx/tools/Editra/src/ed_toolbar.py:79
+msgid "Save Current File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:531
+#, fuzzy
+msgid "Save &As"
+msgstr "Tiaki hei"
+
+#: wx/tools/Editra/src/ed_menu.py:533
+msgid "Save all open pages"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:535
+msgid "Revert to Saved"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:536
+msgid "Revert file to last save point"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:537
+msgid "Reload with Encoding..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:538
+msgid "Reload the file with a specified encoding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:543
+msgid "Save Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:544
+msgid "Save Current Settings to a New Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:545
+msgid "Load Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:548
+msgid "Load and save custom Profiles"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:552
+msgid "Save Session"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:553
+msgid "Save the current session."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:554
+msgid "Load Session"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:555
+msgid "Load a saved session."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:556
+#, fuzzy
+msgid "Sessions"
+msgstr "Wātū"
+
+#: wx/tools/Editra/src/ed_menu.py:557
+msgid "Load and save custom sessions."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:561
+msgid "Configure Printer"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:563
+msgid "Preview Printout"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:564
+#, fuzzy
+msgid "&Print"
+msgstr "Peita"
+
+#: wx/tools/Editra/src/ed_menu.py:564 wx/tools/Editra/src/ed_toolbar.py:81
+msgid "Print Current File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:566
+msgid "Exit the Program"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:578 wx/tools/Editra/src/ed_toolbar.py:83
+msgid "Undo Last Action"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:579 wx/tools/Editra/src/ed_toolbar.py:84
+msgid "Redo Last Undo"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:581
+#, fuzzy
+msgid "Cu&t"
+msgstr "Tapahi"
+
+#: wx/tools/Editra/src/ed_menu.py:582 wx/tools/Editra/src/ed_toolbar.py:87
+msgid "Cut Selected Text from File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:583
+#, fuzzy
+msgid "&Copy"
+msgstr "Tārua"
+
+#: wx/tools/Editra/src/ed_menu.py:584 wx/tools/Editra/src/ed_toolbar.py:89
+#, fuzzy
+msgid "Copy Selected Text to Clipboard"
+msgstr "Tāruatia ngā kupu kua tīpakohia ki te papatopenga"
+
+#: wx/tools/Editra/src/ed_menu.py:585
+#, fuzzy
+msgid "&Paste"
+msgstr "Whakapiri"
+
+#: wx/tools/Editra/src/ed_menu.py:586 wx/tools/Editra/src/ed_toolbar.py:91
+msgid "Paste Text from Clipboard to File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:587
+msgid "P&aste After"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:588
+msgid "Paste Text from Clipboard to File after the cursor"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:589
+msgid "Cycle Clipboard"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:590
+msgid "Cycle through recent clipboard text"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:592
+msgid "Select &All"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:593
+msgid "Select All Text in Document"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:594
+msgid "Column Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:595
+msgid "Enable column edit mode."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:598
+msgid "New Line After"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:599
+msgid "Add a new line after the current line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:600
+msgid "New Line Before"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:601
+msgid "Add a new line before the current line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:603
+msgid "Cut Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:604
+msgid "Cut Current Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:605
+msgid "Delete Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:606
+#, fuzzy
+msgid "Delete the selected line(s)"
+msgstr "Muku i ngā huānga kua tīpakohia"
+
+#: wx/tools/Editra/src/ed_menu.py:607
+#, fuzzy
+msgid "Copy Line"
+msgstr "Tārua hono"
+
+#: wx/tools/Editra/src/ed_menu.py:608
+msgid "Copy Current Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:609
+msgid "Duplicate Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:610
+msgid "Duplicate the current line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:612
+msgid "Join Lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:613
+msgid "Join the Selected Lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:614
+msgid "Transpose Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:615
+msgid "Transpose the current line with the previous one"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:616
+msgid "Move Current Line Up"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:617
+msgid "Move the current line up"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:619
+msgid "Move Current Line Down"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:620
+msgid "Move the current line down"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:621
+msgid "Line Edit"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:622
+msgid "Commands that influence an entire line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:624
+msgid "Toggle Bookmark"
+msgstr "Takahuri Tohuwāhi"
+
+#: wx/tools/Editra/src/ed_menu.py:625
+msgid "Toggle bookmark of the current line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:626
+msgid "Remove All Bookmarks"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:627
+msgid "Remove all bookmarks from the current document"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:628
+#, fuzzy
+msgid "Bookmarks"
+msgstr "Tohuwāhi"
+
+#: wx/tools/Editra/src/ed_menu.py:629
+msgid "Add and remove bookmarks"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:631
+msgid "&Find"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:631 wx/tools/Editra/src/ed_toolbar.py:93
+#, fuzzy
+msgid "Find Text"
+msgstr "Kimi panuku"
+
+#: wx/tools/Editra/src/ed_menu.py:632
+msgid "Find/R&eplace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:633 wx/tools/Editra/src/ed_toolbar.py:95
+msgid "Find and Replace Text"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:634
+msgid "&Quick Find"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:635
+msgid "Open the Quick Find Bar"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:636
+#, fuzzy
+msgid "Find Previous"
+msgstr "Kimi tōmua"
+
+#: wx/tools/Editra/src/ed_menu.py:637
+msgid "Goto previous match"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:638
+#, fuzzy
+msgid "Find Next"
+msgstr "Kimi panuku"
+
+#: wx/tools/Editra/src/ed_menu.py:639
+msgid "Goto the next match"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:640
+msgid "Find Selected"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:641
+msgid "Search for the currently selected phrase"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:643
+#, fuzzy
+msgid "Pr&eferences"
+msgstr "Ngā Manakohanga"
+
+#: wx/tools/Editra/src/ed_menu.py:644
+msgid "Edit Preferences / Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:656
+msgid "Zoom Out"
+msgstr "Topa Atu"
+
+#: wx/tools/Editra/src/ed_menu.py:657
+msgid "Zoom In"
+msgstr "Topa Mai"
+
+#: wx/tools/Editra/src/ed_menu.py:658 wx/tools/Editra/src/ed_menu.py:659
+msgid "Zoom Default"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:662 wx/tools/Editra/src/prefdlg.py:933
+msgid "Highlight Caret Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:663
+msgid "Highlight the background of the current line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:665 wx/tools/Editra/src/prefdlg.py:936
+msgid "Indentation Guides"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:666
+msgid "Show Indentation Guides"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:667
+msgid "Show Edge Guide"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:668
+msgid "Show the edge column guide"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:669 wx/tools/Editra/src/ed_menu.py:670
+#: wx/tools/Editra/src/prefdlg.py:767
+msgid "Show EOL Markers"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:671 wx/tools/Editra/src/prefdlg.py:769
+msgid "Show Line Numbers"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:672
+msgid "Show Line Number Margin"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:673 wx/tools/Editra/src/prefdlg.py:771
+msgid "Show Whitespace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:674
+msgid "Show Whitespace Markers"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:675
+#, fuzzy
+msgid "Editor"
+msgstr "xoPūwhakatika"
+
+#: wx/tools/Editra/src/ed_menu.py:676
+msgid "Toggle Editor View Options"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:678
+msgid "Toggle fold"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:679
+msgid "Toggle current fold"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:680 wx/tools/Editra/src/ed_menu.py:681
+msgid "Toggle all folds"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:682 wx/tools/Editra/src/ed_menu.py:787
+#: wx/tools/Editra/src/prefdlg.py:922
+msgid "Code Folding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:683
+msgid "Code folding toggle actions"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:686
+msgid "Pane Navigator"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:687
+msgid "View pane selection list"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:689
+msgid "Toggle Editor Maximization"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:691
+msgid "&Goto Line"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:692
+msgid "Goto Line Number"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:693
+msgid "Goto Matching Brace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:694
+msgid "Move caret matching brace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:696
+msgid "Next Position"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:697
+msgid "Goto next position in history."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:698
+msgid "Previous Position"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:699
+msgid "Goto previous position in history."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:701
+#, fuzzy
+msgid "Next Bookmark"
+msgstr "Tohuwāhi panuku"
+
+#: wx/tools/Editra/src/ed_menu.py:702
+msgid "View Line of Next Bookmark"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:703
+#, fuzzy
+msgid "Previous Bookmark"
+msgstr "Tohuwāhi tōmua"
+
+#: wx/tools/Editra/src/ed_menu.py:704
+msgid "View Line of Previous Bookmark"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:707 wx/tools/Editra/src/prefdlg.py:1207
+msgid "Show Status Bar"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:709 wx/tools/Editra/src/prefdlg.py:1209
+msgid "Show Toolbar"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:721
+#, fuzzy
+msgid "&Font"
+msgstr "Ngā Momotuhi"
+
+#: wx/tools/Editra/src/ed_menu.py:722
+msgid "Change Font Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:724
+msgid "Toggle Comment"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:725
+msgid "Toggle comment on the selected line(s)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:728
+msgid "Indent Lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:729
+msgid "Indent the selected lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:730
+msgid "Unindent Lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:731
+msgid "Unindent the selected lines"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:733
+msgid "Uppercase"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:734
+msgid "Convert selected text to all uppercase letters"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:735
+msgid "Lowercase"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:736
+msgid "Convert selected text to all lowercase letters"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:738
+msgid "Use Soft Tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:739
+msgid "Insert spaces instead of tab characters with tab key"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:741 wx/tools/Editra/src/prefdlg.py:773
+msgid "Word Wrap"
+msgstr "Tākai Kupu"
+
+#: wx/tools/Editra/src/ed_menu.py:742
+msgid "Wrap Text Horizontally"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:747
+msgid "Spaces to Tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:748
+msgid "Convert spaces to tabs in selected/all text"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:749
+msgid "Tabs to Spaces"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:750
+msgid "Convert tabs to spaces in selected/all text"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:751
+msgid "Trim Trailing Whitespace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:752
+msgid "Remove trailing whitespace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:753
+msgid "Whitespace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:754
+msgid "Whitespace formating commands"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:758 wx/tools/Editra/src/ed_menu.py:760
+#: wx/tools/Editra/src/prefdlg.py:755
+msgid "Old Macintosh (\\r)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:759 wx/tools/Editra/src/ed_menu.py:762
+#: wx/tools/Editra/src/ed_menu.py:765
+#, python-format
+msgid "Format all EOL characters to %s Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:764 wx/tools/Editra/src/ed_menu.py:766
+#: wx/tools/Editra/src/prefdlg.py:756
+msgid "Windows (\\r\\n)"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:767
+msgid "EOL Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:768
+msgid "End of line character formatting"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:771
+#, fuzzy
+msgid "F&ormat"
+msgstr "_Hōputu"
+
+#: wx/tools/Editra/src/ed_menu.py:780 wx/tools/Editra/src/prefdlg.py:940
+msgid "Auto-Completion"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:781
+msgid "Use Auto Completion when available"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:782 wx/tools/Editra/src/prefdlg.py:950
+msgid "Auto-Indent"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:783
+msgid "Toggle Auto-Indentation functionality"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:785 wx/tools/Editra/src/prefdlg.py:920
+msgid "Bracket Highlighting"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:786
+msgid "Highlight Brackets/Braces"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:788
+msgid "Toggle Code Folding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:789 wx/tools/Editra/src/prefdlg.py:679
+#: wx/tools/Editra/src/prefdlg.py:1080
+msgid "Syntax Highlighting"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:790
+msgid "Color Highlight Code Syntax"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:795
+msgid "&Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:806
+msgid "Editor Command"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:807
+msgid "Goto command buffer"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:809
+msgid "Manage, Download, and Install plugins"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:810 wx/tools/Editra/src/style_editor.py:65
+msgid "Style Editor"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:811
+msgid "Edit the way syntax is highlighted"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:831
+msgid "&About..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:832
+#, fuzzy
+msgid "About"
+msgstr "Mōku Ake"
+
+#: wx/tools/Editra/src/ed_menu.py:833
+msgid "Project Homepage..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:834
+#, python-format
+msgid "Visit the project homepage %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:836
+msgid "Online Documentation..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:837
+msgid "Online project documentation and help guides"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:838
+msgid "Translate Editra..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:839
+msgid "Editra translations project"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:840
+msgid "Bug Tracker..."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_menu.py:841
+msgid "Feedback"
+msgstr "Urupare"
+
+#: wx/tools/Editra/src/ed_menu.py:842
+msgid "Send bug reports and suggestions"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:162
+#, python-format
+msgid ""
+"The correct encoding of '%s' could not be determined.\n"
+"\n"
+"Choose an encoding and select OK to open the file with the chosen encoding.\n"
+"Click Cancel to abort opening the file"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:172
+msgid "Choose an Encoding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:211
+msgid ""
+"File is already open in an existing page.\n"
+"Do you wish to open it again?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:213
+msgid "Open File"
+msgstr "Kōnae Tuwhera"
+
+#: wx/tools/Editra/src/ed_pages.py:232
+#, python-format
+#, fuzzy
+msgid "untitled %d"
+msgstr "Mahere Kore Ingoa %d"
+
+#: wx/tools/Editra/src/ed_pages.py:234
+msgid "untitled"
+msgstr "taitara kore"
+
+#: wx/tools/Editra/src/ed_pages.py:324
+msgid "Error Saving Session File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:353
+#, fuzzy
+msgid "Invalid File"
+msgstr "Uara Muhu"
+
+#: wx/tools/Editra/src/ed_pages.py:353
+msgid "Session file doesn't exist."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:367
+#, fuzzy
+msgid "Invalid file"
+msgstr "Uara Muhu"
+
+#: wx/tools/Editra/src/ed_pages.py:368
+msgid "Selected file is not a valid session file"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Empty File"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:374
+msgid "Session file is empty."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:388
+msgid "Missing session files"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:389
+msgid "Some files in saved session could not be found on disk:\n"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:965
+#, python-format
+#, fuzzy
+msgid "Invalid file: %s"
+msgstr "Uara Muhu: %s"
+
+#: wx/tools/Editra/src/ed_pages.py:973
+#, python-format
+msgid "There are no files that Editra can open in %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:975
+msgid "No Valid Files to Open"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:981
+#, python-format
+msgid ""
+"Do you wish to open all %d files in this directory?\n"
+"\n"
+"Warning: opening many files at once may cause the editor to temporarily "
+"freeze."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:986
+msgid "Open Directory?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_pages.py:1006
+#, python-format
+msgid "Opened file: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_print.py:115
+msgid "Failed to create print preview"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_print.py:116
+msgid "Print Error"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_print.py:132
+msgid ""
+"There was an error when printing.\n"
+"Check that your printer is properly connected."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_print.py:134
+msgid "Printer Error"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_print.py:232
+#, python-format
+#, python-format, 
+msgid "Page: %d"
+msgstr "Whārangi:  %d"
+
+#: wx/tools/Editra/src/ed_script.py:203 wx/tools/Editra/src/ed_script.py:213
+msgid "Macro Manager"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_script.py:204
+msgid "View and Edit Macros"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:64 wx/tools/Editra/src/ed_search.py:68
+msgid "DECODING ERROR"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:149 wx/tools/Editra/src/ed_search.py:153
+#: wx/tools/Editra/src/ed_toolbar.py:94
+msgid "Find/Replace"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:310
+#, python-format
+msgid "The search term '%(term)s' was found %(count)d times."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:311
+msgid "Find Count"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:351
+#, python-format
+msgid "Invalid expression \"%s\""
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:352
+msgid "Regex Compile Error"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:405
+msgid "Search wrapped to top"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:410
+msgid "Search wrapped to bottom"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:431
+#, python-format
+msgid "\"%s\" was not found"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:539 wx/tools/Editra/src/ed_search.py:700
+#, python-format
+msgid ""
+"Error in regular expression expansion. The replace action cannot be "
+"completed.\n"
+"\n"
+"Error Message: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:542 wx/tools/Editra/src/ed_search.py:703
+msgid "Replace Error"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:612
+msgid "Sorry will be ready for next version"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:613
+msgid "Not implemented"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:633
+#, python-format
+msgid "%d matches were replaced."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:796
+msgid "Recent Searches"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:1271
+msgid "Search Started"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:1290
+msgid "Search complete"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:1297
+#, python-format
+msgid "Search Complete: %d matching lines where found."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:1298
+#, python-format
+msgid "Files Searched: %d"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_search.py:1381
+#, python-format
+msgid "Searching in: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_shelf.py:117
+msgid "Shelf"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_shelf.py:118
+msgid "Put an item on the Shelf"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_shelf.py:351
+msgid "Show Shelf"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_shelf.py:353
+msgid "Show the Shelf"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_statbar.py:62 wx/tools/Editra/src/ed_statbar.py:64
+#: wx/tools/Editra/src/ed_statbar.py:66
+#, python-format
+msgid "Change line endings to %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_statbar.py:184
+msgid "Change the encoding of the current document."
+msgstr ""
+
+#: wx/tools/Editra/src/ed_statbar.py:185
+msgid "Change Encoding"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:563
+#, python-format
+msgid "File backup performed: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:697
+#, python-format
+msgid "Line: %(lnum)d  Column: %(cnum)d"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1097
+msgid ""
+"Mixed EOL characters detected.\n"
+"\n"
+"Would you like to format them to all be the same?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1100
+msgid "Format EOL?"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1355
+msgid "Recording Macro"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1368
+msgid "Recording Finished"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1674
+#, python-format
+msgid "%s does not exist"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_stc.py:1721
+msgid "File is Read Only and cannot be saved"
+msgstr ""
+
+#: wx/tools/Editra/src/ed_toolbar.py:77
+msgid "Start a New File"
+msgstr ""
+
+#: wx/tools/Editra/src/generator.py:117
+#, fuzzy
+msgid "Generator"
+msgstr "Waihanganga"
+
+#: wx/tools/Editra/src/generator.py:118
+msgid "Generate Code and Documents"
+msgstr ""
+
+#: wx/tools/Editra/src/generator.py:291 wx/tools/Editra/src/generator.py:678
+#: wx/tools/Editra/src/generator.py:881
+#, python-format
+msgid "Generate %s"
+msgstr ""
+
+#: wx/tools/Editra/src/generator.py:292 wx/tools/Editra/src/generator.py:882
+#, python-format
+msgid "Generate a %s version of the current document"
+msgstr ""
+
+#: wx/tools/Editra/src/generator.py:679
+#, python-format
+msgid "Generate an %s version of the current document"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:72
+msgid "Save Current View"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:73
+msgid "Save the current window layout"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:74
+msgid "Delete Saved View"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:76
+msgid "Automatic"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:77
+msgid "Automatically save/use window state from last session"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:130
+#, python-format
+msgid "Change view to \"%s\""
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:252
+msgid "Perspective Name"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:253
+msgid "Save Perspective"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:269
+msgid "Perspective to Delete"
+msgstr ""
+
+#: wx/tools/Editra/src/perspective.py:270
+msgid "Delete Perspective"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:121 wx/tools/Editra/src/plugdlg.py:958
+msgid "Configure"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:122 wx/tools/Editra/src/plugdlg.py:462
+#: wx/tools/Editra/src/plugdlg.py:1110 wx/tools/Editra/src/prefdlg.py:1524
+msgid "Download"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:123 wx/tools/Editra/src/plugdlg.py:765
+msgid "Install"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:131
+#, fuzzy
+msgid "Errors"
+msgstr "Hapa"
+
+#: wx/tools/Editra/src/plugdlg.py:180
+msgid "Downloads are incomplete"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:181
+msgid "Do you wish to exit?"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:192
+msgid "You must restart Editra before your changes will take full effect."
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:194
+msgid "Configuration Changes Made"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:234
+msgid "Changes will take effect once the program has been restarted"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:372 wx/tools/Editra/src/plugin.py:723
+msgid "No Description Available"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:410
+msgid "This plugin requires a newer version of Editra."
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:485
+msgid "Downloaded"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:488
+msgid "Finished downloading plugins"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:503
+msgid "Select plugins to download"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:508
+msgid "Unable to retrieve plugin list"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:597 wx/tools/Editra/src/updater.py:606
+#, fuzzy
+msgid "Downloading"
+msgstr "Tikiake ana..."
+
+#: wx/tools/Editra/src/plugdlg.py:675
+msgid "Retrieving Plugin List"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:754
+msgid ""
+"To add a new item drag and drop the plugin file into the list.\n"
+"\n"
+"To remove an item select it and hit Delete or Backspace."
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:767
+msgid "User Directory"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:769
+msgid "Install the plugins only for the current user"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:771
+msgid "System Directory"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:772
+msgid ""
+"Install the plugins for all users\n"
+" **requires administrative privileges**"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:833
+msgid "Successfully Installed Plugins"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:842
+#, python-format
+msgid "Failed to install %d plugins"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:844
+msgid "Installation Error"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:950 wx/tools/Editra/src/plugdlg.py:1131
+#, python-format
+msgid "Author: %s"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:951
+msgid "Enable"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:954
+msgid "Uninstall"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:1062
+#, python-format
+msgid ""
+"Are you sure you want to uninstall %s?\n"
+"This cannot be undone."
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:1064
+msgid "Uninstall Plugin"
+msgstr ""
+
+#: wx/tools/Editra/src/plugdlg.py:1068
+msgid "This plugin will be uninstalled on next program launch."
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:109
+msgid "Preferences - Editra"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:193
+msgid "Appearance"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:195
+#, fuzzy
+msgid "Document"
+msgstr "Ngā Tuhinga"
+
+#: wx/tools/Editra/src/prefdlg.py:197
+msgid "Network"
+msgstr "Whatunga"
+
+#: wx/tools/Editra/src/prefdlg.py:199
+msgid "Advanced"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:284
+msgid ""
+"Changes made in this dialog are saved in your current profile. Some Items "
+"such as Language require the program to be restarted before taking effect."
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:306
+msgid "Startup"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:385
+msgid "Editor Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:393
+msgid "Printer Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:401
+msgid "Disable Error Reporter"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:403
+msgid "Load Last Session"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:405
+msgid "Load files from last session on startup"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:407
+msgid "Show Splash Screen"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:414
+msgid "Check for updates on startup"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:419
+msgid "Language"
+msgstr "Reo"
+
+#: wx/tools/Editra/src/prefdlg.py:429
+msgid "Startup Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:440
+msgid "Locale Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:477
+msgid "File History Length"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:496
+msgid "Encoding to try when auto detection fails"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:498
+msgid "Prefered Encoding"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:502
+msgid "Automatically Backup Files"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:505
+msgid "Backup buffer to file periodically"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:508
+msgid "Backup Path:"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:513
+msgid ""
+"Used to set a custom backup path. If not specified the backup will be put in "
+"the same directory as the file."
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:523
+msgid "Open files in new windows by default"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:526
+msgid "Remember File Position"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:529
+msgid "Check if on disk file has been modified by others"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:534
+msgid "Automatically reload files when changes are detected on disk"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:539
+msgid "Warn when mixed eol characters are detected"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:545
+msgid "File Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:559
+msgid "Spell Checking"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:563
+msgid "Check spelling while typing"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:570
+msgid "Dictionary"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:580
+msgid "Enchant Path"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:585 wx/tools/Editra/src/prefdlg.py:586
+msgid "Path to libenchant"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:649
+msgid "Failed to load Enchant"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:650
+msgid "Library Error"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:678
+#, fuzzy
+msgid "Code"
+msgstr "Aratau"
+
+#: wx/tools/Editra/src/prefdlg.py:726
+msgid "Tab Width"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:734
+msgid "Indent Width"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:742
+msgid "Automatically trim whitespace on save"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:745
+msgid "Use Tabs Instead of Spaces"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:748
+msgid "Backspace Unindents"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:760
+msgid "Default EOL Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:765
+msgid "AntiAliasing"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:775
+msgid "Turn off for better performance"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:782
+msgid "Sets the main/default font of the document"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:787
+msgid ""
+"Sets a secondary font used for special regions when syntax highlighting is "
+"in use"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:794
+#, fuzzy
+msgid "Format"
+msgstr "_Hōputu"
+
+#: wx/tools/Editra/src/prefdlg.py:802
+msgid "View Options"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:809
+msgid "Primary Font"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:812
+msgid "Secondary Font"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:911
+msgid "Default highlighing for new documents"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:913
+msgid "Default Lexer"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:918
+msgid "Visual Helpers"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:924
+msgid "Edge Guide"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:928
+msgid "Guide Column"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:943
+msgid "Extended Auto-Comp"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:946
+msgid "Warning suggestions will include context insensitive results"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:952
+msgid "Enable Vi Emulation"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:955
+msgid "Start in Normal Mode"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:973
+msgid "Input Helpers"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1089
+msgid "Filetype Associations"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1106 wx/tools/Editra/src/prefdlg.py:1761
+msgid "Revert to Default"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1175
+msgid "Icon Theme"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1180
+msgid "Toolbar Icon Size"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1186
+msgid "Show Icons on Tabs"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1197
+msgid "Default Perspective"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1202
+msgid "Remember Window Size on Exit"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1205
+msgid "Remember Window Position on Exit"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1215
+msgid "Main display font for various UI components"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1220
+msgid "Icons"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1225
+msgid "Layout"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1233
+msgid "Transparency"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1239
+msgid "Display Font"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1339
+msgid "Configuration"
+msgstr "Whirihoranga"
+
+#: wx/tools/Editra/src/prefdlg.py:1343
+msgid "Update"
+msgstr "Whakahōu"
+
+#: wx/tools/Editra/src/prefdlg.py:1376
+msgid "Proxy Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1381
+msgid "Use Proxy"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1386
+msgid "Proxy URL"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1390
+msgid "Port Number"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1398
+#, fuzzy
+msgid "Username"
+msgstr "Ingoakaiwhakamahi:"
+
+#: wx/tools/Editra/src/prefdlg.py:1405
+msgid "Password"
+msgstr "Kupuhipa"
+
+#: wx/tools/Editra/src/prefdlg.py:1505
+msgid "Installed Version"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1511
+msgid "Latest Version"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1529
+msgid "Check"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1617
+msgid "Keybindings"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1702
+msgid "Key Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1715
+msgid "Menu"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1725
+msgid "Modifier 1"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1729
+msgid "Modifier 2"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1733
+#, fuzzy
+msgid "Key"
+msgstr "Ngā Pātuhi"
+
+#: wx/tools/Editra/src/prefdlg.py:1737
+msgid "Binding"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1763
+msgid "Apply"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1799
+msgid "None"
+msgstr "Kore"
+
+#: wx/tools/Editra/src/prefdlg.py:1900
+msgid "New Profile"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:1901
+msgid "Enter the name of the new key profile"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2038
+msgid "Lexer"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2040
+msgid "Extensions (space separated, no dots)"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2151
+msgid "Black/White"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2152
+msgid "Color/White"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2153
+msgid "Color/Default"
+msgstr ""
+
+#: wx/tools/Editra/src/prefdlg.py:2154
+msgid "Inverse"
+msgstr "Kōaro"
+
+#: wx/tools/Editra/src/prefdlg.py:2155
+msgid "Normal"
+msgstr "Pūnoa"
+
+#: wx/tools/Editra/src/style_editor.py:143
+msgid "Export"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:176
+msgid "Syntax Files"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:179
+msgid "Set the preview file type"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:194
+msgid "Style Theme"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:198
+msgid "Base new theme on existing one"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:201
+msgid "Start a blank new style"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:218
+msgid "Style Tags"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:252
+msgid "Some styles have been changed would you like to save before exiting?"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:254
+msgid "Save Styles"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:294
+msgid "Enter style sheet name"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:295
+msgid "Export Style Sheet"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:640
+#, fuzzy
+msgid "Color"
+msgstr "Ngā Tae"
+
+#: wx/tools/Editra/src/style_editor.py:644
+msgid "Foreground"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:656
+msgid "Background"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:667
+msgid "Attributes"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:671
+#, fuzzy
+msgid "bold"
+msgstr "Taekaha"
+
+#: wx/tools/Editra/src/style_editor.py:672
+msgid "eol"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:673
+#, fuzzy
+msgid "italic"
+msgstr "Tītaha"
+
+#: wx/tools/Editra/src/style_editor.py:674
+#, fuzzy
+msgid "underline"
+msgstr "Tāraro"
+
+#: wx/tools/Editra/src/style_editor.py:683
+msgid "Font Settings"
+msgstr ""
+
+#: wx/tools/Editra/src/style_editor.py:688
+#, fuzzy
+msgid "Font"
+msgstr "Ngā Momotuhi"
+
+#: wx/tools/Editra/src/updater.py:147
+msgid "Unable to retrieve version info"
+msgstr ""
+
+#: wx/tools/Editra/src/updater.py:292
+msgid "Status Unknown"
+msgstr ""
+
+#: wx/tools/Editra/src/updater.py:567
+#, python-format
+#, python-format, fuzzy
+msgid "Downloading: %s"
+msgstr "Tikiake ana i ngā %s..."
+
+#: wx/tools/Editra/src/updater.py:569
+#, python-format
+#, fuzzy
+msgid "Downloading To: %s"
+msgstr "Tikiake ana i ngā %s..."
+
+#: wx/tools/Editra/src/updater.py:647
+#, fuzzy
+msgid "Canceled"
+msgstr "Whakakore"
+
+#: wx/tools/Editra/src/updater.py:675
+#, python-format
+msgid "Rate: %.2f Kb/s"
+msgstr ""
+
+#: wx/tools/Editra/src/updater.py:682
+msgid "Finished"
+msgstr "Kua Oti"
+
+#: wx/tools/Editra/src/updater.py:685
+msgid "Failed"
+msgstr ""
+
+#: wx/tools/Editra/src/util.py:184
+msgid "Unable to accept dropped file or text"
+msgstr ""
+
+#: wx/tools/Editra/src/util.py:361
+msgid "Text Document"
+msgstr ""
+
+#: wx/tools/Editra/src/util.py:369
+#, python-format
+msgid "%s Source File"
+msgstr ""

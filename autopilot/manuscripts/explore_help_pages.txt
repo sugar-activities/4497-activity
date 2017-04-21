@@ -1,0 +1,4 @@
+select menu(Help, Contents)
+include(explore_help_pages_questions_and_answers.txt)
+include(explore_help_pages_concepts.txt)
+Hide Frame(Help)

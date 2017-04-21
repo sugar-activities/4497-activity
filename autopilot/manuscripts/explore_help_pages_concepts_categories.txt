@@ -1,0 +1,12 @@
+# Concepts - Categories
+click mouse(100,321)
+
+# Will....
+click mouse(60,217)
+click mouse(60,50)
+
+# Events
+click mouse(60,240)
+click mouse(60,50)
+
+click mouse(60,50)

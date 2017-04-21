@@ -1,0 +1,10 @@
+# Edit menu
+
+Select Menu(Help, "Getting started tutorial") 
+
+Select Menu(Edit, Sök) 
+
+Select Menu(Edit, Inställningar) 
+Click Button(Stäng)
+
+

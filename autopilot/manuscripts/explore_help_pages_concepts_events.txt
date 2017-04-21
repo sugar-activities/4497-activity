@@ -1,0 +1,7 @@
+# Concepts - Events 
+click mouse(100,298)
+
+# Categories
+click mouse(60,240)
+click mouse(10,50)
+

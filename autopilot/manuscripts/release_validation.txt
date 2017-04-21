@@ -1,0 +1,16 @@
+# 
+# Timeline Release Validation
+#
+# The purpose of this test is to make a simple verification of that
+# nothing has been broken in the Timeline application during development.
+#
+
+
+include(file_menu_open_close_dialogs.txt)
+include(edit_menu_open_close_dialogs.txt)
+include(view_menu_open_close_dialogs.txt)
+include(timeline_menu_open_close_dialogs.txt)
+include(navigate_menu_open_close_dialogs.txt)
+include(help_menu_open_close_dialogs.txt)
+
+close Application
